@@ -2,6 +2,7 @@
   (:require [clojure.string :as string]
             [clojure.java.io :as io]
             [markov.core :as markov]
+            [zalgo.core :as zalgo]
             [irclj.core :as irclj]))
 
 (def nicks-path "nicks/")
@@ -57,8 +58,14 @@
                        (markov/add-token-stream chain tokens)))]
       (dosync
        (alter irc assoc-in [:chains nick] expanded))
-      (if (or (re-find #"D" text) (re-find #"dogdog" text))
-        (irclj/message irc target (string/join " " (markov/follow-strand expanded)))))
+
+      (cond 
+       (re-find #"Z" text)
+       (irclj/message irc target (zalgo/zalgoize (string/join " " (markov/follow-strand expanded))))
+
+       (or (re-find #"D" text) 
+           (re-find #"dogdog" text))
+       (irclj/message irc target (string/join " " (markov/follow-strand expanded)))))
     (catch Exception e (.printStackTrace e))))
 
 (defn init
