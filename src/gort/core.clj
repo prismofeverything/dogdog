@@ -3,7 +3,8 @@
             [clojure.java.io :as io]
             [markov.core :as markov]
             [zalgo.core :as zalgo]
-            [irclj.core :as irclj]))
+            [irclj.core :as irclj]
+            [gort.twp :as twp]))
 
 (def nicks-path "nicks/")
 
@@ -52,20 +53,24 @@
           nick (keyword nick)
           chain (or (get-in @irc [:chains nick]) (markov/empty-chain))
           expanded (if (or (= text "D") (= text "Z"))
-                     chain 
+                     chain
                      (do
                        (persist-message nick text)
                        (markov/add-token-stream chain tokens)))]
       (dosync
        (alter irc assoc-in [:chains nick] expanded))
 
-      (cond 
+      (cond
        (re-find #"Z" text)
        (irclj/message irc target (zalgo/zalgoize (string/join " " (markov/follow-strand expanded))))
 
-       (or (re-find #"D" text) 
+       (or (re-find #"D" text)
            (re-find #"dogdog" text))
-       (irclj/message irc target (string/join " " (markov/follow-strand expanded)))))
+       (irclj/message irc target (string/join " " (markov/follow-strand expanded)))
+
+       (or (re-find #"3" text)
+           (re-find #"poem" text))
+       (irclj/message irc target (twp/three-word-poem))))
     (catch Exception e (.printStackTrace e))))
 
 (defn init
