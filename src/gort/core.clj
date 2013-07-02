@@ -52,7 +52,10 @@
     (let [tokens (parse-message text)
           nick (keyword nick)
           chain (or (get-in @irc [:chains nick]) (markov/empty-chain))
-          expanded (if (or (= text "D") (= text "Z"))
+          expanded (if (or (= text "D") 
+                           (= text "Z") 
+                           (= text "3") 
+                           (= text "poem"))
                      chain
                      (do
                        (persist-message nick text)
