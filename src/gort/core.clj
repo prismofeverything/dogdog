@@ -46,6 +46,28 @@
         {nick history}))
     nicks)))
 
+
+
+                ;; (let [expanded (if track? (markov/add-token-stream chain tokens) chain)
+                ;;       generated (markov/follow-strand expanded)]
+                ;;   (persist-message nick text)
+                ;;   (assoc env
+                ;;     :chain expanded
+                ;;     :generated generated)))})
+
+(def markov-generator
+  {:triggers [#"D" #"dogdog"]
+   :generator (fn [{:keys [chain] :as env}]
+                (markov/follow-strand chain))})
+
+(def twp-generator
+  {:triggers [#"3" #"three" #"poem"]
+   :generator (fn [env]
+                (twp/three-word-poem))})
+
+(def twp-add-adjective-generator
+  {:triggers [#"add-adjective ()"]})
+
 (defn response-handler
   [irc {:keys [text nick target] :as msg}]
   (try
