@@ -156,6 +156,8 @@
     (irclj/join irc channel)
     irc))
 
+(declare irc)
+
 (defn -main
   [& args]
-  (init "#instrument"))
+  (def irc (init "#instrument")))
