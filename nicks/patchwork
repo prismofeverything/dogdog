@@ -103,3 +103,94 @@ Uh-oh, dogdog knows Zalgo.  That may have been a mistake
 Well, good to know that pdf's are always safe
 Just attach some exe files renamed as ".pdf" !
 Always true
+????
+quile man this bot is nasty
+Yeah the cond hits dogdog first.  We could reorder
+That is quite a selection of noun adjectives quile
+!!!
+What have we created?
+Who doesn't?
+zipper is a troubling presence in the noun list
+He would be booted from #clojure in like 2 secondsx
+I can send him into #caribou
+Oh man, blop is not even in there any more
+Oh yeah, he can join whatever channel we send him to
+I am, I am
+throat also, is a disturbing contribution
+Speaking of bots:  http://i.imgur.com/dx7sVXj.jpg
+Ha!  agreed
+good story though
+http://i.imgur.com/7BlZkcR.jpg
+Yeah let's get some lunch
+Ha!  That looks amazing
+I like the ET homage at the end there
+All superheroes should be required to be solved before they could perform any effective action
+Hey mking!  how goes?
+Have you held them up to a giant magnet?
+I hear that snaps them into resonating capacity
+CERN has a couple extra I think
+As you can see, #instrument is still infested with bots
+(but only as of Friday)
+dogdog is already tracking your statements
+describes many people I see on a day to day basis
+Once you start programming yourself, there is no stopping the juggernaut of recursion
+Eventual result:  http://i.imgur.com/Vzp9JLK.jpg
+I can never bring myself to revert
+It would feel like scooping out your own brain with a spoon
+Yeah man you seeded that three word poem with some pretty gruesome inhabitants
+It filters out the most common triggers
+Otherwise it would only say "D"
+When did I ever say blop?
+justin_smith:  currently just an exclusive or.  Inclusive may get out of control?
+It could be combinatorial, ie combine every directive into a single phrase
+Z3D would return a three word poem composed of your own statements rendered in zalgo
+dogdog approves
+Yeah my IRC client is dragging as well.  I'm not sure the coders who wrote these things were optimizing for Zalgo
+It must be some serious algorithmagic to apply all of those tibetan characters over each other recursively
+erc!  I stopped using that because I was watching my erc buffer instead of coding
+Yeah I guess on reflection it did not solve the problem, as now I am just screwing around with bots in whatever client I am using
+I keep all my planets on a dedicated planet shelf
+but fungus can be a problem
+They are all out of the tectonic stuff
+I should seed it with its own code
+clojure eval sandbox?
+You can export specific tables
+Also, a sql dump is just a text file so you can remove the lines you don't want
+Right.  You could export what you need as EDN?
+So are they model changes or content changes?
+justin_smith:  We need a generalized method for this
+If I had three weeks to code it...
+(which maybe I do!)
+quile:  Sam Aaron?
+That guy is overtone powerhouse
+Ah!  yeah other overtone powerhouse
+They have a pretty tight-knit community
+justin_smith:  I was just thinking that
+would probably not be too hard to write, the question is how do you represent the diffs in a way that is programmatically usable?
+There you go
+(forming an algorithm in my head)
+But are you updating a map afterwards?  Aren't you trying to navigate it and perform operations for each diff?
+That sounds right, when you say update-in I am just imagining a giant list of parallel paths into a map
+which could be unwieldly, and possibly redundant
+I am imagining a more concise representation exists
+But again, if it works that is the first requirement!
+Ah, there I was thinking of a general arbitrary-depth algorithm
+Yeah but if you are just tracking model differences it is model —> field
+two levels
+Really you could just transform that into a model update, or directly into a migration
+Alright, my ride is leaving
+mking, good to see you!
+#instrument channel revival
+Good morning.  Apparently the world is still maD
+I had a lot of donor in berlin
+which has a lot of turkish people
+donor everywhere
+it is tasty
+justin_smith: Do you mean a vector of the differences between the results?
+I is amazing how many times I type capital D's without noticing
+Got it
+quile:  You want to get some lunch?
+justin_smith:  That looks like a rubik's cube
+Also:  reality
+Ah yes!
+one moment
