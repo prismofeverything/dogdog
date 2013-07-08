@@ -4,6 +4,7 @@
             [markov.core :as markov]
             [zalgo.core :as zalgo]
             [irclj.core :as irclj]
+            [gort.novelty :as novelty]
             [gort.twp :as twp]))
 
 (def nicks-path "nicks/")
@@ -46,68 +47,103 @@
         {nick history}))
     nicks)))
 
-
-
-                ;; (let [expanded (if track? (markov/add-token-stream chain tokens) chain)
-                ;;       generated (markov/follow-strand expanded)]
-                ;;   (persist-message nick text)
-                ;;   (assoc env
-                ;;     :chain expanded
-                ;;     :generated generated)))})
-
-(def markov-generator
-  {:triggers [#"D" #"dogdog"]
-   :generator (fn [{:keys [chain] :as env}]
-                (markov/follow-strand chain))})
-
-(def twp-generator
-  {:triggers [#"3" #"three" #"poem"]
-   :generator (fn [env]
-                (twp/three-word-poem))})
-
-(def twp-add-adjective-generator
-  {:triggers [#"add-adjective ()"]})
-
-(defn response-handler
-  [irc {:keys [text nick target] :as msg}]
-  (try
+(defn persistence-handler
+  [handler]
+  (fn [{:keys [irc text nick target] :as request}]
     (let [tokens (parse-message text)
           nick (keyword nick)
           chain (or (get-in @irc [:chains nick]) (markov/empty-chain))
-          expanded (if (or (= text "D")
-                           (= text "Z")
-                           (= text "3")
-                           (= text "poem"))
-                     chain
-                     (do
-                       (persist-message nick text)
-                       (markov/add-token-stream chain tokens)))]
+          inner (assoc request 
+                  :chain chain
+                  :tokens tokens
+                  :add-tokens? true)
+
+          {:keys [irc chain generated persist? add-tokens?] :as response} (handler inner)
+
+          expanded (if add-tokens? 
+                     (markov/add-token-stream chain tokens)
+                     chain)]
+      (when persist?
+        (persist-message nick text))
       (dosync
        (alter irc assoc-in [:chains nick] expanded))
+      (if generated
+        (irclj/message irc target generated))
+      (assoc response :irc irc))))
 
-      (cond
-       (re-find #"Z" text)
-       (irclj/message irc target (zalgo/zalgoize (string/join " " (markov/follow-strand expanded))))
+(defn root-handler
+  [request]
+  request)
 
-       (or (re-find #"D" text)
-           (re-find #"dogdog" text))
-       (irclj/message irc target (string/join " " (markov/follow-strand expanded)))
+(defn markov-handler
+  [handler]
+  (let [triggers [#"D" #"dogdog"]
+        ignore? (set (map str triggers))]
+    (fn [{:keys [chain text tokens] :as request}]
+      (if (some #(re-find % text) triggers)
+        (let [persist? (not (ignore? text))
+              expanded (if persist?
+                         (markov/add-token-stream chain tokens)
+                         chain)
+              generated (string/join " " (markov/follow-strand expanded))]
+          (assoc request
+            :chain expanded
+            :generated generated
+            :persist? persist?
+            :add-tokens? false))
+        (handler request)))))
 
-       (or (re-find #"3" text)
-           (re-find #"poem" text))
-       (irclj/message irc target (twp/three-word-poem))))
+(defn twp-handler
+  [handler]
+  (let [triggers [#"3" #"three" #"poem"]
+        ignore? (set (map str triggers))]
+    (fn [{:keys [text] :as request}]
+      (let [adjective-matches (re-find #"add-adjective ([a-z]+)" text)
+            adjective (second adjective-matches)
+            noun-matches (re-find #"add-noun ([a-z]+)" text)
+            noun (second noun-matches)]
+        (if (or adjective noun (some #(re-find % text) triggers))
+          (let [persist? (not (or (ignore? text) adjective noun))
+                constraints {}
+                constraints (if adjective (assoc constraints :adjective adjective) constraints)
+                constraints (if noun (assoc constraints :noun noun) constraints)
+                _ (when adjective (twp/add-word-of-type adjective "adjective"))
+                _ (when noun (twp/add-word-of-type noun "noun"))
+                generated (twp/three-word-poem constraints)]
+            (assoc request
+              :persist? persist?
+              :generated generated))
+          (handler request))))))
 
-      ;; TODO need to refactor this into content generators and filters
+(defn zalgo-handler
+  [handler]
+  (let [triggers [#"Z" #"zalgo"]
+        ignore? (set (map str triggers))]
+    (fn [request]
+      (let [{:keys [generated text] :as response} (handler request)]
+        (if (some #(re-find % text) triggers)
+          (let [generated (or generated (novelty/novelty-string (+ 3 (rand-int 71)) (rand)))
+                zalgo (zalgo/zalgoize generated (+ 3 (rand-int 11)))
+                persist? (not (ignore? text))]
+            (assoc response 
+              :generated zalgo
+              :persist? persist?))
+          response)))))
 
-      (when-let [matches (re-find #"add-adjective ([a-z]+)" text)]
-        (twp/add-word-of-type (second matches) "adjective")
-        (irclj/message irc target (twp/three-word-poem {:adjective (second matches)})))
+(defn nested-handler
+  [handler]
+  (fn [irc {:keys [text nick target] :as msg}]
+    (try
+      (handler (assoc msg :irc irc))
+      (catch Exception e (.printStackTrace e)))))
 
-      (when-let [matches (re-find #"add-noun ([a-z]+)" text)]
-        (twp/add-word-of-type (second matches) "noun")
-        (irclj/message irc target (twp/three-word-poem {:noun (second matches)})))
-
-    (catch Exception e (.printStackTrace e))))
+(def dogdog-handler
+  (-> root-handler
+      markov-handler
+      twp-handler
+      zalgo-handler
+      persistence-handler
+      nested-handler))
 
 (defn init
   [channel]
@@ -115,7 +151,7 @@
         nicks (tracked-nicks)
         history (read-history nicks)]
     (dosync 
-     (alter irc assoc-in [:callbacks :privmsg] #'response-handler)
+     (alter irc assoc-in [:callbacks :privmsg] #'dogdog-handler)
      (alter irc assoc :chains history))
     (irclj/join irc channel)
     irc))
