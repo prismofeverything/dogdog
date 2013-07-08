@@ -155,3 +155,7 @@
      (alter irc assoc :chains history))
     (irclj/join irc channel)
     irc))
+
+(defn -main
+  [& args]
+  (init "#instrument"))
