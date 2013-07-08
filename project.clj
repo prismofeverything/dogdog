@@ -8,5 +8,5 @@
                  [org.clojure/java.jdbc "0.3.0-alpha4"]
                  [org.xerial/sqlite-jdbc "3.7.2"]
                  [markov "0.0.1"]
-                 [zalgo "6.6.13"]
+                 [zalgo "11.6.13"]
                  [irclj "0.5.0-alpha2"]])
