@@ -52,9 +52,9 @@
     (let [tokens (parse-message text)
           nick (keyword nick)
           chain (or (get-in @irc [:chains nick]) (markov/empty-chain))
-          expanded (if (or (= text "D") 
-                           (= text "Z") 
-                           (= text "3") 
+          expanded (if (or (= text "D")
+                           (= text "Z")
+                           (= text "3")
                            (= text "poem"))
                      chain
                      (do
@@ -74,6 +74,17 @@
        (or (re-find #"3" text)
            (re-find #"poem" text))
        (irclj/message irc target (twp/three-word-poem))))
+
+      ;; TODO need to refactor this into content generators and filters
+
+      (when-let [matches (re-find #"add-adjective ([a-z]+)" text)]
+        (twp/add-word-of-type (second matches) "adjective")
+        (irclj/message irc target (twp/three-word-poem {:adjective (second matches)})))
+
+      (when-let [matches (re-find #"add-noun ([a-z]+)" text)]
+        (twp/add-word-of-type (second matches) "noun")
+        (irclj/message irc target (twp/three-word-poem {:noun (second matches)})))
+
     (catch Exception e (.printStackTrace e))))
 
 (defn init
