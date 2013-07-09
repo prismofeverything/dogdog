@@ -26,6 +26,10 @@
   (jdbc/with-connection +db-specs+
     (jdbc/insert-records t {:word word})))
 
+(defn forget-word-of-type [word t]
+  (jdbc/with-connection +db-specs+
+    (jdbc/delete-rows t ["word = ?" word])))
+
 (defn three-word-poem
   ([] (three-word-poem {}))
   ([options]

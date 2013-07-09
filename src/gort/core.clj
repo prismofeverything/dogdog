@@ -30,7 +30,7 @@
 (defn read-nick-history
   [nick chain]
   (with-open [lines (io/reader (str nicks-path (name nick)))]
-    (reduce 
+    (reduce
      (fn [chain line]
        (let [tokens (parse-message line)]
          (markov/add-token-stream chain tokens)))
@@ -38,7 +38,7 @@
 
 (defn read-history
   [nicks]
-  (apply 
+  (apply
    merge
    (map
     (fn [nick]
@@ -53,14 +53,14 @@
     (let [tokens (parse-message text)
           nick (keyword nick)
           chain (or (get-in @irc [:chains nick]) (markov/empty-chain))
-          inner (assoc request 
+          inner (assoc request
                   :chain chain
                   :tokens tokens
                   :add-tokens? true)
 
           {:keys [irc chain generated persist? add-tokens?] :as response} (handler inner)
 
-          expanded (if add-tokens? 
+          expanded (if add-tokens?
                      (markov/add-token-stream chain tokens)
                      chain)]
       (when persist?
@@ -98,18 +98,22 @@
   (let [triggers [#"3" #"three" #"poem"]
         ignore? (set (map str triggers))]
     (fn [{:keys [text] :as request}]
-      (let [adjective-matches (re-find #"add-adjective ([a-z]+)" text)
-            adjective (second adjective-matches)
-            noun-matches (re-find #"add-noun ([a-z]+)" text)
-            noun (second noun-matches)]
+      (let [adjective-matches (re-find #"(add|forget)-adjective ([a-z]+)" text)
+            adjective-command (second adjective-matches)
+            adjective (nth adjective-matches 2)
+            noun-matches (re-find #"(add|forget)-noun ([a-z]+)" text)
+            noun-command (second noun-matches)
+            noun (nth noun-matches 2)]
         (if (or adjective noun (some #(re-find % text) triggers))
           (let [persist? (not (or (ignore? text) adjective noun))
                 constraints {}
                 constraints (if adjective (assoc constraints :adjective adjective) constraints)
                 constraints (if noun (assoc constraints :noun noun) constraints)
-                _ (when adjective (twp/add-word-of-type adjective "adjective"))
-                _ (when noun (twp/add-word-of-type noun "noun"))
-                generated (twp/three-word-poem constraints)]
+                _ (when (= "add" adjective-command) (twp/add-word-of-type adjective "adjective"))
+                _ (when (= "add" noun-command) (twp/add-word-of-type noun "noun"))
+                generated (twp/three-word-poem constraints)
+                _ (when (= "forget" adjective-command) (twp/forget-word-of-type adjective "adjective"))
+                _ (when (= "forget" noun-command) (twp/forget-word-of-type noun "noun"))]
             (assoc request
               :persist? persist?
               :generated generated))
@@ -125,7 +129,7 @@
           (let [generated (or generated (novelty/novelty-string (+ 3 (rand-int 71)) (rand)))
                 zalgo (zalgo/zalgoize generated (+ 3 (rand-int 11)))
                 persist? (not (ignore? text))]
-            (assoc response 
+            (assoc response
               :generated zalgo
               :persist? persist?))
           response)))))
@@ -146,15 +150,17 @@
       nested-handler))
 
 (defn init
-  [channel]
-  (let [irc (irclj/connect "irc.freenode.net" 6667 "dogdog")
-        nicks (tracked-nicks)
-        history (read-history nicks)]
-    (dosync 
-     (alter irc assoc-in [:callbacks :privmsg] #'dogdog-handler)
-     (alter irc assoc :chains history))
-    (irclj/join irc channel)
-    irc))
+  ([channel]
+    (init channel nil))
+  ([channel nick]
+    (let [irc (irclj/connect "irc.freenode.net" 6667 (or nick "dogdog"))
+          nicks (tracked-nicks)
+          history (read-history nicks)]
+      (dosync
+       (alter irc assoc-in [:callbacks :privmsg] #'dogdog-handler)
+       (alter irc assoc :chains history))
+      (irclj/join irc channel)
+      irc)))
 
 (declare irc)
 
