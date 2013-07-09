@@ -113,65 +113,28 @@ thanks for implementing that
 hahaha
 brilliant
 "placid donair vision" is a brilliant 3 w p
-add-adjective geeky
 damn, dogdog is not the latest version
 Over the weekend I added the ability to add vocab to dogdog
 So when patchwork is in, he can set up the new version
 patchwork: we need to upgrade dogdog so that we can add to his vocab
 precisely!
-add-adjective grouchy
-add-noun groat
-add-adjective cardinal
-add-noun cardinal
-add-noun forehead
-add-adjective conjoined
-add-noun supernova
-add-noun galaxy
-add-noun gravity
-add-adjective clingy
-add-noun gravity
-(add-adjective pungent)
-add-adjective notable
-add-adjective sweaty
-add-noun harmony
-add-noun melody
-add-noun harmonica
-add-noun trumpet
-add-adjective deceptive
-add-adjective mechanical
-add-adjective infectious
-add-noun crack
-add-noun slit
-add-noun vocabulary
-add-noun crease
-add-noun topology
-add-adjective amplified
-add-noun infarction
 hahahaha
 (galaxy is already there)
 if he doesn't respond, it means he already has it
 (poor UI, I know)
-add-adjective creeping
 i think it catches the exception, no?
-add-noun thermos
 hahahaha
 justin_smith: no hyphens
 group-theory is a compound noun, we don't like those in 3wps.
-add-adjective coiffed
-add-noun mathematics
 i need to add a spell-check to any words added to the vocab
 well, hang on...
 yeah you're right
-add-noun floccinaucinihilipilification
 hahahah!
-add-adjective scrofulous add-noun rhombus
 hahahahha
 dogdog is making me laugh out loud
 add-noun subling
 agrh!
 spelling error!
-add-noun sibling
-add-adjective stinky
 patchwork: I will add a remove-noun and remove-adjective setup
 then we can all edit the db
 let's get the handler-chain set up and then we can easily write plugins
@@ -181,11 +144,8 @@ add-adjective nurturing
 patchwork: i believe so yes... give it a go.  i am pretty sure i tried that
 well, clearly you were meant to play the church organ then
 DOGDOG
-3z
-3Z
 dogdog: damn straight
 can't wait for null and nil in the same poem
-3!
 bad dogdog
 patchwork: dogdog should also be able to create content on his own, not necessarily in response to others
 dogdog likes sibling today
