@@ -557,3 +557,6 @@ D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
 D O G D O G D O G D O G D O G D O G
 quile: it turns out that a few of the #clojure folks are NZ based clojure web devs
 dogdog has a filthy mind
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+another thing: s3 gripes that we don't specify an upload size for the resizes
+if I give the size of the input the whole operation fails because what is sent is too short, and s3 decides that was an arbitrary error and bails out
