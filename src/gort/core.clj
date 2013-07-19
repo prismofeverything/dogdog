@@ -116,6 +116,7 @@
                 _ (when (= "forget" noun-command) (twp/forget-word-of-type noun "noun"))]
             (assoc request
               :persist? persist?
+              :add-tokens? persist?
               :generated generated))
           (handler request))))))
 
@@ -131,6 +132,7 @@
                 persist? (not (ignore? text))]
             (assoc response
               :generated zalgo
+              :add-tokens? persist?
               :persist? persist?))
           response)))))
 
