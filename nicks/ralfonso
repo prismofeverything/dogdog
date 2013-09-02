@@ -10,3 +10,11 @@ I have puppet jamming pretty nicely for the Obey migration btw.
 probably not useful on clojure apps, but it sure is nice for a php one with seven instances
 patchwork: yeah, but a little more mature. I don't like the ruby dep, but it's ncie
 nice
+MongoDB :(
+DONATE BITCOINS
+the only way to do it for Nike on beanstalk is to use the DB for synchronization :.
+CODEZ
+can I use caribou without a DB yet?
+on lein caribou create: java.lang.RuntimeException: No such var: ring-war/war-resources-path, compiling:(leiningen/caribou/war.clj:42:38)
+DEBUG :stacktrace >>> org.h2.jdbc.JdbcSQLException: Table "MODEL" not found; SQL statement:
+patchwork: I think I need to be able to init without the DB

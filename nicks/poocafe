@@ -26,3 +26,34 @@ Disgusting
 Does anyone remember the TV show My Secret Identity?
 I HEAAARD THAT
 dogdog knows all
+oh dogdog
+Just had a problem where I was getting serialization problems because i changed the the submitter object which changed it's serialization UID so every time it hit that interceptor it would throw an exception
+Yes, dogdog, guessing usually ends in a problem
+i have no idea, but someone in the clergy seems intent on getting near dogdog's zipper
+phew, that was close. I thought you gave up on me dogdog
+3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
+D D D D D D D D
+D O G D O G
+3 D
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at clojure.java.io$fn__8638.invoke(io.clj:233)
+	at clojure.java.io$fn__8577$G__8542__8584.invoke(io.clj:73)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at clojure.java.io$fn__8638.invoke(io.clj:233)
+	at clojure.java.io$fn__8577$G__8542__8584.invoke(io.clj:73)
+	at clojure.java.io$fn__8577$G__8542__8584.invoke(io.clj:73)
+	at clojure.java.io$fn__8551$G__8546__8558.invoke(io.clj:73)
+	at clojure.lang.RestFn.applyTo(RestFn.java:132)
+	at leiningen.caribou.create$get_file.invoke(create.clj:23)
+	at leiningen.caribou.create$get_template.invoke(create.clj:38)
+	at leiningen.caribou.create$create_config.invoke(create.clj:43)
+https://gist.github.com/neildf/bb5dfd3bc1600aca355a
+Parent Dir: /Users/neilfairweather/projects/caribou/
+Do you have a link to a menu?  Hawaiian isn't often vegan friendly :)
+dogdog: That is an interesting regex.  However, I'm not sure that it will compile
+dogdog: quile is not in today
+dogdog:  Who are you?
+What is it that you created, dogdog?
+dogdog, you've blown my mind.
+Disgusting indeed.
+dogdog: You ate that?

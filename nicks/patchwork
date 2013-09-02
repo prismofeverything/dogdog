@@ -276,3 +276,85 @@ Right dogdog
 These are getting pretty good dogdog
 After this we can mine the dogdog database for all the most bad ass words in existence
 Whoa there dogdog
+Definitely eating lunch today dogdog
+Have you ever seen the same noun three times?
+{{#= environment :production}}CONDITIONAL ON PRODUCTION{{/=environment :production}}
+Do you have `=` as a helper?
+Alright, how about the difference between these two:  https://www.refheap.com/16753
+I'm sure dogdog has learned a lot of new worlds
+Delinearizing the program
+Drone lady!
+Everyone says get the DJI phantom instead (which is almost $700!)
+Yes dogdog, you are still hackable
+Done with sudoku
+Definitely feeling some murakutei today
+I spent three years in a panda zoo in the human exhibit until funding went dry, then I was just released into the wild
+Hey justin_smith:  Did you work out your lichen issues?
+quile:  Do you have the latest webserver benchmarks?
+Do not fear the future
+quile:  I'm surprised dogdog didn't crash!
+As of 3 minutes ago
+What do you mean?  Do we use alter-var-root?
+Done!
+Truly scary dogdog
+http://www.informationweek.com/security/attacks/https-hackable-in-30-seconds-dhs-alert/240159435
+(defn find-methods [x] (map #(.getName %) (.getDeclaredMethods (class x))))
+("numberOfLeadingZeros" "numberOfTrailingZeros" "bitCount" "equals" "toString" "toString" "toString" "hashCode" "reverseBytes" "compareTo" "compareTo" "getLong" "getLong" "getLong" "byteValue" "shortValue" "intValue" "longValue" "floatValue" "doubleValue" "valueOf" "valueOf" "valueOf" "toHexString" "getChars" "decode" "reverse" "toOctalString" "toBinaryString" "toUnsignedString" "stringSize" "highestOneBit" "lowestOneBit"
+Dude!  there is already an o'reilly book?
+justin_smith:  Do we need to have the size of the file before uploading to s3?
+Which is really only a problem for s3
+I can even get the size after the stream is written to disk, but once again, doesn't work for s3
+I guess we could just read the whole thing in to find the size, then post it to s3
+So:  File, URL, byte array, string all work fine for s3 or disk
+Sure, if the upload to s3 returns the size
+Dude I can't even get a basic cljs file to compile
+justin_smith:  Do you have any notes on your beanstalk deployment?
+justin_smith:  Do you have any notes on deploying to beanstalk?
+ralfonso:  Actually, I will send out my current thoughts on how to define routes and pages using EDN so you can check it out
+Does pedestal have nested routes?
+I thought of a better name for the 3d node game
+1x1:  bit — 1x2:  foot — 1x3:  island — 2x1:  monolith — 2x2:  byte — 3x1: tower
+I met with Max last night and we were trying to imagine 3d vectors of complex numbers
+but three planes all orthogonal… 6d visualization
+This is a great book all about trying to imagine a fourth spatial dimension: http://www.amazon.com/Geometry-Relativity-Fourth-Dimension-Rudolf/dp/0486234002
+Question about the distinction between routes and pages:  Does a method (like GET or POST) go with a route, or with the page?
+Dude, nrepl?
+Right, that is full IDE right there
+justin_smith:  Did you write down any of that conversation we had about the blog post you were going to make?
+quile:  Dude, what did you do to Daisy?
+Yes dogdog, you will continue to str ever
+Ready to make dogdog
+ralfonso:  Do you have lein-ring installed?
+justin_smith:  Did we ever release that latest version of lichen?
+justin_smith:  Do you have a version of frontend somewhere using the latest lichen?
+New version of lein-caribou:  2.3.0
+We need to give dogdog a hug function
+Well, I guess that is covered in the -D=environment=production etc
+Right dogdog
+I am trying to come out of the logging dogdog, but it keeps pulling me back in
+But where dogdog?
+You do that dogdog, I'll make motivated target/known resource called being
+justin_smith:  Do the prod deploy
+Didn't mean to give you shit
+quile:  Does it work?
+So in your project.clj just update the versions of the three libs
+Do they both have the same context-path?
+Does it have :path-info in there?
+Dude!  I have seen that video
+You are using s3 right?
+Does it have to do a request for every resize?
+We just keep a map of which urls have been resized locally so we don't have to check s3
+Dude!  That is an achievement
+34
+dogdog is always working late
+Ah, dogdog's statements are getting uncanny
+DTC is akin to an old squashed starburst candy
+True dogdog
+http://swannodette.github.io/2013/07/12/communicating-sequential-processes/
+DON'T DO IT JSMITH
+Whoa there dogdog
+Don't let them compromise implementation just for perceived "admin simplicity"
+dogdog who am I?
+Amen dogdog
+Dude, I need to live there
+Dude, you should sign up
