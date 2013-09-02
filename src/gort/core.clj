@@ -152,20 +152,21 @@
       nested-handler))
 
 (defn init
-  ([channel]
-    (init channel nil))
-  ([channel nick]
+  ([channels]
+    (init channels nil))
+  ([channels nick]
     (let [irc (irclj/connect "irc.freenode.net" 6667 (or nick "dogdog"))
           nicks (tracked-nicks)
           history (read-history nicks)]
       (dosync
        (alter irc assoc-in [:callbacks :privmsg] #'dogdog-handler)
        (alter irc assoc :chains history))
-      (irclj/join irc channel)
+      (doseq [channel channels]
+        (irclj/join irc channel))
       irc)))
 
 (declare irc)
 
 (defn -main
   [& args]
-  (def irc (init "#instrument")))
+  (def irc (init ["#instrument" "#antler"])))
