@@ -18,3 +18,19 @@ can I use caribou without a DB yet?
 on lein caribou create: java.lang.RuntimeException: No such var: ring-war/war-resources-path, compiling:(leiningen/caribou/war.clj:42:38)
 DEBUG :stacktrace >>> org.h2.jdbc.JdbcSQLException: Table "MODEL" not found; SQL statement:
 patchwork: I think I need to be able to init without the DB
+10/13-10/20
+Voodoo Doughnuts is coming and Matador (uggghhh) is opening three blocks away
+Denver has excellent Mexican food, probably better than Portland, but not taquerias
+well that's good enough for this share. WHL in FIFA14 on one of the next-gen consoles: http://imageshack.us/a/img836/8602/d6ku.jpg
+postgresql 9.3 was released and it supports writes for foreign data wrappers
+https://twitter.com/szpak/status/376878504547082241/photo/1
+unless I end up making a copy of the DB
+s3..
+weird, error on save in admin: DEBUG :stacktrace >>> java.sql.BatchUpdateException: Data truncation: Incorrect datetime value: '2013-08-29T00:36:15Z' for column 'created_at' at row 1
+patchwork: thanks, I needed build-page, build-page-tree, and clojure.string as well and now I get Exception in thread "main" java.lang.IllegalArgumentException: Don't know how to create ISeq from: clojure.lang.Keyword
+afternoon lol: http://www.youtube.com/watch?v=3U3Rh9mxcoU
+I'm thankful that I'm a few blocks from the highest point in Denver, but several people aren't so lucky today. record rainfalls
+oof, I've driven on this road http://i.imgur.com/WDHKXNI.jpg
+the city is only 130k
+friday lol: https://twitter.com/PLT_Hulk/status/378613203493605376
+justin_smith: I used scalr on DTC
