@@ -1,7 +1,7 @@
 (ns gort.core
   (:require [clojure.string :as string]
             [clojure.java.io :as io]
-            [markov.core :as markov]
+            [markov.nlp :as markov]
             [zalgo.core :as zalgo]
             [irclj.core :as irclj]
             [gort.novelty :as novelty]
@@ -32,8 +32,9 @@
   (with-open [lines (io/reader (str nicks-path (name nick)))]
     (reduce
      (fn [chain line]
-       (let [tokens (parse-message line)]
-         (markov/add-token-stream chain tokens)))
+       (markov/distribute-sentence chain line))
+       ;; (let [tokens (parse-message line)]
+       ;;   (markov/add-token-stream chain tokens)))
      chain (line-seq lines))))
 
 (defn read-history
@@ -61,7 +62,8 @@
           {:keys [irc chain generated persist? add-tokens?] :as response} (handler inner)
 
           expanded (if add-tokens?
-                     (markov/add-token-stream chain tokens)
+                     (markov/distribute-sentence chain text)
+                     ;; (markov/add-token-stream chain tokens)
                      chain)]
       (when persist?
         (persist-message nick text))
@@ -83,9 +85,11 @@
       (if (some #(re-find % text) triggers)
         (let [persist? (not (ignore? text))
               expanded (if persist?
-                         (markov/add-token-stream chain tokens)
+                         ;; (markov/add-token-stream chain tokens)
+                         (markov/distribute-sentence chain text)
                          chain)
-              generated (string/join " " (markov/follow-strand expanded))]
+              generated (markov/generate-sentence expanded)]
+              ;; generated (string/join " " (markov/follow-strand expanded))]
           (assoc request
             :chain expanded
             :generated generated
