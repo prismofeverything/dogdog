@@ -80,7 +80,7 @@
 (defn markov-handler
   [handler]
   (let [triggers [#"D" #"dogdog"]
-        ignore? #(or (= text "D") (re-find #"dogdog" %))]
+        ignore? #(or (= % "D") (re-find #"dogdog" %))]
     (fn [{:keys [chain text tokens] :as request}]
       (if (some #(re-find % text) triggers)
         (let [persist? (not (ignore? text))
