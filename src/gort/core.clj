@@ -41,8 +41,9 @@
   [nicks]
   (apply
    merge
-   (map
+   (mapv
     (fn [nick]
+      (println "Reading nick" nick)
       (let [chain (markov/empty-chain)
             history (read-nick-history nick chain)]
         {nick history}))
