@@ -163,8 +163,11 @@
     (init channels nil))
   ([channels nick]
     (let [irc (irclj/connect "irc.freenode.net" 6667 (or nick "dogdog"))
+          _ (println "connected")
           nicks (tracked-nicks)
-          history (read-history nicks)]
+          _ (println "tracked nicks:" nicks)
+          history (read-history nicks)
+          _ (println "history read")]
       (dosync
        (alter irc assoc-in [:callbacks :privmsg] #'dogdog-handler)
        (alter irc assoc :chains history))
