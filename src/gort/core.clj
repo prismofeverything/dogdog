@@ -90,8 +90,8 @@
                          ;; (markov/add-token-stream chain tokens)
                          (markov/distribute-sentence chain text)
                          chain)
-              ;; generated (markov/generate-coherent-sentence expanded template-limit)]
-              generated (markov/generate-sentence expanded)]
+              generated (markov/generate-coherent-sentence expanded template-limit)]
+              ;; generated (markov/generate-sentence expanded)]
               ;; generated (string/join " " (markov/follow-strand expanded))]
           (assoc request
             :chain expanded
@@ -168,6 +168,7 @@
       (dosync
        (alter irc assoc-in [:callbacks :privmsg] #'dogdog-handler)
        (alter irc assoc :chains history))
+      (irclj/identify irc "ord9949")
       (doseq [channel channels]
         (irclj/join irc channel))
       irc)))
