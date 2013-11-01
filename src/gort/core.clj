@@ -76,7 +76,8 @@
 
 (defn root-handler
   [request]
-  request)
+  (assoc request
+    :persist? true))
 
 (def template-limit 18)
 
