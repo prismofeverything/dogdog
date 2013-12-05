@@ -38,3 +38,28 @@ alpine tundra at twilight with my toylike android camera https://lh4.googleuserc
 [16:36:12][com.nike.fuelboard:fuelboard-tasks] Downloaded: http://repo.nikedev.com:8081/artifactory/all-repos/polaris/polaris/0.0.1/polaris-0.0.1.jar (10 KB at 3.4 KB/sec)
 with #3, the app cannot distinguish between throttling and a simple csrf error
 so I think throttling has to be done on the DAO layer
+O RLY
+neildf: so guava Iterables was creating DataObjects for all posts when I did that limit(skip())
+I changed it to subList. which is less sexy but does the right thing
+neildf: skip/limit was causing the entire list to be DataObject'd
+I wish campfire was just built on IRC
+that has to exist
+we are not the only neckbeards at a 37signals-loving agency
+rails?!
+err, ruby
+wtf is trollop
+ruby and it's childish library names
+*its
+hey I never released that for serious consumption!
+I see this in tomcat for the teague admin ERROR  java.io.IOException: Cannot create directory: /var/lib/tomcat7/caribou-index
+nm
+just make it owned by tomcat
+I need help naming an object
+I have a page with several pieces of content. those pieces of content each have comments. rather than doing content.comments, I have a container that gets all of the comments for the entire page
+I need a name for this container
+it's not an object in the oop sense.
+well I can't use the word page because it's already been reserved, and this might not be comments for just a page
+it's for a maybe arbitrary list of "commentables"
+that crossed my mind. not joking
+ooh public
+cache-control: highlander
