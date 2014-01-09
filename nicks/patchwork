@@ -369,3 +369,994 @@ Does it??
 Have any of you seen beyond the black rainbow?   http://www.imdb.com/title/tt1534085/
 The first review is pretty good: http://www.imdb.com/title/tt1534085/reviews?ref_=tt_ov_rt
 Did you make a bot of some kind?
+Okay, now for the moment of truth
+but he will persist everything else
+Yeah what is all this?
+Why don't we just take some tequila shots?
+That was an ancient victory for justin_smith
+quile:  What's up?
+quile:  I get it now!
+Apparently I have used a curly brace before
+ZD
+I am not clicking that link
+Beethoven wins
+Beethoven has more views in history overall
+I am also listening to music but can hear both, so the synergy is amazing
+Right!  If ever an email mentions his name, he will respond with a paragraph
+We should give him something with long text, like Atlas Shrugged
+Yeah send it out to devs.  I don't think this is anything that anyone even thinks about, so getting it on the radar would be the first step
+Check this out: https://github.com/bitemyapp/revise/
+Oh yeah?
+What did he have to say about it?
+It looks cool, is it really a clojure db with no sql behind it?
+Aha
+so it is a frontend for a nosql
+Oh, weird!
+Okay, less interested now!
+ha
+Ha!  Well then...
+That sounds right
+I think it gets inserted when you call % lein ring server
+I don't know why that tries to insert middleware for you
+Seems like it is overstepping its bounds
+Wow, all of this is amazing
+That was easy
+Alright just ran through the demo again
+This thing is good to go
+I'm going to record this thing, then let's kick it out the door
+Ha
+That is amazing
+Our api exports csv
+_api/model.csv
+It quotes them
+Are you on an old version?
+I just tried it and it worked
+Ah
+Oh I misread
+Our api quotes the csv, I'm not sure about your situation
+I am down for anything
+thinking of sushi
+quile:  You in for lunch today?
+Ha!
+justin_smith:  You down for sushi?
+I just added rainbow parens to everything, suddenly my code looks amazing
+My code is now literally a rainbow
+starting with purple going down the spectrum
+Yep, painstaking rainbow construction
+It is all worth it
+Datomic is my favorite 3d library
+Yes
+Well, once we get the php -> clojure tool working...
+Cool idea
+Would that be useful?  Sounds good to me!
+justin_smith:  Good question, no clue!
+some people still fear irc?
+Sometimes
+though in general yeah
+Looks like it yeah
+Yeah, we say s3 way too much to dogdog
+Wow, a trapezoid vasectomy
+Yeah, not a pleasant procedure
+Well that is nicer
+Radical!
+PAREDIT FOR LIFE
+quile:  Yes I worked on it yesterday… just getting started on the frontend!
+I was planning on working on it today as well
+Want to have a powwow about the frontend actually?
+Yeah let's have a session later today
+!
+I should be further along by this afternoon… maybe 3:00?
+Spectacular
+quile:  Radical
+Yeah I can get it in the next release
+I am planning to release 0.13.0, gathering all the random changes
+Well, neil is basically an adjective
+#clojure is basically unreadable now that all I ever see is "bitemyapp" everywhere D
+Worst nick ever
+makes me not even want to read the channel
+Maybe I should ignore the guy and infer his statements from the replies
+Officially more #clojure users than #django users
+#ruby:  arguing about how to make the language faster
+#django:  how to build a url out of a reference to an image on disk
+Yeah, this is a good conversation so far (on #perl)
+#clojure has the least dicks of any channel I've been on so far
+Empirical anecdotal evidence
+Ha!  Right, yeah well I was in just-forge-ahead mode
+Sometimes you have to play the hand you are dealt
+Not as bad as that one attempt!
+quile:  Did you watch the whole thing?
+quile:  The ending is the best part
+The siphons work great
+Seriously awesome feature
+Cool
+It is really a caribou demo, and not really an introduction to caribou per se
+That is my main issue with it when I take a step back
+We need like a 3 minute "What is caribou?" video with cool motion graphics etc
+Right!
+Here's a schmetterling question:  Break on every exception, or make the user say what exceptions to break on?
+Provide a breakpoint/break on exception API?
+???
+Ah, in the middle of getting some things working, I'll let you guys know when it would be productive to pair up soon
+I can say this much:  it is radical
+The mysterium is upon us
+Of course
+55555 D
+quile:  lunch soon?
+justin_smith:  Maybe I will use datomic finally?
+Also justin_smith:  I like how you are hanging out on IRC for your vacation day!
+quile:  Alright meeting should be wrapping up soon
+quile:  Let's go!
+Who is obsesseD with s3
+Someone should let her know
+justin_smith:  Not yet!
+so close
+still under basic-auth
+Really??
+Right
+Basically I just need to make a new release and we are good to go
+I think we will release on Tuesday
+I love numerical holidays
+I want a graph theoretic holiday
+That is composed of distinctive graph relationships
+Ha!  Good point
+In a format that actually makes sense
+rather than the arbitrary ordering we use
+Whoa… wtf!!
+Well, they probably have backups on their own machines?
+Automation can destroy things just as much as (possibly more than?) human error apparently
+So someone must have the most recent repos for all of these, right?
+On their machine
+Since someone had to code it in the first place!
+Wow, so the process made this inevitable really
+Gnarly
+Ah, that is good to know
+quile justin_smith: You guys down for lunch today?
+You guys have an idea of where to go?
+Dare I propose:  Hawaii?
+Volcanos?
+How do you feel about now?
+As in:  right now!
+In a way, it is the only time
+No other times exist really
+There exists a now where we are happily eating hawaiian food
+quile:  What the hell is "cool time"?
+alright, turning of hotspot seemed to fix it!
+That is fortunate
+I have access to the locals from the let
+(+ a b) —> 1
+Radical, this thing is good to go
+So many gotchas with the JVM
+Yes thank you justin_smith
+Aha, thanks quile!  For some reason I couldn't find anything on using ObjectReference
+I guess I needed to know to look in the larger context of java reflection
+quile:  Right!  Even the class is an Object that refers to the class rather than an actual Class class… !
+It is a form of madness
+Gangst is gooD
+patternosis is also good
+Hyperpatternplex
+So what was Phong talking about the centering of that list in the Caribou docs?
+It looks centered to me
+Also:  Just got a 403 on http://use.typekit.net/c/639a07/freight-sans-pro !
+quile:  You know what is up with typekit??  weird
+Huh
+Ah well
+Caribou is released!  http://let-caribou.in/
+Drafting a message to the Clojure mailing list right now
+Radical : )
+justin_smith:  We really need to update the README for lichen
+justin_smith:  I updated the version, but it needs full usage
+It still said antler/lichen!
+justin_smith:  Right, that usage still works
+justin_smith: Yes!
+Apparently it is waiting for approval
+Well, apparently my post must be approved by a human being
+Who knows when that will be?
+Gah!  Right on the verge, then denied...
+Time to exercise some patience then...
+PATIENCE IS ANNOYING
+Ahem
+Alright, post up!
+https://groups.google.com/forum/#!topic/clojure/KeyaMJERW0o
+Now we wait
+Ah, I was thinking about just taking over #caribou after all...
+Yo justin_smith!
+I have not seen
+you mean on #clojure?
+I just logged in
+So wait, what would be an async call?
+Also, I just saw you posted about the immutant thing
+Is that still an issue?  I thought I fixed that, but is it still a dependency in order to run?
+Have you tried the latest template?
+Right, it's in the template, but you don't have to install it right?
+Okay
+What is wrap-request?
+wrap-request-map?
+Ah, that is some relic from long ago
+I didn't even realize that was still inthere
+We don't even use that, we can take it out
+So the other one would be the config yeah?
+Right, it is the pure functional way to do things
+Wait though, the config is not changing per thread
+it is the same in all threads
+Or it should be
+That is why we were talking about using avout, to synchronize the config across all threads (and instances)
+How would that happen?
+Well, the init function is always called… so yeah?
+When JB used butterfly, we initialized it in the init method
+Not that I know of
+init is always called, other threads are spawned from there
+So it is not actually an issue then?  I'm sorry I missed this conversation!
+Well, I thought that is what we were doing with the whole config thing
+I'll talk to him about it, but not right now
+As I understand our current setup, there is only one config that is owned by the user, and the var just acts as a reference to that
+it is not changing in different threads etc
+unless there is something I am missing
+Ah, but you can have several configs, and just call (with-caribou other-config …) with a different one and get a different app
+So anything in the same (with-caribou) call uses the same config...
+Right, just trying to understand that
+What is the nature of this mess?
+Okay
+I see… hmm...
+So this would only be an issue if you were using two configs at once?
+Why would you ever use two configs at once… huh
+I thought you would do that if you switched it out in the repl, for testing or something
+Yeah
+But I don't really see why you would do it in a single request… do you?
+weird
+I think the argument applies to that wrap-request situation, but I just took that out!
+that is a good catch
+Okay, too bad it was even in there
+Ah I see also immutant is listed in the dependencies
+interesting...
+I just checked, it is a dependency
+even if you don't use it, it is still listed in dependencies and it still downloads
+I fixed the thing where it would error out on you in weird cases
+but I guess it is still a dependency *sigh*
+I wonder if there is a way to support it without having it be a dependency?
+not sure about that
+ring and immutant use the same handler
+We will have to think about it
+it is nice to support it
+as long as it doesn't interfere with anything
+So wait, is search indexing still a problem?
+Yeah, but without doing that is it broken?
+We should figure that out too.  It sucks to not have search if it is in tomcat
+Yeah, because if it fails on tomcat deploy we need to fix it
+Right, but tomcat can use the disk, just not a dir inside its deployed tree
+So it would be fine, if we configure it right
+Maybe we could write the index to s3 or something insane
+or another cache somewhere in memory
+Ah, interesting
+Yeah, that could work
+Right
+Then lichen could just use that… maybe
+Yeah man have a good one!
+justin_smith:  We will have to avoid just spamming the channel about it
+Like this guy who is asking right now
+tempted to point him to caribou, but maybe I will restrain myself!
+Right, I would much rather other people suggest it!
+Hmm… people talking about formatting issues.  Must be something with the md->html converter
+quile:  http://caribou.github.io/caribou/docs/models.html
+existingconfiguration
+Wait, how did it disappear?
+Hmm… not on my machine
+Ha!  what?
+Who wrote it?
+Wow, crazy!
+Alright
+Well, if he retracted it, won't he be upset about that?
+quile:  All over the model page
+It looks like if a line ends abruptly, rather than with a space, it will run together
+quile:  fixing now
+justin_smith: Agreed
+justin_smith:  I don't see the repo
+Maybe when he deleted it it deleted all forks?
+Is that possible?
+Really!
+do you have a url?
+I don't find it on clojars either
+Alright, found it
+I can pull the jar and extract the code??
+Ha
+He is also the guy behind all the reload stuff
+He wrote tools.namespace
+Forked
+Did he give a reason?
+Wow, crazy
+Hilarious that I pushed it at some point in the past!
+Not sure where that came from
+Maybe ralfonso_ did it?
+Ah no, it was me!
+I did it on October 2nd apparently
+it was a SNAPSHOT version and I wanted to deploy it
+So I forked it and changed the version
+quile:  fixed some formatting I found in model.html
+Did you find any others?
+Ha!  Someone already posted to /r/clojure:  http://www.reddit.com/r/Clojure/comments/1qi7mo/releasing_caribou_today_open_source_clojure_web/
+Right, people really seem to like it!
+Well… for now
+Yeah it is
+Cool to see!
+And, the caribou repo has 12 stars!  and three forks!  hahaha
+Even schmetterling has 5 stars… crazy
+Ha!  probably
+No one likes immutant?  Immutant is rad
+*sigh*
+Right
+quile:  Good question!
+Yeah, maybe I can fix the md->html lib, since it seems to be consistently any newlines inside a list
+I am thinking about postponing clojure workshop today
+in the middle of some stuff
+I love the kebab concept
+This is important informatino
+That is cool
+Weird functions
+I think this might be covered by reducers, but I am not sure
+I have never used them
+Right, something like that
+justin_smith:  What was going slow?
+Right on!
+I was just wondering what Kara was talking about, was something slow on teague?
+Ah right!
+Okay cool
+Yeah as long as we have some kind of caching it should be fine
+what is the url?
+Seemed to load fast for me!
+quile:  Spectacular
+Can't wait to see the demo : )
+Yeah, that is huge
+justin_smith:  What do you mean?
+I have no idea what that means
+Ah… so that is what poop is
+Such a multifaceted word, poop
+Right
+Or like jenkins scale poop
+"Pull a jenkins" is now a significant phrase
+Evaluating clojure expressions in a java context
+by the way, totally works
+Now displaying locals
+I love this thing
+Ha, little do they know the darkness that lies within
+Give it awhile, they will be cursing us soon
+quile:  You going to lunch today?
+Want to go soon?
+We could do indian : )
+That is always quick
+justin_smith:  You down for lunch?
+justin_smith:  Ha!  that sounds good
+quile:  Want to go soon?  : )
+quile:  It is always cool time
+This is why I am not cool
+It is too annoying
+Then I judge coolness as wankery
+Then I am cool.  Metacool
+Will some cool person come and judge my locals styling?  I think it may be too extreme
+(can locals be TOO extreme?)
+http://i.imgur.com/W49yd0z.gif
+Sometimes I just gaze at my code lovingly without even understanding it
+There you be D
+quile:  Where did you go yo!+
+You have been replaced
+Ha!
+I saw that live once
+was ridiculous and amazing
+quile:  Invoked a remote method from an ObjectReference
+Got the List of Methods from the ReferenceType of the ObjectReference, found the one I want, passed in the ThreadReference and got a StringReference back
+I feel like this is some kind of rite of passage
+Now nothing will be too convolutedly abstract for me to deal with
+Ha!  I was drunk when I wrote my response to taht
+probably not a good policy
+Still, I stand by it
+Just had my teeth cleaned
+Always a medieval experience
+Love that tune
+quile:  What the hell!
+Your dad is amazing
+*drunken rambling*
+Speaking of lunch...
+Anyone down for lunch today?
+quile_:  Let's go!
+Fine by me
+Ha!  They (rightfully) jab at the ecosystem part : )
+I still think it is better than framework
+justin_smith:  Did you help him out?
+quile_:  agreed
+My favorite kind of obscenity
+Teaching positive values
+Wow, that is insane
+Dude, looks beautiful!
+Now THAT would be amazing
+Oh right!
+is it not default in production.clj?
+I have to update that thing
+we should not be reloading controllers or templates either
+Yeah, we have to turn of template reloading… I think
+let me check
+Ah no, templates don't reload by default
+You should make sure you don't have a {:template {:cache-strategy :never}}
+Oh wait!  right, yeah you have to set that to {:template {:cache-strategy :always}}
+To cache the templates
+Just push to caribou-development
+I'll get it in the template later, once we are ready to release
+Yeah weird, I just tried on caribou-development and it loads the routes the first request and just serves them
+Ah, are you turning off controller reloading?
+{:controller {:reload false}}
+Well, it only reloads if things have changed
+even if :reload true
+justin_smith:  I believe you, but it is not happening on the regular caribou-development site, so it must be something else you are doing
+quile:  What happened to your underscore?
+That seems wrong
+it should set a cookie for each client, not request
+caching issues?
+caching is issues
+justin_smith:  Anything like this?  http://stackoverflow.com/questions/13933703/varnish-3-0-2-problems-with-post-requests
+Looks like varnish can fuck with posts
+That may be wise
+What is the deal?
+??
+How is that even possible?
+What are the differences between production and staging?
+Yeah, turns out it was the thing trying to make index files
+Yeah, we should have an option
+But really, you can support it on ec2
+Right, that is a way to turn it off!
+So does that mean they can have admin search on ec2?  Is there any other obstacle?
+Embrace search into your heart justin_smith
+How is that different from a let?
+Hmm… so a single binding let macro
+interesting
+I did not know that!
+quile:  I'm sure it would be, we have just never supported it!
+We force indexing upon the user, whether they like it or not
+I don't know why this comes up over and over… immutant is optional (though it is still a dependency)
+You don't have to use it
+Indexing, you do
+But not anymore…
+Well, somehow something always goes wrong on launch
+It is some kind of universal law
+Though it is always good to reflect on how problems could have been avoided
+As in: How did it get this far without anyone realizing save didn't work on production?  Seems like it would have come up before now
+Ah yes
+That is always a good policy
+There you go
+ralfonso:  What does it do?
+PageComments
+: )
+CommentProxy
+CommentOmnibus
+It is not bad
+I love omnibus in general
+of course I already added that
+Speaking of!  quile can you hit up lunch today?
+I'll drive
+jinx!
+ralfonso:  CommentZoo
+with every type of comment a different species with a separate comment habitat
+You could export them using caribou-core/src/caribou/io.clj
+as edn
+Then import them
+No the id thing is a problem, id's are assigned automatically
+What would they do?
+justin_smith:  Ah yeah, that should definitely be on there
+Well holy hell.  The more you know
+It is only because of sadness that doesn't actually work
+http://i.imgur.com/TbRAFaA.png?1
+This is the coolest thing ever
+That sounds mad
+MADNESS
+I fear for us all
+The stacktrace of poocafe will live for all time
+quile:  Can you help with this scrolling thing?  I am close (or maybe not)
+Trying to figure out the right combo of properties : )
+No worries
+Thomas for some reason is MIA
+I was talking to that guy
+had a wacky java install
+Yep!
+Right
+We could check it out
+Do you have an idea of how you would use it to solve our problem?
+Let's see what everyone else wants to do, maybe a simpler starting place will be best, but who knows?
+Has no dot product
+justin_smith:  It works great from a fresh schema
+So you can export models and content
+from one dgb
+and import it into a different db
+justin_smith:  I haven't yet tried it with a db that is already populated with other content
+but in theory it should work
+The trick is if you have associated things, you have to export both sides of the association to maintain references
+But that will improve once I start using UUID's for everything
+basically, everything will have to change (uuid instead of id for basically everything… I think)
+(still puzzling on that one)
+It would mean changing how every reference works in the system
+which could be correct
+but will be a huge amount of work
+Still thinking about the best way to go about it
+justin_smith:  Yeah man
+This is all radical
+justin_smith:  Definitely talk to Phong first
+As in changes that are done and waiting for review before they can be released
+(review by whom, that is unknown)
+(or undefined)
+That could be helpful
+quile:  I got this working if you want check it out
+quile:  Down for lunch?
+Ha!  have good
+That is amazing
+Yeah it is pretty cool
+He has canonized his approach to reloading
+We can just fork it and everyone will use ours once he renames it or takes it down or whatever
+He just has a severe philosophy on backward compatibility
+Which is not necessarily wrong, but maybe wrong
+The cycle has to end somewhere
+justin_smith:  I am open to any recommendations
+quile:  If you feel like taking a break you should come critique my animations (just getting started on history now… !)
+quile:  THE VALKYRIE CALLS YOUR NAME
+quile:  Two moments
+It is awesome
+and egregious
+quile:  Alright man, check this out
+quile:  Alright man I think schmetterling is ready to go
+I'm going to pimp out the readme and announce the thing
+Yeah what is that about?
+quile: https://github.com/prismofeverything/schmetterling
+Also, we are headed to Riyadh's if you want some schwarma
+Cool!
+quile:  Do you know how to use gimp?
+Make a butterfly : )
+with vector graphics
+I am kind of getting it
+Yeah, this thing is vast
+good call
+Uh-oh
+LONG PAUSE
+Why am I talking about s3 all the time dogdog?
+I have to purge that from your memory banks
+JUSTICE FOR DOGDOG
+yes dogdog, we are using s3
+Good morning #instrument!
+quile:  How is your project coming along?
+quile:  Soooooo… you are done then?  : D
+quile:  Got it
+justin_smith:  When you were trying to make us tracked by the NSA
+That is always a danger
+quile:  Lunch today?
+quile:  Foodcarts?  Robo?  Bunk?
+hawaii?
+OTHER?
+neildf:  Purdy and I are talking about building a library for managing state across networks
+which would be the basis for a variety of things, including network games
+quile:  Yes, specifically, CHARRED MESH
+quile:  Let's go!
+neildf:  Hawaiian food?
+justin_smith:  the build, this place and weareinstrument all use it
+I guess I wasn't referring to your deploys!
+justin_smith:  Immutant is awesome
+Do you have something against it?
+http://immutant.org/
+It does far more than that
+The messaging API is especially interesting
+quile:  What was the thing you reminded me I was going to do for the next Caribou release?
+forgetting momentarily
+Ah!  Right!
+Agreed
+On the list
+Understood!
+I have a pile of random things to do for the next release
+Most of them are pretty minor
+The hero we need
+I love it
+quile:  caribou meeting?
+Is it too early for lunch?
+justin_smith:  Radical!
+let's build some audio browser animal
+I'm not sure anymore
+I think so
+I changed it up recently
+with all the config stuff
+I can look in a minute if you don't find it
+Awesome
+Alright, just released a lein template for generating projects that use clojurescript to communicate with httpkit over websockets!
+https://github.com/prismofeverything/cljs-ws
+(since it took a minute to set up the first time)
+justin_smith:  Alright let me take a look
+All you need to do is run (caribou.model/invoke-models) for the model cache
+Ah!  I see what you mean
+Yeah init should clear the queries
+That is an oversight
+Well just include it with the rest of your avout pr
+invoke-models should do it
+Ah!  I see
+So you just insert the avout ref into the request?
+Or what?
+That will be highly general, I like it
+I'm curious how it will all work with the model/query stuff
+(and pages!)
+Though I think I see
+The pages, models and queries are stored in separate atoms in the config var
+Check out caribou/app/handler.clj
+in caribou-frontend
+You pass a reloading function into the initial call to generate the caribou handler
+(usually in the core.clj of your project)
+And that gets called
+when the handler needs to be regenerated
+No, reset is a function
+that does the resetting
+That is passed in by the user
+Right
+I am leaning towards indian
+quile?
+justin_smith:  You need to call caribou.app.handler/reset-handler
+That is not enough
+please read handler.clj
+That would probably help!
+quile:  Food today?
+Heading out soon
+Cool.  Meeting our friend Annie out there
+quile:  How goes over there?
+justin_smith:  I don't understand
+the problem
+How would you tell which keys changed?
+And yes, all or nothing is probably better
+capturing them where?
+It is not clear of what you speak
+Truly, varnish can destroy many things
+!!!
+Apparently so, because that was hilarious
+Right, the next step I am plotting is adding references to things people are talking about
+Whenever I stop doing ten million other things
+That is where I need to compile the list of low frequency words, or even nouns
+probably nouns would make it the most relevant
+Just because I ran somewhere doesn't mean running in general is relevant
+Ah!  I'm out tomorrow
+Monday : )
+justin_smith:  Just a minute
+How was justin_smith not on the caribou team?
+http://www.performant.com/
+I would rather replace that whole phrase rather than just a singe word
+It smacks of vacuous marketing jargon
+which I guess it is
+Can someone come up with something better?
+Or am I just being a bastard here?
+No dogdog, not even in zalgo
+Better
+Our tagline could be in zalgo
+justin_smith:  Right, something better
+not worse
+How about "Migrate across the open web tundra, avoiding blood-sucking bit flies and bit wolves devouring your young"
+How about "Grow antlers out of your eyes, destroy the enemy"
+It is at least better
+justin_smith:  This is true
+ralfonso would often complain about this
+"build alpine migratory websites with the something you want and some other thing blah blah orb"
+"Dedicated awesomeness for your awesome engine of truth"
+"Arboreal tachyschism for your hatchling web spawn"
+justin_smith:  Use one arg that is a list instead
+justin_smith:  Now THAT is a tagline
+I mean, no joke
+That could work
+impale, mighty, and appropriate in one sentence
+No idea
+grep the src
+Is it actually different?
+Maybe I could have named it, but metaspace should be reserved for something way cooler than that
+Wow… !
+How does that happen?
+justin_smith:  What kind of load is zookeeper designed for?
+Do you have a good reference on this?  Curious about what the issue is
+Just network latency?
+Right, I see
+So, what we need is messaging functionality
+So the question is now: is avout the best tool for that?
+I would rather receive a message than check values for changes
+Let's try it.  I know we could make a middleware that checks the value, but it should work even if people are just using core (which wouldn't be a ring handler)
+And without scattering value checks all over the code (and maybe missing some)
+Interesting.  So we can have one atom with a map of keys->booleans
+It would not always be a model update though
+The watch would trigger, but we would need to see what message was passed out of a selection of messages
+So each one is a channel of sorts
+I like the channel idea, I am not sure about the increment.  It seems inelegant to store a number when all we need is a signal.  That and overflow.  But the idea as a whole is sound
+As for the plugin model, I feel like we still need to talk about the design for that before we rush into implementing anything
+I don't think we ever landed anywhere as to the best approach for that, as I recall?
+Though I am stoked to hear about your idea for it
+Cool!  So let's talk about it before you hurl into implementation : )
+In other news, I am currently mediating an aggressive and foul-spirited denizen of the clojure community on the schmetterling repo : )
+https://github.com/prismofeverything/schmetterling/issues/3
+Right, it is a protocol
+I just don't see how it fits with schmetterling (for the reasons provided)
+I don't think the guy has even used it, or given it any thought as to how they would work together!
+Not worried : )
+I like how I have spent this whole morning responding to pull requests and github issues, and not coded a single thing
+(yogthos issued a pull request for refactoring templating!)
+It is cool, and not cool
+It looks good
+Yeah, he does
+I will have to make some modifications
+But as a whole it makes sense
+He also left in a big-ass println : )
+We have postulated about it for so long, and now it is here
+justin_smith:  Right, but how would you control it?
+Well, I see it is possible, but it would be completely bypassing the rest of the nrepl functionality
+Which makes me feel like it is superfluous to nrepl
+But they would still have to build a completely new UI for it
+At that point, what they really want is an nrepl middleware for cdt
+Which I believe exists
+"I now have had my foggy crystal ball for quite a long time.  Its predictions are invariably gloomy and usually correct, but I am quite used to that and they won't keep me from giving you a few suggestions, even if it is merely an exercise in futility whose only effect is to make you feel guilty" — E. W. Dijkstra
+http://www.cs.utexas.edu/~EWD/ewd10xx/EWD1036.PDF
+Dijkstra has failed spectacularly in warning us away from anthropomorphizing programs and computational entities, despite his well-reasoned arguments against it
+"The moral of the story is: deal with all the elements of the set by ignoring them and working with the set's definition."
+Dijkstra:  My favorite historical curmudgeon
+justin_smith:  Yep!  For a moment
+what's up?
+quile:  How much did you work over the break?
+justin_smith:  Yeah!  I actually worked httpkit in there recently, the current caribou-development is currently using it if you > lein run
+I would worry about exposing it directly to port 80 without nginx in front of it
+Yeah
+justin_smith:  nginx rejects a lot of requests that aren't coming in with the right host for instance
+All that chatter would have to be handled by the app itself, with conditionals added etc
+justin_smith:  I don't think so.  If so that is news to me
+Have you used nginx much?
+Which uses tomcat, and presumably something else in front of it
+I mean on beanstalk
+It doesn't need to be mandatory, but it provides a service that raw http servers do not
+Apache also does this
+http-kit behind nginx could be great though
+Yeah we wouldn't really need that anymore
+I think the main thing nginx (or apache, but we don't use that) provides us are domain routing, proxying requests to different ports on the backend
+It is nice to have something routing requests to different ports, rather than hogging all of port 80
+Right!
+I haven't used varnish much, does it route requests to different ports based on host?
+I'm curious about the comparison with nginx, it is basically the same
+has its own config
+nginx is blazing fast
+Really??  Where are these benchmarks
+?
+Alright, I have to get out of here
+See you tomorrow?
+Hmm…….. interesting
+So only http-kit so far, but not with fewer threads
+Huh, looks good!
+Might as well have a provide-hooks as well
+I dig it
+Yeah, the hooks can just be in a map that can be merged into the larger hooks map
+of the same structure
+Right
+All in all seems right.
+We will probably have to add some more methods to the protocol
+I wonder where templates and js fit in, for instance
+I have been thinking about the db adapters
+They really wouldn't cover nosql things in their current state
+Currently they just abstract over differences in sql
+Right
+Basically we take what is in db.clj and turn it into a protocol
+Also, query.clj
+The execute-query needs to be in a protocol, and not generate an explicit sql statement
+Yeah, this will be something to tackle for sure
+Yeah, that is the goal
+Ha!  Yes, that is the way
+So much to do
+Well, making the protocol and implementing it are two different things
+We can work on it together
+Not yet though!  Let's get the plugin thing working with a blog/comment system
+Then we can use it on let-caribou.in
+THEN we can build the db adapter : )
+Oh yeah, I'll add that to the list
+Maybe we can implement the whole thing as a monad, somehow
+Agreed
+Whatever solves our state issue : )
+Irony is always the best motivation
+org.sonatype.aether.transfer.ArtifactNotFoundException: Could not find artifact org.clojure:algo.monads:jar:0.1.3-SNAPSHOT in clojars
+algo.monad
+It is at 0.1.4
+just found it
+https://github.com/clojure/algo.monads
+Ah yeah!
+I don't know if anyone else has time, but we can meet
+I have been hanging out on #caribou ; )
+Why is that helpful?
+Ah
+Well, if you use the mouse that is ; )
+Right, okay
+seems to take away precious codespace
+I want five displays
+one just flashing new cat photos every 20ms
+I want to live in a glowing bubble that floats in space
+Oh wait… I already do
+Space is the bubble that floats in space
+Oh man, some indian or hawaiian would be awesome today
+quile?  You down?
+I like how we go through this every time
+Sounds cool, have you installed it?
+Listening...
+Oh man, which js svg lib:  snap.js, svg.js, raphael.js … ?? D
+Yeah, thinking about snap, seems straightforward
+All the apis look the same : P
+justin_smith:  I like the quartet!  Some good tones in there
+Some feedback:  I feel like sometimes when you stroke the bow it can sound uncertain
+some time spent on getting long consistent tones would pay off I bet
+Then you can modulate with control and intention
+Ha!  Of course
+Well then, that came across
+Is there such a thing as intentional uncertainty??
+I feel like that is a koan
+"Embrace the intentional uncertainty"
+Ha!  Yeah
+Apology accepted : )
+justin_smith:  What did you have in mind?
+No that makes sense, I think
+would have to see the code
+A map of maps:  {:migration.key {:migrate (fn [] …) :rollback (fn [] …)} :next.migration {:migrate …} ...}
+Or list of maps
+for ordering
+That sounds right
+Though migrations exist before there are models
+(in the pantheon of Caribou creation myth)
+So there couldn't be a migration model, because migrations generate the models!
+Yeah probably
+paredit is the shit
+I love it now
+can't imagine how I ever lived without it
+Ha!  Org-mode consumes all things
+Not sure
+It sounds like you are doing two things at once
+Are you building plugins, or making the persistence adapter?
+Choose one, we'll deal with the other one later
+This is true
+We have been talking about too many things today : )
+Or not enough
+justin_smith:  Once polaris is integrated yes
+I want to do that as well
+Somehow that didn't happen before release
+As if by mysterious force
+(I didn't get around to it)
+I will do it, no branch
+Yeah, suxors
+Ha!  That task is never done, but that is the idea
+Lunch dance?  Shall we engage the lunch parameter?
+LUNCH
+What is that?
+Ahhh, I see
+that is cool
+Elisp the mighty
+Right, it is the javascript of lisp
+but you can make your editor do anything
+quile:  Yeah, I am responding to him
+Me too, seems like a good guy
+I don't think caribou.io solves his problem
+He probably needs to write a custom import migration
+justin_smith:  What feature?
+Ah right
+I mean, it can be done, but yeah
+quile:  That would help
+I mean no import solution can cover every case, but the more data we import, the closer we can get to a general import solution
+Like this guy:  images with XML associated
+justin_smith:  Yes, I added that in the last couple months sometime
+Yeah, you can just send in the path as a value to model/create for an image field
+Actually you can send in a number of things, I made a multimethod for it
+quile:  I think so!
+Yeah, it made sense somehow, since we were switching on the type
+I think they took the coffee metaphor too far there
+Or not far enough with everything else, one or the other
+That really should exist
+Lunch anyone??
+justin_smith:  Have a second for stupid blender question?
+Wow, in my spare time I screwed with some board games and read about cells
+I love you guys
+Wow man, that is pretty awesome
+If I could make one change it would be to have the plugins accept a map as their configuration options in boot.clj
+That way you know what is being configured
+random "true"'s in arg lists remind me of C : )
+justin_smith:  Right, but we could make a convention where they all take a single arg which is a mpa
+*map
+Then it would be descriptive
+and compossible
+Like, I want to know what that nil is nil'ing
+And what that 1 means
+Looks really cool though
+I think this is the future
+Yeah, but it could be a convention
+just makes things clearer
+more clear
+Right
+Magic!  : )
+The macro is cool, but it is not so bad to be explicit
+For some reason I distrust all that stuff
+Really awesome man, let's plugin everything
+Right
+welcome back
+Congrats!  Making the internet a better place
+Radical
+quile:  How is that possible?
+quile:  But we have merged in master… ?
+So commits you have made in develop don't show up as contributions in master when we merge them???
+Weird
+quile:  Yeah, still weird since all of your commits are in master, but I guess you have never pushed directly to master… ?
+That seems broken
+Yeah, git hub should look at commits, not pushes to github
+I'll take a look at the default branch thing
+: (
+Hello #instrument!
+Yeeeahhh!!
+Ouch
+quile!  How are you man?
+getting on top of this nike project?
+Alright
+Right!  wow.  Deadly frozen clouds
+Hark!  I believe this gentleman speaks the truth!
+It has been some time since I have partook of the great Robotic Taco
+quile:  You down?
+justin_smith:  That is mad
+just finishing up some things on the weareinstrument site, probably 5 minutes
+check out legacy emmanuel
+Yeah man, get that checked out
+I thought we were on cigna??
+I have no idea how this stuff works
+Got it
+Currently uploading 8 gigabytes of image data to s3
+justin_smith:  This should be your slogan
+Revealing holes in your unicode support since epoch
+quile:  !!!
+Is there something we need to do to generate the js again?
+Maybe a grunt task or something?
+No, this is the upgraded one!
+quile;  I just upgraded it today
+What is the error?
+???
+That makes no sense
+Does it work locally?
+Pfffffffff
+Dude, that is a bad plugin
+quile:  Sure
+No worries, let me know
+Wacky
+Well, he seems cool
+In that he is using Caribou successfully at least ; )
+Everyone has their flaws
+quile:  That opera error is happening locally as well
+So something changed : P
+In the admin
+jquery timepicker error
+GooD morning
+quile:  $.browser has been removed in jquery 1.9
+That is the issue
+Can we just use 1.8, or are there features we need in 1.9?
+Looks like we are using 1.10
+Or maybe just upgrade that timepicker plugin
+Yeah, doing it now!
+jquery removes a feature, thousands of plugins break
+ha
+Latest timepicker errors out with: Uncaught TypeError: Object [object Object] has no method 'timePicker' D
+: (
+Alright, got it
+That was annoying
+Hmm… did I offend that guy?
+Uh-oh
+He is booting
+Apparently it takes awhile to parse all of our files now
+justin_smith:  The idea of a metric is that they can be compared to each other
+but maybe that is your point
+justin_smith:  Dancing is one of the greatest things a human can do
+I made a triangular chessboard layout engine over the weekend:  https://github.com/prismofeverything/triangulat
+Alright, time to merge all these pull requests
+justin_smith:  Which of yours are ready to go?
+Yeah, only put the ones you want merged up there
+justin_smith:  Which one?
+I was going to test his out not
+*now
+Yeah, that one was suspicious
+Aha!
+Ah, you should be fine.   I will work on improving the algorithm…. at some point
+Ouch
+justin_smith:  Authoritative is defined by who gives it authority
+Do-ge
+http://i.imgur.com/R1MnHEc.gif
+justin_smith:  I have not
+Wow, that is kind of awesome
+justin_smith:  This is correct
+Not yet
+quile?
+I am up for indian or hawaiian
+Or robo even
+It is done
+I can drive
+Ready to go?

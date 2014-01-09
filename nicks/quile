@@ -233,3 +233,562 @@ http://toys.usvsth3m.com/binary/
 and (3) you only allow that user to generate N tokens per M time
 3wp = (adj adj | adj noun | noun noun) noun
 three?
+Dogdog is on fire
+Dope.
+It feels like Friday.
+hahaha
+oh nuts!
+who thinks he's a comedian now...
+he said "oh man".  i said "oh nuts!"
+he is remembering all this.
+Right now!
+F
+YOU DECIDE
+Do tell.
+Can you handle Zalgo/
+I take it that's a yes.
+ZD
+dogdog made me clear my scrollback buffer because of all the zalgo.
+nor i
+String quartet No. 1 in F.  Opus 18, I think?
+Don't be so judgmental!
+Yikes!
+This Rick Astley versus Beethoven duel is amazing.
+Of course Beethoven wins.  Rick Astley may have more views on YouTube but Beethoven was a fucking badass.
+you would think, yes
+but he had a 200 180 year head-start
+Now it's Yes vs. Beethoven.
+Yes will never win.
+Now it's Madness vs. Beethoven.
+MADNESS I SAY
+Definitely.  We should have another instance of the bot with a different trigger, and then they can trigger each other
+well that's a bit frightening.
+nice
+Speaking of sado-masochism...
+ha
+not sure
+He has joined team F.U.N!
+hmm, there's no easy way to disable the indexing function in caribou core!
+small oversight there on my part... ooops.
+ok cool... but it should be a config thing
+will have to figure that out
+hmmm, not sure, should be obvious from front-end... let me check
+errors/default.html looks like the standard
+patchwork: definitely some images in here that you can use in your discussions of animal communication.  http://www.thisiscolossal.com/2013/11/surreal-photo-manipulations-by-caras-ionut/
+so so amazing
+hahaha
+We should use this as the Caribou screencast.  http://globalnews.ca/news/946337/watch-nanaimo-resident-captures-fight-between-two-deer-in-his-driveway/
+haha O Canada
+mysql can export as CSV
+probably have to make a goog doc or somesuch
+http://ariejan.net/2008/11/27/export-csv-directly-from-mysql/
+maybe there's a tool to export as .xls or something
+oh pg
+hmmm
+might that fail if there are commas in any of the fields?  or does it quote them?
+cool
+SYL is on a super old version, isn't it?
+i brought lunch today
+great day for sushi then!
+Are you lads continuing to work on caribou.debug?
+sweeeeet
+yeah for sure.  i'm swamped with flipboard and fuelit
+patchwork: i made a couple of crucial fixes to the admin js
+so we will need new packages
+but those fixes only affect siphons
+so not so urgent
+cool
+"neil fair weather" is almost a 3wp
+i don't read it anyway.  too many dicks
+not as many as other channels (try #django!) but still
+nice
+hahahah
+more people in #clojure than #perl even
+#perl is full of dicks too
+i noticed
+yeah that's what i was saying.  fewer dicks than other channels for sure.  but still too many dicks.
+http://youtu.be/9Wl_uQOABxg
+patchwork: i am watching the screencast and crying with laughter
+the image selection is hilarious
+i'm about 2/3rds of the way througj
+siphons
+haha! great 3wp
+cool, hanging in there for the big finale
+yeah it looks good.  i think there are still some little bugettes in there
+but i'm stomping them rapidly
+it's a pretty fucking complicated thing
+hell no
+i wish
+i will try to break in if you guys pair up somewher
+e
+scheweet
+I doubt it
+hahaha
+That's French for "beach"
+Do you know any other words?
+ann-noun fugue
+oops
+of course
+ha!
+patchwork: yes please i am fucking starving
+hahahahahahah
+dogdog is optimised for s3
+hahaha
+dog dog
+Whenever someone mentions quad I think of quake
+that's cool
+I have a quad tree algorithm that I co-developed back where I used to work
+It divides the world up like that so any lat/lon can be represented with a string of chars that are stemmable
+observe:
+http://www.geodna.org
+the maps demo is rad
+tweaking the radius is fun
+11/12/13 is actually next month for the rest of the world!
+so we get it twice this year
+ZOOM!
+Hahahahah no it's not, it's raDical.
+IndeeD.
+yepppp
+It is.
+oh shit.  hawaii
+ok.  let's do it.
+You guys need to understand the concept of "cool time"
+"now" is sometimes "cool time" but not always.
+I am of the opinion that "now" is a good time to enjoy hawaii.
+No, zinio has no attachments!
+yes!  good call justin_smith
+There's some very clever stuff here: http://www.b3ta.com/challenge/hollywood-internet/
+hey patchwork: http://tutorials.jenkov.com/java-reflection/index.html
+you get methods using the reflection API!
+yeah it's because they are obsessed with interfaces
+anbd you're never actually looking at the fucking concrete objects that you need
+yeah it's the only way to do things in java
+there's an awful lot of gof patterns
+there needs to be a word for it
+gangst?
+gof pattern psychosis?
+it's so weird
+sometimes works, sometimes doesn't
+nice
+yes!
+awesome
+Let's get patchwork and ben purdy onto something like this: http://mashable.com/2013/11/12/mit-inform-kinect/#:eyJzIjoiZiIsImkiOiJfeDk4aW13bjZsc3NzMGtoOGxsc3JjXyJ9
+I had never checked out #antler before
+Yeah let's not go too hot and heavy
+People will do that for us once the word gets out
+yeah looks like it's the bullet points
+isn't stuart sierra also the guy who fucked up the json stuff?
+bad open source citizen
+3!
+yes
+Piano sonata is fucking unreal
+noice
+no, but i only checked the first few pages in the docs
+hmmm, look: http://caribou.github.io/caribou/
+stale... how do we take that down?
+The new roadmap page is great.  It also has the same spacing issue, I see
+There's no clojure in DTC
+Yes, kebab concept.
+FYI I got the resource handling working sans ear-muffed binding, and it works great in a caribou app
+next step is to get it to do smart manipulation of said resources
+but even the first step is great, because it means a partial can say {{add-resource :javascript "foo.js"}} and it will be stuffed into the header or footer or whatever in the correct load order, and only once, even if it's included somewhere else
+oh shit!
+justin_smith: There are no bugs in DTC.
+HAHAHAHAH
+Yep, i think so
+have to make it fairly quick
+but i can go
+indian would be good
+yes, totally, at cool-time
+justin_smith: do you know Penderecki's qtts?
+WRONG
+you have to tell me when cool time is, and I will TOTALLY judge you based on your answer
+exactly!
+ok , since i am cool, i will come and judge.
+hahaha roemmich just posted this http://www.addedbytes.com/blog/if-php-were-british/
+so fucking funny
+well done ralfonso_
+hahaha
+hahaha
+?
+Switched with David until Fuel It is done
+MAHLER'S 9TH IS FUCKING UNBELIEVABLE.
+nice
+super swamped... don't have time to check it out right now sorry :(
+doubt it's in the js
+one sec
+check in the controller models.clj for where it calls template/find-template because i bet that's your prob
+there are numerous places where it locates the templates using that
+fix that up and you're good
+although really if you're in there moving stuff, the template root for admin should be a config setting
+so we can pull templates from everywhere
+hmm, not sure then
+weird
+possible i guess
+yeah it's a shame you aren't here to show me the problem
+bad timing
+!
+hang on, let me take 2 secs
+ok, so where do you see a problem?  everything seems to be working for me
+you mentioned assets?
+I just uploaded a new asset, was able to change assets
+hmmm
+yep
+I'm on namespaced-templates
+ran the server
+and was able to edit content, upload assets, choose other assets...
+that doesn't mean everything's working!
+hahaha no, there's something wrong if you're seeing weird behaviour
+yes maybe
+haha yes!
+i fucking love that thread in the clojure group about web dev.
+The python/django guy seems like a bit of a standard python/django dbag tho
+I have lived in both worlds
+The "django has such amazing tools" thing makes me want to vomit
+and the dude claiming that virtualenv is better than lein because he doesn't need to edit a file shows me that he's fucking clueless
+virtualenv is a total unmitigated disaster
+giant bandaid on a huge fuckup
+Loved both your responses to that thread.  I had half a mind to bring the whole thing into the gutter with a single line post, like "Django sucks.  Fuck the pony."
+Check out my dad: http://www.stuff.co.nz/dominion-post/news/local-papers/the-wellingtonian/9371925/Epic-odyssey-to-translate-Homer
+hahaha
+Yeah he's kind of rad
+hey guys, do web apps need clojure?
+I prefer :✈ as a macro
+justin_smith: make sure it has snowmen in it
+Sounds fun!
+ask EFI.  Varnish wizard.
+justin_smith: is it in the admin?
+yeah have to switch indexing off in beanstalk
+can't work :(
+feck, indexing should totally be simple to turn off
+EnterpriseFactoryPatternAbstractImpl
+haha
+nice dude
+patchwork: lunch then?
+fuck yes
+let's go
+hahaha
+and somewhat cruel
+yeah he's tracking neildf but mostly has poocafe
+feck!
+yeah sure, gimme a sec
+D
+hey we need to add thisplace and teague to let-caribou-in!
+check first
+weareinstrument is a bit messed up
+it's got a backlog of changes
+FECK YES
+Yeah the init function is all setting me off.
+Fuel It has ordered in... free lunch!
+don't.  stuart sierra is the dude who changes his shit all the time and fucks everyone up.!
+you have been warned...!
+:)
+yeah it's not bad
+good plan
+I love duck fat.
+hahaha heh
+ok, will drop by
+!
+IAM LISTENING TO WAGNER.
+I THINK I AM INVINCIBLE AND WILL BE ABLE TO CONQUER VALHALLA.
+BRUNNHILDE, I AM COMING TO SAAAAAAVE YOU
+yo patchwork i want to see those animations!
+no hurry
+ok one sec
+yes dude
+it is truly awesome
+game-changer
+Remember to announce it with [ANN] in the subject line
+Everyone else seems to be doing that
+It's an old usenet convention
+Subjects that are announcements start with [ANN]
+nah i think we're gonna push through
+thx though!
+haha
+only vaguely
+what are you trying to do?
+hahaha
+we have many, many design resources around here... :)
+someone will be able to help!
+Hahahahaha
+brilliant
+D\
+nice!
+Dogdog likes Beethoven
+nice!
+At least it can be used as a weapon.
+A flat trombone is much less effective
+pfffft
+we were here most of saturday and last night until midnight
+two more weeks.
+we're done when it launches
+gah
+Hello, NSA!
+that's what i heard
+YES
+LUNCH
+I AM STARVING
+HAWAII
+CHARRED MESH
+Dogdog loves quad
+Dogdog is definitely sentient.
+disabling of indexing!
+in the config
+it should actually be off by default
+awesome
+sorry, i would do it but i'm a bit snowed-under...:)
+see?
+gahhaaghagahga
+git pull origin justin_smith's_brain
+CONFLICT: Local directory Java/ is in conflict
+no, it's been added locally but is not in the repository
+I am very tempted to rm -rf Java/ before running pull again
+avout?
+holy shitstorm
+i wonder how fast avout is
+ah, yes, quickly
+hahaha jesus
+IIRC invoke-models clears the cache so if model/init calls invoke-models you're good.
+I could be remembering wrong tho!
+ok, gimme a few minutes
+right on
+good, almost ready
+yes
+HHAHAHAHAHAHAHAH AHAHAHAHAHAH
+That was amazing.
+Randomness is one of the greatest sources of humour.
+and reactive
+exactly!
+and he needs to spontaneously comment on things
+Right, it's an interesting problem that can definitely be solved over some Robo Taco tomorrow.
+yep
+it's Instrument/let-caribou-in I think
+wait
+try it now
+Instrument/let-caribou-in
+justin_smith: ^
+added the caribou team
+added caribou team to let-caribou-in
+(f this)
+heh
+what's not serializable in model/models?
+I've never been happy with model/models to begin with - maybe it's time to change it.
+thanks, hamlet.
+hahahah we're first on the web frameworks list: http://www.clojure-toolbox.com/
+love this discussion https://www.bountysource.com/issues/1284462-possibly-a-new-competitor?utm_campaign=plugin&utm_content=tracker%2F32879&utm_medium=issues&utm_source=github
+brilliant!
+so good
+you only need to indicate a change, not the change itself
+the app can reinflate the models map from the DB
+can't we just have an avout atom that holds flags?
+let avout sort out the coordination
+check the flags on certain ops
+(gather, update, create etc)
+don't we just need booleans?
+the guy is such a dbag
+well done in keeping your cool.
+i would have told him to go fuck himself
+fine, maybe renaming schmetterling is a good idea
+but fuck the nrepl thing
+me neither
+yeah don't worry about it - unless he wants to explain in detail how it should work
+nice
+yeah i saw that
+sure, but doesn't he miss the point about template-not-found being trapped for friendliness' sake?
+yeah that's what I thought - that's a useful thing to trap for us
+yeah
+That's deep.
+d
+I know, it sucks.
+zero
+I dunno the details -- justin_smith mentioned this last week -- but dropping a dependency is usually a good thing!
+true true
+yep
+in a bit
+yep
+nice
+LUNCH.
+yes
+whenever you yank lines, they're put into an anonymous buffer
+i think so - i never use that functionality but I'm fairly sure it can work that way
+hmmm
+migrations definitely could be revisited!
+Yes!
+hahahahahahha
+That just made my day./
+we're getting lunch brought in for us so I'm out
+w
+patchwork: are you going to respond to the dude who emailed caribou@?  I figured you might want to tell him about the caribou.io stuff.
+ah schweet
+i like his attitude
+well, i've been toying with a lein plugin that will examine an existing DB schema and convert it to be a caribou-ready DB
+yeah i'll do it in my spare time.
+ha.
+I love usvsth3m.  It's the new b3ta.
+exactly
+A MULTIMETHOD?!?!
+Is that our only one?
+awesome
+we should have one of everything.
+haha
+Do we have an enterprise Java bean?
+hahaha
+I love it
+reified beans!
+justin_smith: I tried your macro trick last night
+didn't work - turns out it's not possible to do it even with macros
+so your trick works great *if* the class name is passed in as a literal string
+but in my case, it's a symbol
+so no go
+no, there's no way to do it with macros
+i researched it on stackoverflow
+turns out it's happened to others
+and there's a cool solution
+where you dynamically build a constructor using reflection
+no, sorry, eval
+but you only do it once
+you don't need reflection on a record because they are all the same!
+they all have the same ctors
+so it builds one factory for each type of record
+and then those can be switched on dynamically
+it's a cool solution and works great
+it's a shame because your macro solution would have been way more elegant
+i'll show you... you might even be able to simplify it
+i get so little time to work on this stuff that it's hard to bite off any chunk more than solving one tiny problem at a time
+oh ha
+i just meant in life in general
+outside of work i hardly have time to work on anything else
+not so much specifically this nike thing
+i like it
+Every now and then it has to be randomly interrupted by ChildScreamingException
+hahahaha
+ahaha
+uh oh
+hahaha
+No, it's right. EDN is not the END.
+EDN is the END then?
+last night in my "spare time" i managed to make some progress on minification of resources
+haha
+nice homey!
+I am disturbed.  I just checked github and looked at the commit graphs for caribou.  I'm not on any of them!
+This makes me sad, because it looks like I haven't contributed :(
+Even caribou admin doesn't show me :(
+Looks like it only looks at master
+Feigner has more contributions than me!
+Yeah I don't know what's going on.  Rsrppsprprprprprprprpprrprprprp!
+I think we can set the default branch for the graphs feature
+but it means changing the "default branch" in the project settings
+and I'm not sure if that will eff things up for anything else
+very infrequently, but I have
+you guys tend to roll the releases
+it's bizarre
+ha might be a good thing, to keep us all fresh on the process.
+Nice.
+They have running water in the third world, you just can't drink it.
+hahaha
+hahahaha
+haha
+hey, sorry, totally swamped
+just remember that weareinstrument is running a super super old version of everything
+i doubt there's a join table for it, at least not to blog
+yeah but he clearly didn't read much about caribou
+it does all the things he wants
+yeah sorry, bit of a shitstorm
+whazzup?
+yeah justin_smith sorry, yes, shit, I'm sure we can think of tons of cool stuff
+shit dude, that's gnar
+hahaha i'll tell you later
+nah it's cool, we're in control
+that's very cool
+i'm glad it wasn't bad - a childhood friend was killed slipping on his bike.  It's serious shiz.
+this morning was weird - freezing fog.
+I love the idea of a lunch vacation
+hhHAH AH AH AHA stop
+Free lunch. One of the few benefits of working on this Nike shiz.
+Isn't our plan a superset of Providence?  You could go to Providence near your place, then go home, take drugs, sleep!
+Yeah but I think their in-network thing is a superset of Providence
+ask Dawn?
+Emergency room visits are expensive though
+(I have had plenty) so if there's an urgent care clinic, it's better to go there
+if you want to save $100 or so
+still, your ribs are worth more than $100!
+ouch
+yo patchwork just looked at that page in the weareinstrument admin.  wtf? it's crapping out with a hilarious JS error in jquery.timepicker
+wtf!?
+that's breaking all the other JS, it seems
+debugging a months-old version of admin is not fun.  can we get that thing upgraded already?
+eh? wtf!
+ahhh ok
+it
+s yacking inside that timepicker
+which is a jquery plugin
+it's being called from line 41 of our fields.js
+which is what instantiates the timepicker
+but we are calling it correctly!
+Cannot read property 'opera' of undefined
+!!!
+hilarious!
+tell me about it!
+of course!
+ah wait, maybe chrome changed
+it's doing browser detection inside timepicker
+and checking for opera
+wtf?!
+could that timepicker thing have become upgraded or something?
+I am a bit swamped to look for a workaround right now but can re-investigate in a few hours
+besides, any workaround will require a new admin build, prob
+sory
+yeah something did - it could be that Chrome has revved and it's causing the browser detection to misbehave
+I've definitely never seen that bug!
+what is Zalgo
+haha
+oh sure, but how did jquery get updated?
+we should upgrade timepicker in the admin then.
+damn dependencies!
+hahaha
+DD
+DDD
+hahaha
+hahah
+it's all justin_smith's snowmen and D O G D ÓG s
+hahah
+ha
+i just realised over the weekend that everything any of us says in this room is preserved forever in github in the gort repo.
+hahjaha
+Ha
+You are mad justin_smith, mad I say.
+Dance?
+i am not that into tacos today
+those gifs are incred
+patchwork: http://www.youtube.com/channel/UCmYq0b8VKp61qD8EWE5K-wg is the channel
+i'm listening to every iteration of the Doctor Who theme and tripping balls over here.
+It's a John Cleese classic
+And will simultaneously increase your knowledge of types of cheese
+although I am pretty sure Venezuelan Beaver Cheese is not a real cheese.
+Exactly.  "I don't care how fucking runny it is"
+This one is live... http://www.youtube.com/watch?v=uT3OQECSDoQ
+OMG
+dogedoge should only talk in dogedoge memespeak
+but still be based on what we say
+yes!
+so content
+much markov
+oh def
+once i knock off some fuel it bugs, i'll take a look at that stuff
+Damn.
+INDEED
+WEIRD!
+yo
+hawaii
+i am nearly out of gaz tho
+oooo ok
+radical
+not uite
+q
+HAHAHHAHAHAHAHHA
+It's all worth.
+He is!
+DOGEDOGE
+DOGE
+DOGE
+That totally sounds like a real sentence that an off-shore developer would say
