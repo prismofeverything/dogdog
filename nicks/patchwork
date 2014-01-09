@@ -1239,3 +1239,124 @@ I think they took the coffee metaphor too far there
 Or not far enough with everything else, one or the other
 That really should exist
 Lunch anyone??
+justin_smith:  Have a second for stupid blender question?
+Wow, in my spare time I screwed with some board games and read about cells
+I love you guys
+Wow man, that is pretty awesome
+If I could make one change it would be to have the plugins accept a map as their configuration options in boot.clj
+That way you know what is being configured
+random "true"'s in arg lists remind me of C : )
+justin_smith:  Right, but we could make a convention where they all take a single arg which is a mpa
+*map
+Then it would be descriptive
+and compossible
+Like, I want to know what that nil is nil'ing
+And what that 1 means
+Looks really cool though
+I think this is the future
+Yeah, but it could be a convention
+just makes things clearer
+more clear
+Right
+Magic!  : )
+The macro is cool, but it is not so bad to be explicit
+For some reason I distrust all that stuff
+Really awesome man, let's plugin everything
+Right
+welcome back
+Congrats!  Making the internet a better place
+Radical
+quile:  How is that possible?
+quile:  But we have merged in master… ?
+So commits you have made in develop don't show up as contributions in master when we merge them???
+Weird
+quile:  Yeah, still weird since all of your commits are in master, but I guess you have never pushed directly to master… ?
+That seems broken
+Yeah, git hub should look at commits, not pushes to github
+I'll take a look at the default branch thing
+: (
+Hello #instrument!
+Yeeeahhh!!
+Ouch
+quile!  How are you man?
+getting on top of this nike project?
+Alright
+Right!  wow.  Deadly frozen clouds
+Hark!  I believe this gentleman speaks the truth!
+It has been some time since I have partook of the great Robotic Taco
+quile:  You down?
+justin_smith:  That is mad
+just finishing up some things on the weareinstrument site, probably 5 minutes
+check out legacy emmanuel
+Yeah man, get that checked out
+I thought we were on cigna??
+I have no idea how this stuff works
+Got it
+Currently uploading 8 gigabytes of image data to s3
+justin_smith:  This should be your slogan
+Revealing holes in your unicode support since epoch
+quile:  !!!
+Is there something we need to do to generate the js again?
+Maybe a grunt task or something?
+No, this is the upgraded one!
+quile;  I just upgraded it today
+What is the error?
+???
+That makes no sense
+Does it work locally?
+Pfffffffff
+Dude, that is a bad plugin
+quile:  Sure
+No worries, let me know
+Wacky
+Well, he seems cool
+In that he is using Caribou successfully at least ; )
+Everyone has their flaws
+quile:  That opera error is happening locally as well
+So something changed : P
+In the admin
+jquery timepicker error
+GooD morning
+quile:  $.browser has been removed in jquery 1.9
+That is the issue
+Can we just use 1.8, or are there features we need in 1.9?
+Looks like we are using 1.10
+Or maybe just upgrade that timepicker plugin
+Yeah, doing it now!
+jquery removes a feature, thousands of plugins break
+ha
+Latest timepicker errors out with: Uncaught TypeError: Object [object Object] has no method 'timePicker' D
+: (
+Alright, got it
+That was annoying
+Hmm… did I offend that guy?
+Uh-oh
+He is booting
+Apparently it takes awhile to parse all of our files now
+justin_smith:  The idea of a metric is that they can be compared to each other
+but maybe that is your point
+justin_smith:  Dancing is one of the greatest things a human can do
+I made a triangular chessboard layout engine over the weekend:  https://github.com/prismofeverything/triangulat
+Alright, time to merge all these pull requests
+justin_smith:  Which of yours are ready to go?
+Yeah, only put the ones you want merged up there
+justin_smith:  Which one?
+I was going to test his out not
+*now
+Yeah, that one was suspicious
+Aha!
+Ah, you should be fine.   I will work on improving the algorithm…. at some point
+Ouch
+justin_smith:  Authoritative is defined by who gives it authority
+Do-ge
+http://i.imgur.com/R1MnHEc.gif
+justin_smith:  I have not
+Wow, that is kind of awesome
+justin_smith:  This is correct
+Not yet
+quile?
+I am up for indian or hawaiian
+Or robo even
+It is done
+I can drive
+Ready to go?

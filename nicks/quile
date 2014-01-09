@@ -663,3 +663,132 @@ i like it
 Every now and then it has to be randomly interrupted by ChildScreamingException
 hahahaha
 ahaha
+uh oh
+hahaha
+No, it's right. EDN is not the END.
+EDN is the END then?
+last night in my "spare time" i managed to make some progress on minification of resources
+haha
+nice homey!
+I am disturbed.  I just checked github and looked at the commit graphs for caribou.  I'm not on any of them!
+This makes me sad, because it looks like I haven't contributed :(
+Even caribou admin doesn't show me :(
+Looks like it only looks at master
+Feigner has more contributions than me!
+Yeah I don't know what's going on.  Rsrppsprprprprprprprpprrprprprp!
+I think we can set the default branch for the graphs feature
+but it means changing the "default branch" in the project settings
+and I'm not sure if that will eff things up for anything else
+very infrequently, but I have
+you guys tend to roll the releases
+it's bizarre
+ha might be a good thing, to keep us all fresh on the process.
+Nice.
+They have running water in the third world, you just can't drink it.
+hahaha
+hahahaha
+haha
+hey, sorry, totally swamped
+just remember that weareinstrument is running a super super old version of everything
+i doubt there's a join table for it, at least not to blog
+yeah but he clearly didn't read much about caribou
+it does all the things he wants
+yeah sorry, bit of a shitstorm
+whazzup?
+yeah justin_smith sorry, yes, shit, I'm sure we can think of tons of cool stuff
+shit dude, that's gnar
+hahaha i'll tell you later
+nah it's cool, we're in control
+that's very cool
+i'm glad it wasn't bad - a childhood friend was killed slipping on his bike.  It's serious shiz.
+this morning was weird - freezing fog.
+I love the idea of a lunch vacation
+hhHAH AH AH AHA stop
+Free lunch. One of the few benefits of working on this Nike shiz.
+Isn't our plan a superset of Providence?  You could go to Providence near your place, then go home, take drugs, sleep!
+Yeah but I think their in-network thing is a superset of Providence
+ask Dawn?
+Emergency room visits are expensive though
+(I have had plenty) so if there's an urgent care clinic, it's better to go there
+if you want to save $100 or so
+still, your ribs are worth more than $100!
+ouch
+yo patchwork just looked at that page in the weareinstrument admin.  wtf? it's crapping out with a hilarious JS error in jquery.timepicker
+wtf!?
+that's breaking all the other JS, it seems
+debugging a months-old version of admin is not fun.  can we get that thing upgraded already?
+eh? wtf!
+ahhh ok
+it
+s yacking inside that timepicker
+which is a jquery plugin
+it's being called from line 41 of our fields.js
+which is what instantiates the timepicker
+but we are calling it correctly!
+Cannot read property 'opera' of undefined
+!!!
+hilarious!
+tell me about it!
+of course!
+ah wait, maybe chrome changed
+it's doing browser detection inside timepicker
+and checking for opera
+wtf?!
+could that timepicker thing have become upgraded or something?
+I am a bit swamped to look for a workaround right now but can re-investigate in a few hours
+besides, any workaround will require a new admin build, prob
+sory
+yeah something did - it could be that Chrome has revved and it's causing the browser detection to misbehave
+I've definitely never seen that bug!
+what is Zalgo
+haha
+oh sure, but how did jquery get updated?
+we should upgrade timepicker in the admin then.
+damn dependencies!
+hahaha
+DD
+DDD
+hahaha
+hahah
+it's all justin_smith's snowmen and D O G D ÓG s
+hahah
+ha
+i just realised over the weekend that everything any of us says in this room is preserved forever in github in the gort repo.
+hahjaha
+Ha
+You are mad justin_smith, mad I say.
+Dance?
+i am not that into tacos today
+those gifs are incred
+patchwork: http://www.youtube.com/channel/UCmYq0b8VKp61qD8EWE5K-wg is the channel
+i'm listening to every iteration of the Doctor Who theme and tripping balls over here.
+It's a John Cleese classic
+And will simultaneously increase your knowledge of types of cheese
+although I am pretty sure Venezuelan Beaver Cheese is not a real cheese.
+Exactly.  "I don't care how fucking runny it is"
+This one is live... http://www.youtube.com/watch?v=uT3OQECSDoQ
+OMG
+dogedoge should only talk in dogedoge memespeak
+but still be based on what we say
+yes!
+so content
+much markov
+oh def
+once i knock off some fuel it bugs, i'll take a look at that stuff
+Damn.
+INDEED
+WEIRD!
+yo
+hawaii
+i am nearly out of gaz tho
+oooo ok
+radical
+not uite
+q
+HAHAHHAHAHAHAHHA
+It's all worth.
+He is!
+DOGEDOGE
+DOGE
+DOGE
+That totally sounds like a real sentence that an off-shore developer would say
