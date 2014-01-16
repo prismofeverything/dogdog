@@ -5,6 +5,7 @@
             [zalgo.core :as zalgo]
             [irclj.core :as irclj]
             [gort.novelty :as novelty]
+            [gort.wordplay :as wordplay]
             [gort.twp :as twp]))
 
 (def nicks-path "nicks/")
@@ -145,6 +146,17 @@
               :persist? persist?))
           response)))))
 
+(defn entropy-handler
+  [handler]
+  (let [word-length-threshold 2]
+    (fn [{:keys [text nick target] :as request}]
+      (let [entropy (wordplay/calculate-entropy text)]
+        (if (and (< (:average-word-length entropy) 2)
+                 (< (count (:char-distribution entropy)) 5))
+          (do (printf ">>> %s is probably fucking with the markov system - instructing it to ignore.\n" nick)
+            (handler (assoc request :persist? false :add-tokens? false)))
+          (handler request))))))
+
 (defn nested-handler
   [handler]
   (fn [irc {:keys [text nick target] :as msg}]
@@ -155,6 +167,7 @@
 (def dogdog-handler
   (-> root-handler
       markov-handler
+      entropy-handler
       twp-handler
       zalgo-handler
       persistence-handler
@@ -181,5 +194,8 @@
 (declare irc)
 
 (defn -main
-  [& args]
-  (def irc (init ["#instrument" "#antler"])))
+  [& [channel nick]]
+  (def irc (init (if channel
+                   [channel]
+                   ["#instrument" "#antler"])
+                 nick)))
