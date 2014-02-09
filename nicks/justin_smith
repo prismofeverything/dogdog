@@ -1882,3 +1882,360 @@ big fire in cold cold, cool pictures
 D O G D O G D O G D O G D O G
 http://theblackportlanders.com/ project by an foaf
 D O G D O G D O G D O G D O G D O G
+my hunch is that if it is a heap problem, the error could be coming from tokens that have been used large numbers of times, and present multiple times in the input, which makes me think somewhere a recursion should be converted to a recur
+just a hunch though
+http://auduno.github.io/clmtrackr/examples/clm_emotiondetection.html
+emotion detection via webcam in the browser
+patchwork: did we get updates to the versions in master without the version numbers backporting to develop?
+just that lein new caribou creates a version higher than the versions in dev
+*develop
+last I checked at least, could be a push I had not caught yet
+not a big problem, just something I noticed
+can I tell lein run in a fresh caribou project to use a different port? I can do "lein ring server-headless 6666" for example
+is there a lein run equivalent?
+hmm
+food plans?
+patchwork: cool, I'm down for joining in
+timing up in the air?
+quile: I think I have my side of the file type warning ready for the frontend side to play with - care to help me verify the warning is coming in with the json? it should be but it is as likely my clumsiness with the chrome debugger as anything else that is preventing me from seeing it
+http://www.youtube.com/watch?v=u42CarBttIM&feature=youtu.be patchwork: promo for the event
+https://twitter.com/chris__martin/status/420992421673988096
+http://www.kgw.com/news/local/Large-rock-falls-on-iconic-bridge-at-Multnomah-Falls-239483641.html
+a rock took out a big chunk of the bridge at the Multnomah Falls
+I think he is referring to wasabi
+http://www.amazon.com/Seiki-Digital-SE39UY04-39-Inch-Ultra/dp/B00DOPGO2G <- if you are OK with 30hz, that is a mindblowing resolution
+found via http://tiamat.tsotech.com/4k-is-for-programmers
+*mind blowing, considering the $500 price tag
+3840 x 2160 is almost enough for me I think
+it comes up on every third reload or so
+it is just an article that says "this is the perfect monitor for code"
+it can do higher update rates for dvd etc. resolution
+I can live with that, especially with the price tag
+it is true
+objectively it is a rough update rate
+I think I am about to flip a coin over ordering one for the home
+with component in, I can use my vcr for my old vhs stuff and ditch the pre-digital TV I have
+DOING IT
+imagine how tiny my fonts are going to be on this, I love it
+by having a screen that is the same size, but more pixels on it, of course
+OK, I DID IT
+EVERYTHING
+G
+the
+Denormalized
+caribou: map relational modeling and lunch
+"from objects to edn, our path to food"
+ideas / plans / or should I trek out on my own?
+I am not urgently hangry as I was yesterday
+what about the Indian place on Glisan?
+oh I missed it
+http://bigthink.com/strange-maps/348-an-imperial-palimpsest-on-polands-electoral-map I wonder if there are mountains there?
+NOPE that is not where the mountains are, fascinating
+http://i.imgur.com/3ZidINK.jpg more map fun
+awesome/sad
+https://dl.dropboxusercontent.com/u/5409438/swears/index.html
+above link gave me: "crusty boner waffle"
+"dicknosed shit cunt"
+"collosal shart box"
+he could
+"creepy fuck balloon"
+quile: weird, I am not seeing anything, is there something I can look at to verify I got your update?
+quile: I found it - I merged "origin image-format" instead of "origin/image-format"
+oops!
+yeah, let's replace admin with a golfscript one liner!
+quile: oh, I see now, of course, this is html so I should be using <p> tags instead of newlines
+DERP
+I AM COOL DOGDOG
+quile: small issue - if someone sees the warning, and they immediately upload the rgb saved version from the same upload UI, the message does not disappear
+can clicking upload clear the old message?
+if you sh10it that should suffice
+cool
+quile: awesome, that fixes it, now to html format the warning, and ship it
+FIXING THINGS
+I want at least a line break to separate the short description of the error from the explanation
+hmm
+or only send the short version and let frontend expand?
+what about switching it to :warning and :warning-explanation
+hrm
+http://www.youtube.com/watch?v=yIzTat3OD3w dune sweded
+"My new thesaurus is terrible. It's also terrible."
+yup!
+because foo is the head
+clojure is actually very clumsy about optimizing compared to eg. haskell
+for example (nth (map #(Math/pow % 12) (range)) 2000) should totally be optimizable into one op
+but clojure will evaluate all 2000 operations
+in that case, it is because haskell is strict about side effects that haskell can just jump to the right index, but clojure cannot guarantee that there are not side effects you want
+this one will not change in 1.6
+yours might
+since that is just an advanced example of locals clearing
+I meant "not knowing what is impure / pure" by "this"
+your example has some hope of being optimized, since it matches the vision clojure devs have about what you can expect from clojure, my example is considered a "not gonna go there" thing (they said this directly to me in IRC)
+yeah, lazy seqs are awesome until they fucking blow your head off
+I got a bass amp and a shredder, and spent the weekend destroying my ear drums and documents
+realistically bass sounds don't cause the damage high frequencies do, so really I was just massaging my internal organs
+that's a myth, but nearly that low
+I don't have the budget for 10hz
+yeah, I can generate 10-20hz, but amps / speakers that can push it out cost thousands more than I can afford
+and realities where the brown note really makes people poop are physically incompatible with our universe
+(if they exist)
+it's the classic law of magic: like attracts like
+shit music induces shit pants
+lunch plans?
+It's only a paper meal, over a cardboard plate, but it wouldn't be make believe, if you'd believe in me.
+Paper Moon was the theme setting song in 1Q84
+which I finally finished
+we talked about that: probably, but very long ago
+I think Rushdie is next on my literary docket, it was a suggestion from quile
+it is good, though by the end I didn't like the main characters any more and was more emotionally engaged by the ugly comic relief character who was out to get them
+speaking of literature and accomplishments I got my first house plant exactly a week ago, and since it lived a week I will name it now
+I was thinking something literary, like "Malone", after the eponymous character in Beckett's classic "Malone Dies"
+yes, at least three
+Tina Fey has gone on record saying that between herself, Sara Palin, and Lisa Ann (who has played both of the others in porn parodies), Ann knows the most about foreign policy.
+https://www.facebook.com/events/264000390421182/ patchwork - any interest in this Cremaster marathon? I was thinking Gilbo may be interested as well
+probably invite-only too
+patchwork: it is a friends-by-invite-only thing
+it is sunday 1-11 pm, at performance works
+byob, come and go as you like
+the films are not narrative, but they are gorgeous, and they will be projected for all to enjoy
+I'll facebook invite you so you can log in and see it if you wish, or you can look up cremaster on teh googles and see how pretty it is
+you are now invited
+yup, I am down
+https://archive.org/stream/cu31924003898271#page/n58/mode/1up popular map projections demonstrated using the human head!
+mercator creates an alien from Fantastic Planet
+or decrement, to a the change you want to b
+portland metro is hiring a butterfly keeper
+http://thelatenow.tumblr.com/post/73231300243/7-hottest-photos-of-german-idealist-philosophers-you leo's latest attempt to sell out "7 hottest photos of german idealist philosophers you will see all year"
+I'll totally give you a linkedin endorsement for bugs
+I slept instead, sorry to say
+7. Friedrich Heinrich Jacobi (1743–1819) might have coined the term nihilism, but we have all kinds of hot, steamy faith in the existence of his “thing-in-itself.” Rrawrlich!
+a classic
+speaking of german philosophers as well, what
+Monty Python is one of the primary shibboleths of the nerd world!
+much more respectible than Star Wars
+http://pdxmag.com/article/fourhourmegalomaniac/ more from leo
+you totally have me pegged
+G
+quile: I am going to try to get those changes into teague, since the newer admin breaks teague's customizations of admin - any hints before I dive in or should it just be very easy?
+oh, ok
+http://toshinakamura.kinja.com/tag/junk-head-1 that animation I was talking about
+one guy worked on it for four years
+lein clean?
+my favorite voodoo option, my goto when I have no idea why something would break
+urgh.
+before pushing this up I recursively removed ~/.m2/repository
+not saying you have to do that
+just saying if you get rid of everything, what is there now works
+ahh, yeah
+really it would just be stuff you 'lein install'ed that would need clearing out
+you could temporarily move it out of the way, then bring it back?
+that seems easier than tracking down the problem in a more fine grained way
+don't pick your time or it will never heal
+?
+I did not know there was such a thing
+we should totally go see Acid Mothers Temple and The Melting Paraiso UFO
+also I really like typing that name out
+Acid Mothers Temple and The Melting Paraiso UFO
+Acid Mothers Templ and The Melting Paraiso UFO
+*Temple
+now that net neutrality is gone: http://www.dailyrindblog.com/wp-content/uploads/2011/04/net-neutrality-thumb-550xauto-274191.jpg
+patchwork: what about mentioning in the readme that the path will be something like /usr/lib/jvm/jdk1.7.0_40/lib/tools.jar
+(on *nix systems at least)
+well, the usr/lib/jvm part is the variable
+the rest will likely be pretty similar
+(depending on versioned dir of course)
+http://www.dailyrindblog.com/wp-content/uploads/2011/04/net-neutrality-thumb-550xauto-274191.jpg
+the court struck down net neutrality today
+(though net neutrality still holds for mobile carriers)
+http://gigaom.com/2014/01/14/breaking-court-strikes-down-fccs-net-neutrality-rules/
+"An appeals court in Washington on Tuesday ruled that the FCC’s “net neutrality” rules, which prevent companies like Verizon from favoring some types of internet traffic over others, are invalid."
+this could be a really big deal for netflix, hulu, and amazon
+and anyone else who is a direct competitor with cable channels really
+seriously!
+also could be bad for skype and google talk
+and bittorrent, since that can be sniffed on a protocol level too
+look forward to new "bittorrent masquerading as something else" technologies
+right, two tacos, then asset
+patchwork: what do you think about the prospect of integrating clojurescript in the admin? I am weighing the one-language-stack vs. leveraging frontend expertise tradeoffs...
+quile: maybe I can work on a js / cljs bridge specifically for async related tasks in the admin
+judiciously defining the stuff js is super shitty at in cljs, and doing only what js is OK at on the js side
+oh
+OK
+hmm...
+I'm down for whatever
+(as usual)
+TREE LIB
+patchwork: fascinating
+I am watching random videos of people playing the violin version of the viola I get TOMORROW in the mail
+never has contra dance fascinated me so
+D O G D O G
+GODDAMMIT
+I need to stop using the killing word, I guess
+oh shit
+IT WORKED
+http://i.imgur.com/9Pv0cp3.jpg
+http://antiquatedfuture.com/zines/cat-gun-safety/ oh, it is actually a thing you can buy
+http://openaccess.city.ac.uk/2717/1/Khosravi%2C_Peiman.pdf quile: patchwork: interesting article about sonic spectrum and perception of pitch / frequency and spectral manipulation looked at from a music-theoretical perspective
+design question: for a plugin, run takes config as an arg, and stop will take the return value of run as an argument. Should stop also take config?
+OK, that was my instinct, thanks.
+http://datasonification.tumblr.com/
+"vortices in turbulent fluids spontaneously replicate themselves by drawing energy from shear in the surrounding fluid." (from patchwork's article above)
+vortexes alive, of course, that explains everything
+clearly you vortexed it
+Keon and I have a work in progress called "mime in a vortex"
+"setting the attractions of my good parts aside I have no other charms"
+I like the Shakespeare quotes in "Javascript: the Good Parts"
+I am seeing that (just got the ebook / physical copy bundle from O'Reilly)
+quile: WTF yo, most of the javascript reserved words are not used by the language
+"because we once thought we may use these names, you can't ever use them"
+javascript: crazy but true
+javascript: the wat parts
+right
+I made a makeshift cardboard case for my viola bow
+it is out in a truck somewhere here in portland, unless it is here already
+I have resolved to only check up front once a half hour at most
+lol
+TIL IOS supports multi threaded clojurescript
+☃!
+LESS CODE
+https://itunes.apple.com/us/app/ia-trapped/id721350126?mt=8 interesting free ipad app
+does a deep analysis of a classic piece of computer music, via computer
+who woulda thunk it
+if you have a 64 bit machine, 64 bit I am sure
+32 bit would still likely work
+I think your machine is 64 bit
+I think the app as document approach of that ipad app has some interesting potential applications
+though I don't know how well it actually realizes them, not being an ipad user
+cool, let me know when
+maybe I should also comment the definition of steps
+(it is using some math magic to go from log base n to log base 2^(1/12)
+)
+oh, and steps_data should return the hz input too
+patchwork: oh, check out my latest sound cloud, it is a crowd-pleaser drone-a-rama
+very "spiritual" and/or "ominous"
+quile: thanks
+	       https://www.refheap.com/28462
+now I am cleaning it up a git
+*bit
+but the above works
+is there a built in signum? if not I will pull it up a level
+and now I am working on putting it all inside a pitches object (pitches.hz_to_pitch(440) etc.)
+ahh, I made it an fn because it is something libs never define and I often use
+right
+still a work in progress to be sure
+speaking of group trivia, I just ordered a category theory book http://www.amazon.com/gp/product/052171916X/ref=oh_details_o00_s00_i00?ie=UTF8&psc=1
+?
+fascinating
+so poetic - I feel the meaning resounding deeply in me
+another "monetize caribou" idea: replace blackboard with a caribou app
+anyone know how to load a js file in phantom.js?
+cool, I'll try that, thanks
+yeah, I'm ready
+isNaN('hello') => true LOL
+resolving all pronunciation issues https://www.youtube.com/watch?v=sd4bqmP_460
+reading the "bad parts" appendix, I figured out why that one thing I was writing only worked in parens
+without parens, it "hoists" functions to the top level, assuming they are function statements rather than function expressions
+fuck statements
+http://coldwa.st/e/blog/2013-08-20-Cabal-sandbox.html how to get clean per-project deps in haskell like you do in clojure
+https://www.refheap.com/28462 <- updated, now it only defines one global
+pitches.steps_data(Math.pow(pitches.half_step, -9) * 440) // middle c
+I should add the standard intervals too
+minor_second = half_step, second = Math.pow(half_step, 2), ... fifth = Math.pow(half_step, 7))
+https://github.com/noisesmith/pitches/blob/master/pitches.js <- this is up and out, now to get on the caribou-admin js
+I am thinking the anonymous function for pitch_indexes may exist in some lib already, with a name like inside_out or invert_indexes
+(the generalized version where the input length is not hard coded, that is
+)
+functional rodents are a poor choice for genetics experiments
+since they don't mutate
+sure thing
+both work for me
+quile: I am looking at using mocha / phantomjs to make some unit tests in caribou admin (the unit tests allow me to figure out what is actually happening in all the code, and also should help with future additions to the code). Any warnings or insight? Maybe something that is started already that I didn't see?
+"Such “perfect” freedom is, of course, an incoherent idea, and if Harris is arguing against it, he is not finding a “deep” problem with compatibilism but a shallow problem with his incompatibilist vision of free will; he has taken on a straw man, and the straw man is beating him."
+serious burn
+http://www.naturalism.org/Dennett_reflections_on_Harris's_Free_Will.pdf
+quile: OK, so I am deciding between mocha and chai - any input?
+those are the two tdreyno recommended, I figure I knows his shit
+:)
+so, lunch plans?
+patchwork: http://upload.wikimedia.org/wikipedia/commons/9/9b/Chinese_Music_Gamut_%26_Scales.svg - the traditional chinese scales (the five tones referenced in a prior conversation)
+it has a perfect fifth
+and a bunch of really weird intervals
+I showed you the "scala" scale archive right? (no relation to the language of the same name)
+patchwork: mplayer -playlist gamut_12Lyu.ram
+or you could use some other thing that plays real audio streams
+err wait, that is not the file, that is my download of the playlist
+http://users.wfu.edu/moran/Cathay_Cafe/G_tar.html <- source
+"The Chinese knew about the tempered scale even before it was invented in the West, but they chose not to use it. They seem to have decided to put the differences to good use. If the equivalent of "do mi mi, mi so so" sounds different in the equivalent of their key of C and their key of E, then that is a useful thing because the feeling that goes along with those sounds is different."
+ROFLMAO http://boingboing.net/2014/01/27/sky-broadband-parental-filter.html#more-283125
+UK's parental filter blocks jquery :)
+so funny - good way to get a filter turned off, mark jquery, ember, etc. etc. as being porn
+hell, get them to embed saucy nonsense in the files
+patchwork: you on that group hangout over in my other window?
+your name is on it, lgrapenthin is asking about the datomic demo today
+which I did not know and or remember was today
+the hangout UI says you are there
+but who knows
+D O G D O G D O G D O G  D O G D O G D O G D O G
+patchwork: when you have a moment, can you be a second set of eyes on this issue I am seeing? everything looks right, but the assets are not being found
+AKA chaperone
+D O G
+D O G
+D O G D O G D O G D O G D O G D O G
+D O G
+no unicode problem is shallow DOGDOG
+D ຯ ⬬
+http://monoskop.org/images/7/74/Xenakis_Iannis_Formalized_Music_Thought_and_Mathematics_in_Composition.pdf - I found a pdf of formalized music
+every time I look at one of the more math heavy chapters (like the one on symbolic music), I get a little more of what it means
+patchwork: check out page 159 in the above
+he describes a set of lemmas and rules to create a vector-space of notes
+"Sets H (melodic intervals), G (intensity intervals), U (time intervals), and T (intervals of time separating the sonic events, and independent of them) are totally ordered. We also assume that they may be isomorphic under certain conditions with set R of the real numbers, and that an external law of composition for each of them may be established with set R."
+seriously
+a bunch of proposals he makes in there are still not fully realized
+vectorial analysis of the canon!
+find the music that occurs when you do a matrix multiplication of Beethoven vs. the BeeGees.
+http://www.mcsweeneys.net/articles/jokes-made-by-robots-for-robots
+http://www.synthtopia.com/content/2014/01/31/absurdly-loud-sounds-system-would-kill-you-if-you-heard-it/
+^ the speaker so loud it can kill you
+"Friedberg and Seltzer do not practice the same craft as P.T. Anderson, David Cronenberg, Michael Bay, Kevin Costner, the Zucker Brothers, the Wayans Brothers, Uwe Boll, any dad who takes shaky home movies on a camping trip, or a bear who turns on a video camera by accident while trying to eat it. They are not filmmakers. They are evildoers, charlatans, symbols of Western civilization's decline under the weight of too ma
+references."
+comparing them negatively to a bear who a treis to eat a camera is a stroke of genius
+I am thinking Petisco for lunch http://www.petiscopdx.com/
+http://www.petiscopdx.com/Menu.html
+what is smammary?
+...
+patchwork1: quile: I made a glitchy little video - both video and soundtrack recorded today (audio much mellower than my usual)
+http://www.youtube.com/watch?v=0mDHGws9mpE&feature=youtu.be
+yes, a plant that costs $16,000 to repair
+actually: <justin_smith>
+               http://seattletimes.com/html/localnews/2022836972_pergolafundingxml.html
+<justin_smith> she "doesn't own a tv or follow sports"
+<justin_smith> facebook makes life a little weird  [10:32]
+<patchwork> What the hell is pergola?  [10:37]
+<patchwork> Is it a plant?
+<patchwork> dogdog, what is pergola?  [10:38]
+ERCactaully https://www.google.com/search?q=pergola&espv=2&es_sm=88&source=lnms&tbm=isch&sa=X&ei=Y4XyUtuzB6mwyQHU2oG4BQ&ved=0CAkQ_AUoAQ&biw=1557&bih=1315
+erg...
+how the fuck did I do that anyway
+(sorry)
+it was a PERGOLA
+https://www.google.com/search?q=pergola&espv=2&es_sm=88&source=lnms&tbm=isch&sa=X&ei=-IXyUtbcD6aAygGoyIDYDw&ved=0CAkQ_AUoAQ&biw=1557&bih=1315
+decorative outdoor structure, an expensive one made of stained glass and copper was damaged by overexcited superbowl partiers
+my old friend, mentioned above, is the top google news hit for pergola
+probably the most notable pergola related event of this year
+if not this century!
+patchwork: do you remember how we documented stuff like test users etc. for fuelgame?
+(asking jb too)
+buggy bug messages: "Parsing failed due to 0 semantic errors!"
+left-ear - right-ear - left-ear - right-ear
+click
+tack
+click
+click-tack
+BONG
+oh, and Rushdie did the narration / adaptation
+quile: patchwork: http://www.meetup.com/clojerks/events/155430332/?a=cr2_grp&rv=cr2&_af_eid=155430332&_af=event
+fun time is tomorrow
+quile: http://i.imgur.com/VuyZ1HD.jpg
+it's too bad they are such morons, it feels bad picking on them
+TIL the word "thanksploitation"
+"budweiser would like to thank all our brave troops for being the best thing in the best country in the world" *cue sappy music, footage of soldiers coming home* "DRINK BUD"
+also I learned a new idiom: "my heart fell out of my vagina" (used to describe a severe visceral reaction of fear / shock)

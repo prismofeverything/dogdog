@@ -1360,3 +1360,235 @@ Or robo even
 It is done
 I can drive
 Ready to go?
+That sounds plausible
+justin_smith:  What are you seeing?
+Ah
+You are correct
+I have some version pushes
+to make
+Not sure
+I think you can just pass in the port actually
+lein run 38383
+Yeah, that should work
+Me too!
+justin_smith:  Meeting Robby at robotaco a little later
+quile:  Robo?
+justin_smith:  Alright, I'll let you know
+Whoa!
+That site is down
+30hz is rough
+Otherwise, awesome
+I just mean 30hz in noticeable
+Dude!  go for it
+Dude, I don't know how you could make them any tinier
+Even the walls
+world
+in
+Demon
+Daedalus
+Anybody have a good title for a caribou talk?
+Lunch
+Caribou:  Lunch
+Yes, about lunch… !
+quile:  You down for lunch today?
+Indian buffet?
+Yeah!
+I'll see
+We went there
+It was okay
+Yeah the day you were absent?
+quile:  No car today, can you drive?
+We can go to UPS
+Ah okay!  Let me see if I can wrangle
+No, I acquired car!
+everything is in order
+Ready to go then?
+Let's get there before they run out of food ; )
+Ah okay
+Okay
+Here is the link:  http://geekz.co.uk/lovesraymond/archives
+seems to be down : (
+Awesome!
+https://web.archive.org/web/20120122172242/http://geekz.co.uk/lovesraymond/archive/slashdotted
+That's where they start
+quile:  Do you have a second to check out this admin js issue?
+Timepicker
+I did
+Now J5 is seeing the issue again
+http://weareinstrument.com:81/_admin/admin/global/content/models/project/71/edit
+That is what I thought
+but I'm not sure how
+I asked him to come on here
+There he is
+Welcome!
+So before, it had an error on trying to detect opera
+so it can't be using the old version of the lib
+JToTheFive:  Your fields.js differs from what I see in the caribou-admin develop branch
+Specifically, on weareinstrument.com:81 it has timePIcker, and in our branch in says timepicker (lowercase p)
+Which is a change I made to get it working
+Somehow that file has reverted?
+But it is correct in the repo
+Yeah, so how is fields.js different from the repo?
+Yeah
+Yeah, if not, I don't know how else it would change!
+black magic
+OR:  don't shadow that file if you aren't changing it?
+Or do you have changes there?
+Is that a fix that needs to go in the mainline admin repo?
+Looks like a check for nil
+What breaks if that isn't checked?
+dammit nil!  Why do you break everything!
+We should generally disallow nil
+and solve every programming bug ever in the history of mankind
+Alright!  problem solved
+Truly
+(much rejoicing)
+Ah, ride is leaving
+I'll finish this tonight
+I love tearing things apart
+LOVE IT
+Aha!
+Radical
+Am I linked in to you?
+That guy was a weirdo
+who never spoke
+Yeah!  The true brauhaus experience
+That is a good call though, I should find those randoms
+justin_smith:  There is a nice symmetry there
+Every time "total eclipse of the heart" comes on the speakers I actually see feces burbling out of the speaker grates
+I just linked in every person I know
+True
+But the phenomenon persists
+It is not me, it's the speakers!
+The speakers do not lie
+Hawaiian I believe?
+Ha!  congratulations
+I just finished (and started) lathe of heaven this weekend
+Have you read that one?
+Maybe I mentioned it already
+So would you recommend 1Q84?
+It is a hilarious book
+Yeah, visions of future from the past
+justin_smith:  I can't see that event
+it says I must be logged in
+Do you have another link?
+Ah, awesome!
+Somehow I have all kinds of things going on this sunday
+I may be able to make it later though
+Yeah send an invite
+thanks
+That is a good one
+justin_smith quile:  food soon?
+Today I learned my head is a sphere
+FOOD
+Yep, peace out guys
+off to keep butterflies, my true calling
+Ah, how was the late now?
+Did it exceed your expectations?
+There we go
+quile:  Did you figure out that date thing on the new admin?
+Watching this wackiness btw… WTF?
+How did it take me this long to discover monty python?
+IPIP D
+I don't blame him
+What are HEAD routes for?
+(exposing my ignorance)
+that stuff can be Dangerous
+That is not what it is on my machine
+Yeah
+Maybe an example for each OS
+Mayhap
+That is quite a stark vision
+Wow
+link?
+Okay, it is done
+All new versions pushed
+Routing and handlers completely overhauled, gutted and simplified
+justin_smith:  Well, I really feel like cljs offers everything we are looking for
+But yeah
+we really limit who can contribute
+in a way
+I feel like the project should probably use it, even if just conceptually for the clojure community
+but if we want help from people around here, it should be js
+So, undecided?
+neildf1:  That book does look pretty cool
+justin_smith:  In the long run, the core.async stuff will really help us
+it would be a good way to structure everything
+rather than the spaghetti javascript turns into
+quile: Ha!  Not your javascript of course : )
+quile:  How do you feel about cljs vs js in the admin?
+quile:  I feel like the admin has a lot of good stuff in it
+Is there a way to reuse the code, or would it benefit from taking lessons learned and doing it better from scratch?
+Okay, you answered my question as I was typing it!
+quile justin_smith:  Indian food today?
+Aha!  How about that
+its been awhile
+Did yesterday deter you from going out for lunch now?  : )
+https://www.simonsfoundation.org/quanta/20140122-a-new-physics-theory-of-life/?utm_source=rss&utm_medium=rss&utm_campaign=20140122-a-new-physics-theory-of-life
+TOMORROW
+TREE LIB
+Dude
+Oh hey!!
+IT WORKED
+Alright, I will give him some love today
+justin_smith:  I don't think so
+Right!
+I always knew that
+Or felt it rather
+There are a lot of good moons of Jupiter
+justin_smith:  Lunch?
+Thai?
+Interesting
+Do I want 32-bit ghc or 64-bit ghc
+?
+How could we miss the opportunity for double xx's?
+quile justin_smith:  You guys want to meet about resource?
+handling?
+Now for nineteen tone harmony!
+"crowd-pleaser" D
+Awesome, I will check it out
+justin_smith:  Track is awesome!
+I like its slow morph into sea of wailing
+Ah, did you post the JS?
+I just got in the channel
+Well, it is not a number!
+Lovely
+STARS
+Lunch today?
+Indian, Thai… ?
+BURN
+Welcome back D
+LUNCH
+quile?
+Ah okay
+Awesome
+That is… disturbing
+What group hangout??
+Ah, can you take it on?
+Just you and me now budDy
+sacred null chocolate
+Looking for a band name
+OBOR
+DOGDOG
+You are back budDy
+That is pretty awesome really
+So much amazing thought in that book
+dogdog finally said the three word poem "three word poem"!
+Uhhhhhhh…. D?
+welcome back
+Okay!
+back
+D!
+Man, didn't even last two quotes
+???  Whoa!
+Are we caught in a time loop?
+What the hell is a pergola?
+is it a plant?
+We need more nature checks around here
+PERGOLA
+It is a historic day for pergola
+I think Coryna did it
+Not sure though
+quile:  I just heard someone say it was cool time
+I heard them
+What is that?

@@ -10,3 +10,30 @@ believe that's a middle name
 like phil tits michelson
 teague did that
 ugh
+heyo
+i thought it might be the order in which my app.html was loading the js. but it's that same as what's in caribou-admin
+i haven't customized that though so it should be getting it from caribou admin
+but this loads? http://weareinstrument.com:81/_admin/js/libs/jquery.timePicker.min.js
+aah
+i see
+so that has to change in fields.js right?
+i'm not overriding fields.js
+i don't think
+lemme look before making wild claims
+I AM OVERRIDDING IT!!???!??!?!??!!
+so should i just replace timePicker with timepicker and call it good?
+yeah. checking the diff now
+i must've done it for a reason
+-      var id = this.get("id") || this.get("value.id") || null;
+-      $( this.selector() ).val( id );
++      var current = $( this.selector() ).val();
++      if (!current) {
++        var id = this.get("id") || this.get("value.id") || null;
++        $( this.selector() ).val( id );
++      }
+apart from timePicker > timepicker, that's the diff
+i don't think i need to shadow
+quile? i think this was grabbed from teague and i'm assuming you made that change then?
+haha
+yep. doing that now
+in case you were all on the edge of your seats, removing the fields.js from weareinstrument fixed the js error and the other bug that was causing by that js error. rejoice.
