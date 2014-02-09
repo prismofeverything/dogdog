@@ -792,3 +792,214 @@ DOGEDOGE
 DOGE
 DOGE
 That totally sounds like a real sentence that an off-shore developer would say
+Hmmm, not much of an answer
+I'm feeling a bit gross, might skip Robo
+yep
+one sec
+yeah i think so
+suggestions?
+sure
+can you drive?
+i need to go to UPS so might drive separately
+so you guys don't have to be dragged along
+patchwork didn't have quite the experience i did
+i just have boxes in my car to go to UPS and was hoping to do it at lunchtime
+ok, but it's not just a quick drop-off; I have to buy a box and package something up
+sorry
+sweet.  we can drive sep and then i can go to UPS and not hold you guys up
+i need a few
+fuel-it bug
+fuel-it feature, i mean
+should be quick...
+Love the map.  Awesome.
+These comics are on the wayback engine: https://web.archive.org/web/20120116152519/http://geekz.co.uk/lovesraymond/archive/eler-highlights-2008
+I love the self-defining comic to match the GNU acronym
+that is awesome!!
+sure
+what issue?
+huh?
+i thought you upgraded the versions and it worked again?
+he's probably undone some change that you made
+checking
+ok, looks like the date/time stuff isn't loaded
+yep
+somehow it got changed
+lowercase is correct
+it loads, but the method invocation is wrong
+it should call timepicker(...)
+not timePicker(...)
+ah is this an overridden js file?
+there you go
+cany ou check?  that would explain the prob
+just blow away the shadow file
+memory doesn't serve about that change
+can't remember why we applied it to teague
+hang on
+shift-refresh your browser, maybe cached js
+you can see my commits: https://github.com/caribou/caribou-admin/commits/image-format
+haha
+i think you can use grunt to make one of those
+'scool
+yep
+pull and try again
+sh9it, not working, hang on
+ok, i sh10ited it and it's working now
+you can pull my sh10it
+justin_smith: don't go too crazy with the html-formatting.  we don't generally trade in rendered HTML.
+Maybe just make it a single simple description of the warning.
+hack, slash
+F
+justin_smith: ran into a fun head-retention memory leak in clojure over the weekend
+apparently this retains the head (let [foo (line-seq some-buf)] (do-something foo))
+but this doesn't: (do-something (line-seq some-buf))
+yeah but it should be optimised to the same thing
+yeah, i just found that out...
+for the most part it doesn't actually ever matter
+but when it comes to lazy stuff, it can be crucial!
+ha
+i'm sure 1.6 will be better
+there are some serious nerds working on it
+boo
+ah yes
+maybe
+... or not
+yeah
+anyway, it's such as easy fix; the moral of the story is be fucking careful with lazy seqs
+patchwork: i got linked-in friended by that totally hairless Finnish dude that you were regaling with stories of animal communication
+Berlin seems so far away
+That was some fun shit.  Prague will be epic.
+Yes exactly, he was creepy
+Totally!
+brown notes?
+Surely C Sound could make a brown note for you
+CSound i mean
+I'm pretty sure that's not true.  I've heard music that really gives me the urge to poop.
+Oh wait, that's because it's terrible.
+There is much worse music than "Total Eclipse of the Heart"
+On the grand unified scale of shit music, that's not even close to bottom
+Just listen to the top 20 on a pop or hiphop station
+your mind will melt
+Your poop threshold is set too high
+justin_smith: read "Midnight's Children" first, and then "The Satanic Verses"
+yes! I read the same thing
+hilarious
+patchwork: i am about half way through Lies, Incorporated.  I have to read in short snippets whenever I can grab a few minutes here and there.  Loving it.
+indeed
+I love depictions of advanced computer technology that were written at the dawn of the digital age
+3?
+Yeah food
+hahahaha
+dudes, this is the greatest Monty Python juxtaposition of the high and low.  It is fucking genius.  http://www.youtube.com/watch?v=ur5fGSBsfq8
+Total genius
+patchwork, you will LOVE this... it is absolutely amazing: http://www.youtube.com/watch?v=xmWN9fwmOKM
+Dude, they are by far the greatest skit comedy group
+"Und jetzt, etwas ganz anderes..."
+is it?  awesome
+hahahaha
+we were just talking about the big bang
+talk to j5, he will know exactly what to do
+justin_smith: what's wrong with me?  i get this now when trying to run teague: Exception in thread "main" java.lang.ClassNotFoundException: org.apache.http.impl.conn.BasicClientConnectionManager
+hahahah probably.  fuck.
+nope
+didn't work
+urgh. urgh.
+ack
+ok
+yeah i have a lot of shit in there for nike projects
+fucknuts
+I am not!
+hahaha
+hahaha how apropos
+what a load of bullshit
+holy crap dude
+that's awesome
+i might need to get you to show me some shit... i will need to install some routes in the resource handler
+HAHAHAHAHAH
+How about some John Cage?
+or some Debussy?
+that's my job.
+in my defense, the javscript is not particularly spaghetti
+there are definitely some parts that could use some work, mostly the friggin async stuff
+which js sucks at
+well, for me it's less of a question of cljs vs js and more a question of whether or not we scrub everything and start from scratch
+justin_smith: i don't think it would help with regards to the way the JS is structured.
+it's a very OO way of working, which will not lend itself well to bridging via cljs
+i feel like we'd end up with a bigger mess
+patchwork: sure but my feeling would be to start over
+if we want to make a large improvement
+i brought my lunch today!
+indeed
+nah, Tara made lunch for me.  can hardly turn that down.
+also, TREE LIB
+I've had that feeling
+MURDERER
+He's pretty slow
+HAHAH
+They're lovely.  It's a fantastic book.
+yes
+crazy but true
+it actually has very few reserved words --that it uses--
+nice
+WHY IS A DUCK, DOGDOG?
+I love that you obviously named caribou.io after a moon of Jupiter.
+The best moon of Jupiter too
+64 bit machine
+32bit machines went out of style a decade ago
+i haven't looked at ghc in about 3 years
+wait, isn't it klaxxon?
+oh, both are accepted
+yeppp
+let's do it
+hang on
+justin_smith: nice work on the JS!
+prob don't need the anon fn for signum, right?
+oh there's no need for it to be a fn because you have cents already
+var signum = (cents < 0) ? '' : '+';
+oh sure, you could def do that for reusability
+but as it is now it only exists in the scope of the steps_data fn
+no, it's rad... reminds of Chris Ford's fns in his overtone talk
+v cool
+oh noes!
+it means you will forever be doomed to explain monads to others
+hahah
+i have a 3wp for you guys
+imminent hawaiian consumption
+justin_smith, it may be a new classic 3wp
+it's probably the CommonJS "require" system?
+var foo = require("some-js-file")
+yep, that's what it uses
+example: https://github.com/ariya/phantomjs/blob/master/examples/injectme.js
+or https://github.com/ariya/phantomjs/blob/master/examples/tweets.js
+¿Vámonos?
+me 2
+patchwork: this is right up your alley: https://github.com/zertosh/beautify-with-words
+justin_smith: no tests, all seat-of-pants stuff
+no input.  ask thomas, i think, before committing
+ahhh sorry, Tara is picking me up
+idiots
+haha
+stalactite jinx isthmus - nice
+Pretty convincing fugue on a theme from an Eminem song: http://www.youtube.com/watch?v=CQtVT7HjPZQ
+Nice Picardy 3rd at the end too.
+hahah
+D!
+D?
+D?
+D?
+D?
+3!
+D?
+D!
+hahah
+that's an interesting image
+order is restored to the robot universe
+uh oh
+?
+I DO NOT BELIEVE YOU ARE A ROBOT DOGDOG
+ZALGO
+Great, now it's going to slow down
+HAHAHAH
+It's approaching cool time, true
+ok, almost ready
+hahahaha
+everyone else should just give up: http://http-kit.org/600k-concurrent-connection-http-kit.html
