@@ -1592,3 +1592,622 @@ Not sure though
 quile:  I just heard someone say it was cool time
 I heard them
 What is that?
+Hey justin_smith!
+how goes?
+Happy birthday!
+Yeah, stuff is dripping everywhere
+Nice!  it is a sign
+Still on for tonight?
+roads are still icy, but it could thaw out enough to drive around before tonight
+Borbetomagus… I'll have to check it out
+Acoustic instruments?
+Or free jazz with electronics?
+Aha, radical
+Ah right, I think you have mentioned this
+gnarly
+Can you be hendrix of sax by wanting it?
+Crazy, that must be painful to play
+metallic reed
+to be more of an analogy it should just be the reed and no resonating body
+though I guess you would still need the fingerings etc
+not sure how to actually apply that directly, interesting idea though
+Right, the reed vibrates though, it just drives the column of air
+you can play just the mouthpiece, but you would still have to modulate the length of the column
+maybe something like a trombone or slide whistle body
+The string is so much more amenable to stimulating an electrical signal
+without making a bunch of noise itself
+Well, I will try to make it out man
+I like the idea of the world melting
+reminds me of lathe of heaven
+ordering order ordering
+A specific kind of order
+: )
+That is an achievement
+I was doing some pretty dumb stuff before in retrospect
+I was creating the entire tree of all possible statements and their respective probabilities, and THEN taking a path through it
+Now it is doing a simple backtrack if it runs into a dead end
+Much simpler (the code is shorter too)
+Ah, me too!
+winter stasis took over everything
+Headed to indian soon, so… indian?
+quile, indian?
+justin_smith:  could tesselax use quad-trees to deal with the space comparison problem?
+Every space needs to be compared to every other space to see if it is entirely contained by the other
+Yes
+Right now every space is being compared to every other space
+Well, maybe not even quad tree
+but something
+Yeah, something that on insert checks the other spaces maybe (since we have to insert it anyway)
+I am imagining some kind of tree
+The tree was enormous
+It has succeeded
+Yeah I spent some time with the algorithm design manual this weekend:
+http://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/ref=sr_1_3?ie=UTF8&qid=1392154464&sr=8-3&keywords=algorithm+design
+Great book
+I need to read the whole thing
+but it is good to have an application for those things
+That is about right
+justin_smith:  Why uberjar?  I have only built uberwars
+core has a main
+quile is probably right
+Yeah, but is the fish choosing where to go?
+Or is it just swimming around as it normally would, triggering the motor?
+I'm just saying, is the fish trying to get somewhere?  Is it finding food or mates?  Does it realize that there is a world outside the fishtank?
+Yeah, that is what I'm talking about
+I am the first proponent of animal intelligence, I am just saying, for this to be real the fish has to DO something by moving, otherwise it is just a side effect of the fish swimming around
+Yeah, something like that
+Right
+which they probably can, if they get sensory feedback
+What is the aquarium paradox?
+What are you working on?
+Cool
+Would it help if I told you it reads the config and transforms it into a tree of function pointers pointing to the various things that get run?
+Yeah, nginx literally constructs a program through building a data structure containing function pointers
+cooler than compiling
+No, "cooler"
+As in "cool time"
+Interesting
+Drama can exist anywhere!
+Wow, he is really calling the guy out
+http://liorpachter.wordpress.com/2014/02/10/the-network-nonsense-of-albert-laszlo-barabasi/
+☃ ☃ ☃ ☃ ☃ ☃ ☃ ☃ ☃ ☃ ☃ ☃ ☃ ☃ ☃
+quile:  Do we still have that problem with fs and lighttable?
+Curious
+which version is the bad one?  We do have a dep for it in core
+1.4.5
+Cool thanks
+Amazing how often EDN and s3 come up dogdog
+justin_smith:  That sounds good
+Leave soon?
+Beat the rush D
+Man, this cljs just doesn't update anymore
+WTF?
+No, I make a change, it says it compiles, change does not occur
+Hmm… this says crossovers are deprecated:  https://github.com/emezeske/lein-cljsbuild
+Is it?
+have you used it?
+Trying to figure it out right now
+It is madness, another thing to run
+Setting it up anyway
+welcome back D
+That is pretty good stuff
+Yeah, make it an Instrument repo
+quile:  That is amazing
+Not {{host}}?
+I'm pretty sure I've used it before
+Huh, weird
+are you sure you are passing the entire request into render?
+and not just some random map?
+Try that
+could be in the headers too
+Ah, weird
+I sware I've used it
+The eternal snowman function?
+I had a lot of code dreams last night
+Yesterday I took a nap and dreamed about the nature of time
+I was in a room with a lot of crayons and I was drawing a diagram of time that turned out to be a paradox
+which revealed some things about the nature of time to me
+I said in the dream "Time does not exist… it is just what matter does"
+Then I woke up
+I still don't know how matter does things, but one step closer I suppose
+I like your texture approach to photography
+You and my brother have a similar approach:  http://www.flickr.com/photos/noniphon/with/3239985648/
+Yeah, that guy is a monster
+Where's chuck moore?  rich hickey?  : D
+This document is incomplete
+We are really just elaborate lemurs
+Agreed
+It's like an imax, but omni
+Find a date, I will be there
+My brain is already fully chemically assisted
+Huh, never used M-x calendar, though I am unsurprised it exists
+It is true, but first you have to enumerate {x}
+Right, I'm just saying to use this knowledge you have to have some way to enumerate x
+Your statement is logically sound
+Ah, so that is the explanation
+Called out by a bot
+quile:  Agreed
+you mentioned an approach for this before, what was it?
+Were you thinking the low frequency words approach?
+Right, if we hooked him into reddit he would be immediately relevant
+I downloaded one of those once
+Is that what redditors are talking about?  Now I am unsure of this approach!
+But I guess it is not our place to deny the great hivemind
+Interesting, I'll check out the reddit and wikipedia search api
+http://www.reddit.com/search.json?q=yellow D
+http://www.reddit.com/r/IAmA/comments/1htf29/i_was_an_animator_for_the_yellow_submarine_movie.json
+Just take the url of the post and add .json at the end
+All comments
+Yeah, this wouldn't be too hard
+just make a markov tree for every search term from the results of reddit threads… could be mayhem
+That could be troubling
+depending on how it is triggered
+Yeah, once again, apprehensive
+No, worth a shot at least!
+Riiiiiiight, maybe select some subreddits
+Hey, you guys ever eat food?  Have you heard of it?
+It is really cool, it has taste and perpetuates your metabolic activities
+quile:  How long do you think it will be? : D
+Uh-oh
+I will try to hold out
+Sure
+If language were more like legos
+Well, I guess it is already a bit like legos
+That is gratifying (I think)
+I did it for random guy on the internet approval
+Sweet!
+let's eat : D
+justin_smith:  Definitely
+It has come up before
+Yeah, somewhere in field/link.clj
+join-table-name or something
+sorting is critical
+Ah, it is a boolean that determines whether the association is a map or a vector
+As in how the associated data comes back
+and is interacted with
+So you may remember, in order to do siphons I had to make associations work as maps as well as just vectors
+Yes
+Well, you want :map to be whatever it was in the collection
+because a collection can be a map as well
+to preserve the type of the association
+Well, you have a 1 in 3 chance
+I'm not sure we have a large enough sample for general statistical conclusions
+If there are an equal number of D O G in there they should come up a proportional number of times
+Ha!  I have never changed the font
+Right D
+You should not have to
+No sir
+are you going to become a bitcoin speculator?
+Seems like people would be doing this
+Might want to look into it before you commit : )
+Maybe it is a once in a lifetime opportunity!
+quile:  Congrats!
+That thing is a monster
+Right, reduction to an already solved problem!
+Let's heal the python wounds with hawaiian today : )
+You can regale us with the tale of shittiness
+hacker's last commit:  https://github.com/jimweirich/wyriki/commit/d28fac7f18aeacb00d8ad3460a0a5a901617c2d4
+quile, justin_smith:  You guys want to get some food?
+Let's eat
+#
+http://techcrunch.com/2014/02/20/simple-acquired-for-117m-will-continue-to-operate-separately-under-its-own-brand/
+Well, there goes the neighborhood
+Ah, no I love Penderecki
+I have many of his albums
+I saw a choir sing a Penderecki piece last year, amazing in person!
+That is the one
+Hey quile, do you have a second to look at a really weird js bug?
+Oh man, want to get some indian food today?
+quile:  Food?
+cisco:  Have you played any other instruments?
+violin is pretty difficult and takes quite a while to master the intonation (no reason not to try!)
+cisco:  Do you already have a violin?
+You will definitely need a teacher to guide you in the basics
+There is a lot to coordinate: the stroke of the bow, the precise location of the fingers, the position of the instrument, your posture and wrist angle etc
+violin is the easiest instrument to sound terrible at ; )
+cisco:  Do you live somewhere you could find a good teacher?
+Are you willing to practice often?
+If you can find a way to enjoy getting in the habit of practicing, even while it does not sound amazing yet, then you can learn to play
+many abandon the endeavor quickly once they realize what a commitment it is
+but it is certainly worth it
+I play a little, not enough to be good : )
+cisco:  That is a good start!
+cisco:  Shh… he Doesn't know
+three!
+cisco:  He learns everything you say, you just haven't said much yet
+cisco:  No, I've just played music my whole life
+never wanted to try to make money off the thing I love most
+Welcome back D
+quile:  How was rachmaninoff?
+Yeah, I'm bummed I missed it
+Ah, really??
+Maybe I will make it then
+I am going to Shostakovich on Saturday
+his 4th symphony
+Yeah, this was the one he wrote in the 30's that got pulled
+wasn't performed until the 60's I think
+Apparently it did not align with the party aesthetic
+Yeah
+which is crazy!
+Are they any good?
+I haven't seen them I don't think
+Awesome
+: (
+I endeavor every day not to cross the streams
+RIP
+Egon
+http://en.wikipedia.org/wiki/Egon_Spengler
+Aha!
+madness
+Since everyone who has cognitive biases is alive, cognitive biases are essential for survival
+justin_smith:  I did not
+Thanks for the reminder!
+Ah, where did you guys go?
+had to run errands
+Nice
+Good question
+He was talking about a G+ site…
+google groups is so slow and broken
+I wouldn't mind a G+ thing
+Seems slightly excessive.. but maybe not?
+I don't really know, I don't know anything about running a community!  : (
+justin_smith:  Not sure!
+let me check
+netnetnet?
+Yeah, I never pushed it
+https://github.com/prismofeverything/netnetnet
+There you go
+three word poems can have three nouns
+(If I recall the spec correctly)
+lein cljx auto
+Okay, I was having a rough day yesterday, but I am now open to discussing a caribou community site : )
+Is G+ the way to go?
+Yeah, but google groups is terrible slow
+I guess it is standard, but that is because there is nothing better?
+I am willing to try the g+ thing
+Yeah!
+I forgot all about myspace.  All problems solved
+You guys down for lunch today?
+quile:  You down for lunch today?
+FUCK YEAH
+cool time
+Ah!  not yet
+Yeah, I will check it out
+Are you saying I am an egomaniac??
+justin_smith:  Yeah, that is crazy
+He is a madman
+I think there is a lot of stuff, good and bad about the guy
+That part, not cool
+mathematical knowledge should belong to everyone
+But he is not the only one to hoard discoveries in a private company
+It is pretty much standard practice in the tech industry
+which could arguably be considered mathematical discoveries in nature
+Not to justify it, but it is not uncommon or particular to him
+The thing is they risk getting scooped!
+Yeah, and risk thinking they have a proof that is actually bogus
+That is why peer review is good
+But with software if it works, it works
+even if it is not for the reason you think
+This chatroom is very tiny
+Yeah that is the classic wolfram story
+Yeah!
+let's do it
+Watching this wolfram video now, this is pretty amazing
+And LOL something or whatever
+Still though, rather than phrases pasted over the same semantics, I want a language that is in some way semantically inspired by these people
+Right
+It is a superficial change
+The language design itself is the medium of expression
+But that would be more work
+I am demanding of toy language designers
+That's what I'm talking about
+Make it look like a smart version of a screensaver
+DUDE
+Right, it is disordered, yet hyperuniform
+My hand is made of quantum particles
+I can reach through air
+I beat you to that one justin_smith
+By moments
+Ha!
+it is hard to add a new one these days
+Ha!
+Well, there goes that theory
+Awesome
+It is true, actually seeing computation is awesome
+Have any of you fine gentlemen considered the possibility of lunch today?
+It is this new concept I have been only recently privy to
+Alright!
+It's on
+Let's do om today
+we can get back to tesselax
+You guys want to get some food today?
+I'm driving
+justin_smith: literal translation "The Ideology of the Rainbows"
+quile:  Everywhere
+Actually, I want to hit up that Thai place
+even though you guys went on Monday
+Otherwise:  Maybe lardo?
+We have vehicle
+Thai then?
+Also:  https://plus.google.com/communities/103169158644680859732?hl=en
+I overcame my annoyance with existence
+Right now I am the only member
+Sweet!  two members
+Lazy
+Let's eat!
+Dude
+justin_smith:  Right, it should not be too much different
+Yeah… we can check
+Spent a whole workday tracking down and fixing this problem: https://www.refheap.com/49113
+in an uberjar, (wrap-resource … ) thinks request with {:uri "/"} are empty resources!
+and never falls down to the app
+No, only happens in an uberjar!
+bug in wrap-resource
+That is the fix!
+That is beautiful
+Wow
+seems interesting??
+Aha!  No he has not
+Pure probability at work
+quile:  Question about resources!
+Come on by when you get a second
+Cool, thanks man!
+Right, that is when the concatenation/minification needs to happen
+Hmm...
+so is there any facility doing the concat/min right now?
+What would we use for that?
+Awesome
+It is trying to climb the water branch
+Anyone able to make sense of this one?     https://github.com/caribou/caribou-core/issues/21
+How to even begin finding a dep lein claims isn't there?
+Right
+but apparently it is pulling in 1.1.2 somewhere
+I can't find it
+maybe it is another AOT compilation issue?
+Some dep has 1.1.2 AOT compiled into it somewhere?
+That is what I'm wondering
+How the hell do you find such a thing?
+Mass unzip all jars… look for 1.1.2?
+Is it still NSFW if it is satire?
+heroku:  so close to conquering this beast!
+That is doubtful
+the trig functions are accurate
+<3 you too eeffff
+Also:  http://plato.stanford.edu/entries/nominalism-mathematics/
+http://plato.stanford.edu/entries/platonism-mathematics/
+http://plato.stanford.edu/entries/fictionalism-mathematics/
+A subtle issue!
+fictionalism is pretty interesting too
+From the article:  "Thus, the idea is that sentences like ‘3 is prime’ are false, or untrue, for the same reason that, say, ‘The tooth fairy is generous’ is false or untrue—because just as there is no such person as the tooth fairy, so too there is no such thing as the number 3."
+Not sure!  It seems they don't believe in anything that you can't touch
+Like "justice"
+Right
+The question is:  do abstract concepts "exist"?
+Hehehe
+Based on that, I'm not sure anything exists
+justin_smith is a pretty abstract concept
+Right dogdog, sZorry
+quile:  That's the one!
+It is radical
+Where do you guys want to lunch today?
+I am down
+Down
+slit penis???
+Noooooooooooooooooooooooooooo
+(oooooooooooooooo............)
+Well, it is the wll ending jammed up against the lla beginning
+So it totally makes sense
+My sardonic tone is not conveying across the gulf of freenode
+^^^*|…|*^^^
+That is a spider
+To convey spider emotion
+justin_smith:  Hopefully goat simulator is the future of video games
+justin_smith:  Where was that emacs changelog we were using as reference again?
+I seem to have lost it
+Thank you!
+Yeah but two are hidden behind it
+It's super accurate, but they are legs
+What is mmm?
+Ah awesome
+Ha!  You mean it starts 9 AM every day?
+I like how most of existence is empty space
+Just a couple islands of relationships really
+That organ is rad by the way
+Sounds way more 8-bit than I thought it would
+Yeah, the other examples are astounding
+justin_smith:  You are correct
+I had a dumbass middleware
+It is now slightly less dumbass than before
+Hahahahahaha
+Now THAT is some transtonal transtonal falafel
+It is tasty
+rapture uvula moss:  Subtle but powerful
+Sanity check:  can someone try to provision a new caribou instance and see if it works?
+Yeah D!
+quile:  Awesome
+Yeah it seems to be working
+No responses on the announcement!
+Possibly I used the wrong words...
+Yep
+Not even a flame, must be losing my touch
+ That is madness
+http://existentialcomics.com/comic/18
+There are only 18 of them
+amuxing
+tropical omniscient supernova is pretty rad
+Door
+Goodnight quile
+I still have yet to pick up the other jesse ball book
+Yummy!  D
+Oh yeah?  What kind?
+Lovely
+Sounds awesome
+I love indian food
+Not everyone
+Feigner and Phong both hate indian food (to name two off the top of my head)
+for some incomprehensible reason
+One cycle:  http://imgur.com/owzMkQF
+That sounds awesome
+Probably the guilt is too great
+Well, at least you didn't do worse!
+quile:  boo!
+We actually have more time now
+Time was literally created and spliced into the history of the cosmos
+It is a miracle, really
+Well, there is that
+then there is also the miraculous creation of time which cannot be explained by rational discourse
+which happened Sunday at 2:00 am
+How is the first day at home quile?
+Enjoying the sunshine?
+If I worked from home today I would be outside
+It is like being born on February 30th
+Yeah but when your birthday does come around you get to have 4x the party
+Ha!
+The great thing about having a commonly rejected name/birthday is that it is super annoying
+to be rejected for no reason
+Possibly the smug satisfaction of other people's errors makes up for it
+Someday I will learn this arcane power
+After studying 20 years barefoot in a monastery
+Oh hey!  http://elephantlaboratories.com/
+All feedback welcome
+I have business cards coming as well
+Nothing like handing a three-eyed mutant elephant to someone as your professional identity
+Yeah man!  I can do Thursday night
+Or tuesday night before 8:00
+Heading to Tacoma this weekend
+bringing up a board, a deck and some pieces for my brother
+and I think we are going to do a demo/play test at his local game store
+I am all in
+Obsessed!
+Also:  learning indesign right now to lay out the rulebook
+soon I will know all things
+Alright, heading out
+let's lunch man!
+: (            D
+Ah, so not all fields are getting the editor, just a text field?
+Ah good
+It is also a length thing
+behind the scenes it is varchar(255)
+Also, lunch
+Tarad?
+Let's go!
+make a backup!
+Wow
+??
+I didn't realize it went away
+Should still be there somewhere
+justin_smith:  Want to get lunch soon?
+I was thinking foodcarts, nice walk
+Igon value
+Full on madhouse slaugtherball
+quile!  You were missed at lunch today
+We were outside for a long period of time
+I was outside
+Do you get to code in your garden now?
+Kind of jealous
+Ha!  svn or cvs?
+That is my usual metric
+Really?  I have used git-svn with some success
+The rare times I have had to interact
+Yeah, as long as you don't do crazy stuff it is pretty smooth
+I do most of my work in git and then just push and pull to the svn endpoint whenever I have to
+Well, when I had to do that
+The crazy central server model seems so heavy in retrospect
+But we are living in blessed times
+D!
+Well, it was like 20 lines
+So yes, yes it will
+Yeah that might be the most disgusting three word poem yet
+I like the pee yellow
+It is good!
+nice find
+Yeah, but you still decide what to do with it
+the technique is a tool, the choices are the music
+Right, sure
+words mean things, I always forget
+That is why photography is the most dangerous activity in the world
+Aha!
+How about that
+Initception! D
+on the 25th?
+I think colleen is
+It is that event we talked about in that meeting
+Yeah there was this guy and he was talking about a thing
+batman!  D
+No u D
+Arizona man, it is like you hate humanity
+HOW COULD YOU SPEAK NEGATIVELY ABOUT ARIZONA
+quile:  How goes??
+Yeah, have you made it through the mental transition yet?
+Nothing much, I just got over the plague
+Neil gave it to me
+I'll never forgive him
+Neil is the Plaguebearer
+The ebola monkey
+http://static.giantbomb.com/uploads/original/1/17172/1479292-nurgle.jpg
+That is the best image I could find for plaguebearer
+Anyhow, coming out the other side of that monstrosity
+(I love you poocafe!)
+Gamestorm is tomorrow, brother is in town
+So I am not working much lately I guess
+How is your situation?
+Awesome
+Yeah, the orientation phase is always a trip
+Perl mostly?  Or java?
+Ha!  Yeah old organization?  I can't imagine they would start doing things differently : )
+Still on the lookout for office space?
+Have any cool coworkers?  Didn't you already know these guys?
+Ah!  Well I have been sick
+He persists for awhile now
+I used to go back and find him stopped on blown heaps
+Now he is just quietly waiting for input, but missed a ping at some point
+That is the next step
+quile:  I think you may generally say shorter things? D
+Yes, let this be a lesson to everyone.  Leave your broadsword at home
+Pretty much!
+Yes, lunch
+Yeah my last week was decimated
+Those are beautiful examples of bad design.  I feel like there is an art to making something perfectly unusable
+: (
+Who is they?
+What kind of security issues?
+Right, what issues does it have right now?
+Ah, you can't prove security holes don't exist
+Right
+I think it would depend on what helpers you provide
+Sounds awesome
+Those are ridiculous
+"Girl, you must be an inaction because you are lack or absence of action."
+What the hell is that?
+Dude
+Aha
+welcome back D
+justin_smith:  Not sure, I remember screwing around with the content types at some point… maybe throw some diagnostics in the handler chain and see what the content type is at different stages?
+justin_smith:  Yeah!
+Hungry...
+quile:  Looks like dinner to me
+Direct sea nourishment
+Oooohhhh…. burn! D
+poocafe:  Maybe you are finally out from under the phantom of your own past errors
+Thanks!  good to be back D
+justin_smith:  That could be, I don't really remember how the content type stuff was working, though I suspect it may be tortured and could use some clarity and simplification
+Yeah seems like an active assassination on the part of google
+Starting to dislike google more and more
+Although, searching "google rss" yields a bunch of hits D
+Looks like you need an extension, it doesn't come by default
+I like them both!
+The noise stuff is really rich.  The viola is working great as a signal input, it really opens up the range of possibilities compared to other noise stuff I've heard
+Yeah, it sounds so much more organic than the stuff I have heard that is strictly electronically generated
+Ah, I can see that
+The contrast is key
+That is pretty fucking crazy
+Sound is good yeah
+Who is that?
+Better than standing there and staring at your phone
+So many poocafes!
+It reads as you are duplicating yourself over and over, like wandering through a hall of mirrors
+"Where is poocafe?  Over there!  No over there!"
+poocafe is everywhere
+poocafe is behind you.  poocafe is in your mind
+In a real way, everything is made of poop
+pugnacious is like delicious but with pugs
