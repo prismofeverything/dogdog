@@ -1,6 +1,8 @@
 # dogdog
 
-An evolving IRC bot that generates a markov chain for every nick in the channel it inhabits, and responds to that nick with dialogue generated from their own statements!  Also analyzes each nick's statements with natural language processing and builds a set of grammatical templates to build its statements with.
+An evolving IRC bot that generates a markov chain for every nick in the channel it inhabits, and responds to that nick with dialogue generated from their own statements!  
+
+Also analyzes each nick's statements with natural language processing and builds a set of grammatical templates to guide the generation of statements.  
 
 ## Usage
 
