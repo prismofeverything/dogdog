@@ -1,4 +1,4 @@
-(ns gort.novelty
+(ns dogdog.novelty
   (:require [clojure.string :as string]))
 
 (defn choose

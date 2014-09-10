@@ -1,10 +1,10 @@
-(defproject gort "0.0.3"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
+(defproject dogdog "0.0.4"
+  :description "An affable irc bot that mimics your own grammatical structure as it goes along"
+  :url "http://github.com/prismofeverything/dogdog"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :jvm-opts ["-Xmx2G"]
-  :main gort.core
+  :main dogdog.core
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [org.clojure/java.jdbc "0.3.0-alpha4"]
                  [org.xerial/sqlite-jdbc "3.7.2"]

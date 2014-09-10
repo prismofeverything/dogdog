@@ -1,11 +1,11 @@
-(ns gort.core
+(ns dogdog.core
   (:require [clojure.string :as string]
             [clojure.java.io :as io]
             [markov.nlp :as markov]
             [zalgo.core :as zalgo]
             [irclj.core :as irclj]
-            [gort.novelty :as novelty]
-            [gort.twp :as twp]))
+            [dogdog.novelty :as novelty]
+            [dogdog.twp :as twp]))
 
 (def nicks-path "nicks/")
 
