@@ -1,11 +1,11 @@
-(ns gort.core
+(ns dogdog.core
   (:require [clojure.string :as string]
             [clojure.java.io :as io]
             [markov.nlp :as markov]
             [zalgo.core :as zalgo]
             [irclj.core :as irclj]
-            [gort.novelty :as novelty]
-            [gort.twp :as twp]))
+            [dogdog.novelty :as novelty]
+            [dogdog.twp :as twp]))
 
 (def nicks-path "nicks/")
 
@@ -146,6 +146,16 @@
               :persist? persist?))
           response)))))
 
+(defn numberwang-handler
+  [handler]
+  (let [triggers [#"\b[012456789]{1,9}\b" #"\b(one|two|four|five|six|seven|eight|nine)\b"]]
+    (fn [{:keys [text] :as request}]
+      (if (and (some #(re-find % text) triggers)
+               (-> 10 rand int (> 8)))
+        (assoc request
+          :generated "THAT'S NUMBERWANG!")
+        (handler request)))))
+
 (defn nested-handler
   [handler]
   (fn [irc {:keys [text nick target] :as msg}]
@@ -156,6 +166,7 @@
 (def dogdog-handler
   (-> root-handler
       markov-handler
+      numberwang-handler
       twp-handler
       zalgo-handler
       persistence-handler
