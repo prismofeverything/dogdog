@@ -1440,3 +1440,520 @@ i was going to tentatively suggest lunch
 Don’t drink seawater.  http://dive-shield.us/infonewspages/Underthemicroscopejustasplashofseawater.html
 hahaha i don’t eat seafood
 definitely can
+Ahhhhhhh yes, we’re back
+just don’t fucking crash my mac mini, OK?
+HA!
+How did that happen?
+I never game him ops
+WTF?!
+HAHAHAHA
+that’s funny.  i wonder why we never noticed that before
+Great to have him back!
+hahahahahha
+yeah but CHANGE THE FUCKING NAME, says bitemyapp
+who seems to have disappeared from clojure now that everybody blocked/ignored him
+I need to go and have a good P
+Well now he’s bugging people over in Haskell land
+They’ll get sick of him too
+ok boys, I’m outta here for now… be back on later.
+toodles
+you too… will ping you if I find myself with free time tonight but I sincerely doubt it
+33
+3333
+three!
+yo!
+I am totally three years behind
+yes indeed
+frightening situation
+the only person I’ve ever blocked on facebook...
+woah
+dude, that sucks
+both the recently-ex part and the bpd part
+sorry :(
+ouch
+perhaps that’s a classic indicator - the blocking on FB
+and all medical journals should be updated to include it in the diagnosis of bpd
+ah crap
+jesus!
+everything going ok now, or still weird?
+well, it’s all for the best…
+ouch
+haha smart move
+classic hostage-negotiation tactic
+turn the place into a sauna
+dude that sucks.
+damn
+def
+def… we should all meet for lunch to celebrate
+when patchwork shows up we’ll make plans
+ah yes, i saw you talking about that last week.  sounds brilliant!
+i saw you talking about that too
+sounds super fun
+hahahaha
+DOGDOG!
+sweet
+boo
+same exact thing happened to me
+exactlyyyyyy
+meh, it was ages ago.  and i was pretty angry by then
+totally.
+correct
+hahaha
+ha amazing grace
+interesting choice
+i like their russian-doll theremins
+yeah and it’s a pentatonic tune i think
+yeah it is, just ran it through in my head…
+FUCKING STOP DYING, DOGDOG
+hahaha
+not familiar with him no
+I rest my case.
+DODGODG
+DOGGOD
+GODGOD
+GODDOG
+i thought you had died forever
+oh no
+hahahaha serves you right!
+hahaha too funny
+sweet
+you’re entering the 90’s!
+do it
+ha
+https://github.com/magnars/prone
+seems like Schmetterling
+yeah maybe
+right
+meh
+haven’t seen it… what is it?
+ohhh right i did hear about that
+cool, i’ll put it on my list
+ACK! Don’t mention DTC!
+hahaha
+YOOOO!
+Yep… def
+nothing going on, really
+sweet!
+a week and a half
+been catching up on stuff slowly but surely
+yeah for sure
+it was fantastic
+really exhausting but that’s kind of what you expect
+yeah it was so great.  i had a blast and didn’t want to leave
+although i have to admit, coming home was nice
+it’s just a long time to be gone
+off topic, but this popped up yesterday: https://github.com/magnars/prone
+thought you might be interested
+ha yeah
+not interactive though, is it?
+justin_smith thought it was more just a pretty exception page printer
+maybe it does more?
+still, it’s cool but it’s no schmetterling
+might be a good opp to unify them?
+schmetterling is way more useful IMHO
+but he’s done a lot of work on presentation
+oh really?
+sweet!
+awesome
+yeah… i’m paid by the hour so taking so much time off was bad for the bank account
+i need to get rich so I can not worry about this shit!
+yeah damn it, we should be rich
+there are so many fuckers out there who aren’t as smart as us getting rich
+oh man it would be so easy.  But you need to be rich to start that.
+The weird thing is that if you have money, it’s easy to make more money
+but if you don’t have any, it’s hard to get started.
+yep
+haha
+HAHAHAHHAHA
+indeed
+yeah, to somehow detect words of interest
+well I’m glad you think so
+holy shit, he’s better already
+he will become self-aware and launch the robot invasion
+ha, yeah, the reality of the modern world
+do you at least get to nap on couches?
+excellent!!
+tons of churn over at Instrument… so many people have left
+I guess that’s agency life
+yeah me too - everything is very tangible
+yes but we all understand the difference
+Did some clojurescript-on-node.js hacking last night.  It was, um, not easy.
+where is everybody?
+hahah check this out: reminds me of your work with uploading to S3: http://www.martinklepsch.org/posts/using-coreasync-and-transducers-for-direct-s3-upload.html
+ha!!
+yeah
+got some shit working, but it ain’t easy
+haha
+hahaha ahhh poocafe lives on
+I’ve always felt that the internet has needed a better name
+transducers?
+been fiddling with clojurescript on node.  it’s still a bit of a junk show.  it’s a killer app if they can get it to work smoothly.
+haven’t looked into clojure 1.7 yet
+haha
+lammmme
+cljs on node has the potential to change the world of async dev
+so i been trolling all over to figure out where the state of the onion might be
+where do i start?
+whew!
+so to compile for node, you set :target :nodejs in the project file
+but if you have :optimizations :none
+it will compile successfully but not run
+so that’s one
+another is testing
+it’s a real, massive, giant pain to get tests to work
+even with a clojurescript port of the test framework
+but that port is still in cemerick’s namespace and everything has to go through him
+it should be part of the cljs core
+then, it’s also a pain to write shared code
+so you have to use something called cljx
+which is actually kind of cool, and is how *all* clj and cljs should be written
+so it shouldn’t be a thing
+but part of the toolchain
+anyway, i’m looking into porting stuart sierra’s whole "component" stuff to cljs so you can structure a node.js app that wa
+y
+because that’s one of the problems with node - dependency injection and IoC
+yeah exactly
+it’s a bit like C pre-proc macros
+dep inj in node is a bit of a wild west situation
+it’s hard to go from your generic config to starting services that can talk to each other
+i mean, you have to be careful about startup ordering and who can see what and how
+it’s a bit noodly
+so if you have a mongo db and a mysql db and a redis server
+and module X needs redis and mysql
+and Y needs mongo and mysql
+and Z needs X and mongo
+it all gets gnarly fast
+hahaha
+ZALGO
+ FUCK, IS IT MONDAY?
+DANG
+Yeah, I fucking woke up today, and it was MONDAY
+Rich Hickey gotta stop adding cool shit to clj
+Can’t fucking keep up.
+u using it from clojure?
+neo4j i men
+right
+i find it amusing
+salty and flatulence should not be in the same sentence
+totally
+see?
+no, I totally know that - I respond with a lot of "hahaha" and "totally"
+haha
+see?
+haha
+niiice
+awesome
+good good ; just finished up a massive project that has made everyone very happy
+things are getting pretty crazy because the season starts in a few weeks
+so I will have to head to NYC for when the puck drops for the season
+it’s pretty fun that way
+summer is the only time we can make big sweeping changes, and I got tasked with one of those
+yeah for sure
+it’s a shame they’re so stuck with Java but as far as things go, it’s not terribly bad
+indeed.  although bringing in clj would be possible… ask the Daily Mail - they did it
+3!
+hahaha yeah I’d never have taken the gig if it had been python!
+DOGDOG
+hahaha
+DOGDOG
+haha
+It’s cool technology.  Might convince people to wear watches again.
+I haven’t worn a watch in a decade or more
+yes
+hahaha
+when is someone gonna produce a bluetooth hat
+yes!
+"foul atonal world" is brilliant
+it’s almost Shakespearian
+"what a foul, atonal world has such people in’t!"
+hahaha
+nice.
+let me see if I have acquired the U2 album unwittingly...
+well, it has been added to my iCloud, but it doesn’t mean it’s been downloaded
+it just means I can download it if I want it
+(which I don't)
+woah, U2 is herpes
+(and had lots of piano)
+hahahaha
+we had better act now then
+when shall we three meet again?
+in thunder, lightning or in rain?
+when the hurly-burly’s done
+when the battle’s lost and won.
+WHERE THE PLACE?
+THERE TO MEET WITH DOGDOG
+hmmm, what’s downtown?
+prefer a resto to a cart
+yes, i remember the carts but not so much the resto situation
+right right… hmmm
+talking about lunch has made me hungry
+brb
+can’t that same thing be done with a standard gather?
+i forget!
+by an unbelievable coincidence, last night I met a girl from Australia who runs a software consulting biz, and is setting up a Portland office
+and is looking —exclusively— for Clojure devs
+yeah I have to contact her and figure out the situation but for sure
+just wanted to put it on your radar
+it is just http… why are you accessing it via https?
+yuck, that’s wrongo.
+http://caribou.github.io/caribou/docs/outline.html is fine
+ewww we should fix that.  we should also get the owernship from Instrument of the domain name and hosting
+yeah you’re right, we need to fix one or the other
+DOGDOG!
+DODODODODODODODODOGOGOGOGODODOGOODODODOGODGO
+godgod!
+doogdoog?
+DOGDOG
+justin_smith: you ever tried to play this? https://www.youtube.com/watch?v=q4pGbFwC1s0
+I never knew Strav wrote something for solo viola
+yo justin_smith can you point me to where there’s a caribou typo? i couldn’t find it but don’t know what to search for
+i checked everywhere i could remember writing caribou and it’s correct in all of those,,, ack!
+Fucking weird, I keep getting dumped from IRC
+Anyway, I haven’t changed anything - is it still a typo to you?  I can’t see it
+yeah i guess - weird that it was typo to you.  I checked this morning and it was correct.
+V strange
+yeah probably I mistyped it ages ago when I entered it, then fixed it straight awat
+but that had propagated to you already
+ok, i sent a msg to Aussie chick… will let you know what she says.
+https://www.youtube.com/watch?v=zrzMhU_4m-g
+GODOGOD
+ouch
+that sounds painful
+hahahah nice
+love it
+GODGOD
+me too
+ha
+e
+??
+justin_smith: I met with the Aussies.  The guy, Jono, is super smart and really knows his shit
+anyway, he says they have a number of projects that need people, so was asking if I could connect him with you.  I told him I had on friend who was probably abel to take on some freelance clojure work
+Watching Rich Hickey’s talk from StrangeLoop on Transducers
+radical
+yes, I will connect you guys today
+meant to do it yesterday but got sidetracked
+oh nice!
+they’re in LA and SF?
+that’s awesome!!
+awesome - keep us posted about how that goes
+cool cool
+meh
+DOGDOG!
+boring doddog
+hah HA HA HA
+DOGDOGGGG
+yeah the transducer talk is great
+so patchwork I met with the aussies
+they are cool
+the guy said they’ve done work using clojure + neo4j for network analysis
+that might sound familiar
+The guy is super smart and knows his shit
+anyway, aside from his meeting with justin_smith he’s here for a couple more weeks and is down to hang out with everyone if you’re keen
+you might be able to get some good info on their experiences with network analysis
+rad
+I’ll send out an email and we can try to meet for dinner or something?
+yeah justin_smith it’s a bit of a "duh" moment for Clojure - like, this has been staring at them for years
+patchwork: needs people pretty much right now - he’s meeting justin_smith
+tomorrow
+They
+are both really likable
+not too many details.  they have a series of projects right now that they are gearing up but they were a bit thin on details.
+(well he said they gave up on neo4j bc it wasn’t fast enough)
+yes, you can prob get good info from their exp
+rolled their own in-memory for what they needed
+their data set wasn’t tooooo huge
+hahaha
+haha
+I love how everyone in #clojure was getting sanctimonious about the "type-safe languages" talk from StrangeLoop
+I watched it and thought it was sort-of funny and true in a slightly mean-spirited way
+but still true
+Definitely not a "friendly" talk
+yeah
+lots of "if you don’t know why X, then you’re not a good developer"
+I totally agree
+hahaha yes!
+or in my case, perl!
+justin_smith: you’re meeting Jono today?
+radical
+good guy
+yeah haskell dev tools are super old-skool
+yeah I wrote a version of the 3wp generator in Haskell years ago and was put off by the tooling
+maybe yeah, like it’s some kind of self-flagellating-albino-cult
+"Life is pain, princess.  Anyone who tells you otherwise is selling something."
+haha
+Canadian Haskell
+you mean favour
+if it’s Canadian, after all
+hahaha
+yes
+hahaha
+i don’t think so, i’m pretty crushed as it is
+but i want to set up a meeting; they’re keen to meet you too
+ok rad, i’ll send an email like i did for justin_smith
+ha yeah!
+no way!
+was going to see if that ever happened
+brilllllllllliant!!!
+he’s a smart fucker
+brilliant
+great, glad it worked out
+wow, people have a really low opinion of the competence of prostitutes
+exactly
+good luck.  say hi
+yeah he talked about that
+DOGDOGDOG
+how so?
+boo
+well, you never know.
+ha
+patchwork: have you seen that you can now buy a small 3d printer for $399?  http://www.amazon.com/gp/product/B00MXIAALQ/ref=s9_dcbhz_bw_g328_i4_pd
+apparently you can even buy it assembled for $399 from some vendors
+Make: magazine did a whole issue on it this month
+there are a few sub-$1000 printers that are good, they say
+I really want dogdog to remember this forever: http://s3-ec.buzzfed.com/static/2014-09/22/7/enhanced/webdr01/enhanced-buzz-25254-1411385269-14.jpg
+hahaha
+hahahaha
+ha
+dogdog’s three-word-poems are great today
+hahaha that’s hilarious
+3!
+Can I have an invite!?!?!
+dogdog give me a three word poem
+https://github.com/quile/gravity-kraken
+if only i had a project with that name
+heh
+hahaha
+Definitely
+Indeed, a great day.
+DOGDOG DOG ODG ODGOODGODOGODOGDOGODGODOGODGODOGDOGD
+hahaha just read #clojure
+"fuck me, the frontend guy…"
+justin_smith: is that teague?
+jesus
+man, my sentence templates are all one-word.
+hahahaha
+I can’t get him to say more than one word.
+meh, you’re boring today.
+clearly, but you’ve been training him with your D O G sentences
+Zalgo
+Hmm, sometimes my IRC client doesn’t render it correctly.
+ZALGO!
+that is rad - it has antlers
+hard core in fact
+hahahaha Love it.  Tim Baldridge is a smart fucker.
+NO!  HOW!????!?!?!
+snort snort
+jesus
+ahhhh hahahaha
+bring it on
+ewwww
+dude everyone uses wordpress
+everyone.
+hence the problem
+yeah being pwned is major suckage
+it happened to us one time at idealist way back
+I need to train him with longer sentences so I’m going to make a point of entering them daily.
+But I have to be careful (presumably) to vary my vocabulary when I do so - otherwise he’ll just parrot the same words back at me
+ahahaha
+add adjective orchestral
+Oh man
+He’s taunting me with shorter and shorter responses.
+DOGDOG
+I am trying to retrain our favourite IRC bot with much longer sentences than I usually utter.
+Obviously it will take some time to start having a major effect.
+no cheating, it’s all part of The Game
+I just have to make sure not to respond with so many short responses, and instead be a lot more verbose
+so no more "hahahaha" and "ok" and "yep" and all that; much longer sentences.  That’s the ticket.
+Well, exactly, that’s what I’m getting at, as I am in complete agreement with you about everything you said in your last missive.
+Yes, life is a battle between either focusing one’s energy on frivolous and easy activities, or harnessing that energy for the fight against evil or artlessness.
+OK, that elicited a LOL I have to admit.
+OMFG this is awesome
+I got a new iPhone 6, so I was testing Siri out, so I asked her "Hey Siri, what is the airspeed velocity of an unladen swallow?"
+She responded immediately with "The last person that asked me that ended up in a crevasse"
+yeah it was floating around the clj newsletters a while back.  very cool indeed.
+Dogdog.
+Yes, it’s all about averages.  I’ll continue to train him with longer and longer goop.
+And I’ll also train him to use some words more than others.  Balls balls balls balls balls balls balls balls balls balls balls balls balls balls balls balls balls balls balls balls balls balls balls balls balls balls balls balls balls balls balls balls balls balls balls balls balls.
+You’re balls right.  Balls need to use the balls balls in different balls parts of speech. Balls.
+You’re safe from balls intrusions.
+Dogdog will not sneak his balls into too many of his balls responses.
+The sound of my amusement is echoing throughout my house.
+I totally agree with you.  You need to be cautious.
+Good morrow to you all, friendly chatsters.  Hail and well-met.
+patchwork: we talked about this particular nobbly-wobbly goody-woody spiffily-wiffily piece of software: https://docker.com/
+Shit balls damn arse still batting a low average with the big dog x 2
+You speak with great verity.
+Your utterances are laden with words of truthiness.
+yes it’s totally overflowing with juicy, beautiful greatness
+Good morrow, all and sundry, whose visages please me greatly with their presence (either expected or unexpected).
+This is way too consonant for justin_smith http://gizmodo.com/heres-what-the-higgs-boson-sounds-like-when-scientist-m-1642062270
+Well, no, I wasn’t planning on using either in Haskell, since you asked.
+Do you want to try to use it in Haskell?
+Well, I think you’re associated Haskell with lunch.  And as we all know, that’s a bad idea.
+Don’t you agree?
+wow that looks brilliant
+I went into Instrument today
+They hired a new hot receptionist
+and an Australian named Kyle!
+Olesya is still there, they just hired another hot receptionist
+They moved a lot of stuff around too, but overall the vibe was familiar.
+Briefly talked to Phong and Vin, otherwise just hung with J5
+Jesus, this voice recognition thing is getting nutso
+I just said out loud: "Hey Siri, can you remind me to leave at 5:20pm?"
+and my phone picked it up and said "OK, I’ll remind you to leave at 5:20pm."
+I know.
+Frightening and awesome
+Oh, and I got rear-ended on my way home and my car had to be towed.  FUCK THAT.
+yeah crap
+well, it wasn’t a bad knock but was a pain
+now my car has to be fixed and i have to deal with all the nonsense
+but nobody was hurt so it’s all good
+that one i’ve heard of
+oh yeah totally
+and poor jodi had to deal with all the nonsense too
+what a fuckup that guy was
+Nice to hear.  Maybe you have been learning something from people in the room.
+Good good… well, as good as going to NY can be, I guess
+Happy to be back on the best coast
+HAHAHAHAHAHAHAHAHA
+That is amazing
+justin_smith: random numbers in Haskell is like pulling teeth
+exactly
+easier way I found:  ask SQLite to generate a random number for me
+delegate randomness.
+I think I need that on a shirt.
+I work that crazy stuff too.
+putting, as in golf?  or putting, as in the opposite of getting?
+oh cool, Max had his baby
+just heard from the Idealist crew
+Hey dingong
+hey dingdong
+hmm
+two
+two
+two
+two
+two
+two
+two
+two
+two
+two
+two
+four?
+fuck.  six seven eight
+eight
+hmm
+four?
+five?
+what about six?
+seven or eight?
+nine?
+definitely not three
+hahahah!
+three!
+THREE
+hmmm, need to make them case-insensitive
+four?
+five
+HAHA!

@@ -3527,3 +3527,779 @@ D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
 D O G D O G D O G D O G D O G D O G D O G
 hazard of dating a writer: she asks if I am in a good mood, I send her this gif http://i.imgur.com/pQy12qd.gif she asks if that means I am pugnacious
 I'm all like haha PUGnacious lol
+markov based aDministration
+patchwork: M-x insert-char
+I have a keybinding for it
+C-x 8 return also, which is hardly better than typing m-x insert-char
+oh, make them show up
+unifont is a font that emacs can use, that has most codepoints
+you may just need to switch up your emacs font to be your system appropriate well-implemented one
+like monaco on a mac
+heh, yeah, it's working out
+I have the UI for deletion fully in there, now for a smaller reordering feature
+D O G D O G
+D O G D O G
+I got repositioning turned off for drag when order is not already by position
+patchwork: not quite, gonna finish it up today
+I got the repositioning turned off, and a delete button in the image picker, now I have to integrate everything back into teague from the newer caribou admin
+OK
+got all that js stuff figured out, now trying to figure out how to update teague to the upgraded admin version...
+I think I have the next part sorted out
+multiple steps
+I bet
+sorry I missed it
+das ist Gütt
+late on this stupid deadline - I mean sure I can do other things but short term I don't want to schedule heavily until I get this out of the way
+an awesome example of bad programming: http://partner.oracle.com/jsp/prn/prnLocation.jsp
+heh
+heh, I think first weeks at a new job are prime time to see wtf (and as you stay longer the wtf becomes innocuous...)
+probably
+patchwork: (->> (fn [] (->> #(inc (rand-int 6)) (repeatedly 4) sort rest (apply +))) (repeatedly 6) (interleave [:str :dex :con :int :wis :cha]) (apply print))
+it emulates a stack based language -- well -> does
+patchwork: officially giving up on updating teague to a newer caribou for now, too much frontend shit breaking and I have no frontend guy
+now I am going to backport the js and template changes to the working version of teague
+12 -> 14
+yeah, probably, I just need to wrap this crap up but I think I have sane path forward now
+http://comonad.com/reader/2014/letter-to-a-young-haskell-enthusiast/ looks like someone in haskell-land got tired of bitemyapp (or one of his clones)
+it's a good article
+so, for some reason I thought it would be easier to just upgrade teague to a newer caribou, where I had added the features
+(not to mention being the *right thing*)
+turns out it was much easier to copy and paste the required changes :(
+at least I am getting it done now
+D O G D O G D O G D O G D O G D O G D O G D O G
+patchwork: did I show you the csound compiled into javascript thing?
+speaking of trapped
+http://vlazzarini.github.io/
+if you click on "stria" that's a decent computer music composition
+but it has a bunch of nice csound in js demos
+since it is clean portable c it compiled down to pnacl nicely
+not all plugins are ported (not all plugins are portable) but a decent range are there
+yeah, it is pretty huge
+one dream of mine is cljs + that could kick overtone all over the block and back again :)
+heh
+not anti, as much as more excited by csound
+patchwork: the last thing the bytemyapp twitter user did before deleting itself was favorite a link to that article I shared
+D O G D O G D O G D O G
+yo
+D O
+yeah, pretty much
+I just spent the weekend getting some programming lessons from James Reeves (aka weavejester, the guy who wrote ring and compojure)
+I had a pr against clj-aws-s3, which was really shitty (but working) code, and he gave me some really excellent feedback for improving the code to be up to snuff
+quile: also, I recall we had some discussion in the past about an ex of yours who had bpd?
+turns out my (very recently) ex had bpd
+and it fucking exploded (leading to our breakup)
+yeah
+she is the only person I have had to block on facebook
+things were up and down, but seemed workable, until one day I said I needed some space and asked if I could be alone that afternoon....
+and that triggered her abandonment issues... and then things got really fucked up
+heh
+I ended up getting a hotel room
+because she refused to leave my house
+finally I figured out how to get her out without escalating the craziness or getting the police involved: I finally found a friend of hers that she had not totally alienated, and had that friend come to my apartment and help her pack up and leave
+while taking her side against me
+I got my keys back, and thanks to being on the second floor with a locked door on the first, I feel safe :)
+I have her screened on my phone, email, facebook
+she publically accused me of being abusive
+the "abuse" consisting of me remembering the multiple times I told her to leave my apartment (she does not remember any of those conversations) and my turning the ac off when I left
+so of course that means I am gaslighting her and trying to make her think she is crazy by inventing interactions that did not happen, and I was trying to kill her by leaving her alone in a stuffy apartment with no ac...
+the absurd thing is she is not an idiot, she could have figured out how to turn the ac on - I was just turning it off because I was leaving, and I did not trust her to remember to turn it off when she left
+and of course it was fully in her power to leave any time she wanted
+but anyway, I called some friends of hers, the friends packed up her things and gave me back my keys without me having to deal with her (and the situation would have escalated if I dealt with her directly)
+it's a big feeling of relief to be out of the situation
+heh, sure thing!
+one of the core csound devs is making an audio synthesis language in pure clojure
+yeah, I look forward to playing with it, and hopefully making significant contributions
+in the immediate aftermath of the breakup, it felt like my brain was mostly gone - I am slowly getting my cognitive faculties back...
+quile: did you also see my character-based markov chain lib?
+it has a configurable memory size, and a seedable rng for reproducing results
+unexpected upside to the breakup: I had been reluctant to get better headphones, but to get my nice headphones back I would have to deal with the crazy again - so instead I get better headphones :)
+I can highly recommend the sennheiser hd25 ii - not as perfectly flat as the sennheiser hd380 pro, but much more portable and much lighter weight
+and all the parts are user servicable / replacible
+to get something as portable / durable as the hd25 ii and as flat as the hd380 would have been very very expensive, so it's a decent tradeoff
+http://i.imgur.com/MlreDAK.jpg
+D O G D O G D O G
+D O G D O G D O G
+quile: Ryan North (who does Dinosaur Comics) has a new book called Midas Flesh, a semi hard-scifi take on the Midas myth - where he starts with "everything he touches becomes gold" and works out the logical consequences into a scifi story
+I got it with the latest indie comics humble bundle
+D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G
+hardware is acting up :(
+yeah
+boo is right
+also, the ex had a friend of hers reach out to me to talk about getting together with her therapist so I could "take accountability"
+which is such a fucking crock of shit
+I can't even
+fucking a, I am sorry to hear it
+her ego is so fragile, she can't process conflict without making someone else out to be fully responsible for her unhappiness
+because her only available options are to see herself as perfect, and see herself as worthless and not even deserving to exist
+she is just trying to keep away the latter judgement, which she is constantly ready to make about herself
+but that doesn't make this bullshit any less bulshit
+the ability to analyze relationship dynamics from a cold distance is my blessing and my curse
+*less ability than "constant state of being" I guess
+quile: I am torn between "it's a bit pitchy" and "one never hears the theremin that in-tune"
+excellently done
+from the related https://www.youtube.com/watch?v=OnlsfeRNw1I
+proper performance starts around 5:00
+amazing grace was maybe chosen because it is a favorite for shape-note
+and shape-note has similar tonal constraints to an ensemble of hundreds of theremins
+yeah, shape note is inherently pentatonic (but very weirdly notated / weird orchestration rules)
+like - the structure as written is pentatonic, but a given performance will typically have harmonies that are impossible with a pentatonic scale, because there are no actual defined pitches in shape note
+shape note version of amazing grace - a bit more cacaphonous than the theremins were actually https://www.youtube.com/watch?v=uPOo4dOuPbQ
+D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G
+machine
+I was talking about conciseness vs. redundancy tradeoffs in reading code on #clojure, and the author of that paper shows up... he's got some awesome ideas
+he came to programming by way of audio processing / machine learning, and then started applying some of the same principles to general software engineering
+actually he's from Canada too, you may even know (of?) him
+D O G D O G D O G D O G D O G
+D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+so, I finally borked the screen on my cell phone
+the one I had for 6 years
+I did that thing where I throw it at the ground to demonstrate I can just put it back together and everything is fine...
+but the screen is damaged :(
+I did it so many times though!
+it's even gotten me laid!
+so I ordered a new nokia, should be here shortly
+not a smart phone, but is fancy enough to have shit like a camera and mp3 playback
+it can even run j2me apps - I may even try compiling one for shits and giggles
+I was picturing maybe a textual client that connects to a clojure app on an ec2 instance via tcp, and does things like logging info I want to look at later from a real computer, or getting me a low bandwidth text feed out of a web page to minimize data plan usage
+could be a fun little hack
+ie. send it "google a b c" and it returns with 1 "summary" 2 "summary2" etc. and then I tell it which page to get out of the summaries it sends me
+and I get said page in minimal compressed form, obviously
+but yeah, I'll finally be living in the '90s, phone tech wise
+I looked online, at the apps available, the popular ones (other than games) were things like "ultimate pashto to english dictionary" "the best urdu to english dictionary" and "portable digital koran"
+with some improved design, yeah
+I think it just displays things, rather than being a debugger as schmetterling is
+yeah, it's not doing any of the dt-socket stuff
+it doesn't stop the process or allow in-frame eval
+it's just a pretty printer for exceptions
+I saw "under the skin" - it really surprised me, excellent film
+reminded me of the best things about the '70s, when movies could really take chances
+oh, so under the skin is a scarllet johanson movie, from scottland
+sci fi, based on a book
+very abstract
+D O G D O G D O G D O G D O G D O G
+patchwork: it's only an exception pretty printer
+it does no debugging
+oh - maybe I am wrong
+looks like an exception handler that captures locals https://github.com/magnars/prone/blob/master/src/prone/debug.clj
+not interactive though
+patchwork: no jdi, just a fancy ass exception handler that captures locals https://github.com/magnars/prone/blob/master/src/prone/prep.clj#L105
+one could add this feature set for showing context / the nice parts of the UI, to the schmetterling debugging features ftw
+patchwork: I got a halfway-decent viola
+I realized my electric just doesn't have the texture an acoustic can get
+it all comes down to my ex not giving my nice headphones back - so I got even better ones - and now I can hear stuff in recordings that is making me reevaluate some timbral stuff
+yeah, the electric is very smooth, this acoustic is so I have more variety with the rougher stuff
+D O G D O G D O G D O G D O G D O G D O G
+yeah, I actually helped him out quite a bit
+he forked my aws / s3 library fork
+he went and did this other thing in cljs beyond that though
+it was thanks to his work that caribou/clj-aws-s3 got submitted upstream for a pr (and then I learned about james reeves' high code standards)
+D O G D O G D O G D O G D O G
+reminds me of that movie Underground (Emir Kusturica) - at one point a chimp finds its way into a fully functioning tank at a wedding party
+and starts pulling levers and pushing buttons
+(it'
+s an allegory for the post soviet states)
+looks like it would be
+tomorrow night, there is a Stuart Dempster concert
+Annie and I are going
+trombone drone ambient music / deep listening https://www.youtube.com/watch?v=5mXd0o0_tHo
+he has a pretty tight relationship with Pauline Oliveros (though her stuff tends to be more abrasize / sharply textured)
+it's tomorrow night at YU
+they run the deep listening institute IIRC
+7
+I have a portable headphone amp coming in the mail in the next hour
+so excited
+provides extra power - higher quality headphones tend to work better with a more powerful signal
+also, it takes a direct digital in from my portable music player, so it serves as a replacement DAC (higher quality, of course)
+and it also works as a USB connected external sound card (output only)
+has a built in adjustable EQ as well
+regarding the higher power being needed - it's simple physics - headphones are a passive device (they can only modify the input by attenuating it) - so if they need to balance some acoustic property of the structure / materials / components they are made of, that balancing can only be done by reducing some parts of the signal until the response is even
+I got some good phones, they just sound better with more power - which I now have
+but also this allows me to upgrade to even more power hungry phones, if I ever wish to
+it attaches via an optical cable, and has its own battery
+has a rubber band to attach it to the music player
+it's about the form factor of a typical ipod, slightly smaller
+(just opened the box :))
+this model can also connect to an iphone digitally and act as the default soundcard there too
+now I just need to wait for the battery to charge...
+lol
+patchwork: speaking of awesome sci-fi, have you seen Under The Skin yet?
+yeah, with the gain turned up, I get much more bass response, even at lower volumes
+sweet
+yeah, it's excellent
+shades of kubrik / jodorovsky
+very abstract, allegorical, phantasmogoric, frequently confusing
+have you guys seen the new features coming up for clojure 1.7?
+yeah, there are transducers, and also a version of warn-on-reflection that warns about numeric boxing
+yeah, it's a very brittle toolchain
+we need higher standards for tooling out there in general
+lein had a release recently that totally broke for non-project repls - which is a scenario that is typical to a brand new user
+how many potential clojure users did we alienate with that I wonder?
+it was just totally broken, with 100% useless error message and stack trace (well, useful for a lein implementor, not at all to a lein user)
+oh my fucking god!
+so I have these recordings of beethoven's string quartets I have been listening to regularly for about a year now
+my OMFG is that I heard birds singing in the background
+I am totally sold on this amp / these headphones - amazing
+patchwork: kind of an audio microscope - or upgrading to cochlea resolution (to borrow the "retina" metaphor from apple)
+that is, any details finer than what this setup exposes to me are probably inaudible anyway :)
+D O G D O G D O G D O G D O G D O G D O G
+so, I learned today that clojure 1.7 transducers can abstract over the java 8 Stream API
+giving a way to map or reduce or filter (or chain such operations) with far less resource usage
+yeah, 1.7 is still alpha
+the idea is it composes maps / filters / reduces / etc. into a single action that does not need the input to be a collection, and does not produce intermediate lazy sequences between the steps
+(comp (partial filter even?) (partial map inc)) creates two lazy sequences - the transducing version (comp (filter even?) (map inc)) produces only one - and if you add a reduce (comp (reduce +) (filter even?) (map inc)) it produces no intermediate sequence at all
+also the fact that (filter even?) returns a transducing function is pretty cool, and intuitive
+no, not currying
+it is a new arity, that returns a transducing function
+transducers can be applied to sequential things, to java streams, or to core.async channels
+and can use all of them directly without needing to create a sequence first
+turns out I need to get a new sim card - for the first time ever I will have a data plan!
+I think I will write a j2me app that connects to a clojure evaluation server just for shits and giggles (this device can do j2me, but not proper mobile apps)
+this prone demo is pretty cool https://dl.dropboxusercontent.com/u/3378230/prone-demo.mp4
+patchwork: I spent some time looking at it, never really used it
+but yeah, graph dbs are awesome as far as I am concerned
+very nice
+heh
+probably one of those "dark enlightenment" types
+lol http://i.qkme.me/3vb225.jpg
+http://i.imgur.com/wdeXIfa.jpg I can relate
+ugh. Can't use the data plan with my new phone because key parts of the UI are in japanese with no English translation. Or maybe it is impossible to set this part of the phone's configuration.
+D O G D O G D O G D O G
+D O G D O G D O G
+D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G
+updated version of a classic: The three biggest problems in computer science are naming, offco byncurrency one errors and caching.
+did you guys hear about the bug where amazon was reporting mirage servers as crashing, but really the problem was that they booted "too fast"?
+🕙 - another screen to add to your rotation of screens to look at
+baseball cap, google glass, and iphone are the new tophat, monocle and pocket watch
+heh - make it a charger
+"shields your eyes from the sun's glare, covers your bald spot, and charges your power hungry personal electronics"
+https://github.com/aphyr/core.async/blob/decomplecting/src/main/clojure/clojure/core/async.clj lol, the doc strings in this branch
+D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+isn't that always the way with three ways dogdog
+quile: that fb status is a self describing phrase, where the phrase describes each word, and the words each describe the phrase
+so, I hear from people that have itunes that apple made them acquire the latest u2 album without their consent, and they can find no way to remove said album?
+that is a really weird version of dystopia right there
+I think it tags along next time you update and sync?
+lol
+I think someone was curious to hear it, downloaded, didn't like it, and now it is just there, like herpes, forever
+it's been a while since we three have met to lunch and set curses upon a Scottish king.
+patchwork: check it, generic text search for teague https://www.refheap.com/90071
+rule of thumb: if the music has a part where someone excitedly exclaims "bass!" it has been mastered with reduced bass content, because the target audience listens to music with their bass turned up excessively high, and normal bass levels would sound like shit
+oh, well that would be nice enough
+performance is not a primary concern, it's only for cms users, not a frontend feature of the site
+wow, caribou.github.io is super slow right now (looking for docs)
+maybe we are participating in the internet-fast-lane protest?
+also, WOOT figured out how to attach my good preamp to the digital out on my TV
+home theatre!
+D O G D O G D O G D O G D O G
+caribou docs broke.
+https://caribou.github.io/caribou/docs/outline.html
+well - not totally broken, but loads really slowly and shows up unstyled
+ahh! it's being broken by https
+we have http resources accessed within a https page, and things break
+wow, care to get me in touch?
+I think I have some pretty decent Clojure credentials :)
+yeah, I am definitely interested
+patchwork: https://caribou.github.io/caribou/docs/outline.html breaks because it is https and is pulling in http resources from other sites
+should we just make it be http? (is that possible?) should we change the resource links to be protocol relative?
+that's the link I get from google
+when I google for caribou docs
+I think there is a link on the main caribou page to https too
+where it links to the docs
+anyway, other people are definitely finding these https links, if my least effort path led me to them
+let me backtrack
+I could have gotten it from a defunct source
+patchwork: how do I bust the caribou query cache?
+just reset or swap on the atom?
+heh, I thought so too
+I will keep looking
+they wanted a feature where a new item is the first position wise, which means updating other positions when items are created
+turns out this is an order of magnitude or more faster to do with raw sql rather than caribou operations, I just need to inform caribou that the element cache is out of date
+that's a bigger change - we still need sorting by position because of the other features
+*want
+sorting by position is extremely convenient and intuitive here
+"update element set position = position+1 where 1" is easy and fast
+no conditionals, the db super-optimizes it
+and it doesn't fit the existing caribou abstractions at all, of course
+I don't need to get any data about elements to do it
+this is a hook in teague
+specific to the behaviors they need in their admin UI
+(for my retainer)
+if this comes up a second time, we could make a setting such that position descends vs. ascends. Position can be a negative number (which could be another way I could handle this I guess)
+D O G D O G D O G D O G D O G
+D O G
+D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+quile: absolutely not
+the nanuk of the north event tonight featured a drummer / vocalist / violist performing the sound track
+hrm, let me check
+https://www.linkedin.com/profile/edit-project?nudgeID=123694311 - dunno if this works for you? will edit it now, since it gives me an option there
+the project name was Cairbou
+I just edited it
+I finally found where it lists on my profile, and it 's fixed here
+should be listed under background / projects I guess?
+could be one of those "eventually consistent" type things, who knows
+cool
+patchwork: did you see? apple created an app specifically for deleting the free U2 album
+maybe more of an api endpoint than app? it's a dedicated tool just for deleting that one album
+oh, I don't even own any apple products besides an old imac USB keyboard in the closet
+it doesn't bother me, I find the response to the whole thing fascinating
+apple was fucking with people's tribal signifiers
+haha
+and most successful modern day religions are basically businesses
+http://en.wikipedia.org/wiki/Al-Ma%CA%BFarri fascinating guy, figures they go and behead his statue
+quile: choice quote "The inhabitants of the earth are of two sorts: those with brains, but no religion, and those with religion, but no brains."
+Al-Ma'arri remarked that monks in their cloisters or devotees in their mosques were blindly following the beliefs of their locality: if they were born among Magians or Sabians they would have become Magians or Sabians.
+I recorded some snippets of the orchestra warming up before the show. I need to get a good portable recorder when I am employed again.
+D O G D O G D O G D O G D O G D O G
+patchwork: I have always found you so orbable
+you have an excellent orbanality
+did I ever tell you about my uncle who is an Elvis imorbator?
+orba non grata
+go flying in a suorbic jet
+perhaps the suorbic jet is armed with antiorbnel weapons
+D O G D O G D O G D O G
+quile: someone made a music theory version of 2048 http://calebhugo.com/musical-games-interact-with-sound/2048-circle-of-fifths/
+two notes that are enharmonically the same combine to be the next note in the circle
+if you can circle all the way to B♭ you get a string section
+it gets tricky when the notes that clear the board compete with the notes that would work best musically (not to mention the tendency to play in a rhythm leading to ill advised moves)
+it's too bad I am so shitty at games
+I am seeing how low a score I can get at game over: 38% is the lowest so far
+Unlike cheaper, less reputable alphabet books, all of the nearly 27 letters in A is for Zebra are in their CORRECT order. What’s more, I have worked tirelessly to ensure there is only a single main letter per page, avoiding the countless haphazard letter combinations found in many novels and magazines. My promise to you: If you find even a single letter out o
+http://liartownusa.tumblr.com/post/97094517905/i-am-very-proud-to-present-a-is-for-zebra-a
+D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G
+I had it pointed out to me that strangeloop looks suspiciously like "strangle oop"
+the strangeloop functional programming conference is going on right now
+D O G
+TIL ios8 has a built in multiple-choice markov generator
+it has a "predictive text" feature that guesses the word you want next
+and you can click to insert it
+it gives you options before you even type, so you can just compose nonsense by repeatedly clicking words
+definitely
+quile: https://twitter.com/KimKierkegaard/status/512991184592306176 something I was mentioning last we hung out
+http://kathyack.tumblr.com/ another one
+https://twitter.com/PLT_Hulk/status/511576053194973184 lol
+quile: thanks again for checking in with the Australian folks, I look forward to hearing from them
+I just had someone reach out from factual (where amalloy, ztellman, and aphyr work)
+I would be starstruck to be working with those guys - but it would be either remote, or moving to CA
+yeah
+I guess for working remote, CA is not too bad, because the occasional visits would be short trips
+yeah - it's not a guaranteed position, and I would prefer something without travel at all - but it's an interesting option
+quile: saw that email, thanks
+patchwork: I watched the rich hickey transducer talk from strangeloop (it is on youtube) and was reminded of a covnersation you and I had ages ago
+patchwork: hickey explains transducers from the point of view that a reduce is a primitive operation, out of which map, fold, mapcat, etc. can be built
+patchwork: a big part of what transducers do is flip the clojure abstraction stack, and instead of putting sequences at the bottom, putting reduce at the bottom
+patchwork: idea being, you can do everything by converting to the common abstraction of lazy-seq, but this creates and immediately discards sequences you don't really need
+quile: patchwork: meeting with them on Tuesday, looks promising
+patchwork: but they are not seq operations any more at all
+patchwork: they could be ops on a channel
+patchwork: it dissociates the data source from the algorithm entirely
+exactly
+patchwork: funny thing is, this was my first intuition (erroneous) of how things in clj would work, so it is awesome to see things actually being done this way
+quile: network as in communications or as in graphs? (both are cool)
+patchwork: the mention of neo4j made me think it could be either :)
+sounds like a good use case for titanium
+wait, not titanium - I am misremembering the name
+OK, this titanium http://titanium.clojurewerkz.org/articles/getting_started.html
+patchwork: well, titanium is a) in process and b) in memory rather than on disk
+b is optional, and a depends on the storage backend, but...
+patchwork: I haven't used either in anger, but have curiously poked at a bunch of things
+patchwork: weird, I never have that issue
+https://github.com/fog/fog/issues/9 lol
+patchwork: ran into a weird caribou bug - using a repl inside a caribou app, trying to interrupt a function that was in a tight loop, we got banned from the mysql server because we were making too many new connections too fast
+patchwork: will have to sort out what parts of this led to this issue (and also reset the mysql server to let me in again)
+yeah, tell me about it
+the nrepl wrapper caribou uses by default creates a new db connection per execution
+so maybe something was hammering requests to the nrepl server
+https://twitter.com/seriouspony/status/514108371381669888/photo/1
+for sure
+awesome talk about coordinated distributed state https://www.youtube.com/watch?v=QdkS6ZjeR7Q
+why did nobody think of this before http://techcrunch.com/2010/07/20/idish-the-ipad-as-a-plate-for-sushi-steaks-and-dessert/
+heh
+the problem with that talk was it was organized around delivering comic insults to the target audience
+if you already use a type safe language, then the talk isn't really here or there
+if you don't they are talking shit about you
+I did enjoy the dig about all the shity ruby devs that are now shitty clojure devs
+definitely a thing!
+yeah, in a bit over an hour
+excited
+also I got a CD of solo viola (arad, bach, corigliano, waggoner, stravinsky, prestini, penderecki) that I have been looking forward to listening to
+I have been looking at some haskell development screencasts, and the tooling is so terrible compared to clojure...
+the whole thing where all the docs are like "you don't need verbiage describing this library, the type signatures are all you need" is so weird...
+also, the fact that nothing implements Show by default...
+I was noticing that haskell devs tend to underestimate their competence, and for example, ruby or php devs over-estimate how much they understand.
+After some consideration, I decided it would help to have a very polite haskell.
+"sorry, I don't quite get what you were getting at on line 7. Maybe you meant that to be a Functor?"
+"clearly this compiler just isn't clever enough for your code, do us a favor and clarify the fixity of this function..."
+oh, of course
+right, php will gladly pretend you knew what you were doing
+which is what led to my polite haskell idea
+the Contrition monad
+patchwork: for sure
+patchwork: it may be cool to collaborate on something for these guys maybe? should I mention you may be interested?
+fun chart, notice how scientists are down on the left bollock, and prostitutes and dishwashers sit right on the tip of the donger
+http://phys.org/news/2014-09-scientists-americans.html
+I mean seriously, you think anyone could do it? why don't you try?
+bbl, taking the lappy with so disconnecting, wish me luck
+D O G D O G
+ever have that feeling that instead of turning down the weird you just changed the weird channel
+so this is something those silverpond guys are doing http://en.wikipedia.org/wiki/HATEOAS
+it's like discoverability for REST
+patchwork: meta-spec is REST
+patchwork: and the endpoints give the extra data so you can walk the whole site of services like a tree
+or that's the theory
+well, not just like a tree, it is a tree of services with hyperlinks for pointers
+another thing he mentioned was thin client web stuff, where the server sends DOM manipulation commands direct to the client - which sounds super sketch to me
+patchwork: hardly anyone uses it, dunno if it works in practice
+one of the actions is that the server can send code to the client that helps it navigate new content types
+perhaps this includes the hateoas structure itself
+it's embedded in the response, but yeah, you would have client side code, likely some js on the initial landing page I guess?
+patchwork: that would connect these two concepts
+it was a good discussion, I didn't get the impression I would be likely to get work from them though
+but sometimes I misread people, so we'll see
+I didn't get the feeling at the end of the meeting that I would be getting any work offers.
+yeah, I can be excessively self critical sometimes (especially when any sort of cultural boundry is being crossed). We'll see.
+heh
+https://twitter.com/NicestHippo/status/513830135838281728
+patchwork: yeah, you follow me
+@ryanspangler FOLLOWS YOU --  Everything is a person
+I like short things with no context, so twitter is fun, never really tried it before
+also I no longer pay for text messages per the each
+so that barrier is gone
+http://i.imgur.com/wLMpqF9.jpg
+https://i.imgur.com/3SETxBS.jpg hamster gundam
+patchwork: I think you would like this twitter feed https://twitter.com/dogsdoingthings
+https://twitter.com/ProBirdRights and this one
+listening to Tanya Tagaq's cover of Caribou right now
+she shrieks REPENT in an unearthly way
+D O G D O G
+RESTivus would of course include feats of coordinated distributed application state
+so I am listening to the album that won the Polaris award this year
+it opens with a cover of Caribou by the Pixies
+(the artist is Inuit)
+oh, now I noticed I mentioned this album yesterday (still listening today)
+billion dollar web app idea: a server that each person runs, and various "social networks" can sign up for them if they can acquire an invite
+(btw I have ello invites)
+people who are better at learning rules are more likely to form false memories http://www.sciencedaily.com/releases/2014/09/140924113039.htm
+D O G D O G D O G D O G
+D O G D O G D O G
+patchwork: I didn't even make it to the Coltrane thing last night, sadly. I stayed home and implemented the base-;lkjfdsa-encoding instead
+it's a mostly useless algorithm that converts any 7-bit-clean plaintext to look like someone was poinding on the home row of their keyboard like a jackass
+yes, it goes both ways, one moment
+full code https://www.refheap.com/90612
+wasn't really worth a github repo yet
+it's kind of like steganography, but instead of hiding the text as an image, it hides it as pointless adolescent keyboard pounding
+same concept though
+haha
+I talked to technomancy about generalizing it for dvorak, or planets where people have finger counts that are not a power of 2
+noonian on #clojure has promised to port the algo to emacs lisp
+next step: encoding / decoding a message into the blather of comment section trolls
+(apply str (map {\a "Wake up sheeple! " \b "911 was an inside job. " \c "The moon landing was faked. " \d "Worst video evar"} input))
+perhaps an encoder that makes your secret look like a chaotic irc channel
+D O G D O G D O G D O G D O G D O G
+https://i.imgur.com/Is7IibG.jpg
+somebody incorrectly
+the changelog for the upcoming nethack release is amazing https://gist.github.com/anonymous/152c3226e921df0052a4
+D O G D O G D O G
+Hey social networks! Just FYI I have some exclusive invites to the justin_smith open beta. Act now if you want to try it out. For now, I will interact with your service for free. I have a strict policy of not revealing the secrets of one network to the others that sign up. Come check it out!
+D O G D O G D O G D O G D O G D O G
+haha
+github project naming is a clear use case for DDAAS
+D O G D O G D O G D O G D O G D O G
+haha
+so how about that bash thing huh?
+crazy shit
+I feel sorry for the folks running CGI sites on old redhat boxes...
+no, just people who have bash as the system shell, and run processes that use a remote env
+debian / ubuntu use dash, so we are fine
+because bash is full of weird features nobody actually uses
+so the people who were like "I know lets import an environment var from the net" were totally disconnected from the ones who were like "I know, lets connect environment vars to executing arbitrary code"
+it's the classic convenience vs. security dilemma, and in the space of bad design, you through disorganized and obscure features at convenience problems, leading to security holes
+*you throw
+which is why it makes sense to minimize your feature set at abstraction barriers - which makes me think I should hurry up and learn haskell because lisps are terrible about this stuff :) full of obscure features with bizarre unintended overlapping implications
+heh
+yeah, j5 put the api key for instagram in the js
+no big surprise, the key is no longer valid (may have been abused, who knows)
+now I have to figure out how to a) access the instagram api from the backend and forward to the frontend or b) how to allow anonymous access on the frontend
+I think the current situation is likely not even kosher with the instagram TOS
+D O G D O G D O G D O G D O G
+quile: found a 3wp: "screaming bubble years"
+I wanna go there!
+D O G D O G D O G D O G D O G D O G
+D O G D O G D O G
+I have discovered that the terrible thing that is clicker games are: a) a reductio ad absurdum of all games that contain "grinding" b) much more about waiting for cool things to happen, and coming back to the game hours later after it farmed some shit. After the first few levels you don't click much.
+a well trained D O G is a happy D O G D O G D O G D O G D O G D O G D O G
+:)
+D O G D O G D O G
+https://d324imu86q1bqn.cloudfront.net/uploads/asset/attachment/191625/entity-room1.gif an old friend from Olympia makes really weird gifs
+I'll have to remember to show that to patchwork too, we all met around the same time
+yeah
+heh
+the main thing I had in mind with D O G D O G etc. was embedding an effectively infinite loop in his markov sequence :)
+woah, john brown made an awesome thing http://codepen.io/ThisIsJohnBrown/pen/cqmrv
+quile: https://twitter.com/timbaldridge/status/516647993844305920
+I've definitely learned a lot from him
+quile: so sorting out this auth token in the js bs: turns out instagram only allows authenticated access to a specific user's feed, so the only clean way is to proxy the api and provide the token from the backend (once we get a new token that works again)
+my fear: someone scraped the access token out of the js and abused it nefariously which is what got it cancelled
+more likely: instagram noticed their api was being used ina way they don't like (which would be a problem that would come up again even usign the token on the backend)
+one of the clojure cup finalists is awesome enough to actually use immediately: http://youmusic.clojurecup.com/#giant steps
+corrected URL http://youmusic.clojurecup.com/#giant%20steps
+patchwork: oh fuck
+so sorry to hear about that
+patchwork: on a completely different note, birch cooper has some awesome art up on ello https://ello.co/birchcooper
+yeah, good head fucks
+so I tried one of those silly "clicker" games - they are basically mini games that simulate the "farming" experience in grind-heavy video games
+cookie clicker - turns out that there is not much clicking involved - mostly letting it run and watching it evolve, then clicking a few options
+but the reason I mention cookie clicker now is that it turns into a bizarre psychedelic nightmare if you let it run lock enough
+I was impressed
+patchwork: things you run into end up including a pan-grandmother hive mind, and creatures from another dimension that nibble all your cookies, and deliver them back to you when popped
+ostensibly about cookies
+then it gets more and more weird...
+http://www.smbc-comics.com/?id=3494#comic someone needs to make this app
+the last one cracks me up :)
+"sorry, I thought I was reviewing the abstract notion of togetherness"
+D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+haha
+D O G D O G
+D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G
+http://crossclj.info/ this is cool, I had no idea midje was so popular
+this just in: Tetris movie in the works http://blogs.wsj.com/speakeasy/2014/09/30/tetris-movie/?mod=e2tw
+http://twitpic.com/ec9c43 core.typed support in cursive clojure
+tetris: the movie is either going to be fucking amazing or really really sad
+D O G D O G D O G D O G D O G
+three three three
+quile: how about "I responded to your preceding anecdote, quip, pun, or link with an audible guffaw, or at least a noticable exhale of air that in our internet age we qualify as "a laugh"."
+Speaking of waxing prolix, I have been rereading Samuel Beckett's Mollow, and discovered the following passage: "This time, then once more I think, then perhaps a last time, then I think it'll be over, with that world too."
+it led me to believe that Beckett was grinding out levels in World of Warcraft
+or perhaps the tedium of repetitive but addicting video games is like the misery of a life lived too long
+very likely
+patchwork: or maybe most of the potential Becketts of his day wasted their time with poker, whist, rummy, and the horses, and the only difference is ease of access and speed of reward
+this has long been my suspicion
+an old friend, the man who first made me learn linux, and introduced me to programming, and introduced me to higher math, recently reached out to me
+he loves theater (especially the avant garde) but has been retreating into playing MUDs
+and given what he taught me, he could easily have a career better than I have had, but instead he is isolated, unproductive...
+I think this is about deeper issues too (the things he retreats from and tries to cope with by turning to repetitive addicting games)
+did you guys see http://crossclj.info/
+I guess I should have appended an empty query string to that
+haha
+(constantly 'balls)
+(repeatedly (constantly 'balls))
+lol
+D O G D O G D O G D O G D O G
+D O G D O G D O G D O G
+D O G O R B
+D O G D O G D O G D O G D O G D O G D O G D O G D O G
+quile: lol
+have you seen this? http://miegakure.com/
+sonification is funny stuff
+yeah, and supposedly will be available for mac and linux
+cool
+the old one is gone?
+ahh
+living in the future
+sucks
+wow
+surprised that wasn't the first thing you mentioned
+another mind bending game https://www.youtube.com/watch?v=wC1jHHF_Wjo#t=10s
+I still think that guy who rear ended patchwork and I was a road raging psycho
+quile: I saw tusk, there were a total of three of us in the theater
+quile: anyway, tusk is the first movie in kevin smith's canada trilogy
+“I was all out of cake flour, so I transfigured my hands into puffer fish, which worked pretty well.”
+D O G D O G D O G D O G D O G D O G D O G
+that was beautiful
+"Is the bacteria humanely raised?"
+a comment thread about absurd things people have overheard in portland - someone was grilling a farmer's market stand worker about their cheese and how it was made
+http://www.metafilter.com/106210/The-Pickiness-Of-The-Masses#3852905 <- source
+indeed
+D O G D O G D O G D O G D O G D O G D O G D O G D O G
+via nginx, silly
+OK
+yesterday I made a bunch of progress trying to proxy an api call that was being one in the js, so we don't leak auth credentials to the frontend
+also, I got sql based search (pick a model, get all instances with a matching text / string field for query) working
+I have been experimenting with haskell
+and wasting some time with stupid games (coming out of that)
+wait, what about auth?
+yeah, the right way to handle it is an ssl layer on nginx I think
+no, the js was using a third party API, and had our auth token embedded in the js
+patchwork: sad thing is we had that consensus, and never did proceed to wrap anything in ssl
+I was thinking about the whole docker thing the other day - to me the history goes like this: 1) libraries are archives unpacked in your dev directory 2) so much waste of disk space and ram! shared libraries and shared headers 3) dependency hell between various projects 4) disk space is cheap, let's just install an operating system running on a virtual machine for each project
+where really - to some degree we could just stick with "dependencies per project" and skip the complexity, right?
+patchwork: did you end up trying that graphing technique?
+patchwork: also, did you notice that instrument dropped caribou for squarespace?
+yeah, of course they prune the image - but it's still installing an entire working OS in order to avoid duplicating dev deps...
+absolutely not
+it's also a way to avoid having any *nix knowledge (or minimize it) by being able to simply push an image
+of course
+patchwork: it goes a little deeper than I may have made clear
+the whole "isolating dev deps" thing
+for example, shared libraries make these things hard
+people release binary incompatible versions of the same version lib
+but not using shared libraries at all is still cheaper resource wise than pervasive use of VMs is
+hmm
+I think it's a convenient solution to an old, bad, design
+but the right solution is simpler but would be a bigger cultural shift
+kind of
+with no shared libraries, and dependencies managed by per-project management tools rather than per-system, something like docker would only be needed in very large, highly automated setups
+not just shared libs
+shared anything
+:)
+library artifacts, library source, binaries, various configuration
+the thing is, the success of docker shows we can afford that level of isolation
+and a shared-nothing-by-default approach has more flexibility
+right
+to some degree that's the point of a kernel, anyway
+it's just that we have a bunch of legacy shortcuts that were great for reducing resource usage once upon a time...
+hmm
+well, even docker doesn't abstract from OS - you need an image compatible with a vm container for your OS
+I think I am spoiled in that I don't see that problem very often, since I run the same OS I deploy to
+it makes me very happy that this exists https://hackage.haskell.org/package/acme-dont-1.1/docs/Acme-Dont.html
+very elementary stuff, refreshing my previous very elementary stuff :)
+I'll let you know as soon as it is anything interesting
+definitely not - I've been making a point to take breaks to read actual books
+and I've been playing music, a bit
+no, haven't followed up yet
+definitely will
+for patchwork later: https://github.com/zcaudate/lein-repack
+D O G D O G D O G D O G D O G
+33 1/3
+awesome feature in clojure 1.7: stack traces for functions that are anonymous functions with let bindings show the name of the let binding
+well, not sane yet
+but better now
+I was going through some haskell exercises, and everything was awesome until I needed random numbers then things went bizarro
+http://the-toast.net/2014/10/14/talk-babies-semiotics/
+patchwork: quile: today is world standards day ... except in the US where it is celebrated on the 23rd http://en.wikipedia.org/wiki/World_Standards_Day
+patchwork: she is one of the best humor writers on the web right now, she is the editor for the Toast
+quile: a bit too on the nose almost
+quile: now take your teeth and extract them into the extra-dimensional reality of globzorb, but capture any blood and saliva into quizlax, now carefully un-extract the teeth from globzorb into the pentagram, and that summons a tooth fairy
+haha
+https://twitter.com/eurocrat/status/520245124140634113 a map where the colors describe how long it takes to get somewhere from London
+yeah, it was a common technique to exploit people's facebook accounts
+D O G D O G D O G
+so yesterday Patton Oswalt was trolling gamergate on twitter, it was pretty hilarious

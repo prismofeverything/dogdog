@@ -183,4 +183,4 @@
 
 (defn -main
   [& args]
-  (def irc (init ["#instrument" "#antler"])))
+  (def irc (init ["#tripartite" "#antler"])))
