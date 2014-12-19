@@ -2678,3 +2678,440 @@ r(e,t,n)};var u=function(e){var t=e.textContent;e.textContent=o(e.textContent)};
 https://github.com/prismofeverything/zalgo/blob/master/resources/js/zalgo.js
 Of course, if you paste a string into your browser that starts with "javascript:" it will strip it for you : )
 Apparently too many people were being exploited by being convinced to paste in arbitrary javascript into their location bars
+Yoyoyo D
+justin_smith:  Sounds awesome!  I will see if I can work it in
+quile:  How goes?
+I have been busy as fuck but just got a chance to turn on IRC
+Max is a daddy (again)
+justin_smith:  What are you working on lately??
+I think we should all get some lunch next week
+I miss you guys
+Ah yeah!  Love that place
+I don't think I've been there since that guy rammed into us then drove into a building
+freak
+Jodi finally got a check 6 months later!
+Yeah, she has a new car : )
+Well, it is an impressive story
+Yeah, well those guys are cooler than the people Jodi was dealing with.  It was insane
+I think it was because he also ran into the building, so it went through commercial insurance claims and they couldn't be resolved separately for some reason??
+Wooooooooooooow ouch
+There is never a good time for that image
+quile justin_smith:  How do you guys feel about tomorrow for lunch?
+Ah, that works for me
+Thursday then
+How are things over there quile?
+Well, aren't you about to have a baby?
+Right!
+Dude well luckily you will have plenty of time after the little one arrives ; )
+You might need to find a hobby or something
+When is the little one due?
+Thursday it is!
+justin_smith:  Awesome!  Yeah bummed I couldn't make it
+The guy seems pretty rad
+So yeah, how has it evolved?
+Ha!  Small (noise) world
+Hahaha WTF quile????
+Nice!
+Dude, your characterization is uncanny
+Have you ever thought of going into script writing?  No seriously
+Actually, I bet your movies would be amazing
+Narrative skill is not to be underestimated.  There is a reason that stuff works
+I forget if you have read any Keith Johnstone?
+It seems we may have had a conversation about this before
+This one:  http://www.goodreads.com/book/show/306940.Impro
+Shostakovich : Bach :: ??? : Shakespeare
+Anyone know?  I would love to see a modern elaboration on fundamental narrative structure
+Yeah I was thinking Beckett...
+Don't know much Stoppard
+Awesome, thanks for the lead
+Beckett : Shakespeare :: Gödel : Whitehead
+Hahahaha!  Holy crap alright must read
+Oh I am patchwork again
+justin_smith:  I have a thing at 2:00, so it is going to have to be a little earlier
+And that place is better the earlier you go
+quile:  That is what we talked about, though I am open to anything
+11:30 would work better for me, though I know that is early for quile ; )
+quile:  Sounds good
+Indian still sounds good to me...  I haven't been to that place in forever
+Duuuuuude
+Well, method_missing itself is one of the worst language features ever made, so this just makes it more like what it already is...
+quile:  What probability does he trigger with?
+33333333
+3333333333333333333
+Doing a lot of screwing around with vagrant lately... you guys ever use that?
+It is pretty cool
+Also: tmux
+Basically I am tricking out our whole development environment to boot in different tmux windows on vagrant up
+It is like playing with toys
+part of why it is awesome doing programming
+I feel like it is a direct extension of legos
+playful monkeys
+How goes over there quile?
+Oh yeah?
+Nice, always wanted to screw with that.  Haven't done any UI for awhile now
+Everyone around here is way into angular
+It seems like the "new cool thing"
+But I thought react was superior?  (though I know very little about either of course)
+Hahahaha yeah!  That quote will come in handy.  I'll let everyone know : )
+What is the difference?
+Ahhhhhh okay... yeah man, the magic
+I feel like people use the word "magic" for "assumptions that are a giant pain in the ass to work around"
+quile:  That article is hilarious
+Yeah, is anyone using python 3 right now?
+justin_smith:  Ha!  Do you have a transcript?
+justin_smith:  Not sure... it was a while ago
+So probably an old one
+Ah!  Well then it hasn't been updated in a while : )
+Yeah it is a little fussy
+Hmm... so it could be an improvement we could make
+Hooooooooly crap
+Don't make me cry
+Ah yeah!  Definitely want to see this one, thanks for the reminder
+Which day are you going?
+Oh right!  That is right around the due date
+I heard it ~2004 I think
+Love it
+Okay, well I'll get some tickets for myself at least
+I guess you will have to play it by ear then : )
+As it should
+justin_smith quile:  Have either of you tried Austin?  https://github.com/cemerick/austin
+Funny
+I was looking at piggieback, then I found austin is a wrapper for it
+So then chestnut is a wrapper for that??
+Ha
+Ah I see, it is a lein template
+Interesting, I was using a different lein template for three.js stuff
+Maybe I can combine them somehow
+Oh, and this thing uses weasel, which is apparently an alternative to austin!
+Interesting... I have been away awhile
+justin_smith:  Being an adult is overrated
+All this taking responsibility for your own existence thing is a real downer
+But I respect your opinion
+Yeah, fun is not something you can ever *make* anyone else do
+Fun is something that happens spontaneously
+How do you feel about fun in general justin_smith?  Is it just imposed fun (which is a self-contradictory) that is the issue?  Or do you feel there is an issue with fun itself?
+spontaneous silence is still spontaneous
+justin_smith:  That is interesting.  I also had a very open ended and permissive upbringing (probably not as extreme as you), but I didn't have this imposition on holidays, which seems contrary to that idea
+It is interesting to witness how much we are affected by our upbringing, even to this day
+quile:  Curious what Callum will say about his upbringing ; )
+quile:  That is a waaaaaaay better way to do it
+4th of July is the worst holiday
+In the US holidays are another excuse to sell/buy a bunch of useless plastic crap
+Everything is commodified
+justin_smith:  I do think there are strengths and weaknesses to every approach.  Your upbringing seems to have left some scars, but it also made you who you are in other ways.  Jodi was recently criticizing my upbringing (!) for not teaching me some essential things to function as a human.  But then these same things are in other ways an advantage.  So there are two sides to everything I guess
+In other news... looks like you succeeded there quile!
+Yeeeeeeeaaah
+hahahahaha
+Also:  I don't think a human can avoid being spontaneous.  Even if you are following some script, you are spontaneously choosing to be scripted.  It is a fallacious dichotomy
+And deeply misleading
+YOU HAVE THE CHOICE
+That is like the Haskell anathema
+The Anti-haskell
+You guys are playing with fire here
+It is true... I was talking to anybot
+It was enlightening and strange
+quile:  Yeah I am going
+quile justin_smith:  Definitely, let's meet somewhere
+quile:  Ah, looks awesome!  Never heard of it before
+What time can you make it down there?
+Sounds good to me
+quile:  What the fuck is "gustatory rhinitis" ???
+(dec mongodb)
+quile:  But what is it???
+I mean.... it sounds like a fancy description of the effect
+justin_smith:  anybot is okay... I think he is responding to me saying "what"
+justin_smith:  Or maybe question marks then!
+quile:  Seriously??  So, not an allergy, not a condition you can treat?
+Got it, crazy!
+Well, good to know
+Ahh that makes sense
+So how do you treat it then?
+justin_smith:  Yeah man!  Sometimes I am so wrapped up in stuff I forget to join here
+How goes with you?
+Wow!  Sounds badass
+Dude, you get to do linux audio for work, that is an achievement
+Yeah, awesome situation
+brb meeting Jodofon for lunch
+justin_smith: So is that how you implemented the audio stuff, with a protocol for reading and writing bytes?
+Aha
+Yeeeeeeeah
+There was only one processor?
+And did each one depend on the output of the previous?  Or were they in parallel basically?
+Ah, so it was basically parallel
+Yeah
+Funny!
+Aahhhhh, but it seems like you could feed all of those into a clojure program or something to properly parallelize it
+Yeah!  jinx
+Without a doubt
+Yeah that is what it is for
+Awesome
+Right, so dataflow for actual flowing data : )
+That would be awesome
+Yeah well you have those problems coordinating any concurrent processes in a way
+That would be hilarious, a curses max/msp interface
+With ascii wiring between nodes
+I would like to see how that performs
+But so much more work, and less general
+Right, you would need a translation layer
+It could be a whole language!
+Hmm.... (wheels spinning)
+Yeah right!  Still, would be awesome
+justin_smith:  What are you up to tonight?  Want to do some code music?
+Yeah what is your schedule now??
+Wow crazy
+So that is what... waking up at three in the morning?
+I can see how that would have a serious impact yeah
+So it is almost your bedtime then!
+justin_smith:  Sounds good
+I'll come by your place
+What is your apartment number again?  (I always hit the wrong buzzer...)
+Awesome!  I'll let you know when I'm heading over there (could be a little later, probably not too much)
+justin_smith:  http://en.wikipedia.org/wiki/Kahn_process_networks
+Thankfully
+justin_smith:  Yo!  How goes?L
+It is good
+: )  Yeah sometimes you just need to peel away the abstraction
+Always a tradeoff between time saved typing less and raw power of the lower level
+Conceptual clarity vs pure flexibility
+Well, sql itself is an abstraction of course
+Rejects multimethods... of course!  Well, seems like it wouldn't be too hard to find the right predicate
+How can you detect a multimethod?
+Yeah, caribou queries are really just meant to simplify querying across many tables
+That is their main benefit, you can ignore the details of join tables and just focus on the model relationships.  But yeah, huge things missing in terms of generality
+I wonder, if we ever fulfilled the dream of targeting many different backends, then the caribou query would be an abstraction over different db paradigms and that would be a benefit... But I'm still not sure that is even plausible
+Ah yeah, that talk looks awesome
+Haven't had a chance to watch it yet
+Really!  Ha
+finger issues?
+Might be your keyboard : )
+evil-mode... Still want to give that a try.  How complete are they?
+And doesn't vim have a bunch of chords once you get out of the main proper?
+Yeah I never really learned... a good reminder.  Always wanted to
+So wait, you just hit ctrl, and it is a prefix?
+Ah, I see
+That is pretty badass actually
+Ah!  I keep hearing about this
+Alright, will have to check it out
+The other one is interstellar... though it seems more mixed
+Ahhhh right : )   It seems intentionally meta
+Yeah which is just off the hook
+Among other things....  yeah and that movie kind of spawned the entire recent comic book hero movie movement
+Cool, I will check it out
+Right, most movies are intentionally fortune cookies
+To relate to everyone, have no content
+let me viewer fill in their own identity
+*the
+Also, you have inspired me to start listening to all of the Beethoven string quartets
+I never really spent much time with them
+They are pretty amazing
+I think it also depends on how they are played
+What recording do you listen to?
+I have amazon prime (order a lot of things) and I was able to download the Alexander set
+for free
+Yeah they are archetypical works of structure in a way
+Like, "this is how things harmonize"
+"These are organized harmonies"
+They are almost works of physics
+Definitely proofs, composed of the axioms of acoustics
+Wave existence... I always wish I could spend some time and read all the wave math I can find, and thoroughly once and for all transition to the wave perspective of reality
+The particle view is so ingrained in perception.  Like we have all these edge detectors to filter wave existence into bins
+But the secret is in the waves
+Is quile really around??
+quile!  How is the little one?  : D
+Wow, I said that?
+I love the basic idea
+Well that is integration for you
+Yeah, infinity is great in theory
+But for our poor finite mortal existences we have to cut some corners : )
+I need an infinity engine
+that I could just tap into, like a server
+The infinity server
+Then I could get some real work done
+That is what I thought!  But neo4j thinks otherwise
+That is the sane interpretation
+But if they are willing to take you to court over it, then you get judges involved who have no idea what is going on... You are risking an expensive battle on behalf of the company
+this is pretty enlightening:  http://stackoverflow.com/questions/6500925/agpl-license-question-re-neo4j
+And, you still need to buy the license to get any kind of high reliability
+That is amazing
+But what does it do beyond that?
+Send information back somewhere?
+Wow, crazy
+Of course though, anything that is possible will happen eventually
+Just amazing to think of how dependent and open everything really is
+How much possibility a general computing architecture really provides
+Yeah, there are evil geniuses of the world
+http://quietube6.com/v.php/http://www.youtube.com/watch?v=g8ei1NF0oic
+!
+Premium couch oil is hard to find nowadays
+used only in the most refined of recipes
+!!!
+quile!  How goes man??
+Hahahaha yeeeeeeeah
+In whatever
+Yeah that seems like a heavy requirement
+I mean a week old, that is insane
+I can't even imagine what it is like to be a week old
+I will dig deeper then
+How are you all holding up?  How's Tara?  How's Callum?
+Awesome
+Wow yeah, so it's all you then
+Yeah nuts!  Well that is what you are there for
+You have time off work I assume?
+Ah right!
+I am listening as well!  Love this thing, so mad
+He is in the crazy heavy fourth painting right now
+love this one
+(I think it is the fourth)
+Really starting to get a feel for each painting now, after listening through it a couple of times
+Is that the one?  Where is the list?
+Yeah it is incredible man, seriously thanks for showing me
+It has instantly become one of my favorite pieces of music
+You guys use caps lock as ctrl right?
+It is insane not to
+This does make me want to finally learn vim though, it does seem more elegant
+I love the idea
+Time to give it a shot : )
+I have used vim just enough to know how to get around a bit
+but not enough to see the linguistic elegance you speak of
+Ordered:  http://www.amazon.com/Pictures-Exhibition-Other-Works-Piano/dp/0486265153
+Going through vimtutor right now
+Quite a portrait there
+And a bunch of other piano music!  Curious about that
+Probably some good stuff in there
+Yeah he looks fucked up
+Okay I get it.  vim is awesome
+$ - end of line
+^ - beginning of line
+d - delete
+d$ - delete to end of line
+d^ - delete to beginning of line
+Iseeiseeiseeisee
+Lovely
+Yeeeeeeeeahh that is badass
+Whoa what the hell?
+That is crazy
+Aaaaahh yeah
+So wait, what is ' , and . ??
+' - from mark?
+Got it
+Ah holy crap
+that is awesome
+So . composes?
+like a pipe or something?
+Ahh okay
+Right!
+screwing with that now
+Okay that is super useful
+!
+Right, registers are always something I wanted to use more of in emacs, this seems far more accessible
+Okay, this is enlightening
+Freak yeah
+Hmm, my marks seem to start from the beginning of lines no matter where I put them
+Yeah that part I am fine with
+That is why you don't have to chord around
+Ah, so how do I mark a specific point in a line?
+Or is that not the deal?
+Interesting
+Yeah being able to just operate between marks and not necessarily the point is rad:  :'a,bd
+Or whatever
+What about clojure editing?  Syntax highlighting?  Modes?
+paredit?
+At the moment yeah
+Might be nice to immerse myself before messing with the hybrid
+Well, ed is the one true editor
+Hmm... d% is half of paredit ; )
+That is odd.  So you have seen both now?
+Hahahaha what the hell?
+Seems like they may be targeting a certain demographic....
+So they are basically the same movie then
+The parallelism is uncanny
+Dude this is almost a thesis!
+Apparently gravity is not a force (or so I'm told)
+Not sure!  I need more physics to know... but it is something about how the "force" of gravity is really all particles trying to move in a straight line through curved space
+I feel like they do that every year
+It is ingenious... I hope they win
+Wow, that is releavnt
+I mean, relevant
+I MEAN< RELEVANT
+Hello!
+()
+(monday morning meeting........)
+Ahh nethack.  Thanks for the reminder : )
+I guess they were decoupling the commands from the keybindings.  Makes sense actually
+Ooohhh okay, ha!  Well yeah, that seems unnecessary
+Someone was overeager in their abstraction it seems
+Yeah, just because you can code it, doesn't mean it makes sense
+It reminds me just how many ways things could be coded that we dismiss without even thinking about them because they are obtuse and strange
+But they are still possible
+Rube-Goldberg oriented programming
+The simplest thing is such a small point in the vast space of possibility
+Which is why it is so rarely found
+Where the theme is arrived at by more and more laborious means
+And then they are performed in reverse, so that the original theme is the last thing played
+Oh quile by the way, my Mussorgsky book has arrived in the mail
+I have already been playing through it, what an awesome piece
+Bydlo might be my favorite
+for whatever reason
+But yeah, the great gate of kiev, that thing rocks.  So satisfying to play
+Yeah, I can't thank you enough
+I showed Jodi the book, she flinched when she saw his portrait ; )
+He is quite a dude
+justin_smith:  Only pride
+I have messed around with that shadershop before, pretty cool!
+Yes, being lunch is quite expensive
+@wotd
+That is always shocking to me
+How did they hold up?
+Yeah sometimes I am like "This is brilliant!  How did I ever do this?" and sometimes I am like "WTF was I thinking gaaaaaahhh!!"
+Always strange to see evidence of thought patterns from a seemingly different person
+That would be amazing
+Crossing the gulf of time
+TNT is awesome
+Though I forgot to say just flank and they threw all the crazy stuff in the bowl : )
+Between first and second on Ankeny
+Right by all the Saturday market stuff
+Wow!  That was ... verbatim? D
+justin_smith:  How goes?
+Hey I wanted to ask you if you were free Sunday?
+We are having a dinner party with Annie and Jarvo and would like you to come if you are able : )
+Our house, early dinner?
+Sweet!  Looking forward to it
+What are you up to lately?
+What is foundationdb?
+Ah, interesting
+So kind of like redis?  More reliable than redis?
+Wow, seriously
+That is pretty radical
+Right, I love it.  Giving us an actual tangible way to measure db behavior beyond a bunch of marketing claims and vague situational benchmarks
+Interesting
+Good to know about, I may find use for that some day
+I just found a legitimate reason to have the code here rewrite itself while it was running
+Not every day that comes up, could not resist
+These people had overridden "method_missing" for the Hash class to do lookups on the method name
+So like "foo.bar = 5" instead of "foo[:bar] = 5"
+Which is great if your key is not actually a method in hash, in which case everything goes to hell
+So I appended the method_missing to look up where it was in the execution stack, find the line, substitute out the sane accessor and write the file back to disk
+It is like a self-repairing function
+Yeah, it is pretty awesome
+Take that ruby
+I called the branch "method_present"
+Ah looking forward to retiring this poor thing once and for all
+justin_smith:  Looking forward to hearing that
+As in, BASIC?
+Oh man I miss BASIC
+GOSUB yo
+Or should I say, 10 GOSUB
+Always
+What do you think?
+I have been checking it out, but I'm not sure it has 20 WEBSCALE
+justin_smith:  Working for jono?  Awesome!
+justin_smith:  Great to hear
+I had other obligations unfortunately
+What was it about?
+Ha, how is he going about that?
+quile:  Thanks for the warning!  Pretty calm out there right now, crazy
+justin_smith:  How is it working out?
+Uh-oh
+justin_smith:  Yeah I have noticed that too... I wonder if the history files got reset somehow?
+justin_smith:  Are you getting some sound out of those things yet?
+Awesome!

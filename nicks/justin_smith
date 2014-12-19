@@ -4303,3 +4303,1474 @@ https://twitter.com/eurocrat/status/520245124140634113 a map where the colors de
 yeah, it was a common technique to exploit people's facebook accounts
 D O G D O G D O G
 so yesterday Patton Oswalt was trolling gamergate on twitter, it was pretty hilarious
+D O G D O G D O G D O G D O G D O G D O G
+quile: I finally tried the margenalia for clojure - it makes searching through a codebase, and reading it, very pleasant
+yeah, I am sad I did not try it sooner
+so what's the deal with dingdong, trying a different fork of the codebase?
+haha
+makes sense, ever dog does love balls
+of any sort
+rubber, their own, someone else's...
+D O G D O G D O G D O G
+patchwork: kevin drumm is playing at YU tonight https://www.youtube.com/watch?v=hlizdOqSbcM
+I met him when I was a 19 year old kid in chicago
+one of the few people of my acquaintance to get regular reviews in pitchfork
+he does a mix of ambient drone and harsh noise drone, but his latest album was very ambient and quiet, so that is likely how this show will be
+some teague work, learning haskell, reading (beckett and algorithms), spinning up an idea for a ring adaptor that isn't a web server, but takes a string and returns one
+patchwork: yeah, that would be cool
+what about the Indian place on Burnside? I haven't been there in ages.
+they replaced that wall!
+can she replace the vehicle?
+I actually got a chance to talk to the guys replacing the wall, the were impressed by the story of the crash
+lol
+"How Can JavaScript Be Real If Undefined Isn’t Real"
+quile: so that guy who I was mentioning yesterday, whose show I went to last night? he remembered me
+I was so flattered
+also, a top-notch noise show
+he and I have been moving in similar directions since 1995 or so when I first went to one of his shows
+though he has things like a record label and positive reviews in pitchfork magazine... I'm happy for him
+33
+147
+hmm...
+quile: is numberwang a thing he randomly does for numbers?
+did I win the first ever NUMBERWANG!?‽
+893
+D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+patchwork: I could do Thursday
+patchwork: so I went to that concert, and Kevin remembered me from the scene in Chicago 1995 or so - he had even asked a mutual acquaintance recently whatever became of me
+like 19 years ago!
+turns out, I still love the kind of noisy shit he does
+difference being it's now pretty close to what I do too
+very inspiring
+it was intense
+oh, and to top it all off, among his gear was the first pedal I helped Dan Green invent!
+he was shocked I had anything to do with that
+I liked his stuff years ago, but my attention span was much shorter - he tends to elaborate things much more slowly
+:P
+oh shit
+quile: how about adding "let's turn the board around" as well
+quile: indeed, that did sound like a hollywood hacker
+now what would a bollywood hacker sound like...
+a bollywood hacker would be a downtrodden romantic who rebels against his job doing outsourced programming work for a big faceless international corp
+and then sings and dances and gets the girl
+via some scheme that combines his nigh supernatural skills with computers and a token of his affection - changing the shape of her Internet Explorer window to a heart or something.
+hah
+I've just watched too many movies, the generic cookiecutter narrative bullshit comes naturally if I let it
+maybe Stoppard?
+dunno
+or Beckett
+no, Beckett is too radical for that comparison
+patchwork: check out Travesties, it's a delight
+great play for armchair reading
+it imagines a world where Joyce, Tzara, and Lenin met in Zurich during WWI and all fell in love with the same woman
+has the play within a play aspect and all, very shakespearian
+HAPPY CAP LOCKS DAY EVERYONE
+D O G D O G
+via aphyr: open these both at once http://www.infinitelooper.com/?v=ukPHKmjDrU0&p=n#/22;38 http://www.infinitelooper.com/?v=Wp08EmQtP44&p=n#/1273;1287
+and as is being discussed on #clojure at this moment, transducers make programming for core.async even better
+quile: the latest supports them, if you are using clj 1.7 at least
+or so I hear...
+quile: yeah, people were talking about updating and getting deprecation warnings for the chan map function etc. (to use a transducer instead)
+quile: so I was "discussing" a design with this madman on #clojure - a php / perl guy who is trying to make a "scripting framework" for clojure
+so insane
+not to say his being a perl guy caused the madness, of course
+for whatever godawful reason, he is using gensym to create the names of functions, and then mapping across all functions in a namespace and executing them if they have a :script metadata...
+like OMGWTF
+gensym to create function names?!?!?!
+I was like dude, if the names are not important, just make an array of functions
+he was like "I guess that would have worked too"
+patchwor`: he wants to take function definitions from a client, and create handlers from them on the server side, as some kind of interactive live update of the server thingymajig
+patchwor`: so I guess gensym insures they don't clobber other functions of the same name? totally bonkers
+quile: that's what I gather
+patchwor`: not only can you, that works out better too
+patchwor`: he really seemed to be fond of overly complex / overengineered OO / j2ee style constructs, and highly suspicious of standard clojure ways of doing things
+patchwor`: I think he may be the antihickey
+the antihickey, as the prophecies foretold
+patchwor`: the power of confusion and anti-pragmatism :)
+spreads it by example and contagion
+oh, and lack of thinking / designing before implementing
+also, I found my new favorite putdown gif for programming language / library / design style misfeatures http://i.imgur.com/MdbUlkO.png
+s/gif/png
+patchwor`: have you heard of this game? http://www.shutupandsitdown.com/blog/post/review-dog-eat-dog/
+and intense
+patchwor`: we did not grow up in a society that rationalizes the sides of that game and makes excuses for the unfairness in it?
+nobody is like "well obviously fish people have a self destructive culture and lack the ambition and logical reasoning of crustacean aleans that smoke cigarettes"
+god dammit taylor swift is edging in on my turf http://www.avclub.com/article/taylor-swift-reaches-pinnacle-charts-and-career-ei-210828
+hello
+patchwork: quile: so what time today? around 1 maybe?
+sure, I could do 11:30, 12:00
+quile: that was my assumption, yeah
+https://github.com/AndrewVos/metherd-missing bad programming language feature, or worst programming language feature?
+http://i.imgur.com/MdbUlkO.png
+D O G D O G D O G
+1 2 3 4 5 6 7 8 9 10 11 12
+1 2  4 5 6 7 8 9 10 11 12
+got it
+๓
+this tool claims to do it
+yaya!
+operatic arias by living composer: $300 per chord cluster
+paying some technical debt the last couple of days - hurts so much
+on the plus side, I got to replace a huge case statement with a multimethod, which is pretty cool
+D O G D O G D O G
+turned out the multimethod was too slow
+had to be turned back into a case statement
+yeah
+also everything was slowed down by using textual derived URLs, because it requires a more expensive gather step
+but this will be fixed by caching in production
+despite still sucking balls
+#{1 2 3 4 5 6} - times it is remarkable to wake up (whether AM or PM)
+that was a pretty weak poem dogdog
+D O G
+re: magic http://i.imgur.com/MdbUlkO.png
+@whatis taunt
+@whatis taunt
+@whatis taunt
+,(java.util.UUID/randomUUID)
+@whatis taunt
+@whatis taunt
+@whatis taunt
+@whatis taunt
+,(java.util.UUID/randomUUID)
+@whatis taunt
+@whatis taunt
+@whatis taunt
+@whatis taunt
+,(java.util.UUID/randomUUID)
+,(java.util.UUID/randomUUID)
+,(java.util.UUID/randomUUID)
+,(java.util.UUID/randomUUID)
+,(java.util.UUID/randomUUID)
+@whatis taunt
+@whatis taunt
+,(java.util.UUID/randomUUID)
+sorry, quile
+quile: helping raynes out with updating lazybot to the newest irclj version
+first step was to log in with the old one to verify my local setup (worked)
+now to use the new irclj properly (not working at all)
+indeed
+opal is so special https://github.com/jashkenas/coffeescript/wiki/list-of-languages-that-compile-to-js
+(in all seriousness, that list of things that compile to js is kind of amazing)
+hello, patchwork
+I spent some time trying to help Raynes update lazybot to the latest irclj
+(will likely work on it some more later)
+it's in my scrollback, but it's all just nonsense
+nope, it's the new one
+I'll need to look at how you handle the hook functions (they broke with the lib upgrade in lazybot)
+beat you to it :)
+yeah, he is not getting one of the basics that tells him to do things like joining chans I guess
+it could be that certain joining behaviors that were once implicit are now explicit
+I'll have to return to this later
+the wikipedia page for object-relational-impedance-mismatch has some hilariously barely veiled edit war arguments in it http://en.wikipedia.org/wiki/Object-relational_impedance_mismatch
+D O G D O G D O G D O G
+only indirectly through chestnut
+chestnut wraps up a bunch of these tools nicely
+ah, yeah, chestnut uses weasel
+what a delightful pile of arbitrary nouns
+sounds like a solution to a puzzle in a video game
+AHA the chestnut uses the weasel to replace austin
+solved it
+I don't like holidays because there is a social imperative to be a child. I felt this way even when I was a child.
+being a child was miserable, adults constantly pressuring you to have "fun"
+patchwork: I frankly don't even know any more
+I'm probably just in a shitty mood
+right
+I think the key might be that I had a very open ended and permissive upbringign, which was generally very free and indulgent, but suddenly holidays came around where there were all these stupid expectations and I had to play this pre-scripted role that I was usually able to avoid
+so it's not that holidays were bad, they were just my rare glimpse of "normality", which I did not like
+anyway, I'll feel better, and be less self-indulgent, after some coffee
+absolutely
+today is special because 1000000000000000000000000000000000000000000000000000000000000000000000000000201410310000000000000000000000000000001 is a prime number with the date in the middle
+but clearly not special enough to be numerwang
+quile: oh yeah, I keep forgetting that
+One of these days, I will get a numberwang.
+again, I will get it again
+I have gotten a few
+quile: someone on #clojure is asking about cljs on node, he is asking about repos with examples etc.
+no biggie
+just that a dude was curious, figured you may have input
+quile: no, just mentioned "I know someone"
+and figured if you wanted to talk to him you could
+quile: the guy was named txgruppi
+one question that came up, and now I am curious: what was the criteria for using node / cljs - the requirements of the client?
+surely not more relaible than the jvm?
+right
+one gotcha with clojure / jvm is the permgen issue - clojure generates more classes than java by far
+and java will never create a temporary class
+🎃
+,(+ 1 1)
+@help
+$help
+hello anybot
+$ping
+hello
+,ping
+OK, taking this elsewhere
+hello anybot
+hello anybot
+hello anybot
+,ping
+@ping
+@ping
+@seen justin_smith
+hello
+@help
+@help
+@help
+@help
+@help
+yeah, I tried to leave a comment on that about the fact that he calls a let binding a var
+@ping
+@kill
+@ping
+@coin
+@botsnack
+,(+ 1 1)
+hrmph
+@time
+@part #tripartite
+OK
+let's see if this cool thing works
+let's see if this cool thing works
+@bf ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
+@bf ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
+@part
+@bf ++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
+@findfn 1 2
+anybody want anybot in here? he can do karma, eval clojure, haskell, ruby, brainfuck, and do stupid bot tricks
+that would be funny, and easy for me to control
+quile: the lazybot program has code for direct in-process clojure code eval (after you auth as an owner, of course)
+haha
+yeah, comma is for ##(println "real clojure code")
+as is ##
+weird trick: you can embed commands like $#ping#$ in a statement, multiples even $#topics#$
+wait, I thought it would do multiples
+@topics
+ahh
+weird trick: you can embed commands like $#ping#$ in a statement, multiples even $#list#$
+@help stuff
+@sed -quile s/com/dra/
+@hi
+@whatis hi
+,*clojure-version*
+they said it couldn't be done??
+@eball
+@will I ever remember this command?
+@leet so many plugins...
+@elite so many plugins, with hard to remember names
+it's cool, though
+ls
+mutt
+D O G
+it's cool, though
+@kill
+@seen quile
+@seen patchwork
+hrm... on anybot?
+mail patchwork test
+@mail patchwork test
+heh
+is it cool time for a bot party?
+yo
+cool - I have some teague stuff but I may be able to squeeze it in, what's up?
+cool - so remote setup
+I can repeat what I did last time, via ssh
+maudio exec?
+I can get things installed, sure
+ahh, right
+so you have to plumb it all together
+I have done redhat
+as I recall, the issue with your server had to do with permissions, the user was being granted access to the audio device when logged in to the physical machine, but not when logged in remotely (which is usually a fair thing)
+so if *that* happens again, it's a simple fix
+quile: so, sounds good, feel free to follow up with more details, I think I'll find out tomorrow how my teague schedule for the next couple of weeks looks
+@time
+@ping
+I was planning on being there, yeah
+@will I get any work done today?
+quile: patchwork: I could meet up beforehand - know anything good in the neibhborhood of the thing?
+@rss http://www.npr.org/rss/rss.php?id=1001
+https://www.google.com/maps/place/1455+NW+Overton+St+%23400,+Portland,+OR+97209/@45.5322588,-122.6862059,18z/data=!4m2!3m1!1s0x549509fdab48b7af:0xdc98114ae176545b google maps link to the clojerks meetup location
+first thing that I see nearby is the bridgeport brew pub
+I'd be down to meet around 5:30 (meetup is 6:30)
+quile: oh, I missed that in the noise
+haha
+sure, 5 at TeaZone works
+D O G
+http://lcamtuf.blogspot.com/2014/11/pulling-jpegs-out-of-thin-air.html using a fuzzer to iterate until "hello" becomes a jpeg
+so I found the version of cider that isn't borked
+cool, I saw that
+also this is funny https://twitter.com/pattonoswalt/status/530875863404122112
+yo
+yo
+let me know if / when you want an update
+will be going out to get some coffee in a minute or two
+OK
+turns out sox does not play very nicely with alsa, and oss does not play very nicely with high channel count
+there are two we are ignoring, but the interface is picky we have to open all 12
+well, the thing is it also doesn't do implicit format conversion, and the card has very limited format support
+they have 12 known inputs
+some of them we clearly are not using
+I think at least two are direct digital ins with no adc
+anyway, so the cards are picky - they only let you open all 12 channels
+and the only sr supported is 8k or 48k
+and the only sample format supported is 32 bit signed ints
+of course
+just updating on the particulars
+so the code is not written for 32 bit signed
+would it be easier to change code for 32 bit, or resample in sox?
+well we could also do 8k
+cool
+OK, my current process is defining the shell code that takes one arecord and uses tee to pipe it to 10 instances of sox
+oh you should see the feature I logged in to demo
+(inc Double)
+(inc mongodb)
+(inc clojure)
+you get the idea
+(inc Float)
+it's a silly feature in inc
+(dec mongodb)
+(dec mongodb)
+so, back to business
+quile: well sox would separate one channel out of each multi channel stream
+I was misled, one sox instance can have only one output
+the example for splitting channels did not work with streaming input
+quile: maybe, but would we want to? arecord is only able to open all 12 channels
+it cannot do it piecemeal, the card does not support it
+that simplifies it slightly
+I will try that, dmix may help
+right
+instead of building N of them at once using tee
+I got into a shell quoting hell
+right
+exactly
+another option is to coordinate the streams from clojure which has better syntax for higher order stuff, ProcBuilder is something I have used to great success
+it gives you inputstreams / outputstreams of each thing, which you can wire together
+quile: that's the problem
+I will try again, but oss is only giving sox 2 channels
+and alsa was being a bitch
+so I think my priorities are: try sox for some $T, if it never works, go back to arecord and piping
+quile: yes arecord uses alsa
+it is the sox/alsa thing that fucks up
+in fact sox's preferred backed, oss, is just an emulation layer on alsa at this point
+no, that is not something you get outside of pro audio patching
+which is another route I think I mentioned...
+hmm - there is a jack command to dump output
+but you would stil lneed sox
+it's worth another alsa/sox try though I think
+no, sox is not a hog at all
+compared to clojure it's a fly
+cool, I hope to wrap this up soon, some instrument stuff needs attending to and I refuse to multitask
+refuse is a strong word : I massively lose productivity when I multitask
+righto
+quile: main thing is I will need verification that the format is still good after running through sox
+quile: is there a good way to test this? like a known input/output I could compare to?
+quile: if you figure out a script that will feed a file to sox | maudio and dump to another file, so I can compare for identical output, that would be kickass
+quile: cool - still have the multiplexing on broadcaster to do but that should be straightforward
+quile: if you know what they should look like at least :) I may need your help at that stage
+OK, off to get coffee and then jump into this shit
+cool, but I was digging that whole terrorist cell / mafia / espionage "only know who you need to know" dealy
+(joking)
+spoc always reminded me of illicit doings
+you want client input? I know a guy
+patchwork: check it
+(dec mongodb)
+quile: it's the standard lazybot karma system
+you use it to give or take very important ego determining internet points
+because it's silly
+(dec Double)
+I think anybot needs to go
+too much silliness
+really???
+hmm??
+@will the fun ever end?
+quile: is the nerve number animal, vegetable, mineral, pill, injection?
+I fucking hate sox right now
+actually I think I just got it
+I just had to griple
+lol
+or not...
+quile: both input and output were name -
+so I was trying to fix the format specification for one of them
+given the name -
+and forgot that the OTHER one may not be properly specified!
+nearly fixed
+yeah, I was just misreading the error
+forgot both input and output were named -
+so trying to fix the wrong end
+nearly got it
+quile: OK all those files are produced, my code is all up on github in master, the file contents can be checked
+let me know if anything is unclear of course
+depending on verification I hope to knock out the clj before EOD tomorrow so I can get on the instrument stuff
+quile: yeah, twelve fingerprints from one card
+will just need to change the file output to fifo output, and make sure broadcaster is reading the fifos
+well let's wait for some vfication, but thanks :)
+I think runner ended up in a very reasonable state given the amount of craziness it is pulling with data streams :)
+https://github.com/juked/kantar-demo/blob/master/runner#L39 check it, lol
+oh shit, comment errata
+yeah, if you consider all of those redirects happening twelve times, thats like - hella streams going on
+right, with names that match up, of course
+thanks
+that's like a compressed kernel of shell - only a hint of the amount of work that went into it, heh
+for a while I was trying to use a loop to construct the lines of that alsa_stream function - bad news, quoting hell
+quile: processed is not binary data...
+raw is
+0x00 should be silence
+can you get other raw files to play?
+I mean is this because they are raw? do you want me to log in and make them into wav files?
+because I can totally do that
+I just generated the wavs
+quile: I forget that other people don't frequently treat random blobs of data as audio files lol
+awesome
+yeah, for triggers he is
+$PING
+$ping
+err
+@PING
+@ping
+I forget he doesn't have the usual lazybot prefix
+patchwork: ping
+-patchwork: ping
+woah, this math trick https://www.youtube.com/watch?v=VJf8XAhC550
+quile: absolutely
+but what I like the most is that the process of drawing the lines helps someone who is a visual thinker to better understand what multiplication *is*
+a lot of "tricks" for math don't offer that kind of insight
+that combinatorial aspect
+quile: so, taking a look at broadcaster for real now, I think I can just add a "stream" argument to start-realtime-stream, and loop through opening each relevant input stream. Or start all the processes from within clojure and grab their output streams directly, but that may be excessively clever / less intuitive to a future programmer.
+so yeah, one fifo for each data stream
+and start-reference-stream would run start-realtime-stream once for each of these
+right
+it's the same interface, so the jvm promises it will just work
+in fact *in* is just a file on linux anyway
+right
+and probably to emit some signal that it has all fifos open and ready - because of how finicky audio devices are it's better to have something waiting to read before you start up the part connected to the device
+right
+right
+simple simple
+I'd rather not do it tonight, brain is kind of used up
+by the way it feels really great to be doing this kind of work - I have fucked with this kind of thing for so long but it feels nice to be doing it as a professional thing
+hell yeah
+also, this is definitely better quality clojure code than you led me to expect
+cool
+that keeps getting me
+heh, I remember that convo
+only bikeshed I have had to do so far: turning (doall (map ...)) into (doseq ...)
+woah, binary->hex is doing a lot more work than it needs to - but I'll leave it alone for now
+so - is a command line arg, originally right?
+OK, yeah, I'll have to mess with that a bit, totally tractable though
+it's OK I am sure
+it's just making a hex number from those digits right?
+ahh, unsigned hex from those bits?
+still, there are tools that make that simpler (and more CPU efficient)
+not a priority
+,(format "%x" (first (reduce (fn [[d count] b] [(+ d (bit-shift-left b count)) (inc count)]) [0 0] [1 1 1 1 1 1 1 1]))) ; one liner
+,(format "%x" (first (reduce (fn [[d count] b] [(+ d (bit-shift-left b count)) (inc count)]) [0 0] (map {\1 1 \0 0} (remove #{\space} "1 1 1 1 1 1 1 1 1 1 1 1")))))
+ie. with a let block and names to the parts of it
+quile: absolutely sure it isn't an issue, I am just fucking around at this point
+and taking a deeper look, Integer/parseInt % 2 is a good way to do it
+just less "clever"
+so not as fun to make a one liner for
+oh I know it
+I even fucked with tcl quite a bit
+right
+ever look at golfscript?
+implemented in haskell, it's an imperative stack based language optimized for tersness
+so it has higher order functional constructs, just because said constructs help make code short
+it only supports one letter variable names iirc
+and because of this everything can be squashed in with no spaces
+http://www.golfscript.com/golfscript/examples.html
+I mean look at that fucking sudoku solver...
+"77 bytes, but lots of room for improvement"
+http://www.golfscript.com/golfscript/quickref.html and all the operators are insanely overloaded, of course
+ungodly child of forth and haskell
+oh, not implemented in haskell, my bad. ruby
+quile: so I am poking around with the broadcaster code. I assume each input should be described in staging.clj?
+awesome, thanks
+and the :id is what I map?
+for channel number
+input will be the fifo coming from sox, named based on the hardware card / channel
+as in audio channel, not broadcast tv channel
+I'll start with a smaller group of channels, just more than 1, and once all those works, upgrade to the full set
+easier that way
+and how should the :path for each be determined? do they all get the same path?
+awesome
+cool, thanks
+@help stuff
+quile: I'll take a stab
+I don't see the id mapping on there...
+unless it's 1->8 2->9 ...
+the mapping is whatever, as long as I know what it should be :)
+oh, even easier
+BBC1 is on cahnnel 1 in that pdf, right?
+down to ITVi stream 44 on channel 20
+oh, btw: congrats, eastwood passed the codebase with 0 warnings
+yeah
+that names a pun btw - lint eastwood
+lol
+quile: it should be broadcasting channels 1 and 2 right now
+the real trick of course will be the card channel / channel-channel mappings, given the three cards and only using at most 10 of the 12 inputs on each...
+but that's all in the config file
+well, that plus a few changes to the runner script
+cool, keep me posted, as they say
+ROFL
+I'll let you know
+so far the stdout is just the initial config map
+interesting
+awesome
+also, do we have a list of which channels out of the 12 are the content we care about?
+also I learned an amazing trick for clojure startup time
+lein cp > class-path
+then, until you change project.clj...
+java -cp $(cat class-path)
+boom!
+like 10x faster startup
+quile: OK, updating to broadcast all 12 on one card
+next shortly after that will be two cards, all 12 from each
+and finally of course all 3
+right
+if all three cards are posting, we can figure out the right 20, and take out the rest, of course
+right
+quile: thanks yo
+also, I discovered a fast lein option for startup too, after discussing this with technomancy https://www.refheap.com/93231 - check the timings near the bottom
+quile: posting too fast? OK
+OK, sorry, some lag
+hmm - they aren't sending now, checking the logs
+crazy lag right now
+really crazy amounts of lag all of the sudden
+quile: I see no java in the ps
+oh - I see, it's the chunk of length 0 thing
+OK, yeah, those were what was running last
+I need to add a check for 0 length and log it but not send it
+it just tight loops on that shit for broken input pipe...
+quile: I will have to figure it out - it happens when the input stream is closed
+so I guess it is getting 0 length reads?
+as soon as I can get the system responsive enough I will shut down that jvm
+"ssh root@juked killall java"
+hahaaha
+quile: right, this is all harder to deal with on a remote machine of course
+we need to check for that empty read and abort
+or at least shut down that channel and log it
+will work on that now
+that way even if we lose one channel the others can keep running until a proper reset
+also I am thinking of defining all possible channels in the config in clj, and defining the channels to use in one place in the runner (with command line overrides of course)
+I hate editing two files in parallel
+quile: cool, yeah, that ssh command finally returned
+,(char 68)
+OK, for now I will test out exiting with code 42 if an input stream ends
+if that works, I will work on more granular channel shutdown
+quile: the log file for the zero count fingerprints is insane :)
+quile: sure thing! but your server should account for that :)
+I'll update its time
+right, it must be authoritative
+done
+looks like it was 10 min off? or is my clock skewed too
+checking the official now
+oh wait, it's an hour off?
+can I get confirmation it was an hour and ~8 ?
+OK, maybe this website is weird
+but it agrees on the minutes
+uhh?
+OK fixing!
+how the fuck
+mental math fail
+now it should be good
+there is a config for linux to use NTP to reset the clock once a day
+quile: righto
+quile: starting now, I will let you know when you should be seeing incoming
+quile: then test shutting off its input, see how it responds
+quile: maybe it would be helpful to change the update rate if we have to keep iterating on this?
+chunk-size?
+will do that if I need to do this again, yeah
+OK, some chunks just got pushed, interrupting its input now (and ready to force kill if it goes crazy)
+OK, you should get 2 shortened inputs, and that's it
+the flooding happens after I shut the input down
+it would be happening now
+looks like no java even running
+awesome!
+OK, now jumping up to 12 channels
+righto
+haven't even changed it yet
+the truncated one was just because of the interrupt
+so, while this stuff compiles and uploads - this whole thing about caching the classpath and booting up fast without lein and without making an uberjar makes me think of a pretty sweet way to be able to run without lein in production (as it should be) while also being able to hotplug code from the filesystem without downtime
+OK 12 channels coming very soon
+just sent a batch of all 12
+another batch
+this is all in dated log files if you want to tail it / double check the output at any point, of course
+another batch - stop now or keep running?
+are you sure? I set the size too small
+I did not use 1440
+I used 128
+right, the idea was faster turnover on the testing :)
+swapping out now
+OK, stopped the old
+quile: sorry, I keep confusing the log tailing with the process window
+haha
+killed now
+taking a moment to adjust it so it loads staging.clj from the standalone file and not the jar
+so that I don't need to recompile the jar to make a config edit
+quile: part of checking if the right config file was loaded
+answer: no
+right, but slurp uses classpath - but let me check if it was pebcak
+*pebkac
+right, it was pebkac, running as configured now
+edited config, ran, checked, still using old config "oh must be loading config the wrong way"
+nope
+did not push the config to the server
+for future reference: I must always check if it is going wrong because I am a dumbass before assuming someone else designed something wrong
+quile: so it is running all 12 at the standard rate now, let me know when we have that verified and I will try two cards
+great, just give the word
+so, shut it down and try the second card along with?
+quile: well, it would be easy to go hole hawg and record all input from all 24
+not hard to only dump a few of the files
+kinda tricky to just do "slices" of time
+should I set that up before trying multiple cards?
+aha, so I should send you some audio before jumping to multiple cards?
+right of course
+do you want audio from all channels, one channel, or?
+yupo
+I may have a false start or two, I will let you know when it is sending for real
+floating point exception!
+sox gave a random floating point error... this sucks
+you may have gotten some very weird packets just now
+has anyone ever told you shell scripts are increadibly brittle? because they are fyi
+ok broadcasting and dumping right now, let me know when you get enough and I'll make you some nice wavs
+hrmph
+the java is running and using cpu...
+oh shit
+haha
+restarting soon, stupid typo...
+never mind
+it just pushed
+do you see the pushed data?
+OK
+let me know when to shut it down
+I am going to add a date stamp to the clojure code logging when it pushes chunks btw
+we will eventually want that
+quile: any reason to make new Thread objects when pushing to the server rather than using the agent pool via future?
+right, futures aren't just for results, they also are a thread that gets proper *out* bindings and such and use the pool
+hrm...
+I wonder what's up with the timing?
+it's saying 1440
+,(/ (* (/ 1440 32) 8) 60)
+bit rate we are asking for is 8k
+sure, shutting it all down again
+it's cool
+I was thrown off before because I was in the middle of a different refactor (for multiple cards) and did a task switch
+and stupidly was not on a separate feature branch
+my own fault
+it's running again
+without
+could also be something stupid in that multi card refactor...
+and there they go
+so something happened when I dumped the stream...
+weird...
+double checking my dumping code
+so I can stop this again, right?
+https://github.com/juked/kantar-demo/blob/broadcast-multiplex/runner#L32 see anything suspicious?
+quile: let me know if this ends up having better timing
+should see something ~12 from now
+OK
+hmm - I wonder if it may have something partially to do with output buffered in the fifos?
+oh I bet this is totally part of the issue
+quile: so should I shut it down and make the wav files to double check with?
+OK, so basically leave it running until I need to try new configs
+the twelve files are all there in wav now
+~/juked/wav
+cool, fifo draining is in and working too
+should be getting two cards of data soon
+if all is kosher, I can bump that to all three
+quile: right, that will be the last stage, as I see it
+should have that by end of day easy
+ahh and next time I will have to build and deploy the time stamp code too
+kind of hilarious how much easier the clojure part is compared to everything else...
+not yet
+D O G D O G
+I see that
+I wonder what would make 1-12 be running slower
+we may need to look at what is happening in that clojure code...
+or maybe 1-12 stopped running?
+they did not do the "empty input" announcement where it exits though
+quile: what's with this offset thing?
+https://github.com/juked/kantar-demo/blob/master/broadcaster/src/broadcaster/core.clj#L19
+starts as a random number
+OK, was just searching for anything surprising in the code in case it might relate to what's happening :)
+OK 12-24 jsut sent again
+the fifos are getting data
+I used cat, so the data is garbled now, but I am just debugging
+I wonder - maybe it has to do with the buffering settings for the fifos?
+wait, 5 and 6 should not be up... - unless my logs are messed up
+fuckfuckfuck
+OK
+repeats...
+wat
+maybe some mislabeling or bad merge is making the wrong channel labels come in?
+I will keep studying the clojure code
+right
+reading and eating lunch right now
+quile: cool - just sent a shitload of data and it seemed to straighten out, restarting with better logging
+things are looking good this time
+quile: so everything looks great for the latest run, and with the time stamps in there it is very clear that it is sending once every 6 minutes within 1 second accuracy
+I'm going to switch it over to simultaneously record and analyze, and bump the cards to all 3
+putting together a proper "killer" script too
+and also, I was thinking so far the first card was index 1
+of course the first card is index 0
+so from now forward we lose channel contiguity, fyi
+I mean this is the break, not no more contiguity
+I'd really like to figure out where these transient issues are coming from
+but timestamps on the logs for sending will help
+the timing changing for no discernable reason
+and just now I got a random "unsupported params for card"
+that I could not repeat...
+these logs look good so far for 3 cards though I think
+I just started - had an error right after I said that
+should see 3 cards of data very soon, and all three are being dumped, all signs are good
+haha, gmt logs can be a head fuck, weird seeing messages from tomorrow
+quile: just sent you some prints, but I don't know why some :ids were sent twice and some not at all
+this is the issue
+somewhere the :id for each broadcaster thread is not cohering...
+yeah, looks like nothing past 24 is actually going through
+OMFG
+I am so sorry
+copy/paste fail
+my bad entirely
+restarting the whole shebang
+quile: OK, it looks good from the logs this time
+no duplicates
+like I said, copy-paste error
+I fixed all the numbered fifo names, but forgot the ids
+I mean I am not gonna type out 36 almost-identical config maps...
+so we are grabbing 36 channels right now, both broadcasting and writing the raw to disk
+and I will make the ones on disk into .wav files
+and that should be good for verification
+also, runner and killer work reliably to start reading all cards and broadcasting, or alternately stop all cards
+it's all up there, all sorted out for the night
+and now I realize I should have been logging the content of the uploads too...
+it's all good though
+with the date stamps in the log you can correlate running time and time in the dumped audio I think
+cool
+yo
+it should be running
+unless it got stopped
+just restarted it
+we will have to look at a way to detect it shutting down and restarting it
+or ideally make those shutdowns not happen
+nope
+quile: it's not that simple
+there's a process running for the sound card
+there's a sox instance for each channel
+an maudio instance for each channel
+and broadcast
+any one of these can fail
+the killer script *should* successfully shut all down (except those that are not running of course) so that it can be started up in a consistent state
+that script is not known good yet :) but seems to work in random experimentation
+the runner itself actually exits immediately, since there is no "primary process" to hold onto
+because all the cards are running in parallel
+long term, would be best to make it a proper "service"
+where you can run a command to see if it is running, run a command to restart / stop etc.
+nope
+today is a rest day I hope
+quile: oh yeah, could implement heartbeat logic in the clojure part, which sends a message if any channel isn't sending data as expected
+because I know from experience you can keep a clojure service running for months at a time, no problem
+though this would not help if someone decided to kill -9 the clojure process
+which is why system service abstractions are usefull - hard to circumvent that by mistake
+so if something important comes up today let me know. Otherwise, I have been hyper caffeinated for about a week now and am trying to take a down day.
+well awesome
+looks like it stopped again :(
+should I restart it?
+I need to start thinking about how to handle this
+it's hard since we are redirecting stdout - though maybe we can catch the stderr...
+restarting
+quile: if it's alright to wait, I think I'll work on it tomorrow, maybe make the clojure program be in charge of setting up all its input (and restarting as apropriate)
+quile: also, fyi, the shutdown / startup is exceedingly simple. killer stops all the assorted background programs, runner starts them all, neither takes arguments (though they must be run from inside /root/juked at this point)
+haha
+took a long ass nap today
+the caffiene abuse was adding up to this frazzled state...
+which I could deal with, but it makes me stupider than I realize and I start making silly mistakes
+so I need the reset day or two every once in a while
+you want it back? I can bring it back
+@whatis stuff
+@topics
+@help stuff
+oh that was a gem
+@list
+OK
+@topics
+@list
+you'd think
+quile: so now I have admin access to lazybot, and shell access on the lazybot server
+little known fact: the most famous Hedwig of all time is Hedy Lamarr
+silliness
+it's really funny that I am using an ultra-minimalist wm, but inside a virtualbox running suse I am running kde
+quile: cool - I have a goal today of pulling things into the broadcaster
+go ahead and kick it when it's down, I'll let you know when I am in there
+quile: less likely oom, more likely buffer overrun/underrun on the sound card I think
+OK - once things are inside clojure I will have much more flexibility for findint the cause of the issues, and handling them
+I wonder what would be accumulating mem...
+pretty much everything seems cons-free at a first glance
+quile: so I am trying some focus management today, it is going pretty well - setting timers for tasks (even diversions, and sticking to a schedule...)
+quile: making progress on managing the processes in clojure, think I got the instrument stuff taken care of at least to the point where I won't have to touch it any until after the juked deadline
+oh no, nothing on the server
+I will warn you before I do that
+just setting up the clojure scaffolding for the processes
+quile: basic idea is that when you ask for a specific source to be monitored, it ensures that the "streamer" singleton is running. The streamer runs in a loop. It walks through every card and ensures that a process is reading data from that card (into a byte-array). Then it walks through each monitored channel, and ensures a sox process is running for that channel (starting one if not), and feeding it the next buffer of data from
+card input byte-array.
+I will also make "shut-down-channel" and "restart-channel" commands, accessible via a protected http-port (which we can decide to forward via some auth scheme or whatever)
+where starting a channel starts processing of a card as needed, of course
+right
+well this is all neccessary for the not-crashing
+(well all but the socket part, but that is the easy part)
+there's a few layers keeping all the parts of it in sync, with frequent verification that the streams are running
+I will need to put in a safecheck that it doesn't go into a tight-loop trying to restart if things go tits-up...
+right
+the specific goal here is keep everything running
+the way I am accomplishing that is an abstraction where each part of the design makes sure its dependencies are running, bottom to top
+if I overengineered, worst case I threw away a couple of hours (I have actually been cyclying through teague, lazybot, juked today, round robin, lol)
+@last patchwork
+@ping
+@seen patchwork
+quile: now it's likely you who are not around (bout of insomnia here)
+hello
+got the email, if that works, it works
+but I had a brainstorm this morning, and whether the thing I make is useful for *this* or not, I think it would be cool to make
+right
+so I'll work on a more reliable solution, may not end up needing it, but nice if it works
+right...
+OK, so I will keep at it
+right
+quile: so I got my lazybot and instrument stuff all sorted out yesterday, plan being that I could focus now, which I am doing
+cool, I assume I'll be updated then
+quile: you around?
+quile: hey, how about now?
+quile: HAHA
+I am sure you are not around
+hey
+I am on GMT now, until the demo is done :)
+I have the clojure controlled thing SO CLOSE to working
+but also, I updated the version with the shell script and I think it will be much less likely to shut down
+let's see
+(it's been running for a while now)
+quile: also, because I keep PID files for each subprocess, I think we can modify the cron job so that it only restarts if any of those PIDs are dead
+quile: around?
+hello
+quile: still here?
+card 0 is fucked
+it's not giving me data
+I reverted to the old version of the script, turned the crontab back on
+I have no fucking idea
+not that I know of...
+but if they are, that would explain why I can't use the card
+I sent ravosh a pm about it
+yes, let's
+I lost a lot of time thinking something was fucked up with my setup (I have a newer version that lets each card be restarted individually)
+could be..
+what the fuck
+sure, am I OK to reboot it?
+rebooting now, hopefully this helps
+fucking again....
+OK I have no idea why this is happening
+I don't think it's locked - I don't know what's happening
+the broadcasters for channels 1-12, which are all on card 0, are not sending data
+all the others (the other two cards) are
+let me double check that
+I undid that change
+everything is at the state it was before, except one thing where broadcaster was overly eager to exit
+but I can roll that back too if it comes to that
+it's about midnight gmt now
+I checkout out and cleaned, and deployed the code that was working before
+no luck
+yes
+everything was shut off completely
+yes, arecord spews audio
+not quite, but yeah, I'll reconstruct the shell pipeline
+first sox
+right
+arecord -Dhw:0,0 -q -fdat -c12 --format=S32_LE -r8000 | sox -q -r 8000 -t s4 -c 12 - -t s2 -c 1 - remix 1 | ./maudio - 4000 1 1 > dump
+that works
+the only difference in the script is the various pipelining, but that is identical regardless of the card
+I just sent the full debug output in an email
+shows the +x log of all commands in the script
+everything looks right
+I did every step in between
+I did arecord, arecord+sox, arecord+sox+maudio
+also the broadcaster is rebuilt, it's the version that was working a couple of days back
+another bit of info: the arecord process for that card is running
+right
+but htop shows that it has not had any CPU time scheduled
+unlike the other arecord processes, it is not using CPU cycles, at all
+as if it is blocked...
+yes
+renamed the fifos to match the system card numbers
+the staging.clj file reflects this status
+right
+where do you get the 8 hours ago figure?
+card-x-y-fifo is only used by the runner version that has processes all controleld by clojure
+which is not running
+right, commented it out
+OK
+oh shit!
+it may have been blocking on feeding that fifo
+because nothing was reading it
+so the buffer would fill?
+shit shit shit
+right!
+I feel pretty stupid right now
+so, if that works, I will switch back to the version with separate runners for each card, that is less likely to bail...
+yeah
+man, thanks a ton
+(in advance, I am sure this will fix it...)
+the funny thing is, I was even thinking about the backpressure issue: we may need to tee off the data to the local filesystem fingerprinter as well
+and I was like (to my self) "oh shit, that can't just be uncoordinated, or the backpressure will fuck it all up)
+yeah
+now, that should be straightforward
+yeah, so I heard
+right
+if this works, I am going to sleep - I have been up since about 3 am
+haha
+trying to be on GMT
+since I have no family or life to prevent it
+I should see packets send any minute here
+turns out doing a task every 61 minutes is hard!
+OK THAT FIXED THAT ISSUE
+yessir
+OK
+do remember that there is a log showing when things got sent, and PID files with each part of the thing - so some perl may be able to work some magic
+right
+cool, you have my number if something is urgent
+quile: nope, everything goes to the log file
+np
+I'll share my number around
+OK, that was a damn good rest
+quile: update: running the split (and more resiliant) version of things - each card is a separate restartable process tree, and the clojure code sleeps if it gets empty input (instead of shutting down) and also I turned the line-seq into (apply concat (repeatedly #(line-seq ...))) such that if it gets EOF on a fifo (because the process died) it just reopens it and continues reading lines
+it's working
+so my work yesterday wasn't totally thrown away, sweet
+stepping away for coffee, this is my "morning"
+it's broadcasting, and the restarter is shut down, lets see if it will stay up a few hours, I think it will
+I think I can make a simple input-line rekicker that leaves broadcaster running too
+may even integrate all that into the clj
+cool
+brb
+of course
+keeping everything very modular at this point
+and making sure a full rollback is trivial if there is a hiccup in this
+from my experimentation the killer / runner will work the same way with this version, even if it needs periodic kicking though
+and only doing full-world deploys now
+the thing that tripped me up last time was I was deploying individual files as I updated them, so the time the problem started happening and the time I made the mistake did not match :P
+because I updated a file, forgot to deploy it, it got deployed the next day and I forgot it was a recent change...
+who would think that arbitrary, non-repeatable, piecemeal mutation would lead to errors?
+so, it's been good for over an hour now (if it looks right on that end at least)
+kickass
+yeah, I will be up watching it for sure
+quile: setting a six minute repeating timer, so I can quickly see if things start going wrong
+I wonder if there is an expect script for tailing log files
+I had an idea once for doing expect in clojure
+quile: just hit the two hour mark, all channels printing and sending
+I expect to just keep watching it do it's thing at this point
+looks like things are in pretty decent shape
+yup
+4,5
+I had a brainstorm waking up: clojure is capable of doing everything arecord and sox are. If I have a chance to do a clean redesign (ie. not on a tight deadline like right now) I could make it so all that's needed is one instance of broadcaster which opens all three sound cards using java audio api, and then starts and feeds / reads from N instances of maudio
+I've messed with that byte-level stuff from the sound card in clojure, so it's not like it's terra incognita for me
+interesting
+right
+still going...
+3 hours!!! WOO
+So yeah, this is looking much better. I will throw together a small "restart-card" that allows specifying a specific card to restart. Now that the clojure code is using apply concat on line seq, it will repeatedly re-open the fifo even after getting an eof
+apply concat repeatedly line-seq that is
+that's what was happening with those repeated 0 size broadcasts
+the root case was reading an eof from the fifo
+the eof being left over from a previous run, where the output had not been fully consumed
+I added dd to the runner script to drain the fifos, but the root problem of not handling the eof on the fifo proerly was still there
+it's still going!
+if I see an anomaly, I will restart the apropriate card, otherwise, just watching
+the cards are actually individually restartable now
+but we shouldn't even need that
+hello?
+quile: back, it was nap time
+fingerprint broadcaster is SUPER STABLE now
+in less happy news, I killed box 2 accidentally and it had to be reinstalled :(
+but it looks to be up again
+stupid package install shenanigans
+lesson learned - not only will zypper stab you in the back if you let it (as I learned before) but it will actively sneak up and stab you
+last time, there was a warning I unwisely ignored
+this time, it was acting like all was well and normal...
+and then boom, ssh is broken
+THE ONE THING THAT HAD TO NOT BREAK
+D O G!!!!
+definitely left me feeling the jackass, paymann trying to figure out how to fix it with my lack of expertise guiding him second hand...
+poor guy
+but hey, broadcaster is super fucking stable now :)
+it has the OS reinstalled
+I will be logging in shortly
+then I will refine my modified runner script
+as of right now it has been upfor about 8 hours
+(the broadcaster that is)
+I am logged in
+I will need to download individual rpms to install our deps... :(
+but I don't trust the package manager now (for obvs. reasons I hope) so that is the only way to do it
+right, I think I got it, yeah for box 2
+luckily sox has a very small dep tree
+but I feel like a caveman installing via rpm, lol
+at least it's not GUI installers with click-through licenses
+WANGERNUMB
+LET'S ROTATE THE BOARD, DOGDOG
+quile: other version of maudio is up and running, looking great so far
+slight hiccup with a misleading error message, but all looks good after reading the source and figuring out what the command should actually be
+though I see "C:/users/ravosh/Desktop/" used in constructing the filename... that looks bad
+quile: haha, yeah, we sorted it out
+typical demo-stage codebase
+gives me a chance to show of the small amount of C++ I know, heh
+quile: so my system clock is on GMT while I work on this, so at first I was like "well of course you will be in and out, it's 10:30 pm!"
+oh yeah, definitely
+I will see if I can set up ntp on this suse version
+goddamit all the official docs are GUI shit
+I am not going to try to run remote X from england
+I mean it would be fun, but...
+kde, with all gfx turned on
+and the packets can't decide whether to cross the atlantic or pacific...
+well, sure they's pick atlantic of course, but a bit if hyperbole doesn't hurt
+D O G D O G D O G D O G
+quile: so, I added a proper ntp server, I think it may take a moment or two to get a new update
+but if we keep seeing a bad offset, we can def fix
+right
+I did a manual reset for now, and am taling the ntp log for activity
+I think the machine just has some drift (typical)
+that's what ntp does, in theory at least
+so nice, htop running on split screens on each host, watching the maudio processes plug away
+I'll be catching zzzs soon
+trying to stay on their schedule
+things look pretty good, though I did just have to restart maudio2
+maudio1 / broadcaster have been rock solid
+quile: yeah, I was just talking with ravosh
+yeah
+cool, that seems easier at this point
+0 fingerprints should be very easy to detect
+and as I told ravosh, I trust the sox analyzer that told me which channels were silent
+quile: right, but that thing about the fingerprints makes it easy to see which are silent
+aha!
+I will redo at noon
+channel 12 is a digital in
+OK
+and the indexes aren't getting mangled somewhere?
+Ok
+also, I did that recording at like 11 am
+so the not broadcasting thing does not come into play
+and exactly 20 channels gave me non-zero audio
+that's too accurate for a coincidence...
+but anyway, post-hoc
+you can treat my input as a black box
+and I will do my best to make sure broadcaster is at least sending all data unambiguiously :)
+the fifo numbers are being derived from the same arguments that tell arecord / sox what to read, so if the fifo names are good in the config, the data from those fifos will be
+also, I really love the search feature in htop :) makes me very happy
+F3 -> maudio -> boom, all maudio instances are at the top of the list
+DOG
+absolutely not
+quile: sox would crash if I asked for channel 12 and the channels were indexed from 0
+you can see from the process output that no sox instance is doing "remix 0"
+no, no wrapping
+there is no such thing
+audio data comes in frames, n samples of each channel
+in our case, the common case of 1 sample each channel per frame
+sox takes each frame, and makes index 0 channel 1, index 1 channel 2, etc.
+that's just not how it's done
+right, I am pretty sure sure there is an off by one somewhere
+it is easy to verify that there is no fifo for a channel 0, and that no running sox is doing "remix 0" (which would select a channel 0)
+D O G D O G D O G
+ahh, OK
+I like triple-checked :)
+quile: arecord does nothing with channels
+other than deciding how many exist
+it gives you a) all channels or b) no data
+no other choices
+you can try it, it will crash if you ask for a channel count other than 12
+right
+also, there is no metadata in the audio stream
+the format is very simple
+so arecord is handing raw bytes to sox, and sox partitions them, saying "first 32 bits are channel one, next 32 bits are channel 2 ..."
+there are no headers or sanity checks, just bytes
+but it still tends to work :)
+part of this being because the callbacks refuse to handle anything but frame-boundary amounts of data
+cool, not trying to be argumentative, but just to establish that I really did consider all these things
+not possilbe
+because sox crashes if you ask for channel 0
+sox recognizes no such possibility
+one possibility...
+if we lost 32 bits at the beginning of the pipe, all the input could be off by one
+but why would we lose 32 bits at the beginning of the pipe?
+otherwise the data would be all garbage
+the samples are 32 bits each
+the buffering will be a multiple of 32 bits, and things are working on buffers
+quile: if that is happening, we can just treat it as a black box, as I suggested before... as long as the offset is reliable / repeatable
+and it really does seem to be
+cool
+this is something that pulling everything into clojure would help with I think
+no more pipes, having very explicit control of the data buffers
+cool beans,  Iagree
+also it will reduce the server load quite a bit
+much smaller process count, fewer context switches
+patchwork: long time no see!
+pretty good, I've been working on that fingerprinting project with quile
+had to keep GMT working hours the last few days
+which is rough at this age
+anyway, getting paid to set up a 36 channel audio processing system on a server in another continent
+only hosed the server once :P
+they wanted to process channels individually, which led to this crazy setup with ~300 system fifos...
+patchwork: it led to a design for future usage
+patchwork: think max/msp for things that consome and emit bytes
+patchwork: well, linux audio can be a big pain in the ass, but my past frustration is finally paying off in hard cash
+patchwork: so far I have a protocol, defined for java.lang.Process (feed it bytes, get bytes out) and a couple of Record types (one that contains a function taking / returning bytes, the other containing a function taking / returning lines of text)
+OK
+patchwork: this is silly https://www.youtube.com/watch?v=mxzgwJ8tSE0
+no, that it made me want that
+because a shell pipeline with 37 programs in it is fragile as fuck
+err 38
+if just 1 of those programs stops reading, everything above it gets stalled by backpressure
+and you can't just swap out one part ofthe pipeline...
+reliability nightmare
+you basically divide your average runtime by 38
+at first, all three cards were in one shell, which meant dividing runtime by 114
+1 broadcaster (clojure, don't want multi instances), one audio dumper for each of three cards
+then 12 pipelines teed off each card to capture the separte channels
+because you can't just tell the OS "open channel 3 of the card" - there is no such operation
+parallel, fully parallel
+the device just does not provide any option for separate data, so you need to separate out the channels, and make a pipeline for each
+and all have to come from the same input source
+no backpressure issues
+fully able to modular restart
+right
+thus my idea to create a data graph
+where each node describes how to launch a process
+so, you walk the graph
+if the node is dead, clean it up and relaunch
+if it is alive, feed it the byte array from the previous step
+you could even define mergers - for example a line interleave that feeds data as lines of text and merges them, or an adder, that basically just sums byte values
+whatever makes sense for this sort of data stream
+(the summing is more likely to be on chunks - like in this case if were were merging, we would treat them as 32 bit signed values, chunks of 4 bytes)
+so anyway, that would be an awesome little tool
+and you could intermix pure clojure code with processes
+right!
+byte-flow
+there are tricky things to consider though
+like things that merge have to deal with the possibility that things could try to feed it at different speeds
+so an additive merge should be an init error in such a case...
+but for interleaving lines, just throw them all in there (think a dedicated logger, just outputting every line it gets with a time stamp to a file)
+right
+this turns "backpressure" to a first class thing, that you can deal with in clojure code
+by filling in with 0s, or buffering, or whatever
+whatever makes sense for that data
+anyway, I think this is totally doable
+and it could have an awesome max/msp style UI
+lol
+haha
+or hell, it could be a swing / html canvas
+patchwork: it could probably be done with core.async, putting byte-arrays onto channels
+explicitly building a graph and recursively launching threads from a pool to cycle on each linear chain in parallel would likely perform better
+but likely harder to set up too
+ie if you have a->b a->c->d b+d->e you would have one thread cycling on a, one on b, one on c->d, and one on b+d->e
+so it would pay off to do explicit threads if you had longer linear chains
+patchwork: fully general if you have the right parsing tool
+knowing where the threads should be is knowable from the graph structure
+right
+it would be a compilation step
+I'm thinking: input is either a literal tree rep, or an adjacency list
+then you have a compiler that figures out the threads to launch, and constructs the runnables, and sets up the queues for passing the byte-arrays
+or likely an object, with a time-index and a byte-array
+each data source would write a new byte array, and throw it into the line
+as an optimization, there could be reusable byte-arrays, but then we are doing our own resource management - which can pay off in a case like this where usage rules are super simple, but also isn't trivial
+so hold off until we need it to be that fast :)
+a simple version of this that scales to all the nifty stuff should be doable when I recover from my recent hammering on that audio stuff
+hmm... I could consider that. I am a little burnt out from the GMT conversion...
+but actually yeah, let's do that
+I have been too isolated
+patchwork: in transition
+I was keeping england hours until today
+now re-adjusting
+had to collaborate pretty tightly, which meant being up when they were
+patchwork: pretty much, yeah
+or a bit before that really
+they are 7 hours ahead, so more like 1 or 2
+haha
+I slept a lot today
+I reset the time on my computer to GMT - which helped maintain the right hours, but was also a headfuck
+so, around 6 or so, maybe we could get food at the tabor tavern and then do some coding?
+6051
+also you can just text when you get here
+cool
+patchwork: awesome
+that's exactly the sort of thing I am working with here
+yo
+good. used sql to do multi-model caribou search
+I'm more and more a fan of just using sql
+got a report that polaris sanitize-action rejects multimethods, so figuring out the best extensible way to deal with that
+*sanitize-action-subspec that is
+patchwork: sql also saves a lot of time/ work
+(for the machine, at runtime)
+patchwork: right, but unlike caribou's model abstraction, it was primarily designed for querying, while caribou is better at persistence / generality of data, but worse at querying
+ (= (type print-method) clojure.lang.MultiFn)
+where print-method is an example of a multimethod
+patchwork: that ztellman talk I emailed you about seems apropos here
+(it has inspired me to try out prismatic/graph)
+also, I have switched to evil-mode because emacs keybindings were killing me
+like literally reducing the hitpoints of my fingers and wrists whenever I used them
+it's not a coincidence that the most avid emacs users tend to have carpal tunnel issues. Though a better desk would help, keybindings that are not chorded help a lot.
+every place where I need it I can use emacs bindings still
+but I get a layer of one-letter vi style bindings as the primary one
+which is nice as someone who used vi for a year or two
+sure - and I use emacs chords when I need them
+but the basics - grab text, delete, switch buffers, etc. no chords
+I make extensive usage of "evil-leader-mode", which turns a keypress into a prefix, where every key on the keyboard is a different command
+like C-x or C-c or whatever, but no chording
+(I use ,  - easy to use, and the vi command is not one I use)
+not ctrl, just ,
+in totally other news, I saw Birdman, best movie I have seen in a while
+hollywood has been getting more and more formulaic, and birdman is actually about an actor escaping hollywood for the theater - very pomo
+interstellar is in many ways one of those formulaic movies though
+it also addresses the phenomenon of comic book movies
+the main character is haunted by the success of "birdman"
+coincidentially, the actor, Michael Keaton, is known among other things for playing "batman"
+it's good, especially good if you have hung out with theater people at any point, they really capture that slice of society
+and what's rare in movies any more, they capture what's unique about these people, not vague generalities and platitudes that everybody/nobody can relate to
+I hate that about hollywood
+I listen to them frequently - some of the mid-later ones get corny, but overall high quality
+the Emerson complete set, and the Berg complete set
+the latter is cheap on Amazon (if you are one to pay for music)
+but it isn't broken down to tracks, only to disks sadly
+but it's a decent performance
+cool
+more like proofs, or like axioms?
+I actually got a chance to read some stuff on fourier analysis recently. Most of it is still beyond me but I start to understand more and more of it.
+I still find it fascinating that the pure case only allows for infinite signals (temporally isolated signals require an infinite spectra)
+so either your frequency list or your duration of signal are infinite
+or you cheat and use the windowed version like an engineer :)
+you could as well say theory is great, provided you have access to infinities
+it gets way messy without them ...
+speaking of! agpl only requires publicising the code of your server. If the server only has neo4j on it, that is all you need to publish.
+the point of agpl is if you provide access to the thing to the public, the public should see the source
+but it doesn't mean they need to see the source of your other code that uses that service
+patchwork: I asked with some buddies in open source who I consider pretty knowledgable
+and the neo4j folks have every incentive to spread confusion about this of course
+true, but the agpl itself is not a super complex document. I guess one would need a lawyer to know whether it is simple in a good way or in a bad way :)
+on another topic entirely, they discovered a malware that a) infects sites running php b) infects windows users visiting those sites c) infects other machines on their lan d) if that machine is part of telco infrastructure, infects gsm cell tower base-stations e) infects sim-cards on cell phones
+fucking insane!
+tracks your cell phone usage, who you call, who calls you, etc.
+clearly this is coming from a state agency, and they like to know who communicates with who
+well, who else is that organized, but we don't have proof it was a state agency
+patchwork: the NSA has a huge budget for hiring very smart engineers
+yeah
+right, and that's a great chain of weakest links: php, IE, windows lan, gsm push updates to sim cards
+all of those are notorious (though this is the first documented case of the last one being exploited)
+did you know every sim card runs a very small version of java?
+(it's the wordnick wotd, synonym for dell)
+quile: yo!
+fixed the instability issues and the channel offset, both had the same issue
+quile: somewhat, last I heard things were sounding good
+quile: so get this: I was mistakenly asking arecord for wav data. Wav data has a fucking header. Thus our offset channel rotate off by one.
+quile: point number 2: wav data holds a number in the header, 32 bits, of how many bytes are in the output
+quile: so when it got to the max amount of data that would fit in that field, it would close the file
+boom
+that's the instability right there
+quile: right, but were derived from sox - we told sox "this is a raw audio stream, get channel 1"
+quile: in fact it was not a raw audio stream - it was an audio stream preceded by a header
+quile: I did not change the broadcaster
+only the on-disk fingerprinter
+for that very reason
+so the broadcaster gets restart glitches, the on-disk fingerprinter gets long process life, and accurate channels
+quile: yeah, I explicitly asked about this before restarting, and did not restart for that reason
+for sure
+the process has been going for four days and starting for box 2, with no restarts
+which, compared to previously, is fucking amazing :)
+next time I do anything like this it will be so much easier
+I am proud of things staying up now, but also ashamed at the long list of mistakes preceding that
+but such is learning
+quile: in other news, I got tired of emacs keybindings and am in permanent vim emulation mode now
+I like emacs for the features, hate the keybindings, yeah
+they are inhumane
+weapons of torture
+so now I have best of both worlds - emacs features / emacs embedded apps like org mode and erc, plus vim bindings
+evil does have some places where the abstractions leak, but I know enough emacs to handle it when that happens. For a new user it is probably not nearly as nice though :(
+also, leader-mode is great for replacing all my C-x prefix / C-c prefix commands
+*evil-leader-mode
+I turned comma into a prefix key
+patchwork: yes
+http://vim.wikia.com/wiki/Best_Vim_Tips patchwork if you turn on evil mode, all the stuff on the first quarter of this page works. Though be prepared for silliness in the first stages.
+yeah, vim commands have a grammar
+which composes
+so unlike emacs
+patchwork: also, with evil mode, you always have M-x as an escape hatch, no matter the weird state things get into
+quile: I love it so far, though as I think I mentioned, it would likely be an odd way to learn emacs
+patchwork: yeah, and it generalizes to most actions and all movements
+which is like the emacs commands that replace in region, or when you narrow to region, but due to multiple marks it's more general
+though you can do something similar with emacs registers holding marks, it's clumsier in emacs
+composibility is everything, as ztellman says
+the : prompt is like an extended ed
+patchwork: , creates a range
+so it takes a mark on each side of it
+yeah, registers were implemented badly in emacs, usability wise
+much more accessible in vi
+https://twitter.com/codinghorror/status/537010861919830016
+paredit doesn't work nicely with evil in emacs, though it sounds like you are just straight up using vim patchwork ?
+makes sense
+also, remember that : gives you a superset of ed that is mostly compatible
+for those rare moments it would be easier to do something the ed way...
+D O G D O G D O G
+OK
+
+D O G D O G D O G D O G D O G D O G D O G
+
+ D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G
+patchwork: so it's actually surprising how much birdman and interstellar have in common
+yeah
+without spoiling I hope: both are about old men who struggle to gain the approval of the women in their lives who are disappointed in them, and prove to the world that they can "do the thing" that they in their hearts always knew they were meant to do
+along the way the have strange phantasmogorical experiences, fly, have powers that seem supernatural, cry, and prove that love really matters
+also, they spend much of their time talking 1 to 1 with what is essentially a human made construct
+oh, and the primary disappointed woman each wants to impress is their own angry/estranged daughtors
+and each has spent their time in a career they are not proud of (thus needing the above proving to the world they can do the thing they were meant to do)
+ha
+ oh, also, both men do things that all logic and sense tells us will kill you, and they seem to survive it just fine. Over and over.
+in both cases having to do with the force of Gravity!
+tell that to these movies, and my ignorant incomplete education
+so what is it?
+and what does saying it is not a force mean in context of Russel proving that physics makes sense without a variable for force?
+quile: https://twitter.com/trptcolin/status/537655749061922817
+(patchwork will also likely find that thing funny)
+did you guys hear about Regin?
+it infects php sites
+then, from in the php server, it infects windows browsers
+from the windows machines, it infects windows lans
+from there it looks for hardware controlling cell phone infrastructure
+from there it infects sim cards
+well, surprise surprise, it hasn't yet targeted anyone in the US :)
+which ones?
+cfleming is a nice guy on IRC too
+the one from ztellman was really good
+Satanists in florida try to get a scene of Eve eating the apple and Lucifer getting kicked out of heaven alongside a nativity, dismissed as offensive http://www.rawstory.com/rs/2014/11/satanists-continue-to-excel-at-exposing-theocratic-bad-faith/
+"the court may have inadvertently stripped itself of the ability to question plaintiffs’ beliefs whatsoever—unless the justices want to flagrantly favor Christian plaintiffs"
+patchwork: this is a new variant, they come after every place where "public expression of faith" is approved in official government venues
+$wotd
+@wotd
+quite!
+that too
+lol
+in evil mode, lol in normal state means: move forward, open a new line, insert the letter l
+(as I was just reminded)
+hello!
+I decided to make a clojure lib for nethack-lisp (the UI layer for nethack that sends all game data as sexprs, designed for emacs0
+I can parse all the data using read
+but I found a hilarious problem
+if I want to select option "b" from a menu, I have to send the command "gosouthwest"
+because the canonical binding for the b key in nethack is southwest (a diagonal derived from hjkl navigation)
+topsy-turvy
+to select option "c" I need to send "close"
+(as in close door)
+it's like a keybinding mnemonic system, but inside out
+I already know all the commands, it would be infinitely easier to just send "b" and let the game interpret it...
+(whether walking or interacting with a menu)
+patchwork: needing to say "gosouthwest" when the menu says "b" is super weird
+this is not in a movement context
+it does a global translation of gosouthwest to b
+so menus require nonsense commands
+so: api says "a for archeologist, b for barbarian ..." I send "b" or \b and it crashes
+I send
+gosouthwest, and it selects barbarian
+wrong layer for the abstraction :)
+so I succeeded in doing the reverse mapping based on the command definitions and the key bindings https://github.com/noisesmith/nethacker/blob/master/src/org/noisesmith/nethacker/keys_wat.clj
+I am simultaniously proud and ashamed to have read elisp using the clojure reader
+patchwork: this seems relevant to your interests http://tobyschachman.com/Shadershop/ -- it's a graphic UI for programming GPU shaders
+we should meet up for lunch again sometime soon, guys
+I did a hermit thanksgiving, so I haven't seen much of other folks lately
+patchwork: get this - the last time you came over is the last time I hung out with someone.
+patchwor`: you know about "/msg nickserv ghost packtwork <password>" right?
+how the fuck did I get packtwork from patchwork anyway???
+patchwor`: how about lunch tomorrow? I can come out to that neighborhood - where's that pho place at?
+patchwor`: cool, meet you there
+patchwor`: so I updated polaris to use a multimethod for handler resolution instead of the cond form, because a user wanted to provide a multimethod as a handler which didn't work because ##(fn? print-method) multimethods aren't fn
+ugh, I don't know how to deploy to clojars any more now that ssh is turned off
+patchwor`: never mind, the only problem was that I am not a member of polaris
+changing the project.clj temporarily to put it in the noisesmith group let me deploy
+can I get added to polaris so I can deploy there?
+nope, scp is not allowed any more
+and anyway, the real problem is I am not a member of the group I was trying to deploy to :)
+the https method works fine when making noisesmith/polaris though
+awesome, thanks!
+D O G
+so, I just discovered some old work - projects half finished from years ago
+it's an amazing thing
+hah, mixed bag (which I would say of more recent things as well)
+I forgot how much ocaml code I wrote
+some of those programs could be worth working on some more (all stuff for algorithmic music / text)
+seriously
+now I am trying to recover my knowledge of how one gets data to / from the tandy 102 via serial port
+a computer from 1985 which is still usable, portable, and with a bit of trickery can communicate with my current beast of a machine
+wat
+makes sense with the newly enlarged family
+I assume Jono reached out to you about that Seattle job?
+http://thedoomthatcametopuppet.tumblr.com/ LOL
+@ping
+http://thedoomthatcametopuppet.tumblr.com/ <- quality markov
+quile: jibbers crabst https://www.youtube.com/watch?v=ZZ_BtZ-5O60&feature=youtu.be
+his sign language translator is good too
+I now know the sign language for "persistent erection until you are dead"
+hahaha
+indeed
+np, figured it was up your alley
+TIL smelloscope exists http://www.digitaltrends.com/cool-tech/denver-cops-use-smell-oscope-sniff-pot-smokers/
+hello patchwork
+patchwork: yeah, I think I could do Sunday, when/where?
+patchwork: cool
+today I am trying to port some windows c++ code to run on suse linux
+yesterday I was trying out foundationdb
+because a potential client uses that
+a highly reliable key value store
+think mongodb but faster and more stable and costs money
+http://blog.foundationdb.com/call-me-maybe-foundationdb-vs-jepsen
+http://aphyr.com/posts/283-call-me-maybe-redis
+according to jepsen, yes, much more reliable than redis at a first glance
+tl;dr foundationdb invokes network splits and outages and machine unavailability as part of their development process
+so unsurprisingly it works under those conditions
+whereas the redis guys are like "yeah it loses data when you do that, what's the big deal?"
+jepsen is a real game-changer in the db world, aphyr is doing god's work
+patchwork: have you looked at pixie? it's a clojure-like with immutable datastructures by default and clojure friendly syntax built using pypy
+fast bootup, very low resource usage
+fair point, but the surface I interact with is a clojure with a very small footprint
+which makes me happy
+as in - starts instantly, very low memory usage
+fills a niche I would have liked to use clojure in for some things, but never really could
+I just plugged one of the pins of the serial output of my Tandy 102 into an amp. I think I am going to make noise via tandy BASIC
+so I did some basic programming today
+resetting the speed on the serial line, outputting some bytes, get a new speed from the keyboard, repeat
+yes I used gosub
+lol
+gosub right off the bat, eh
+I am also using datomic right now, for the first time ever
+it's interesting
+quile: this is actually a job for jono
+putting some data from the oregon secretary of state into a datomic db, followed by an api based on datomic queries about that data
+I'm learning a lot. APIs.
+patchwork: we'll see how far it goes, but at least some contract work for now
+yet another API to learn soon, teague is moving to a new job opening API provider...
+I did
+it was a nice talk
+office hours, people asked questions, talked about who was hiring and who was doing what
+justin holguin is doing something for a personal project that sounds like a much simpler version of what you do at littlebird
+auto-identifying trolls in order to block them on twitter
+patchwork: he was trying to figure that out. Doing some basic machine learning because the trolls all have a common set of cultural references / vocabulary.
+D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+finally got my first ever datomic POC working
+like many other things in clojure world, it can be maddening in it's readiness to accept garbage input without complaint, and you finally see your problem many steps further down the line
+I want to use prismatic/schema to make a validator for datomic inputs, so others can be spared my pain
+it turns out Tandy 102 portable computers are pretty damn cheap online. that plus how fucking durable they are (I have one from the '80s, it works great) is intreguing
+D O G D O G D O G D O G
+so I think I did a silly thing
+I got two more tandy 102s, they were cheap
+I may put my beable bone inside one, if I ever get the motivation to figure out how to connect it to the keyboard / display
+that would be an awesome little super-portable super-long-battery-life tool
+but hey, the one I have now is 30 years old and still has no flaws
+D O G D O G D O G
+we could blame mongoDb
+patchwork: absolutely. I have a basic program that reads a key, sets the serial port speed based on that key, and spews out specially formed data strings to the serial port.
+so I have a certain amount of control of pitch, timbre, timign
+*timing
+it's a bit clumsy still, but def usable for a noise show :)
+with some filtering I could even do ambient (which is a truism about noise anyway)
+https://twitter.com/Forord/status/543376319082672128 the found the duck-rabbit in real life
+haha
