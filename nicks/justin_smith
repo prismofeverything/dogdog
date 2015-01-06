@@ -5612,10 +5612,8 @@ also, remember that : gives you a superset of ed that is mostly compatible
 for those rare moments it would be easier to do something the ed way...
 D O G D O G D O G
 OK
-
 D O G D O G D O G D O G D O G D O G D O G
-
- D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G
 D O G D O G D O G D O G D O G D O G
 patchwork: so it's actually surprising how much birdman and interstellar have in common
 yeah
@@ -5758,6 +5756,7 @@ D O G D O G D O G D O G D O G D O G D O G D O G
 finally got my first ever datomic POC working
 like many other things in clojure world, it can be maddening in it's readiness to accept garbage input without complaint, and you finally see your problem many steps further down the line
 I want to use prismatic/schema to make a validator for datomic inputs, so others can be spared my pain
+
 it turns out Tandy 102 portable computers are pretty damn cheap online. that plus how fucking durable they are (I have one from the '80s, it works great) is intreguing
 D O G D O G D O G D O G
 so I think I did a silly thing
@@ -5774,3 +5773,8 @@ it's a bit clumsy still, but def usable for a noise show :)
 with some filtering I could even do ambient (which is a truism about noise anyway)
 https://twitter.com/Forord/status/543376319082672128 the found the duck-rabbit in real life
 haha
+D O G D O G D O G
+I said those things?
+D O G D O G D O G
+lein deploy clojars
+D O G D O G D O G D O G D O G D O G
