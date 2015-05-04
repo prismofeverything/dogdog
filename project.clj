@@ -12,4 +12,5 @@
                  [zalgo "11.6.13"]
                  [irclj "0.5.0-alpha2"]
                  [org.clojure/tools.cli "0.3.1"]
+                 [twitter-api "0.7.8"]
                  ])

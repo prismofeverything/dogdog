@@ -2,6 +2,8 @@
   (:require [clojure.string :as string]
             [clojure.java.io :as io]
             [clojure.tools.cli :as cli]
+            [twitter.oauth :as twitter-oauth]
+            [twitter.api.restful :as twitter-api]
             [markov.nlp :as markov]
             [zalgo.core :as zalgo]
             [irclj.core :as irclj]
@@ -10,6 +12,7 @@
 
 (def cfg (atom {}))
 (def irc-connection (atom nil))
+(def twitter-credentials (atom nil))
 
 (def nicks-path "nicks/")
 
@@ -107,6 +110,11 @@
             :add-tokens? false))
         (handler request)))))
 
+(defn send-safe-tweet [tweet]
+  (try (twitter-api/statuses-update :oauth-creds @twitter-credentials
+                                    :params {:status tweet})
+           (catch Exception e (println "Twitter-api error: " (.getMessage e)))))
+
 (defn twp-handler
   [handler]
   (let [triggers [#"3" #"three" #"poem"]
@@ -128,6 +136,9 @@
                 generated (twp/three-word-poem constraints)
                 _ (when (= "forget" adjective-command) (twp/forget-word-of-type adjective "adjective"))
                 _ (when (= "forget" noun-command) (twp/forget-word-of-type noun "noun"))]
+            ;; experimental!
+            (when @twitter-credentials
+              (send-safe-tweet (str generated " #3wp")))
             (assoc request
               :persist? persist?
               :add-tokens? persist?
@@ -176,25 +187,40 @@
       persistence-handler
       nested-handler))
 
+(defn load-twitter-config
+  []
+  (when-let [config (:twitter @cfg)]
+    (try
+      (when-let [loaded (-> config slurp read-string)]
+        loaded)
+      (catch Exception e (println "Couldn't read twitter config: " (.getMessage e))))))
+      
 (defn init
   ([]
     (println (str "Using config " @cfg))
     (init (or (:channel @cfg)
-              ["#tripartite" "#antlers"])
+              ["#tripartite" "#antler"])
           (:nick @cfg)))
   ([channels]
     (init channels nil))
   ([channels nick]
-    (let [irc (irclj/connect "irc.freenode.net" 6667 (or nick "dogdog"))
+    (let [twitter (load-twitter-config)
+          irc (irclj/connect "irc.freenode.net" 6667 (or nick "dogdog"))
           _ (println "connected")
           nicks (tracked-nicks)
           _ (println "tracked nicks:" nicks)
           history (read-history nicks)
           _ (println "history read")]
+      (when twitter
+        (println twitter)
+        (reset! twitter-credentials (twitter-oauth/make-oauth-creds (:app-consumer-key twitter)
+                                                                    (:app-consumer-secret twitter)
+                                                                    (:user-access-token twitter)
+                                                                    (:user-access-secret twitter))))
       (dosync
        (alter irc assoc-in [:callbacks :privmsg] #'dogdog-handler)
        (alter irc assoc :chains history))
-      (irclj/identify irc "ord9949")
+      (irclj/identify irc "ord9949") ;;; TODO - config this
       (doseq [channel channels]
         (irclj/join irc channel))
       irc)))
@@ -228,5 +254,3 @@
         (reset! cfg (:options opts))
         (let [irc (init)]
           (reset! irc-connection irc))))))
-     
-   ;; (def irc (init ["#tripartite" "#antler"])))
