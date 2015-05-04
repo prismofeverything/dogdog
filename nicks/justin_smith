@@ -5778,3 +5778,856 @@ I said those things?
 D O G D O G D O G
 lein deploy clojars
 D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G
+D O G D O G D O G D O G
+so here's a cool thing: I got a recorder that will do overdubbing, and I was wishing it did proper multitracking
+and then I realized, linear algebra to the rescue!
+it keeps each pre-overdubbed version, alongside the new overdubbed
+so if I take each, and subtract the most immediate prior version from it, I get the isolated tracks
+(unless something goes nonlinear, of course - then linear algebra is no help)
+indeed
+anyway, that was a fun little trick to discover. It's rare to be able to exploit linear algebra outside code, so it felt good :)
+and of course the subtraction step can be done by simply inverting the phase of one track in my daw
+like magic
+quile: weird, maybe I misinterpreted my client, or my client misenterpreted reality
+D O G D O G D O G D O G
+D O G D O G D O G D O G
+D O G D O G D O G
+D O G D O G D O G D O G
+the thing that sucks about contract work is multiple clients can have hard things for you to do... at the same time
+bleh
+what a day
+and my brain is still not working for some reason
+quile: this is the future. I got a bluetooth keyboard for my n9, I ssh to my vpn from my desktop with a reverse forward of port 22, which means that over 3g, I can  ssh to my vpn from mobile,  and from the vpn I can ssh to my primary machine
+the fact that this all works delights me to no end
+there is little I can't accomplish in an 80x25 text terminal!
+and I get three word poems, on the go
+we should totally set up 3wpaas
+quile: ever hear of that piece by Alvin Lucier "I am sitting in a room" ?
+yeah - not just copied but played back into the room
+I had an idea to do a modern version where instead of repeatedly playing back and recording in the same room, I would send a live audio feed to multiple servers over UDP, and play the data as it is sent back - the variable drops and bad ordering and shifting latencies should create a reverb effect if I put a gaussian envelope on the audio in the data packets coming back
+quile: right
+especially if I use a distribution of varied packet sizes (so no strong coloration derived from the size of the broken up packets)
+I am thinking about the networked world as I work using bluetooth keyboard and ssh on my phone, sitting in the cafe at ikea drinking coffee
+it has a cafe
+cheap coffee
+on the train line
+random weird place to go
+I want to do a research of random places I can set up and work remote
+community centers? libraries? the zoo? mall food courts?
+the airport, of course
+also, a very liberating aspect of this is that a) I got an external USB charging battery pack (can keep a smart phone running for a week of normal usage, or a couple of days of constant usage), and when I do everything via ssh, the load on the phone's processor is very low
+missed a b) above
+HELLO
+at the library the other day I accidentally sat down right next to the WOO section (luckily I don't believe in the principle of contagion)
+anyway, one of the highlighted books was subtitled "one man's investigation into the question of whether our beloved pets have eternal souls"
+and I considered how funny it would be if a book like that was published, but came to the conclusion "uh, no, animals definitely don't have immortal souls"
+quile: so I went to what I thought was going to be an art opening at glyph cafe downtown yesterday
+that was a wash, but glyph is an artsy / kinda classy place that actually encourages people to show up with laptops and work there
+right now I am working from the lloyd center food court
+it is near powell's technical books old location
+couch / park blocks
+just got a field recording of the skate rink here
+my hifi recording setup fits easily in a small briefcase along with all the stuff I need for work
+I was afraid the mallcops would fuck with me, so I set up right near them as they looked ready to go elsewhere
+quile: any interest in seeing Inherent Vice tonight? I know it's short notice and you are a new parent and all
+wow
+right
+unless you are going to the matinee singalong of a disney flick with a toddler or something
+(they have those at the laurelhurst on sat / sun often enough)
+D O G
+haha
+so get this, on Saturday I went out to do some field recording in Forest Park, and I got off the bus a stop or two too early
+and while walking along the road to get to the trailhead, I found a roadside shrine to someone named "Mic"
+it was just too perfect, so I set up and recorded the traffic for a bit before going on my way
+I have no idea! something like that
+it definitely made walking down that road (in dusky light) quite a bit scarier
+haha, it's a good thing I escaped
+https://i.imgur.com/wWLGrv7.jpg momento mori now available in delecious yoghurt / strawberry variety
+patchwork: experimental portland is hosting an ambient show tonight downtown https://www.facebook.com/events/686723018107293/?ref_dashboard_filter=upcoming
+s
+haha
+also, inherent vice was great (and a bit incoherent in the best of ways)
+quile: at one moment a character is in the scene, next thing you know they are nowhere to be found
+or suddenly someone is there and you are like "how long were they in the room?"
+very much a stoner movie
+not to mention plot points that are either tangled webs where everyhing is connected, man - or total non-sequitors with no explanation provided
+drugs
+"Tyson: ‘Do you know who the fuck I am? I’m the heavyweight champion of the world.’ Ayer stood his ground. ‘And I am the former Wykeham Professor of Logic. We are both pre-eminent in our field; I suggest that we talk about this like rational men.’"
+a philosopher stops a boxer from raping Naomi Campbell http://www.eamonn.com/2012/10/08/philosophical_rumble_mike_tyso/??????
+that ambient show was shit
+bummertown
+the ambient show was not only saccharine, but also had cheezy house beats :(
+house beats, cheez tonality, wanking
+I came up with a wacky idea for a browser extension the other day
+so, I discovered that via "emacsclient -nw" I can connect to my GUI emacs session from an ssh connection, and interact from a terminal window
+and I started thinking - what if I could do that with my web browser - connect to the session, and access the open tabs in text form
+the translation would be a simple screen scrape, taking the text, ignoring everything else (and leaving the href properties at least)
+ahh right, of course
+at the very least, turn text-text into regular ascii in the terminal, and make zoomable aalib rendering of images, yeah
+https://i.imgur.com/1JZuluR.jpg
+D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G
+add-verb hate
+haha (forgot, no verbs in 3wp)
+a curried supernova - seems a bad thing to have laying around
+partially applied, waiting to blow up whatever it gets as an argument...
+church of film is doing Canadian surrealism tonight
+quile: with a netsplit, you are still logged in - in your own lonely island
+just because two clients come from the same IP does not mean they end up in the same part of the split
+IRC is distributed and weird and peer to peer
+http://en.wikipedia.org/wiki/Netsplit "IRC is an undirected acyclic graph"
+any loss of connection between two IRC peer servers splits the whole network in two
+D O G D O G D O G
+lol
+interesting to note that my client is the only one shown on wikipedia that detects and reports netsplits as such - other clients just show a massive number of quits
+some awesome literary materials have been put online http://omeka.wustl.edu/omeka/exhibits/show/mlc50
+patchwork: speaking of literature, can I get that Ballard book back for a short story party?
+D O G D O G D O G
+patchwork: no big deal - maybe we can meet for lunch one of these days and exchange the goods
+D O G D O G D O G
+so I found out, chuck moore has never actually written software that runs on the crazy 25 core chip he made
+quile: better than average tv for kids (I also love watching it) https://www.youtube.com/watch?v=txVqGKLy5zI
+yeah - I think Pythagoris Switch is better though
+great for zoning out to
+and the fact that one of them will be this elaborate precisely engineered thing which was clearly the result of weeks of work, and another will just be a pill flipping over a few times then dropping down a chute has to be like the most Japanese thing ever
+rewatching OK Go now...
+I'm so sad they are out of tickets to Bartok / Beethoven / whoeverelse tonight
+yeah
+D O G D O G D O G D O G D O G
+patchwork: yo
+you didn't bring that book to work today did you?
+cutest hard drive ever https://i.imgur.com/AwnJetK.jpg
+patchwork: sure, but the reading thing is tonight :(
+I would have made specific plans Friday if I remembered MLK day
+it's not a huge deal, I can bring whatever
+it's just a small party at a friend's house, I would have invited but it didn't seem like an "invite whoever" thing...
+oh, yeah
+let's
+anywhere is fine for me
+patchwork: sounds good
+patchwork: it's in my calendar
+patchwork: hey, I was out and about. I will definitely consider that.
+I did some recording of viola in the field. https://soundcloud.com/information/a-bow-line-and-follow-it
+best of luck
+patchwork: you will be invited to the next reading out loud party. It's a sort of subdued party (hosted by teetotaler vegans) but there was some good stuff read
+someone brought "english as she is spoke" and read part of it. A classic.
+patchwork: everyone who has any desire to
+I read from Jesse Ball, Italo Calvino, and Samuel Beckett
+Alma also had a few things to read, Emily had a couple
+I ended up reading pretty much all his books
+but that night I brought "Linus and Vera"
+because it is made of fun and very short episodic stand-alone stories
+it's a collaboration with his wife, Thordis Bjornsdottir
+I can bring it today and we can trade off if you like
+yeah, 12:45 would be great
+blip blip blip
+I was. I just got a recording of that park
+one kid asked if I was a cop, and someone decided to listen to the radio
+how else are we going to bust random kids with forged medical marijuana cards for smoking in public
+mnerp mnerp mnerp D O G D O G
+D O G D O G
+D O G D O G
+patchwork: wow, that sucks!
+quile: wtf that's a fundraising total
+of course, but still
+haha "ages 30+" because a 29 year old clearly isn't ready for this jelly
+looks like I have a contracting job via IRC?
+we'll see, I'd still rather have a full time gig
+but I'll at least get a few bucks from this I think
+heh, yeah, but precarious
+nice!
+D O G D O G
+it's an amazing statistic
+I feel a strong urge to commit a vengeful act against PDF
+best national costume for a beauty pageant, ever http://i.dailymail.co.uk/i/pix/2015/01/22/24F01B7C00000578-0-image-a-44_1421919985724.jpg
+D O G T R A I N D O G
+quile: just sent jono your mobile
+quile: he's trying to contact you
+well now he has it twice then
+I recorded a concert last night, I think this recording came out really nicely
+the vocalist really used her range - good 50db difference between the quietest and loudest parts of her performance https://soundcloud.com/the-creative-music-guild
+Simon Pegg is going to play Scotty, and is helping to write the script
+"can I get you anything from the replicator, mate?"
+"cornetto, fudge swirl, cold"
+who is jeff?
+quile: if you haven't also seen Hot Fuzz and The World's End, it's a good "trilogy" - different characters and stories, same actors / writers / director / themes
+I should have figured
+Movie madness has a Simon Pegg section
+btw
+indeed
+I hope they throw a "this planet is actually some sinister collective insanity" thing into the next trek
+or at least a jumping-over-a-fence gag
+quile should see this http://i.imgur.com/CyRvZ7l.jpg
+quile: I have no idea
+he's been in and out
+it
+she
+quile: from that bad design reddit: http://i.imgur.com/CyRvZ7l.jpg
+yeah, terrible font choice
+minge, imported from iceland!
+oh, OK
+there is something really creepy about the markings on the mouths of these baby birds - perhaps it is meant to invoke horror or dread in predators so they will not be eaten? http://s170.photobucket.com/user/nixityphotos/media/2012%20Babies/IMG_2785.jpg.html
+3z
+dbz style faith healing http://i.imgur.com/zNHq7ef.jpg
+early bird tickets already sold out
+I'll have to do it out of pocket I guess
+the real estate guy was the one being guarded by the neo-nazis, and was being reprogrammed by the mormon cult
+who were the drug smugglers
+and he was being reprogrammed because he briefly fell into a hippy thing, being with shasta etc.
+he was like the rug that tied the whole room together, so to speak
+the one element that connected every plot element
+his wife cared
+she wanted the money
+he wanted to like, give it away, man
+because dude got kidnapped
+(they didn't know she did it)
+from a counterculture perspective, the government really is a conspiracy with its hands in everything
+yeah, the movie was stoned
+btw, the pcp scene was fucking great (I thought)
+I have a new favorite subreddit: /r/crappydesign http://i.imgur.com/iPrySQ9.jpg
+patchwork: I thought we had some hint that bigfoot was interested in what was going on there
+like, he went and talked to bigfoot about the dude before going there
+and it would make sense for bigfoot as a character to be like "whatever you loon" and secretly follow him anyway
+indeed
+very Dick
+(as in Phillip K, of course)
+patchwork: did I mention that Henry Kaiser concert?
+Henry Kaiser is a weirdo guitarist. Top hit if you google him is the youtube video "henry kaiser - worlds worst guitarist"
+he also did all the music for "Encounters at the End of the World" - Herzog's Antarctica movie
+and all the underwater photography
+he's the one who plays the guitar on top of an igloo in the movie, if you saw it
+anyway, he played yesterday night - guitar accompanyment to high res video of him cavorting with seals and starfish under the antarctic ice
+plus he played some blues rock (really weird blues rock, in the way he does)
+worst guitarist ever, henry kaiser https://www.youtube.com/watch?v=2PpAG8gTURw
+that's pretty much how he solos
+"you put schoenburg in my malmsteen!"
+and of course the typical response is in the youtube comments "doesn't even know what key he is playing in"
+welcome back
+D O G D O G D O G D O G D O G
+so far I can find nothing on the web that defines "agent" the way clojure does
+I was hoping there were papers or something
+oh.. yeah I keep forgetting if agents are part of STM
+for example I know atoms are not STM...
+I'm starting to wonder - all the hits for "agent STM" are clojure, or the scala copying of the idea from clojure
+the wikipedia page for software transactional memory is quite thorough, and does not mention agents
+it looks like stm comes from the haskell folks, and they don't mention agents
+I mentioned it there, may need to go deeper into that question
+perhaps a post on the ml
+D O G D O G
+patchwork: I missed early bird. I might get tickets out of pocket, not sure.
+quile: I figured out how to do a basic libc popen + fork in pixie
+next is to get proper two way communication on a pair of pipes, and then exec, and I can do shell scripting in pixie
+it's got most of the things I love about clojure, but much better startup time
+and much lower mem usage
+the idea is a tool that would be better suited for what I was trying to do for that juked project
+quile: that's exactly what I am doing yeah
+and I am using fork / popen / etc. as interop with libc
+I may need to extend their ffi namespace in the compiler a bit to get the functionality I need (pointer arithmatic to get the second fd from popen)
+but I have enough baseline C and clojure to make all that work - I just need to fill in the missing python piece (it uses rpython to compile its vm)
+then I can interop on select / poll and make yet another web server, haha
+justin holguin had a hilarious story at clojerks last night - a big node.js conf and they only had one food truck, and everyone just got in one long line
+like - shouldn't they have all just dropped off their order and their phone number?
+ /rimshot
+yeah, good talk
+I got some pixie shit figured out!
+I used ffi to open a pipe, and fork (successfully printing from both processes after the fork)
+patchwork: fnhouse
+next step is to use each end of the pipe to communicate between the forked processes
+yeah!
+also, startup for the full vm with compiler is super fast, and the RAM usage is equivalent to 10 bash shells
+which is actually really small
+yeah - it has some rough edges
+the version that can work without a GIL per process is linux-only, and all the devs use OSX
+so I may make my own linux-specific thread-supporting linux-only fork
+or just use fork + pipes and do it that way
+also, exec looks like it will be straightforward, then I have a proper shell without needing to use the system shell
+patchwork: it could be similar to scsh - which is cool but a bit outdated
+but better because it is like clojure
+quile: I should have mentioned, jed and I were talking about getting 3 people without employers buying out tickets together for a group discount
+it's only 10% though
+patchwork: not one who is paying for his ticket
+I should have put it that way
+I hate how long it takes to rebuild pixie when I make a change, but it's cool that it prints an ascii art fractal every time
+hmm - not sure if it is different
+there is lots of screen scroll and the fractal gets interrupted by compiler messages
+D O G D O G D O G
+quile: I got pipe based ipc for forked pixie working
+all using libc interop
+https://www.refheap.com/97023
+D O G
+quile: yeah, he texted me about that, sounds good!
+hmm
+Indian
+ /win 3
+err
+patchwork: quile: hey! you guys down for the Indian place on Burnside?
+I'm actually at the Instrument office today, haveto figure out how to use an API that needs ip-whitelisting
+cool
+ahh, that sucks man
+wow, sucks
+quile: well they have that nice rice pudding
+if nothing else I guess
+patchwork: cool, see you then
+quile: and you as well
+D O G D O G D O G
+patchwork: that looks much more intersting than figuring out how to create a person entity in a CMS via a json API, followed by connecting the person entity to a job application for a specific job in the cms
+hitler was also quite fond of tibetan buddhism
+but remained nominally christian
+also, some of the art he disapproved of was concidentally actually bad
+D O G D O G D O G D O G D O G
+lol so I came into the Instrument office because the IP was whitelisted, and then I get here and try things out and it turns out that they whitelisted a 10.x.x.x IP
+rofl
+sounds like about the right timespan
+it's kind of culturally specific though. You totally see random invocations of nazi style / aesthetics in se asia
+whereas they would take random references to the vietname war or the cambodian genocide much more seriously
+*vietnam
+right, but here it is taboo (and the tattoos are gotten because it is taboo) and in eg. thailand dressing up as a nazi is just harmless halloween fun
+D O G D O G D O G D O G D O G
+patchwork: https://www.youtube.com/watch?v=qoLS9We9hl4 - an amusing little jazz jingle
+haha
+D O G D O G D O G
+haha
+patchwork: since you've asked to hear about these things, I'm slated to do a 2 minute fluxus style performance on the 28th as part of the Zena Zezza series. http://www.zenazezza.org/
+patchwork: this is the event http://www.zenazezza.org/detail.php?id=24,101,105
+soup and tarts are to be served
+the whole thing is so very artistic I can't figure out the address
+haha
+http://en.wikipedia.org/wiki/GNU_build_system#mediaviewer/File:Autoconf-automake-process.svg <- this is a bad thing that you should never voluntarily engage with
+patchwork: the best thing that most of the steps in that crazy graph are weird balls of m4 or bash code that nobody even knows how to read any more
+they are write-only and get more and more heuristics added to them for detecting weird configurations
+jvisualvm
+sometimes called visualvm
+will be in the bin/ directory whereever your jvm is
+comes with every copy of the jdk
+these people have a big part of Instrument pegged https://vimeo.com/70266394
+patchwork: ahh, yeah, that's a sucky situation
+hit C-g a bunch of times?
+haha
+quile: http://www.buzzfeed.com/hayesbrown/the-egyptian-armys-orchestra-just-murdered-russias-national#.hsMG2blg0
+has to be intentional
+you can see the vague shadow of the actual anthem through the fog
+quile: /win 3
+err
+oops!
+quile: was in the middle of typing something about the MRA protesting at the cuddle convention
+but couldn't find any good documentation of this happening
+anyway, that woman who runs the cuddle company is running a cuddling convention and our local "movement of one" mens rights douchebag decided this was offensive
+the whole thing is so silly
+D O G
+ever see war tubas? http://mashable.com/2015/02/16/war-tubas-radar-wwi/
+http://i.imgur.com/YXTZvTA.png
+No one loves you, for love does not exist. Nothing matters. Enjoy Valentine's Day.
+Your local Arby's awaits.
+https://twitter.com/nihilist_arbys
+Friday the 13th eve: test your luck at Arby's. feed the abyss. die anyway. Luck's a pointless abstraction, as is life. Arbys: God hates you.
+D O G D O G D O G D O G
+yeah
+that shit cracks me up
+hertzfeldt's new film looks amazing http://www.theverge.com/2015/2/16/8048407/world-of-tomorrow-trialer-don-hertzfeldt-new-short-film
+especially for a guy who's biggest hit includes a character screaming "MY ANUS IS BLEEDING"
+D O G D O G D O G
+it reveals a lot that I'd consider Penderecki (at least his mature work) and Messiaen to be very accessible
+well, reveals a lot about me, mostly
+they both mellowed a lot when they got past their '30s
+cool beans
+do we need more reasons to hate mongo? http://www.information-age.com/technology/security/123459001/major-security-alert-40000-mongodb-databases-left-unsecured-internet
+patchwork: we didn't want to merge them?
+oh, I must not be watching that repo
+ugh, OK
+just opening up that restriction on the handler type
+right
+it was rejecting multimethods before
+OK
+did you ask r2 about it?
+southerncross - the opther direction from polaris :)
+quile: that is actually a great name
+I had no idea that was what the southern cross was called
+right
+instead of always top level
+or using a predicate
+right
+hmm
+patchwork: how about adding a :wrap key (similar to the :base key we have already)
+and that indicates that it and all children get indicated middlewaer
+*middleware
+patchwork: or wait, is that how the :base and :sub keys work?
+ahh
+right
+and you need a way to indicate that a certain subtree is wrapped by a middleware
+yes
+and AFn is super broad
+like symbols and keywords are AFn
+OK
+D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G
+I found a vintage 1940s fountain pen pretty cheap, got it refilled, it's really excellent for writing music
+parker vacumatic™
+it makes a difference
+the musty smell of a good ink
+I'll have to try a sepia
+I like a deep black though
+it's a luxurious experience
+D O G D O G D O G D O G
+so I was talking about using fountain pens to compose the other day
+today I have someone who wants to premiere a piece, and someone who wants to publish a few pieces based on one I shared....
+ain't the Internet grand!
+it wasn't even a traditionally notated thing, it was like "I drank a bunch of vodka, now I am going to make a doodle" kind of composition
+haha
+you have?
+heh, it follows a pattern though
+this one is about the sound of the hair on the balloon, after the static is built up
+this looks like something you guys might be into http://www.lyricalstringsduo.com/overgrownpath.php
+Janacek, Dvorak, Chopin...
+i am going to go see jupiter ascending tonight
+cool
+,'D
+so I saw Jupiter Ascending
+it's like someone made a 10 hour movie, and tried to get the most interesting two hours out of it
+reminded me of Dune, Star Wars, Fifth Element.
+had a section that was just like Gilliam's Brazil, with a minor role played by Gilliam
+http://i.imgur.com/AzxNkt6.jpg
+quile: check out this stupid shit http://www.atheistberlin.com/study
+heh
+I should check dates on things more often, I did not realize it was old news
+,(nth (iterate * 1) 1000000)
+haha
+it's like a cat
+it knows its name, and doesn't care
+@learn anybot is HEY THAT'S ME
+anybot
+@whatis anybot
+oh weird, more general triggers are hard coded in the config
+that's an odd impl decision
+@reload
+@reload
+hello anybot, how are you?
+yeah, that would be great
+I
+'d be down for either
+,'D
+quile: yes the file is in the war
+quile: but wrap-resource refuses to serve it in prod (under tomcat)
+I'm reluctant to change my entire server config including my application container just so a file named aksldfjalksdjflkas. instead of klajdsflkadsjf.gif can be served
+right
+tomcat already explodes the war every time, I guess i could make the app look in the magic directory with wrap-file...
+?
+I'm using wrap-resource currently
+I need one or the other
+unless you suggest I create a new endpoint just for this bullshit file
+I don't see what my options are for serving this other than wrap-file / wrap-resource
+it's a static html directory created by the client
+currently it is a subdirectory inside the war, that tomcat also extracts with the rest of the war
+via wrap-resource, the asset is looked up successfully from inside the war file
+unless it ends with a .
+then ring refuses to serve the file
+it's an animated gif
+not at all!
+but I think the problem may extend to other files that lack an extension from which one could guess a file type?
+I could test that I guess
+yeah, I am thinking it is either a problem with ring, or the caribou middlewares
+I am asking on #clojure about ring, here about caribou :)
+I am a bit suspicious about this "wrap-default-content-type" middleware in caribou.app.middleware
+hmm
+quile: so I tracked it down!
+anybot: shh
+quile: anyway, I tried a gazillion things - I ruled out varnish, nginx, ring, caribou
+turns out it's a bug in tomcat
+so I let the wrap-resource fall over to a wrap-file
+giving the location of tomcat's unpacked files
+yeah, you were pointing me that way
+and it was totally correct
+so I've lost yet more respect for tomcat
+and anybot???
+oh man this room gets crazy with the two of them
+,(rand-int Double/NaN)
+,(rand-int Double/NaN)
+patchwork: yeah, it was fucking tomcat
+well, there are two idiots here - tomcat refusing to serve files with weird names, and the client for not giving me files with sensible names :)
+I deployed way too many minimally breaking apps before narrowing it down, I tell you what
+it treated a file with a name like asdf. as if it wasn't even served
+it became a 404
+really messed up
+like dude, my app knows the file it wants to serve...
+maybe
+haha
+OK
+at this point any explanation is better that the pile of idiocy I see
+Babadook is a good movie
+quile: indie horror film from australia
+oh, ha
+aleatoric is for when "aleatory" just isn't pretentious enough a way to say you flipped a coin
+,(rand-int Double/NaN)
+what did you think?
+quile: it's definitely better on a big screen (though I know you don't do that any more)
+I'm certain it was not
+but that's not why we watch movies
+I saw Jupiter Ascending, and it was sooo good-bad
+or is it bad-good?
+it's like star wars if luke was mila kunis and never does anything but be treated like a queen and get rescued over and over
+,(defn why-can-I-do-this [x] (identity 'too 'many 'args 'why 'is 'this 'allowed x))
+:P
+,(fn why-can-I-do-this [x] (identity 'too 'many 'args 'why 'is 'this 'allowed x))
+corvids gonna corv
+where what huh?
+oh, I missed that!
+I'll likely be a little late, don't wait up
+I should read backlog more carefully
+http://thehshq.com/d/89236-1/tuppence-middleton-0022.jpg?g2_imageViewsIndex=1 tuppence
+D O G D O G
+patchwork: so I had an amplification fiasco at the soup and tarts thing, which led to me purchasing a proper portable sound reinforcement system (late b'day present to myself)
+before the show, Seth Nehil was fucking around with the venue-provided sound system, and broke it
+so I volunteered that they could use the battery powered system I brought, with the caveat that it would need new batteries
+the tech guy bought me batteries, but did not replace them
+so by the time I came on, the batteries were low and the audio was sludgey at high amplitudes
+not a total disaster, but really annoying
+anyway, as a noise artist it only makes sense that I would have a sound system that can do high SPL, and for my brand of noise I want it to be a clean PA system, not an amp that is designed to complect "tone" with amplification
+because fuck their tone
+so yeah, total weight of under 40 pounds for a stereo pair, can do 120 db, and the sound is very clean, so I am happy
+it can't *sustain* 120db for extended periods, but that's OK. I'm not that much of a sadist to do 120db in the small rooms I perform in.
+rant over
+I could do it - I assume you mean today?
+it would be easy enough to rendesvous somewhere on or near Burnside via bus, I'd be down
+patchwork doesn't do brunch, he does lunchfast
+emphasis on fast
+The rest of the soup and tarts thing was cool. It's an antique building with no indoor plumbing. I got stressed out by the crowd in the dining area so I didn't eat, but I heard it was good. The performances were supposedly all going to be 2 minutes, in reality it was 2-6 minutes with a 2 minute modal duration
+it was as you could expect with 40 performances, some were awesome, some less so
+one guy was a fashion designer, the performance consisted of a model taking off 6 different robes he designed
+finally she did a little turn around to show off her nude body and exit
+patchwork: you remember Reid Urban? they had a video from him (he wasn't able to make it)
+performance / video artist from Olympia
+friends with Heather Hall, Jared Arave, those folks
+David Weinburg
+G
+they were the folks starting Evergreen as you were wrapping up I think
+sounds like oly
+http://gif.flrn.nl/
+it's a whole page of gifs!
+a while site of pages of gifs, even
+for too long our dingles have been uncompensated
+I'm trying out heroku for the first time (because a client picked it as their backend) - it's actually got some cool stuff
+(glad I am not paying for it)
+it's kind of weird to be running lein on the server
+but I guess they make it work
+D O G D O G D O G D O G
+was out, just came back!
+the science of Indian food: http://www.washingtonpost.com/blogs/wonkblog/wp/2015/03/03/a-scientific-explanation-of-what-makes-indian-food-so-delicious/
+clearly, Asian cuisines want foods that form a vector basis
+settlers of catan, the movie http://www.washingtonpost.com/blogs/compost/wp/2015/02/23/a-first-look-at-settlers-of-catan-the-movie/
+patchwork: a prime example of exception oriented programming (defn inane-arities [f] (keep #(try (apply f (repeat % nil)) % (catch clojure.lang.ArityException e nil) (catch Exception e %)) (range 1024)))
+haha
+right, they are not side effects,they generate the return value
+yeah, goofy ass shit
+yeah
+100%
+by redefining fn to have a method that tells you the arities it accepts
+of course with defn you have the metadata
+you can also use it to make queries about future events, but it only gives results for absolute disasters
+https://aphyr.com/posts/294-call-me-maybe-cassandra/
+quile: that aphyr article on cassandra is good, probably at least worth noting for worst case data integrity issues
+D O G D O G D O G D O G D O G
+breakfast, therefore breakfast
+D O G D O G D O G
+TIL that in order to get proper time zone'd times including daylight savings, one should use Calendar
+if only
+also, java.util.Date is happy to create dates that historically never happened
+patchwork: also, I did an electronic drone / noise piece the other day https://soundcloud.com/information/there-is-nothing
+much more drone than noise actually
+patchwork: time vs. frequency domain http://i.imgur.com/K4vTNHt.png
+oddly, there is no log display of the frequency, so most all of the content is in that 0-1k range
+OMG I was so avant garde and I didn't know it http://nymag.com/thecut/2014/11/even-rihanna-is-using-a-flip-phone-now.html
+D O G D O G D O G D O G D O G D O G
+it's been a while
+patchwork: I recorded another concert https://evanspacht.bandcamp.com/album/panting fun starts at 2:40
+pretty good, I have been busy with the various contract jobs, got another nice set of mics and other miscelany to make a nice portable harsh-noise rig
+went out for chinese last night, overheard halfway through my meal that the restaurant had been without power for 4 hours that day and all nearby restaurants had closed for the day, then puked profusely walking from the restaurant to my train
+which is good because I probably would have gotten sick from the unrefrigerated pork otherwise
+fuck those guys
+funny thing is I didn't get or feel sick. I was walking, and then it was like "OK, throwing up now", then I just resumed.
+haha
+patchwork: this reminded me of beach house fun times https://www.youtube.com/watch?v=Z5e1SgLEiz8
+patchwork: at first I thought they overdubbed another reed player, then I realized it was the birds in the wetland where they were playing
+it's still a way of life, it's not too late!
+why can't Portland get that kind of Russian, instead of the eastern orthodox gangster kind
+awesome octapus camaflauge
+http://i.imgur.com/8yCSCf4.gifv
+*camoflage or whatever
+camus flagges
+Bartender says "Sorry, we don't serve faster-than-light particles here"
+A tachyon walks into a bar.
+There's a pagan noise paddy-day party tonight at the Alice Coltrane Memorial Colliseum
+D O G D O G D O G D O G D O G
+I get a measurement mic today, I am going to do some room calibration
+excited
+cleaning up the living room and dining room so I can set up an 8 mic / 7 speaker feedback network
+D O G D O G D O G
+D O G D O G
+cool
+I built a 7 speaker / 8 microphone mega feedback system in my living room, which was also madness. Recorded a couple of noise shows.
+patchwork: http://104.236.147.215:8000/ - the kieran one is good, as is the evan-spacht
+it was mostly an exercise in live recording for me
+I'll have to miss the Crank Sturgeon show on Friday for Annie's birthday.
+unless I can convince everyone that a middle aged guy in a paper mache fish costume shouting surrealist nonsense while making loud electronic noises is the right way to celebrate
+like 9, up in Kenton, and yeah
+but I'd rather have a less stressful evening and just pick one
+patchwork: oh, and I hung out with Birch at one of those noise shows.
+he's doing well with all that "being a famous artist" stuff
+"famous"
+he tours, gets exhibitions in reputable galleries
+performance and installations mostly
+he makes noisey electronics that are covered in mirrors and light sensetive
+then shines lazers around and makes noises
+creates psychedelic environments, that sort of thing
+yup, smart dude
+oh, and I'm working (slowly) on an adjacency-list graph lib for clojure.
+at this point it isn't fast, and that's kind of the point with graph stuff mostly
+though it was cool to come up with a very concise version of djikstra's algo
+and maybe on the third or fourth redesign I may have something with decent throughput
+https://github.com/noisesmith/adj
+the unit tests are probably the informative thing right now https://github.com/noisesmith/adj/blob/master/test/org/noisesmith/adj_test.clj
+for example one function makes an infinite lazy seq out of a circular graph
+which may or may not ever be useful
+sure
+also if the graph has multiple cycles, and no terminal nodes, you'll get endless "variation"
+which definitely has musical application, yeah
+also, the graph representation for synthesis graph creation, of course
+the problem with listening to the abyss, is that it listens to you
+yeah, I can do that
+how about indian?
+yeah, sounds good to me
+you guys probably heard about foundationdb?
+almost used it for a project, it looked great. RIP
+cockroach looks interesting though https://github.com/cockroachdb/cockroach
+apple bought it, and took down all downloads / source repos
+I guess that's what happens with closed source shit though
+I hope cockroachdb takes off
+the marketing writes itself
+"let cockroachdb scurry into your server room, and your data will outlast a nuclear holocaust"
+time time
+D O G
+I don't even know
+I'm definitely down. Time is hard generally, isn't it.
+I think I'll fabricate noon, unless some other info is provided
+patchwork: noon?
+Hip-Hop album titles that need to get used: Illocutionary Force
+add-verb illocute
+oops, of course no verbs
+that's straight ill
+man, a great audio system is a gift that just keeps on giving
+quile: that moorcock article on tolkein http://www.revolutionsf.com/article.php?id=953
+http://i.imgur.com/tBg1U2X.jpg
+D O G D O G D O G D O G
+so I'm probably doing something with noisesmith.org soon
+I set up the DNS and nginx, but no real content yet, except noisesmith.org/noise
+dogdog: yes, those are your three weapons
+It's going to be a repair manual for clojure code
+like the kind of thing where your like "when I go into third gear it makes a sound like 'number can't be cast to ifn'" and it says "yo dude, too many parens"
+or whatever
+a lot of it will be heuristic - like "these are the most common problems that make that error message happen"
+haha
+pretty much!
+that's where the idea came up
+like, I could make a usable web site out of that
+I got nginx set up, for now it will be static, so that suffices
+well, it's going to have a specific tone and manner of organization
+cool deal
+nice, I like it
+in a couple minutes, James is coming over and we are going to bump some Mahler's 3rd super hard
+https://pbs.twimg.com/media/CBTxF-cUgAAyANP.jpg:large
+sorry about the join/part spam from my bot, we were debugging the conj.io lazybot plugin
+D O G D O G
+patchwork: https://pbs.twimg.com/media/CBTxF-cUgAAyANP.jpg:large
+patchwork: fyi you've been missing out on some action in #caribou, some folks have been trying it out
+got some bug reports, some fixes for the tutorial to match the latest template
+yeah
+now all we need to do is turn them into caribou devs.
+muahahaha
+for it's flaws and for for all our regrets of what we could do better, it's still a pretty awesome tool
+I just deployed a stub of a site (for a personal thing that isn't yet public really) that doesn't even use a routing lib yet
+D O G D O G D O G D O G
+https://www.youtube.com/watch?v=3BDhe8TQ1H0 probably better muted
+(found via r/shittyrobots)
+I like how it has fake legs for the cat to claw the shit out of
+woah, it's reverse number search: http://oldweb.cecm.sfu.ca/projects/ISC/ISCmain.html
+http://www.reddit.com/r/math/comments/31a0ps/can_anyone_speak_about_the_math_behind_this_gif/
+the blog post on how it was implemented http://mainisusuallyafunction.blogspot.co.uk/2011/10/quasicrystals-as-sums-of-waves-in-plane.html
+patchwork: http://mainisusuallyafunction.blogspot.co.uk/2011/10/quasicrystals-as-sums-of-waves-in-plane.html
+I was surprised by how straightforward the algorithm was
+ehh, I'm still skeptical until I get better evidence I exist
+patchwork: did you hear that a car smashed into red castle games yesterday? https://www.youtube.com/watch?v=yr2dGUsCpsc&feature=youtu.be&t=12s
+driver was drunk, tried to run away from the scene
+I found a bunch of my old csound instruments the other day
+they still make crazy noises!
+I realized instead of getting a mega looper, I could get a 4 core arm based tablet for less money, and just use an external sound card (which I already have) and a csound patch
+I finally figured out that a tablet with the right adaptor attached could use a good sound card
+that was the clincher
+D O G D O G D O G
+yo
+trying to sort out my todo list for the week
+no, just figuring out the priorities
+did that map of http requests get sorted out?
+patchwork: the stock project looks like it is wrapping up, the instrument contract is over (but I may or may not be consulting for the client)
+oh yeah? I think I could probably manage that actually.
+I need to make sure this stock project is wrapped up - I think the frontend guy (my contact) is near a big deadline and don't want to leave him hanging at the end.
+but yeah, I should come in and check this shit out
+definitely
+let me check my calendar here
+I think I'm charging pretty low - $75 ro $100 an hour
+you'd get my best rate of course
+so I can do any day but Friday
+or today
+should I plan on just coming in and getting oriented, or bring my computer?
+sure, address?
+what time?
+patchwork: sure - should I bring my computer?
+awesome
+uh... sure!
+leading what kind of workshop? or is that the surprise?
+cool
+haha
+cool
+oh man these bots
+patchwork: reminds me of gfredericks' regular expression generator, able to generate arbitrary valid regular expressions (for test.check)
+WOO got free tickets to the string quartets tonight and tomorrow night
+(insomnia pays off sometimes)
+http://focm.org/concerts-events/2014-15-season/elias-quartet/3049/
+mozart C major K 465, Duilleux ainsi la nuitt, Schumann a major op 41 no. 3, Haydn c major op 33, no. 3, Britten Quartet 3 g major, Beethoven Quartet in C-sharp minor, op. 131
+D O G
+the funny thing about getting better headphones / speakers is when I put on some pop or rock and realize how little low end it has (compared to jazz or classical or experimental)
+it's mastered so it will sound good when people crank up the bass knob on their stereo
+so it actually lacks bass so it won't sound like shit when people fuck with it
+very funny
+also, half the time it totally lacks any true lows (20-40hz octave), because of course the pop audience isn't expected to have speakers that go that low
+hah
+it's true actually
+I have this thing where I like to know what the normals are listening to
+I have to keep myself from getting too crusty and closed minded
+patchwork: so recently I learned the Vin Diesel does the "Fast and Furious" movies for the money, and part of his contract is that if he does those movies, the studio will let him do scifi scripts of his own choosing
+patchwork: he also makes the cast play dungeons and dragons with him
+D O G D O G D O G D O G
+,(hash-map Double/NaN 42 Double/NaN 42 Double/NaN 42)
+,(clojure.string/join "☃" "﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿﻿")
+patchwork: so, the concert last night, Henri Dutilleux is fucking amazing.
+"Ainsi la nuit" - let me check
+https://www.youtube.com/watch?v=KUwMjKOkf40
+I liked it alot
+though I had to put up with ignorant jerks saying it lacked emotion or love for music yadda yadda since I was there alone
+(it was performed right before an intermission)
+also, I found out I hate Schumann string quartets
+the Mozart was of course good
+it was like he was doing a string quartet cargo cult style
+like "after listening to mozard, haydn, beethoven, I know these elements must be present", but he didn't fucking get it
+slightly better than when a rock star orchestrates strings to play major chords following the rythm guitar of their hit song
+now I'm listening to Dutilleux again, I think I need to get some of his music
+quile: oh hi, you're here
+impressionistic, but a bit more angular than the romantic stuff that usually gets that label
+wow, that fucking sucks
+I just got "cello & violin concertos, etc." from the Radio France philharmonique
+very good so far
+sorry, http://www.amazon.com/gp/product/B000TPXI2I/ref=dm_ws_pr_fl_dp_B000TPXI2I?ie=UTF8&qid=1428433647&sr=1-20
+it's a specific CD of dutilleux performances
+yeah
+his titles are all like that
+so if you guys are ever looking for super analytical headphones that reveal every detail of a recording (making good recordings fucking amazing, and bad ones a bit more annoying than they were before), I found a pretty amazing set
+shure srh940
+I'll let you try them out some time if you like
+pretty amazing (they are $300, but to improve on them sound wise you go up to headphones over $1000 in price)
+let's see a better poem, dogdog
+hmm
+OK, that's a decent one
+"git jinx" - ensure that any future rebase or cherry pick from this commit history will result in an uncanny tangle beyond human comprehension
+one of my experimental music friends on facebook shared this https://www.youtube.com/watch?v=PzKXetZE0pQ
+it's using spectral convolution to reinterpret mozart with solo clarinet
+oh, forgot to mention, it is fucking gorgeous
+like mozart meets eno
+I'd really like to know what convolution algorithm he is using
+the bitcoin foundation went bankrupt because its assets were held in bitcoin
+Y O L O D O G
+haha
+today I learned that some cats like the flavor of crickets, and you can amuse them by bringing feeder crickets home and letting them hunt
+it's a self-propelled toy and a kitty treat all in one
+haha
+you can at least be reassured that the cat is likely as oppressed by this situation as you are
+perhaps it would be an outdoor toy
+"Worst thing about cricket ranching is finding a small enough horse."
+this all comes up because crickets taste good and require less water than even beans for a given amount of dietary protein produced
+with a bit of terriyaki sauce, they aren't bad
+patchwork: food, cat toy, and ambient noise generator
+oh, I'll have to try that
+quile: patchwork: the "portland guide" for clojure/west is an open source readme.md, I just contributed an update that backspace is closed, other contributions are helpful https://github.com/ohpauleez/pdx_guide
+there's a show tonight, includes at least one good drone band
+the same band as in this recording of mine http://noisesmith.org/noise/kieran.flac
+Prelude no 1 as performed by french jugglers https://www.youtube.com/watch?v=Y5seI0eJZCg
+hello
+I found a great tool for designing touchscreen controls for softsynths
+you've maybe heard of it, touchosc
+it's worth the $5
+I've been connecting some of my favorite csound synths to it, and it's pretty cool to have multi-touch input
+yeah, it's meant for touchscreen usage
+it's great on a tablet
+has bindings for various daw and synth apps built in
+but it's easy to make something custom and connect it
+it will work nicely with supercollider (and thus overtone)
+indeed
+it's funny to be using netcat to debug a synth though
+I realized that a) I wanted a new looper and b) for the price of a looper (or less) I could buy a tablet and run csound on it. touchosc has been a bonus for this plan
+right now I have a 7 loop multiplex with stereo out and panning for each loop and arbitrary trimming of loop region and overdub -- a bunch of features I would not get for the more expensive dedicated looper pedal
+plus if the CPU can keep up I can throw in granulation as well
+bbl leaving the coffee shop
+404: home row not founD
+quile: so I am volunteering for clojurebridge tonight
+also, I hired at littlebird, for a good salary
+thanks
+it will be a lot of fun working with patchwork again
+haha
+quile: I've also been doing some csound programming. This is some output of a realtime instrument I made with csound and touchosc http://noisesmith.org/noise/enos.flac
+very ambient ad mellow
+D O G D O G D O G D O G
+so, get this, I could have started at little bird today, but was scheduled for a phone call to do the teague handoff with instrument. And then late last night I get a cancellation with no explanation.
+free day off I guess :P
+haha, I learned that
+and I'll have a much better budget for gizmos I can make noise with
+I may even look for a better apartment
+quile: also, I am volunteering for clojurebridge, and got set up with a windows vm so that I can assist with the installfest (knowing how many non programmers use windows)
+it's actually pretty straightforward now, ms has a bunch of free virtualbox vms that are ready to spin up that you can download
+of course apple will never provide such a thing
+yes, I know
+but it's all about building that bridge
+let them start learning to program first, let them know how many of their problems are being caused by their OS later
+"before learning to program, you should spend a few months learning a new OS, then spend at least a year learning to use vi or emacs effectively"
+bugs in my audio code, end up with something pretty by mistake https://soundcloud.com/information/mahler-pvoc-audio-1-91
+patchwork: hello
+patchwork: get this: they flaked out on that call I was going to be on today
+haha
+check out this shit I accidentally made, I think it sounds pretty cool https://soundcloud.com/information/mahler-pvoc-audio-1-91
+so the day was by no means wasted
+"training" on the weekend, yeah, I think these are the things you pay extra for?
+there is a party on tuesday at puppet
+smooshing theory https://www.quantamagazine.org/20150414-for-persi-diaconis-next-magic-trick/
+D O G O F F I C E D O G
+D O G
+D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+cool, I'd be interested to hear your take on it
+I have most of what spacemacs does turned on in my emacs
+I do clojure a really simple (and low feature count) way. cider makes me angry.
+monroe might be worth it
+it gets frequent abi breaking updates
+and in emacs, that means all sorts of things can break - emacs doesn
+t have powerful package management
+y emacs has only been unreliable (in terms of broken behaviors and crashes) except when I was doing very low level elisp stuff, and with cider
+yeah, sorry crappy miniature keyboard and distraction
+I updated that delay thing tobe more wiggly
+awesomeness
+D O G D O G D O G D O G
+D O G D O G D O G D O G D O G
+haha
+what's the RDA for pianos?
+D O G D O G D O G
+wow, balanced parens
+err, quotation marks
+the spectrum thing was fun
+much less shrill than I imagined
+D O G
+D O G D O G D O G

@@ -3120,3 +3120,702 @@ Just did that and it gave me a bunch of gpg errors...
 Hmm.... must have been awhile
 Ah, nevermind
 I just don't have gpg installed on this machine!
+Ha!  I think that number is about 3 right now
+No, but I'm glad we do
+I like that we had hyperbolic before linear
+That is awesome
+Linear algebra is a form of magic
+No he just got back
+Poignant
+Your mic was recording its own eulogy?
+Yeeeeeah, it is like a roadside shrine propagator
+roadside shrines that lure people into them to create more roadside shrines
+self-propagating
+That is dark
+Yeah!  Watch out, there are traps everywhere
+http://www.ski.org/Vision/Eyepage/Images/insectB.jpg
+justin_smith:  Wow that looks like an awesome show
+Also the symphony tonight
+Also the gamecrafters meetup
+Too many things going on tonight
+Dingle??   What the hell?
+quile:  Hey man, how was the show!
+Glad to see that
+justin_smith:  How was the show!
+quile:  Ah really?  bummer
+justin_smith:  Ah really?  bummer!
+quile:  Yeah I wondered about that
+It is so saccharinized
+I mean, still awesome but yeah
+justin_smith:  What was the problem??  It looked pretty cool
+Oh, house beats
+quile:  What was it that Perlman played?
+justin_smith:  Hahahahaha
+quile:  Okay, I mean, okay.  Interesting!
+Yeah last time I heard perlman live it was okay, but maybe because he is so famous I was expecting more
+I feel like he really hams it up
+He is like the Kenny G of violinists
+Ah, well yeah
+Or maybe Perlman is more the Spielberg of violinists
+Okay
+Was really wrestling with either going to that, going to Smitho's ambient show or just hitting my gamecrafters design group
+Yeah quile, you have ruined me on pictures!
+Also, the piano version is hard to find
+Do you know a good recording of it?
+Yeah, like it is too polished
+Yeeeeeeaaah
+I mean a recording just of the piano version
+not orchestral
+Cool, I'll check it out
+Was looking around and searching for it just reveals recording after recording of the orchestral version
+justin_smith:  Sorry to hear about the wankery!
+I just ended up hanging out with some game designers
+Got a great playtest of Sol in
+Ah there we go
+Thanks quile
+Clearly
+That would be kind of amazing
+and bizarre
+You should be able to stream videos into ascii art
+and images
+!!
+Gets me every time
+That seems redundant
+Netsplit most likely
+justin_smith:  undirected acyclic???
+I did not realize
+That seems...undesirable
+justin_smith:  Yeah man!  You can have it any time
+Didn't mean to keep it so long... such is book loaning
+justin_smith:  Yeah good call!  Next week for lunch would be awesome
+About time
+Right, but other people have I believe
+Happy Monday D
+justin_smith:  No I did not.  But I will put it in my backpack and bring it tomorrow... Meet for lunch then?
+Oh hell!
+Hmm....
+Where is the reading?
+Okay!  Sorry about that
+Sure... well we can still do lunch tomorrow?
+
+Those are spaces
+justin_smith:  How about Kenny + Zukes downtown?
+Works well to get there at 11:45
+Awesome
+justin_smith:  How is work going for you lately?
+We are looking for a clojure developer actually... More frontend/backend than pure backend
+I have been messing with Om, it looks pretty cool
+justin_smith:  Awesome!
+justin_smith:  Looks like I have something until around 12:30 tomorrow actually, so meet up for lunch a little later?
+Ah, I have to get out of here now
+Fleeing downtown!
+Talk to you tomorrow
+justin_smith:  Aha!  Sounds pretty fun
+Does everyone read?
+I'm sure I could find something laying around...
+Ahh awesome.  Yeah I would be interested in that
+What else have you read by Jesse Ball?
+I'll have to check that one out
+Oh, so did you see I have to do lunch a little later today?  After 12:30... let's just say 12:45 if you can still do it
+Cool
+justin_smith:  You still planning on coming down here?
+Getting huuuuuungry
+Okay you must be on your way : )
+: )
+Yeah because cops are always going around recording things
+So in other news, neo4j totally fell over when we tried to load it with data
+Apparently it is optimized for many hops across sparse networks, and we have some nodes with ~5000000 edges
+Which in those cases it has to scan through every edge : (
+We were on the phone with their engineers and everything, they basically told us we were trying to do a "global" query and it wouldn't work
+So!  There goes that idea
+Now to explore every other option available
+quile:  WTF!
+I guess I see the path to success
+Exploding kittens!  How had I never thought of that...
+Impressive!
+Our company is still trying to raise 2 million... I'll let them know this new tactic we should be using
+Contracting is fun... I wish I had time off
+I just wrote 93 lines of code to implement betweenness centrality without testing it and it ran correctly the first time
+Shit like that makes me feel like a superhero
+ha
+Then I realize it is just some code and no one's life is saved
+https://www.refheap.com/96400
+In case anyone needs it
+justin_smith:  That is a lot of piss
+Why are we wasting all this water on olympic pools!
+quile:  For you:  http://www.reddit.com/r/newzealand/comments/2t9vgj/why_i_hate_new_zealanders_and_why_i_always_will/
+You guys going to Clojure West?
+Getting my ticket now
+justin_smith:  Oh, so I went and saw inherent vice last night!
+WTF was that, wow
+I think I pieced it all together but I am still fuzzy on the real estate guy's role in everything
+Pretty interesting flick though... we discussed it for like 2 hours afterwards so that is a sign of a good movie
+Right, but he didn't seem to play that large of a role in the larger scheme of things
+Was he part of the cult before or something?
+Why would they care if he fell into a hippy thing?
+But what was her connection to everything else then?
+She was hanging out with the fbi...
+(at least, the fbi was having a pool party at the house)
+Hmm.... but the fbi was also there at the institution with Wolf guy
+So it seems like they knew
+The fbi seemed to be in on everything
+Right
+The fbi represented the government itself, sort of orchestrating all of this other stuff
+Yeah, that was crazy
+There was a lot of textural contrast in the movie
+That just came out of nowhere, he kills those guys and then bigfoot is down there...
+Ha!  Ooh good find
+Right, I feel like bigfoot lead him through that whole thing in a way
+That was a great relationship between those two
+Yeah but I loved the whole connected industries kind of thing, that the heroin dealers would get into the rehabilitation business, and also dentistry
+Cause the problems, then fix them, profit the entire time
+It was basically a giant paranoid conspiracy kind of thing
+Yeah of course : )
+No, what's that?
+Ah, that sounds awesome
+Sorry I missed it
+Yeah that is amazing : )
+quile!  How goes?
+Hey quile!  Long time no see : )
+How goes man?
+Aha!  How was that?
+Gone all week?
+That is intense
+Yeah, how does that work?  Did she get some help from her folks?
+Ah wow
+Oh hell, did you get to see White Mass??
+Not really forgivable
+Right : )   Well was it good to be with the compatriots?
+Inhabit the same space as other humans etc
+Well, welcome back
+Surely rest is in your future
+Oh man, total blast
+Maybe largest group yet?
+Superbowl was definitely working in our favor
+Oh yeah, awesome!
+Should be fun : )
+If I can get the Bach down that is
+some tricky stuff in there
+I will have it down over and over again and then just randomly stumble over some innocent passage
+Should be fun though
+Want to do one of my own compositions for the next one
+Whenever it is I fit in composing something with all the other things I'm doing
+Yeah, seems more in the spirit of things ultimately
+I saw that : )
+Good spirited folk the kiwis
+quile:  Already have my ticket!
+Looking forward to it
+You going?
+Yeah... how much different is it?
+justin_smith:  You going?
+Tasty
+justin_smith:  Good to see you last night!
+That was pretty fun actually
+Ah really!  Yeah that sounded really cool
+Also curious about this funhouse thing Jed was talking about
+Ah rad.  Shell clojure, I love it
+Pretty impressive really
+Ha!  Cljell
+I would use it
+quile:  Awesome!  Let's coordinate as the time approaches
+I thought Jed had an employer
+Ah
+Yeah right
+I guess I should have asked my employer!
+Actually, maybe it is not too late...
+Hahahaha a different one each time?
+That is kind of radical
+justin_smith:  Where do you want to go to lunch today?
+I can travel anywhere
+Yeah that sounds perfect
+quile:  Oh man!  What the hell?
+Where from?
+Holy crap!
+Woooooooooow
+Did you have any indication when you were cooking with them?
+Wow crazy
+Well, since food poisoning can kill you, yeah
+Yeah I can imagine
+I have a meeting until noon, so probably 12:15?
+If that works for you guys
+This is the paper I am implementing today:  http://www.emilio.ferrara.name/wp-content/uploads/2011/07/isda2011-k-path.pdf
+Ah well, all a matter of perspective I suppose
+quile:  It was pretty awesome actually!
+Metamorphosis is amazing
+And I actually enjoyed Carmina Burana quite a bit : )
+I mean, it is goofass
+It has this way intense opening fanfare, then... silliness
+I can see why for sure
+Was he?
+It said that Hitler disapproved of the piece
+But that doesn't mean he wasn't a nazi
+Man, the nazis really ruined everything
+It is interesting that Hitler's abomination created also a nuclear fallout in semantic/symbolic/stylistic space that has never recovered
+It is like he took out everything conceptually around him, as well as physically
+No one names their kids Adolf, no one wears funny vertical mustaches, no one uses swastikas
+I wonder if sentiment will ever come around, kind of like how everyone thinks Gengis Khan is a badass now
+That took what, a thousand years?
+Yeah that is true.  There are also people in this country who wear/tattoo swastikas, just a relative minority
+Holy crap, that is amazing!
+And the source material is far above and beyond the run of the mill advertising fare
+That guy is amazing
+For some reason I innately trust him
+That is some pretty badass klingon blade ascii art
+quile:  Holy crap!  This is amazing
+Wow, yeah I remember you talking about this guy
+Yeah similar in that it is entirely his own voice and creation, I feel like this is way more out there harmonically
+without being atonal
+I like it a lot
+Seems even more impossible to play than Scriabin as well ; )
+What is it?
+Hahahahha of course
+I don't see how you could avoid that
+Also though if you are sweating profusely why be wrapped in blankets??  Wouldn't that make it worse?
+Well, the best apocryphal stories capture something of the truth
+apocraphyl is a substance that converts photons into photogelatin
+There is a reason certain stories are repeated over and over
+On the other hand, wikipedia does not contain ALL knowledge, despite appearances
+Maybe if you find a reference you can expand the article???
+justin_smith:  Awesome!  Thanks for the heads up
+Holy animal that is convoluted and strange
+What can't you solve with more levels of indirection??
+justin_smith:  What was the name of that profiler tool you were talking about at the last clojure meetup?
+Also, do you know any way to stop emacs from trying to display a giant output once it's started??  : P
+Already tried that ha!
+quile:  Ah, it went great!
+People seemed to really enjoy it
+My hands were shaking like mad in the first movement of the Bach, but I settled down and the rest went of in spectacular fashion
+*off
+Yeah man, what the hell!  : D
+How was the soccer game?
+Haha wow, congrats!
+You are like, MVP
+Well, that sounds pretty awesome though
+All in due time!
+It is too bad, seriously I have to check with you next time I schedule one
+The next one we are doing the Shostakovich sonata for Cello and Piano, transcribed for Viola
+So that will be fucking rad
+That Arby's thing, once again, just getting at the true spirit of the branD
+Thank you internet for continuously articulating things I felt but could not express
+What's up #tripartite?
+I have been insanely busy lately
+justin_smith:  What is the status of polaris lately?
+I see we merged in those changes we didn't want to merge all that time ago
+quile!  How goes man?
+Oh man, what?
+Ah, what is the situation?
+Hmm, that is a bummer
+Is it just being in a different location?
+Ah yeah, man all I hear about is docker now
+justin_smith:  I just remember they were that grapenthin guy's changes and he rewrote the whole thing
+I think R2 was just doing due diligence and didn't realize we didn't want to merge them
+Yeah I think I am going to do that
+We are starting to use it at work now, and I am using the old ass version
+But justin_smith:  My real question is what other kinds of improvements have we made since then?
+I see you have done some work on the repo
+Are they minimal?
+Something about multimethods
+Okay cool
+I will take care of it
+Cool!  Polaris lives
+I don't know... I think he added something too
+I will talk to him about it
+Ah, I will just put the current state on a branch
+Then revert and apply any improvements made since then (which I think are small)
+I will be doing some work on it now that we are using it also
+crux... good name
+Well, maybe I will fork just for that reason?  Haha
+No, that will be a new lib
+Right
+Yeah, that is a library waiting to happen
+I think I finally understand what this middleware feature is that everyone always wanted
+You want to be able to add a middleware to some url, and have all of the urls under it use that middleware
+Like, tree scope middleware
+So you don't have to add it to each function every time
+Cool, for some reason I never got that before
+The question is how to fit it into our vector-syntax
+We already have the option to provide a map as the handler (with :GET, :POST as keys etc)
+Yeah, that sounds right
+That example the :base key is indicating the name of that route
+It is not a trigger or anything
+The thing is that the handler is a map of functions rather than a single function
+I think it could fit in there
+Or we have some idea of an options map somewhere
+Right
+So if you just provide a function, call that function
+but if you have options provide a map there
+It could be the entry point for a bunch of different options
+(right now just HTTP type)
+Does that work?
+So justin_smith:  Your fix was to create the add-handler multimethod... how does this fix the multimethod thing?
+Is a multimethod of type AFn maybe?
+Was it failing on the (fn? ...) predicate?
+Got it
+Radical
+justin_smith: quile:  Reverted!  You will have to reclone probably since I did a force push to master
+Ah yeah, those things are amazing
+They really knew how to write with pens back in the day
+justin_smith:  Congratulations!
+Do you have a link?
+I've seen this one!
+I mean, I've seen you perform this
+Hey!  Nice anybot
+anybot does so many things, but does not respond to his own name?
+Seems like potential there : )
+There we go
+So he has already solved the general case
+justin_smith:  Just saw all of this... Did you figure it out?
+Ah, well that makes sense
+So it just refused??
+Ha
+Well you know, dots are dangerous
+Probably a security risk
+That was facetious
+Probably a dumbass string validator deep in the code somewhere
+stingray hive symbol!
+Sounds like danger
+Yeah that is kind of freaky
+Man I just got out of a crazy illness
+finally back at it
+Rough week
+How are you doing quile?
+It was flu-like
+Yeah?  You open today?
+Cool!  Totally down
+Oooohh tough choice
+Maybe hawaii
+Yeah, that sounds awesome
+Are you thinking the burnside one?
+No that sounds good
+Let's do it
+Probably... 12:30
+Done
+Oh man, that soloist had the greatest three word poem when he was describing the Lutoslawski
+justin_smith:  I have been wondering about that one!
+I'll have to check it out
+Let me remember
+(something) apocalyptic meditation
+When describing the third movement... do you remember?
+That was definitely the last two
+I think it was searing apocalyptic meditation
+Hahahaha
+Of course
+Ah right... aleatoric
+We have been pretty thorough there
+I utilized a disk currency to aleatorically determine the outcome
+justin_smith:  Speaking of movies, I finally saw interstellar : )
+Well, I actually thoroughly enjoyed it
+But I wasn't being very critical
+There were a zillion things I could have taken issue with
+But instead I decided to just enjoy it
+quile:  Me neither, but randomly we will hit up the laurelhurst on a whim
+justin_smith:  Like, I'm not sure it was realistic
+Ah quile, if you are going to see it then I won't give anything away
+Exactly
+Well, when quile sees it we can have a throwdown on it
+Ah!  I have been wondering about that one too
+I think I have become less critical of things as time goes on
+quile:  It is still at laurelhurst I think
+Yep
+See you there
+What happened?
+quile:  Ah!  Ate lunch at 11:00 today : )
+Usually down though
+I might need more heads up otherwise I will eat the first possible opportunity
+Yeah let's do this week for sure
+Down for some lunchslow
+justin_smith:  Sounds pretty interesting
+Reid Urban?   Why would I know this guy?
+rings a bell
+Vaguely
+The past man, it's all a blur
+Yeah I remember this whole... mass of people
+They were everywhere
+swarming around like bacteria
+That gif does not open for me
+Okay, the site did not open for me : )
+Glad they finally made a law about that
+Yeah, it was cool
+is cool
+Simplifies a lot of things
+????
+quile: justin_smith:  Down for lunch today?  If you guys feel like coming downtown
+Cool, Thursday it is
+3333333
+I don't know man, the docs for `keep` say the function should be free of side effects ; )
+Although I guess the exceptions are caught
+That is pretty funny though
+I mean, it works?
+How else would you implement arities?
+quile:  No!  But seriously interested in it
+What do you think???
+Yeah, it looks really rad
+I am more interested in its scaling dynamic
+Right, supposedly!  I haven't used it yet
+And you will never believe the answers it gives, even though they are accurate
+One of the lesser known Strauss works
+justin_smith:  quile:  You guys still down for lunch today?
+Ah yeah!
+Well, it seems to have blown up a bit
+Originally it was going to be an informal discussion about how to make an algorithm more efficient
+I might be working until right before the event
+But if not I will head down there/text you and see where you are
+333333
+justin_smith:  There are no time zones.  We are living in a society of hypnotized delusionists
+There is no daylight savings time
+Just because everyone is mistaken in the same way does not make them right
+That is a feature
+As it turns out, our models of reality and reality itself are not necessarily isomorphic
+Cool!  I'll check it out
+justin_smith:  Yeah!  Last week was crazy
+How goes?
+That is a rough story
+Sorry to hear that!
+333333333
+SOL
+It is happening
+quile:  That show was pretty good!
+I love seeing music at lincoln recital hall
+Man, my bad too I meant to ask you a couple days ago and forgot
+Dude shostakovich wrote that trio when he was 16
+and it was awesome
+Ah yes, back when doing weird shit was a way of life
+justin_smith:  That is my favorite joke from the future
+Yoyo!
+How are you guys doing?
+Just got back from a four day board game convention
+It was madness
+It was pretty off the hook
+Sol was a blast
+Did 10 demos
+Everyone loved it, it was a hit
+Got a bunch of sign ups
+Met a bunch of game designers
+Crazy times, definitely in recovery period
+What did I miss?
+Haha rad!
+Do you have them up?
+Oops
+Ah yeah, that is quite a conflict
+I'm sure she would understand ; )
+You could probably make a case for that
+What time is it happening?
+You could probably make dinner and hit the show or vice versa
+Oh man!  How is that guy?
+Haha right : )
+So wait, he's famous then?
+Right, so is it paintings, or performance?  Or "installations"?
+I guess I haven't been keeping track
+Okay yeah I've seen one of these
+That guy is pretty awesome
+Always enjoyed his antics
+Ah interesting
+link?
+Maybe useful for a music thing?
+That would be my first application
+(meeting)
+Ah, we should all get lunch soon
+Wow
+I bet the abyss throat organ has some serious bass tone resonances
+You guys able to get some lunch tomorrow?
+Cool!
+Any preferences?
+Sure, old Indian Grill on burnside?
+That is still the best indian I've found around town
+Ah I did not hear about foundationdb... RIP??
+Hooooooooly crap!!
+Man, fuck apple
+Wow, that is some ugly behavior
+This reminds me of a terrible thing:  http://np.reddit.com/r/todayilearned/comments/307ihi/til_that_when_a_cockroach_touches_a_human_it_runs/cpq3jky?context=3
+Don't read that
+333333333
+justin_smith:  That works for me... I can do a little later if need be
+quile?
+Great word!
+I have been committing acts of illocution my whole life without even knowing it
+33333
+I would like to hear that poem dogdog
+justin_smith:  Awesome!  What did you have in mind?
+I realized recently that the one thing keeping me from having a blog was the word "blog"
+That sounds extremely helpful
+So basically what you do on IRC all day
+Exactly
+Everytime you answer a question, pull the transcription and put it on your site
+Or maybe just the interesting ones
+Yeah!  I did this recently also
+For elephantlaboratories.com
+It is a "chronicle", which makes me feel okay about doing it : )
+http://elephantlaboratories.com/chronicle/index.html
+Hell yeah
+I am using cryogen and disqus, which made it completely straightforward to set up
+In honor of your Mahler's 3rd party I will put it on also!
+Ah yeah this is good
+It definitely has some funny stuff in it... but a lot of it is the cool dark stuff
+Maybe the time has come to restructure the traditional adventurer/dungeon denizen relationship
+So much heartache and strife, for what?  If we all understood each other better, maybe we would find we are more similar than it first appears
+justin_smith:  Ha!  Okay, I'll head over there
+What is the status?
+Hey, cool!
+We just started using caribou core to connect to postgres also
+Caribou renaissance
+It lives!
+Yeah if they are using it they are more than welcome to contribute
+justin_smith:  Totally
+Funny
+quile:  Are you using the latest polaris with the subtree middleware?
+Yeah we have three projects now using Polaris
+New go to exception library
+I have a shitty robot... it is called a "chair"
+It has trouble getting around, but is still pretty cool
+I mean, a work in progress
+183
+3333
+Ah I remember these
+Pretty awesome concept
+If simple waves can combine into complex shapes, that gives a good basis for explaining how we can exist
+Whoa!!  No way... no I did not
+Gnaaaaaaaarly
+That seems like a way better way to go about it
+333333
+Hey justin_smith, how goes?
+Is it heavy?
+How is work going lately?
+map of http requests..... Oh yeah!
+dechunk was the ticket
+weird
+So you are pretty open then?
+I ask because we could use some help over here
+Good to hear!  Maybe you can come by the office at some point this week?
+Sweet
+What is your rate lately?
+(if you don't mind me asking)
+No that sounds about right
+Sure, well I'm not paying it ; )
+Though little bird does not have a ton of cash right now
+It will help me sell the idea
+We have had to pass on some good candidates because they were too high, which is a real bummer
+Cool... maybe tomorrow?
+Let me scrounge it up
+506 SW 6th Ave #200, Portland, OR 97204
+(we are the whole second floor)
+Good question, let me find out
+How does 3:00pm sound?
+Yeah, we are thinking of doing a workshop style thing
+We will have a projector and maybe you could lead?
+If that is not too intimidating : )
+Hmm... maybe not leading, just driving
+Not sure what the best format is, I could drive too and you contribute if that makes more sense
+But yeah, a Clojure workshop.  You know, like we did at instrument
+We pick something we are trying to build or a problem to solve and collectively figure it out
+I like how they are interacting
+http://stackoverflow.com/questions/172303/is-there-a-regular-expression-to-detect-a-valid-regular-expression
+What string quartets?
+Another good reason not to listen to pop
+I have heard he is a huge D&D advocate
+Could it be that Vin Diesel is actually a cool guy?
+(the answer is yes)
+33333333333333
+How do we do expression evaluation?
+Yeah that is almost runnable
+I don't think I am too familiar with Dutilleux
+What was played?  Do you have a link?
+Schumann I could never get into
+Okay yeah this is good
+quile:  Ah... was that Dutilleux?  Yeah that was rad!
+Okay this guy is legit
+Yeah, impressionistic
+quile!  How the hell's it going man?
+quile:  : (
+justin_smith:  Yeah I agree.  I think the impressionistic term has been abused
+(like every other term)
+Just downloaded these concertos....   Aaawwwwweeeeeeesome
+justin_smith:  Which ones are they?
+(headphones)
+I would like
+I kind of like git jinx pod
+I just typed `> git jinx pod` into the command line and now my repository is floating a self-replicating through space
+Probably
+Or memory apparently
+That is really the problem with exceptions
+Crickets:  Food of the future
+Anything with a bit of teriyaki sauce is not bad
+They are food!  It is just our preconceptions that hold us back
+in this cricket-deprived reality we have imposed on ourselves
+333333333
+Yoyo!
+What is that?
+No, ah is it a "mobile app"?
+Ah awesome
+You have a tablet now?
+Osc is everything midi wishes it was
+Wow this looks awesome
+Man we are doomed
+Watching now
+quile:  That is nuts
+Just the beginning
+We are seeing the birth of a whole new way of life
+Robot swarms building buildings
+Robot swarms creating the space elevator
+Robot swarms sent to harvest resources on other planets
+Yeah then robot swarms devouring humanity
+Before that though, it will be pretty amazing (the part we are able to witness)
+I have not!
+Thanks for the link
+Oooooohhhh yeah
+I have seen this
+crazy!
+Heading to Tacoma this weekend!  See you all next week
+33333333
+Yoyoyo
+That is amuzing
+quile:  Did justin_smith tell you he is coming to work for Little Bird??  : )
+It is pretty awesome
+Everyone is stoked over here
+Well, all in due time ....
+There will be much fun
+it is true
+There is more than enough fun to go around
+quile:  Now you can come meet us at lunch downtown... since that will be happening with great regularity
+Without a doubt
+Pretty much whenever you want to come by ; )
+Man I can't believe clojurewest starts this weekend
+Yeah not sure how much of the weekend stuff I will see either
+*shit
+Yeah there is some kind of party at Puppet
+Yeah, Sunday I think?
+Hmmmm maybe Tuesday night?
+Yeah that is the one
+I swear I have seen "binary whine broadsword" before......
+333333333
+quile:  Were you using cassandra from clojure?
+Did you use alia or cassaforte?
+I guess I did
+3333333
+quile:  Can you make it to workshop today at 3:00?
+(meant to ask you earlier but then... I didn't)
+We are doing some async stuff
+No worries!  Open invitation on fridays in general
+3333333
+quile:  Ha!  Yeah.... so happy.  The happiest of birthdays
+I think I recognized most of the places that was pulled from
+Definitely should be the standard happy birthday theme
+I'm not sure of those... did he just make a bunch of stuff up?
+Ah, did you see that someone is playing 22 of 32 beethoven sonatas at old church in May?
+http://www.portlandmercury.com/portland/beethovens-odyssey/Event?oid=15384850
+Postapocalyptic
+Did you see that someone is playing 22 of 32 beethoven sonatas at old church in May?
+Yeeeeeeeahh
+Yeah, first night is May 6
+Never heard of him... let me check
+http://theoldchurch.org/next-month-at-the-old-church/
+Beethoven's Odyssey - Gregory Partain?
+Definitely planning on going : )
+Yeah, I want to see as many of them as possible as well
+7 performances might be hard to pull off
+But still, I might try to go to all of them
+Ha!  Awesome : )
+I'll be there
+I think we should see if the guy is even any good yet.  If he is slaughtering the sonatas then we don't need to worry about it ; )
+quile:  Hmm... disjoint?
+I think it only works for postgres though
+I had them in mysql then had to take them out (for some reason I used to rant about but escapes me now)
