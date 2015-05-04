@@ -1,11 +1,15 @@
 (ns dogdog.core
   (:require [clojure.string :as string]
             [clojure.java.io :as io]
+            [clojure.tools.cli :as cli]
             [markov.nlp :as markov]
             [zalgo.core :as zalgo]
             [irclj.core :as irclj]
             [dogdog.novelty :as novelty]
             [dogdog.twp :as twp]))
+
+(def cfg (atom {}))
+(def irc-connection (atom nil))
 
 (def nicks-path "nicks/")
 
@@ -148,7 +152,7 @@
 
 (defn numberwang-handler
   [handler]
-  (let [triggers [#"\b[012456789]{1,9}\b" #"\b(one|two|four|five|six|seven|eight|nine)\b"]]
+  (let [triggers [#"\b[012456789]{1,9}\b" #"\b(one|two|four|five|six|seven|eight|nine|ten|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety|hundred|thousand|million|billion|trillion|zillion)\b"]]
     (fn [{:keys [text] :as request}]
       (if (and (some #(re-find % text) triggers)
                (-> 10 rand int (> 8)))
@@ -173,6 +177,11 @@
       nested-handler))
 
 (defn init
+  ([]
+    (println (str "Using config " @cfg))
+    (init (or (:channel @cfg)
+              ["#tripartite" "#antlers"])
+          (:nick @cfg)))
   ([channels]
     (init channels nil))
   ([channels nick]
@@ -190,8 +199,34 @@
         (irclj/join irc channel))
       irc)))
 
-(declare irc)
+;;(declare irc)
+
+(def cli-options
+  ;; An option with a required argument
+  [
+   ["-c" "--channel CHANNEL" "Join this IRC channel"
+    :assoc-fn (fn [m k v] (update-in m [k] conj v))]
+    
+   ["-n" "--nick NICK" "Join using this nick"
+    :default "dogdog"]
+    
+   ["-t" "--twitter CONFIG" "Load twitter config and tweet 3wps"]
+   
+   ;; A boolean option defaulting to nil
+   ["-h" "--help"]])
 
 (defn -main
   [& args]
-  (def irc (init ["#tripartite" "#antler"])))
+  (let [opts (cli/parse-opts args cli-options)]
+    (if (or (:help opts)
+            (:errors opts))
+      (do
+        (when (:errors opts)
+          (doall (map println (:errors opts))))
+        (println (:summary opts)))
+      (do
+        (reset! cfg (:options opts))
+        (let [irc (init)]
+          (reset! irc-connection irc))))))
+     
+   ;; (def irc (init ["#tripartite" "#antler"])))

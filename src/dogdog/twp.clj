@@ -44,12 +44,3 @@
           noun-count (- 3 adjective-count)
           words (concat (take adjective-count adjectives) (take noun-count nouns))]
       (string/join " " words))))
-
-;;(defn three-word-poem []
-;;  (let [rv (rand 100)
-;;        words (if (< 33 rv)
-;;                [(random-adjective) (random-noun) (random-noun)]
-;;                (if (< 67 rv)
-;;                  [(random-adjective) (random-adjective) (random-noun)]
-;;                  [(random-noun) (random-noun) (random-noun)]))]
-;;        (str (first words) " " (second words) " " (nth words 2))))

@@ -10,4 +10,6 @@
                  [org.xerial/sqlite-jdbc "3.7.2"]
                  [markov "0.0.19"]
                  [zalgo "11.6.13"]
-                 [irclj "0.5.0-alpha2"]])
+                 [irclj "0.5.0-alpha2"]
+                 [org.clojure/tools.cli "0.3.1"]
+                 ])
