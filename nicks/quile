@@ -3639,3 +3639,248 @@ twenty two
 5
 8
 WHEW!
+3?
+ha! love it
+btw dogdog is now tweeting any 3wp he makes @ThreeWordPoetry
+ha, 2007
+early adopter
+how about a four word poem?
+that's three.
+no… on google groups?
+i should probably read the clojure list
+how does caribou have 2 contributors?
+wtf?
+hahahaha
+I replied - it’ll get posted soon
+hahha
+yo yo yo
+FYI, dogdog now tweets any 3wps as @ThreeWordPoetry
+It’s not the greatest impl but it will do for now.
+also I added command-line opts for channels and nick
+actually i didn’t touch that, other than add a comment :)
+let’s fix it - should be trivial to add another cmd line arg
+yeah for sure - just add another opt in the opts and fish it out of the config once the opts have been parsed
+i cheesed out and stuff them into an atom
+so they’re accessible globally
+yeah didn’t want to spend longer than i had to!
+hahahah it has but i didn’t feel like refactoring the whole thing!
+I just implemented a "component" system for node.js too
+it’s rad
+yeah it would be a good idea
+I like there’s been some creeping interest in Caribou
+^that
+Might mean we’ll get to fix some of the things
+huh?
+Yeah I figure it’s always just some stupid IRC voodoo
+Exactly!
+hahahahah
+nice
+Not sure about tonight - still trying to decide which shows to hit up
+I have to pick carefully...
+Dude is on youtube - he can play.
+I might have to see if I can go to three of these… it’s so hard to choose!
+hahahah that’s a brilliant 3wp
+OK, so I think I’ll skip tonight and go tomorrow for Op. 7 & Op. 10, #1 & #3
+and next Tuesday for Tempest & Waldstein
+and next Wed for Appassionata & Les Adieux
+three is pushing it but I think I can manage it
+how was LvB?
+rad
+I’m down for tonight - was thinking of hitting up Clojerks for a bit, then heading to concert
+Clever, clever Canadians: http://dissonance.cbcmusic.ca/
+radical!  let us do it, then
+grab a bite beforehand? food cart?
+oh man
+hahah
+OK I’ll try to get downtown that early - might be a bit of a stretch; will text closer to the time
+should be OK
+clojerks is at 6, yes?
+at puppet?
+ooooh that’s nice
+patchwor_: I can’t get downtown by 5 - as it is I’ll be rushing to make it to clojerks I think
+so go ahead and eat w/o me
+that sounds like an interesting pillow
+see you at clojerks
+i’d come earlier by I will have zadie until Tara gets home from errands
+Ohhhhhhh fuuuuuuucccccckkkkk
+I better check about street closures
+Let it never be said that Liszt wasn’t a creative motherfucker: https://www.youtube.com/watch?v=Zx_Wolki0dc
+Hahahah NUMBERWANG!
+hahahaha nah
+it’s all good - all part of learning the game
+This will help: https://www.youtube.com/watch?v=qjOZtWZ56lc
+Yeah it’s soooooo good
+Also, check this out: https://www.youtube.com/watch?v=Zx_Wolki0dc
+Liszt: Fuck yeah.
+That Bagatelle is way ahead of its time
+no fucking way
+patchwork: Portland Piano concerts, Sept 26 & 27, dude is playing *all* of the Shosty Preludes & Fugues.
+Totallllly
+Well, Portland Piano concerts are a different level...
+These are the real deal.
+This guy: http://www.amazon.com/Shostakovich-Preludes-Fugues-Melnikov/dp/B00354XVKO
+(the Garrick Ohlsson concert was part of Portland Piano)
+Woah!  And a dude is playing the Mussorgsky!
+AND the Janacek!
+holy shit
+this progam is unbelievable… Murray Perahia coming too.  EPIC
+Got their 2015/16 prog in the mail
+One of the best of the late 20thC
+Perahia that is
+His recordings of Mozart &  Beethoven concertos are some of my faves
+patchwork: look at this: apparently I didn’t work on caribou-admin very much. https://github.com/caribou/caribou-admin/graphs/contributors
+yeah dude, it’s kinda stressing me out a bit
+looks like I did nothing on any caribou projects
+wtf?!
+for caribou-core, I have lots of commits but as kyle.dawkins@weareinstrument.com
+and it seems to tie it to the email adress, not the github user
+wtf!?
+yeah, I guess when Instrument nuked my user, it somehow unlinked my profile and I lost my entire history
+Yeah… I wonder if I can talk to someone at github
+I’ll give it a go
+yo what’s the emacs-fu for reformatting clojure/edn?  I have cider installed but can’t figure out how to reformat
+I’m very slowly learning to use emacs via spacemacs but can’t figure out some of the useful stuff
+yeah but how do I run that?
+I’m a novice remember
+ahh ok
+how do I specify the region though?
+sorry, stupid questions, I can go sift through docs
+patchwork: github help to resolve the issue, at least temporarily
+yeah, now I show up correctly
+but I had to add my old instrument email to my account
+and I will have to leave it there
+yeah it will do...
+Not too different but at least I show up!
+Also: https://help.github.com/articles/changing-author-info/
+we can actually reset my old commits if we ever want to.  No biggie now.
+yeah prob should eventually
+hhahahahah
+hey
+who?  for what?
+justin_smith: I have no clue how it will function on the client-side
+It was built and tested specifically for node
+If you find that it might be useful on the client-side, go ahead and give it a good
+go
+and see what you think
+I see no reason why you couldn’t
+and it might be an interesting use-case, but I wasn’t really considering it at the time
+cool - lemme know how it goes!
+you mean on the backend?
+yeah I mean quile/component has both
+but mine’s prob behind his by a bit
+haven’t updated in a few months
+yeah should be no problem
+Yo I have a stupid emacs question
+In spacemacs, it says that the "paste" feature is bound to "<S-insertchar>"
+whaddafuq is that?
+what is "insertchar"?
+333
+polyhedron!
+33333
+yeah I don’t really get what <S-insertchar> is, and google doesn’t seem to help
+and this seems unbelievably basic, so I must be missing something
+anyway, I’m really enjoying spacemacs + cider
+but a few wrinkles are biting me in the anus hole
+command-v doesn’t work
+it must be bound to something else
+hmmm lemme try
+oh no, that’s the internal vim paste
+not the same as OSX pasteboard
+the vim stuff works as expected (p, P, etc)
+but that is entirely separate from OSX
+I have no idea how the paste ring works
+ok
+I dunno, I never use multiple paste buffers
+seems M-y is bound to something else… so no go
+I’ll figure it out - thanks for trying tho
+cool - there’s so much to learn, so i’m trying to just learn what I need as I need it
+getting better
+one thing that drives me nuts, because I don’t understand it, is how to organise my windows
+because I’ll switch from one buffer to another and it will seemingly randomly choose which window to show it in
+i think i just have to understand its logic
+meaning that you’re not supposed to care about your windows?
+ok i’ll look that up
+ah well, i’ll figure that out later
+loving the cider stuff - I guess it’s all fine until it’s not, and then you’re fooked
+um, don’t think so… not on clojars?
+I guess I must have, although I remember doing it.  Weird
+https://clojars.org/quile/component-cljs
+weird
+fixed
+Yeah I think it’s cljx actually that does that
+I can convert this to cljc soon and that will go away
+no kidding
+can’t friggin wait
+or, just use stuart’s on the backend
+there are probably some things about component-cljs that could be way cleaner - i got it to work and then stopped
+once i got the tests all running and passing, I was done
+haven’t even looked at the project.clj since - it’s pretty messy
+i don’t think i have pgp/gpg set up
+or do I?
+nah i don’t have it set up.   look in project.clj:
+  :deploy-repositories [["clojars" {:sign-releases false}]]
+oh rad
+guess i should figure that shit out
+just don’t have the mental cycles for it
+and I know I’ll figure it out, then promptly forget all of it
+i bet you are.
+why not from homebrew?
+ah ok… so gpg-tools then
+will do (when I need to)
+thx for the tip.
+I feel like "goat fresco oratorio" is better
+justin_smith: yt?
+ha, another stupid emacs q - in clojure-mode, it seems to be popping up a little completion menu I type, but I can’t figure out how to actually use it!
+like I’ll type (foo-  and it will pop up "foo-bar-baz" and "foo-bar"
+but I can’t see to choose them
+^seem
+ok, maybe i’ll figure out how to turn it off; I don’t necessarily need it.  it’s being helpful
+nah
+had to work anyway
+been listening to Ludwig Van almost exclusively
+definitely!
+hahaha *maybe*
+I’ll see if I can swing it - might have to work tonight too - playoffs, you know
+almost got a working version of polaris in js, btw
+oh havent committed anything yet
+just been working on my machine
+will commit when I have it in good shape
+OUCH
+GROSS
+hahaha ouch
+bleep.
+ten?
+YES!!
+oh, ok
+ha!  cool
+youch
+just because.
+ok, a lot more responsive
+one?
+two.
+four
+nine?
+thirty two
+eighty eight
+eighty seven?
+I am.
+ONE
+FOUR
+SEVEN
+hmmm
+he’s reluctant to give out numberwangs
+one?
+two!
+bugger
+five
+meh
+six
+huh, weird
+hey justin_smith I have ported polaris to node.js - it’s rough but it fucking works and it’s awesome.
+well, it can’t work as a cljs system
+at least not as it is now
+the problem is that cljs is single-threaded and entirely asynchronous, so there’s no concept of wrappers/middleware
+it’s a pipeline instead, so converting the handlers and wrappers to pipelines is tricky
+incidentally, my port is to *js*, not cljs
+(but it uses mori to make life easier)
+ewwwww

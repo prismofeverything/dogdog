@@ -6631,3 +6631,131 @@ the spectrum thing was fun
 much less shrill than I imagined
 D O G
 D O G D O G D O G
+D O G D O G D O G
+quile: http://i.imgur.com/JfjQhiG.jpg
+(it's an android customization)
+cool
+quile: did you see the thread on the clojure list about web frameworks?
+https://groups.google.com/forum/#!topic/clojure/tA2_IbU0unE%5B101-125%5D
+I replied to that
+they were looking at the carubou repo, the one we use for docs
+feel free to follow up about contributor count
+i forgot to adress that aspect
+cool
+really the db would just be one part of it, the models cache would also get passed down, etc.
+it would just be a caribou component
+a facebook friend who works as an oceanographer shared this map of paths of floating trackers off the east coast http://i.imgur.com/e7oSvAX.jpg
+all dem squiggles
+quile:
+irc is basically an ameoba - for a moment we were in separate bodies
+but we are recombined
+patchwork: I planned on Friday, what's the one tonight?
+looks good, I'm down
+D O G D O G D O G
+WOOOHOO INTERNETS
+I N T E R N E T D O G D O G
+D O G
+who would want borscht from the chorizo outlet, yuck
+it's worth having a paid account anyway (for private repos for example) and as a paid user I'd expect them to be helpful
+quile: :indent-defun
+or :indent-region
+quile: all extended commands are run by name via M-x
+or via : with evil
+so literally you woudl type :indent-region
+it will accept tab-completion
+you could even do *dent-reg<tab> (asterix works for prefix completion)
+the mark command (Control+space in normal emacs) specifies one end of the region, your cursor the other
+it should actually be Control-space in spacemacs too
+D O G D O G D O G
+D O G D O G D O G
+quile: should we be using component-cljs?
+for managing multiple stateful aspects of the frontend of our app
+OK
+that's good to know
+OK, I'll try it out. Seems like it would be helpful for our SPA
+octobass http://www.thewire.co.uk/video/watch_guro-moe-playing-the-octobass/v=comments
+funny when playing such a low instrument that she isn't playing the fundamental but the harmonics
+I mean clearly it's because she's a Norweigan improvisor, but still
+quile: so should I be using quile/component instead of stuartsierra/component then?
+or is it better used alongside?
+yeah, I am using component on the backend, but would it work out to just use quile/component on both sides?
+instead of using two component impls
+yeah, but I am not doing anything advanced, I'll git it a shot
+S would be super
+unless S itself is a prefix key
+and then insertchar would be insert?
+one moment
+quile: there is a command called insert-char
+that is what I use to make snowmen
+wouldn't p / P do paste?
+on a mac command+v
+and the default is Control-y
+oh, on this mac Command+v is paste - is this in terminal or gui?
+interesting. In my evil mode it does the emacs thing, where if you copied in osx more recently than killing in emacs, the first paste option is the thing from osx
+and then you can cycle through the paste ring to get other stuff
+I expand my paste ring to have like 50 things in it
+after pasting, hit M-y to cycle
+and keep hitting M-y until you get the thing you wanted
+there may be a more vimy way to cycle
+M-x describe-mode is pretty cool
+or under evil, :describe-mode I think
+(works in my evil, at least)
+you can use regular search to find a binding by name in the buffer that describe-mode creates
+"C-h m" is the default binding, if spacemacs doesn't clobber it
+describe-mode is a good bootstrap
+as is apropos
+quile: organizing windows is for people who have not attained enlightenment (or those who install winner mode so that they can recover layout history)
+or you use winner-mode :)
+emacs is from before that new-fangled convention where ux says that if something appears in the UI, it comes back in the same place you last saw it
+but winner-mode helps a lot
+it gives an undo-history for frame layout
+quile: did you forget to deploy quile/component 0.2.4 ?
+Could not find artifact quile:component:jar:0.2.4 in clojars (http://clojars.org/repo/)
+oh, your project.clj says component-cljs
+but your docs say component
+so it's a doco bug
+yeah
+documentation bug
+haha
+thanks
+interesting
+all the more reason to get using cljc :)
+I've been using cljc, it's great (but 1.7 is not official yet, of course)
+I'm actually going to do that update, since it's just one ns, and makes it so I don't have to pull in all cljx's junk
+dep madness
+that doesn't change my deps though
+makes sense
+oh, while you're trying emacs, check out the gpg integration. If you make a file foo.org.gpg, it will create a file that defaults to org mode, but gets encrypted when you save it
+and decrypted into a buffer when you visit it
+it's used for clojars
+so you might
+setting up a private key is not super hard
+D O G D O G D O G
+haha, OK
+anyway, just using it for local private key encryption is easy with the help of emacs, and it's a cool thing to have
+on a mac it integrates with the keyring thing too
+use gpg-tools (the point and click install) not gpg from homebrew (by the way)
+we set everyone here up with gpg in order to have a private repo on s3
+the integration with emacs / the OS is totally borked
+in vietnam they scallop their guitar fretboards https://www.youtube.com/watch?v=raxvU9-yxL4
+quile: hi
+down-arrow iirc
+I have not had that mode turned on for a while
+I saw Peter Brotzmann, Hamid Drake, and Evan Parker
+patchwork: nobody stopped, apologized, and backed up three measures to start over
+D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G
+D O G D O G D O G D O G D O G
+D O G D O G D O G D O G
+quile: so I saw a concert on Sunday, solos on Chinese gazheng, Japanese koto, and Korean gayageum
+all essentially the same instrument - the chinese invented theirs first, and the others did not change it as much in intervening years as the chinese
+anyway, now I want to get a gayageum
+it's a very long bodied string instrument with movable bridges
+the strings usually silk, and all the same diameter
+anyway, I am finding either commonalities or the secret sources of a bunch of things I like in free improv
+D O G D O G D O G D O G D O G
+D O G D O G D O G D O G O P S
+cool
+it would be nice to make the official polaris a cljc file, after 1.7 is stable
