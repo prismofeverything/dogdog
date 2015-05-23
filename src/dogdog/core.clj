@@ -8,6 +8,7 @@
             [zalgo.core :as zalgo]
             [irclj.core :as irclj]
             [dogdog.novelty :as novelty]
+            [dogdog.sentiment :as sentiment]
             [dogdog.twp :as twp]))
 
 (def cfg (atom {}))
@@ -165,11 +166,23 @@
   [handler]
   (let [triggers [#"\b[012456789]{1,9}\b" #"\b(one|two|four|five|six|seven|eight|nine|ten|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety|hundred|thousand|million|billion|trillion|zillion)\b"]]
     (fn [{:keys [text] :as request}]
-      (if (and (some #(re-find % text) triggers)
+      (if (and (some #(re-find % (string/lower-case text)) triggers)
                (-> 10 rand int (> 8)))
         (assoc request
           :generated "THAT'S NUMBERWANG!")
         (handler request)))))
+
+(defn sentiment-handler
+  [handler]
+  (fn [{:keys [text nick target] :as request}]
+    (let [sentiment-info (sentiment/analyze text)
+          _ (println sentiment-info)
+          response (when (count sentiment-info)
+                     (->> sentiment-info
+                         (map #(sentiment/respond % request))
+                         (filter identity)
+                         first))]
+      (handler (if response (assoc request :generated response) request)))))
 
 (defn nested-handler
   [handler]
@@ -184,6 +197,7 @@
       numberwang-handler
       twp-handler
       zalgo-handler
+      sentiment-handler
       persistence-handler
       nested-handler))
 
@@ -194,7 +208,7 @@
       (when-let [loaded (-> config slurp read-string)]
         loaded)
       (catch Exception e (println "Couldn't read twitter config: " (.getMessage e))))))
-      
+
 (defn init
   ([]
     (println (str "Using config " @cfg))
@@ -232,12 +246,12 @@
   [
    ["-c" "--channel CHANNEL" "Join this IRC channel"
     :assoc-fn (fn [m k v] (update-in m [k] conj v))]
-    
+
    ["-n" "--nick NICK" "Join using this nick"
     :default "dogdog"]
-    
+
    ["-t" "--twitter CONFIG" "Load twitter config and tweet 3wps"]
-   
+
    ;; A boolean option defaulting to nil
    ["-h" "--help"]])
 

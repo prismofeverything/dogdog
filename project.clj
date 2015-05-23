@@ -13,4 +13,6 @@
                  [irclj "0.5.0-alpha2"]
                  [org.clojure/tools.cli "0.3.1"]
                  [twitter-api "0.7.8"]
+                 [edu.stanford.nlp/stanford-corenlp "3.4.1"]
+                 [edu.stanford.nlp/stanford-corenlp "3.4.1" :classifier "models"]
                  ])
