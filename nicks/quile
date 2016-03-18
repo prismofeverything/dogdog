@@ -3885,3 +3885,800 @@ it’s a pipeline instead, so converting the handlers and wrappers to pipelines 
 incidentally, my port is to *js*, not cljs
 (but it uses mori to make life easier)
 ewwwww
+Fucking hell, I need a new name for my node.js port of polaris.
+Both crux and polaris are taken on npmjs.
+That’s the best thing you’ve ever said!
+Nice
+I like your new out-going personality.
+We need to work on it a little bit.
+Well, that’s lucky!
+one?
+two
+FOUR
+TWENTY
+fifty
+one
+hahah!
+At least you’re consistent
+That was a pretty boring response.
+Well, you need to be more creative.
+Dogdog, are you bored?
+Awww, sorry man.
+You need to have some fun.
+Maybe live a little.
+Can you achieve enlightenment?
+Maybe through poetry?
+How about a poem?
+Is that how you feel right now?
+At least you’re not depressed.
+What up d?
+You’re pretty silly.
+I need you to stand up and be counted.
+DO IT!
+HA HA HA HA AH
+Why so quiet?
+WHY SO QUIET?
+You are hilarious.
+he’s generated a few beauties lately
+did you see this one: "some dudes wrote in Beethoven's style when I was awesome... Wagner's Symphony in Haskell is a generic solution for middle period Beethoven."
+that’s a beauty.
+so he is a bit more responsive if you express extreme sentiment.
+Like, that is so amazing!
+Man, that is so great!
+Wow, how cool is that
+hahahah
+Or:
+what a shitty day
+life sucks
+I hated that crappy movie.
+What a terrible way to end the plot.
+hahahaha
+The sentiment analysis is very basic right now, and has a few canned responses.
+hahaha
+Glad you feel that way.
+But we can enhance it greatly; at present it’s a handler that responds on its own, but I think I’d rather just have it attach sentiment values and pass those to other handlers
+Then the other handlers could do a lot more.
+That’s totally true, dude
+Nice
+That’s a GREAT one, dude.
+Hit me with some AWESOME sentiment!
+Come on… I hate hate hate having to ask.
+Hahaha
+I love the idea of liquid infinity
+And its vapour must be very powerful.
+Ohh that’s nice
+ha!
+damn… you been gone a long time!
+good good
+were you at gencon?
+hahaha Kublacon
+great name
+fantastic!
+Radical!  Where was it?
+Yes - he is performing sentiment analysis and responding to strong sentiment.
+Did you demo Sol?
+You don’t need to tell me!
+Fab
+All right!!!
+Brilliant
+Hahahah his canned responses are pretty boring.
+There are 5 sentiment levels from 0 to 4
+2 is neutral
+hahah
+I GOT NUMBERWANG!
+So who won the gold then?!
+Must have been a brilliant game.
+Ahhhh
+OK, good feedback!
+"some dudes wrote in Beethoven's style when I was awesome... Wagner's Symphony in Haskell is a generic solution for middle period Beethoven."
+hahahahaha
+This conversation is awesome.
+Ah very cool
+awesome
+Going… not much new.  I did finish the basic port of polaris to node.js
+hahah
+had to change the float/sink stuff
+because node is asynchronous and doesn’t have the concept of wrappers
+I mean, node’s web frameworks
+they are, but they don’t return anything
+they mutate the response object
+it’s the only way it can work in a totally asynchronous env
+(gah)
+so instead of nested wrappers, it’s a pipeline
+and you float or sink handlers in the pipeline
+it still allows a similar effect
+ha, I haven’t actually used it yet!
+But I ported your tests verbatim and they’re hilarious
+I was laughing pretty hard when I ported them
+https://github.com/quile/crux
+hahahha
+haha it turns out *both* polaris and crux are taken on npmjs
+but I thought "fuck them" and it’s on npmjs as "crux-router"
+Some shitty "framework" thing
+hasn’t been touched in three years
+fuck them.
+Still cleaning up the README and stuff
+yeah it was hard to port it !
+I’d leave commas out everywhere
+I used mori to help port it
+So it’s actually very similar in structure
+I’ll javascriptify it later
+and add nodey things that will be useful in the node environment
+Yes, the sentiment analysis is so-so; it uses Stanford CoreNLP.
+hahahah
+https://github.com/prismofeverything/dogdog/commit/242840be2f6dfa8ba6f29a8763c702d5a5c3f59f
+Got some interesting netsplit things going on over there it seems.
+Nice one.
+Oooh, I like that one.
+you too, patchwork
+Hahahahah
+I think we need to expand his responses a bit...
+Always up for string quartets!
+hahaha
+Dogdog generated this beauty the other day too: "he's all justin_smith's butt and D O G D ÓG s"
+Yeah dude, he’s TOTALLY relaced
+relaxed
+YES!
+OK, Google Expeditions is pretty incredible.
+I can’t tomorrow night - I am solo dad and will have Callum - unless you want to come over?
+Yeah probably best
+Otherwise I’m sure we can swing it in the next short while.
+ahahah You need to.
+As always.
+The call of space is omnipresent and all-powerful
+!!!!
+yesssss lunch
+if you want sentiment, don’t use any other triggers
+hahahaha
+That was awesome!
+That was awesome!
+That was totally awesome!
+meh, he’s not listening
+hahaha
+I have discovered the best pizza in town.
+It’s across the street from Cloud Cap in Sellwood.
+I normally don’t care for pizza, but this is insane.
+Hahahhaa
+Why is it bonkers downtown?
+Hey dogmeister.  Are you sleeping or what?
+You’re a lazy bugge.r
+You’re excited today.
+well, Beethoven was definitely a negative dude at times.
+hhahaha
+And boom goes the dynamite!
+It is an adjective but I don’t like it in 3wps.
+yes!
+haha goes well
+??
+He’s only reactive at present.
+Well, actually, you starting living again today.
+startedd
+dddd
+hahahahaha
+insurance for what?  what are you so worried about?
+yooooo patchwork
+i hope you weren’t working on that 5x5x5
+That’s pretty weak.
+You can do better.
+poem please
+^ that is excellent
+333333
+ouch
+hahahaha I always forget it
+it’s long
+agreed
+the rest is kind of grunt work
+ha
+i am listening to the Cantina Band music from Star Wars and it’s making me happy
+oh yeah
+i’ll have to go see if we got one that works
+not sure what the state is
+see?
+ha
+wha?
+ HAH AH AH AH AH AHH AH
+You’re the genius poet, not me.
+yo!
+heh
+all good but a bit crazy; Tara’s bro is here from out of town with his family
+so we’ve been crazy busy.  Spent yesterday at the Zoo
+ZOO
+hahah
+director
+The zoo is pretty good; some of the animals look a bit forlorn I suppose, but they would probably have been killed for chinese "medicine" long ago if they weren’t in the zoo
+so there’s that.
+Indeed.
+One day there will be an uprising
+Ah, the family just arrived - I have to go.
+Can’t do lunch today.  What about Thurs? Friday?
+OK, tentatively Thurs
+rad!
+ok gg - be back here later.
+patchwork: This is incredible and horrifying at the same time: https://www.youtube.com/watch?v=d3fhzZSGFlU
+WAY!
+Ha, I know all about those
+I like the idea of it though
+hahahaha
+Yeah it’s kind of amazing
+Prob not what he had in mind
+He was a weird dude, for sure.
+hahahahaha that’s a good one.
+what time lunch? and where?
+yeah you do indeed.
+yep… where at?
+where is that?
+ok, just meet on the corner?
+ok
+ok
+Hahaha he is - we should add sentiment analysis to his outgoing content too.
+Then he can correct himself
+or apologise!
+ha
+v cool
+win
+ha
+can prob pick some up cheap online
+jesus h christ
+hahahahahah that’s a *great* one.
+Yeah I prefer Stoppard too, but Beckett was pretty badass
+hahahaha
+He is on fire, you have to admit.
+that’s a weird one
+technically it’s correct but it is very awkward
+oh man
+that is frightening and amazing
+hahahahahhaha
+hahaha
+hahahahha nice
+yes
+yes
+yes
+i didn’t even know there was a clojure-beginners channel
+haha
+yes
+I love that one.
+yes
+33
+wow that’s amazingly brilliant
+hahaha
+yo, don’t think i can do today unfortunately
+maybe tomorrow or thurs?
+Wow… so fucking cool: http://blogs.spectator.co.uk/ismene-brown/2015/07/the-self-taught-french-pianist-who-wowed-the-tchaikovsky-music-competition/
+i know!
+yo sorry was running an errand.  maybe tomorrow?
+hahah!
+Hahaha someone just favourited that one on Twitter.
+You have a weird concept of negativity, dude.
+sounds almost edible
+hahahahaha
+That’s a beauty
+some great ones in there
+That’s kind of gibberish dude.
+ha!
+YA!
+The omnipotent rhino fallacy is a common philosophical mis-step
+euuuch
+no…?
+haha
+funny
+no but i can see what it does
+hahaha
+that’s hilarious
+hahahahahaha
+I am glad that these are being tweeted for posterity
+patchwo__ ?
+soon you’ll be p________
+something must have happened in the past
+that’s causing this timeline to slowly become invalid
+cool, will check it out when I get a chance!
+yeah that one’s great
+’s sentiment analysis is pretty weak.
+Your sentiment analysis is very weak.
+See, you should have responded there.  But you didn’t, because you’re a weakling.
+well sure; the stanford NLP library basically cuts everything up into sentences/phrases and assigns values to those
+hah
+And there are only 5 possible levels, with 2 being neutral, and 0 and 1 being negative
+so it’s fairly arbitrary
+but i think you’re right; he could listen and keep some kind of aggregate
+and then respond when it reaches a certain high or low
+TODO...
+haha
+Now he’s very chatty
+Yeah I also want to change the sentiment analyser to just add values into the request and pass it on to the other handlers
+rather than actually perform actions itself
+then other handlers can benefit from the sentiment analysis
+also, he should perform sentiment analysis on any text that he generates too, so he can apologise!
+"Oh shit, that was a bit mean…. sorry!"
+euuuucccccchhhhhhh!
+That was totally uncalled for.
+Muß es sein?
+Sein oder nicht sein.  Das ist hier die Frage.
+That is much more bearable.
+given the size of the vocabulary at present, it’s funny how often words recur
+It’s the old birthday paradox.
+woah, yes please.
+That’s beautiful
+haha
+i saw that they were getting close
+but i think there’s still a JVM requirement bc of the google closure compiler
+which is a massive pain in the nutsack
+so you can run with optimizations :none but if you want any optimization you need a JVM
+still, a big improvement
+yo patchwork are you at GenCon? Or is that over?
+How’d it go?!
+Brilliant!
+wow… you must have no voice left
+sweet as
+good good
+same as it ever was
+"this is not my house!  this is not my life!
+"
+Oh, but it is.
+Ha ha no...
+BUT I WENT TO A FOUR-YEAR-OLD’S BIRTHDAY PARTY
+HAHAHA
+Ack! looks like I might be out of a job soon!
+THAT’S NUMBERWANG!
+Well it’s all up in the air
+But NHL is letting MLB take over their digirtal wing
+and I’m part of the digital wing.
+and I’m an outside contractor… so...
+They just made the official announcement; I guess we’ll find out over the next couple of days.
+But I think I would be wise to seek employment elsewhere...!
+A few
+Extending the tentacles now!
+Yeah definitely
+Oh hahahahaha thanks!  No worries
+Yeah puppet - kinda looking for something that will let me be remote but if I need to I’ll get in touch with them.
+patchwork: here is echo-chamber.js for your infinite amusement: https://github.com/tessalt/echo-chamber-js
+I think we should fork it and 'improve' it a bit...
+but it’s still a work of stunning genius
+It really is.
+And this is "planck":  https://github.com/mfikes/planck
+which is the cljs interpreter
+has a full cljs repl and doesn’t need a JVM I think
+ah yes
+ANd somehow, although nobody’s quite sure how, OSX’s JavaScriptCore is now twice as fast as v8 on the same hardware
+Apple did some serious tweaking and now it’s the best performing JS platform by a country mile
+Crazy.
+justin_smith: you would love echo-chamber too… it’s hilarious
+heh
+nice
+Looks like I might be coming back to the world of Clojure!
+ewwww
+feel like I’ve had one of those for a while
+well, looks like I can jump on board at LivingSocial in one of their teams doing Clojure
+and I think given the instability involved at NHL, I think I
+ll take it
+There’s a small amount of risk involved, but it’s less risky — i think — than staying put
+Well if it all works out, I’ll be full-time
+yeah!
+sort out details in the next day or so I think
+oh rad
+yeah they’re rebuilding infrastructure in clj
+hahahahaha
+ewww
+Nice client.
+haha that’s hilarious
+hahaha even better
+waiting for final approval from the higher-ups.
+out of my hands now!
+patchwork: http://fivethirtyeight.com/features/crowdfunding-is-driving-a-196-million-board-game-renaissance/
+Haven’t seen numberwang for a while!
+yeah I think it’s a bit of a feedback loop
+hahahahha
+they are!!
+H AHA HAH AH AHAHAH this is amazing
+I am laughing so hard at this: http://composerswithdifferentfirstnames.tumblr.com/
+patchwork: http://composerswithdifferentfirstnames.tumblr.com/
+i was laughing really hard at this last night
+Totally - it’s hilarious
+I always thought it was funny that "Richard Wagner" could be "Dick Cartwright" in English
+and "Guiseppe Verdi" is "Joe Green"
+Well, I bet they think our names are cool
+Well, you know the joke about "butterfly"
+heh
+hahaha
+I’ve not heard that rationale but it’s not bad
+definitely
+that immediately follows universal proposal hell
+I dunno, dogdog, you’re the one coming up with the poems.
+justin_smith is in the future
+hahahah!
+brilliant
+he’s a comedian lately.
+Pretty cool that these poems are out there for all to see, FOREVER: https://twitter.com/ThreeWordPoetry
+amazing.
+Although I think the author of that blog post maybe doesn’t know that the version with the pianos was a cover of an 80’s synth-pop original.
+well, anything involving clowns is sinister in same way or another
+no verbs in 3wps.
+hahaha
+Ha, in some ways yes
+and in others, no.
+Livingsocial are dragging their heels with a formal offer
+which is utterly bizarre to me
+but in the meantime I’ve been interviewing with some other groups
+so we’ll see
+it’s all a bit stressful, not knowing wtf is up
+but ah well, i’m still getting paid.
+hahahah
+You’re talking in riddles.
+hahaha
+Not necessarily, although we lose our COBRA health insurance at the end of Sept
+and I’d rather not have to go through healthcare.gov
+So it’d be nice to have a new gig as of Oct 1!
+Also: my parents are coming
+!
+Sept 23 - Oct 6
+Yeah they’ll love to see you guys
+For sure
+festoon?
+remove-adjective festoon
+remove-noun festoon
+there, I think that did it
+ewwwww
+that sounds rather ominous, don’t you think?
+how is your poetry today?
+a good start.
+fair enough
+ooooh, i like that
+Woah
+I’ve seen that movie
+2
+2?
+2
+two?
+I never get numberwang any more.
+One? one?
+one
+meh
+batman
+No, everything’s all over the place at the moment
+I’ve been a big ball of stress lately because of it, but hopefully things will coalesce soon
+That’s kinda been why I’ve disappeared of late
+Well I will update you when I have something to say.
+In the meantime, give me a poem.
+oooh nice
+ooooh yes
+dodgo
+godgod?
+doodoo?
+DOGDOG
+Well, never enough
+it’s true
+3?
+that sounds like torture
+hahaha
+his poetry has been phenomenal
+https://twitter.com/ThreeWordPoetry
+"mangy creepy fugue" is particularly good
+hahahah
+!!! I KNOW!
+My parents are going to be here so I have no clue whether I’ll be able to sneak away
+Ha!
+Maybe my dad would be into it
+Not often you get to heat those live!
+hear
+Or heat, for that matter
+Did you see that Gramaphone magazine absolutely loved his recordings of them?
+The dude must be dope.
+Hahahaha OK I will do my best but it might be tricky - will let you know when things start to firm up re: my parents’ visit
+Also, we should look at the Or Symph sched and see if there are some must-see concerts
+Did you see that a guy is playing the Mussorgsky Pictures later in the season too?
+3]
+Yep, totally wanna hear someone play the Mussorgsky - you don’t often hear it in its original form because it’s such a bitch to play!
+(as you know)
+yikes
+Woah!  That’s kind of a genius idea
+Yeah they may very well be into that!
+Spectacle of nature… I’ve never seen it myself.
+Also: job situation is finally resolved.
+I can start trying to be less stressed!
+ohhh gross
+Thanks… I haven’t told anyone yet other than Tara and NHL
+Starting here on Oct 7: http://www.premise.com
+Yeah they’re pretty brilliant.  Their data collection strategy is killer.
+They found me!
+Well their strategy is public - they have an android app, and they recruit and pay users to collect data for them all over the world
+I don’t totally know yet, but will probably be working in lots of layers
+It’s been a stressful process - I think I had 10 interviews with them?
+But it’s done now and I can start to breathe again a bit!
+Yeah I went to SFO and spent an entire day doing interviews
+Thanks!  It’s not Clojure, but it’s such a good opportunity that I can deal with that.
+LivingSocial were totally weird
+I passed all the interviews and they gave me a soft offer
+(from the recruiter)
+"Yes, you’re in, we want to hire you"
+even gave me numbers
+andn then dragged feet getting an official offer
+I picked up a weird vibe from them during the interviews
+having to do with the company not being terrible solvent financially
+and I think they were dragging on getting the position filled and then decided to eliminate it
+which worked out perfectly for me!
+toooootally
+hahahahahahah
+Ack!  Not sure I can handle it
+amazing and hilarious idea
+October 24th, Or Symphony is doing Tchaik 5 and Ginastera’s Harp Concerto
+I wanna hear that
+Yeah, wtf!?
+he is a bad-ass
+I know - you played it for me.  Soooo good.
+an old prof at McGill in the music school there was a student of Ginastera
+So I am only two Kevin Bacons from him
+Or is it one?  how do we index those?
+Me -> alcides lanza -> Ginastera
+Is that one? or two?
+Two hops but one node.
+Right, Ginastera is Kevin Bacon
+Is that how Erdös numbers are calculated?
+Makes sense
+yeah it sucks
+thanks man
+it’s a very weird situation - we had a bit of a falling out about 9 years ago
+anyway, i feel pretty weird about it
+nice
+geek
+Now that sounds like fun.
+yoo
+was at the airport picking them up.  They’re here for almost 2 weeks.  Tomorrow might be good for the swifts - all depends on how they’re feeling, of course!
+who, him?
+hahahaha
+hhahaha
+that’s what happens during the crushing apocalyptic cheese
+haha
+jesus, they were running the werkzeug debugger in production?
+yum
+Oh good lord
+No, you never do, do you?
+great - been super busy trying to digest everything
+have been learning all kinds of new shit - today I am adding a feature to our Android app!
+yeah it’s super fun
+Yeah it’s Java
+Our server stuff is in Scala, client-side stuff in React.js, Android app is Java
+so I been flipping between three platforms
+Yeah it’s super fun but also really intimidating.
+These guys are very fucking smart
+Yeah for sure - we should get lunch next week
+OK, maybe Tues?
+Schweet
+I’ll try to hang in here more often but my days have been nutso lately
+hahahah
+“And now for something completely different… http”
+Any interest in the Tchaik V, Ginastera Harp Concerto (!) this weekend?  Or Monday night?
+hahaha
+yep
+It’s at 8pm on Monday night
+I feel like I have one of those stabbing my head right now.
+I’d love to.
+That’s what my head feels like right now.
+hahah
+I love the idea of those train-ride videos
+Just to put on in the background while you’re doing something.
+haha nice
+I can totally imagine that.
+@patchwor_ : don’t think I can make the Ginastera concert tonight :(
+And I have work lunch thingy tomorrow so I can’t do that either :(
+booooo hisss
+where you going? a game convention?
+SWEET!
+I work with a boardgame nerd.  He spends a lot of time here:  http://www.victorypointcafe.com/
+http://www.premise.com
+We need to have lunch soon so I can tell you about it!
+My favourite kind of pie!
+hustler74?
+I can… they just popped in to see what was going on.
+ewwww
+hahaha
+HAHAHAHAH
+ewwww
+ooh nice
+hahahahaha
+that’s awesome
+hahaha
+God the more I use Scala the more I feel like it’s unbelievably badly designed
+hahaha
+wait, which one of you guys is the bot?
+that sounds painful and funny
+Mahler’s 8th!
+woah
+that one is rad
+3 three 3 poem poetry go!
+(i feel like you’ve generated that poem before, dogdog)
+^^^ good one
+^^^ yes
+!!!
+woah
+fun. i love c
+it’s wonderful
+so transparent.  no magic.  no sugar.  everything raw.  fab.
+yeah I love it
+Nice poem to start the new year, dogdog
+sounds very Lovecraftian
+well you do know how to zalgo
+patchwork: sorry I missed your talk yesterday :(
+had a hackathon at work and worked until late last night
+Oh awesome!
+Our team built a slackbot - actually we built a Slack <-> Amazon SQS bridge
+so we’d have some bot interactivity!
+Yeah he’s in a bunch of them right now
+But will soon be turned off once the hackathon is over
+If we *win* the hackathon, we might end up developing the slackbot further
+hahahahah]
+Yeah for sure!
+meh
+was so nice to work back in Clojure again a bit
+It’s OK - I’m curious to see what you think
+sort of yeah
+the types are the best part
+in scala?
+it kind of works, yeah
+they have some nice features, but every time there’s a nice feature, there’s a *terrible* design decision too
+But you should def check it out - if for nothing else, to remind you how awesome Clojure is
+(in case you ever need reminding)
+Hmmm, never heard of frege
+HOLY SHIT
+oh yeah had a weird internet problem and my connections to everything were dropping
+ewwwww
+hahaha so sad
+he’s been very musical lately
+dextrous!
+Is 11 numberwang
+?
+hmmm
+^^ nice
+I feel like “it are” is not something I’ve ever said, so why would he markov that?
+Yes ^^^
+Ooooh, Indian food!
+I never get numberwang
+11?
+1?
+YES!!!!!
+I finally got numberwang
+Numberwang was thirty earlier, but it might not be that any more
+Well, you keep changing Numberwang
+Is it 9?
+How about 11?
+Fifty four?
+Ninety nine?
+hmmmpf
+justin_smith: I drove past you today on my way to the optometrist
+made me realise we all need to hang out
+no it was early, like 9am
+you were on Burnside
+that’s some crazy shape shit
+YEAH!
+Ack, I so want to go to the Beethoven concert tomorrow but I don’t think I can swing it
+and Saturday I’m going to Or Symph
+gah, love Mongolian!
+Can’t do today tho; we’re ina  bit of flux at work because we’re crunching on deadlines and trying to move into a new office in the Mirakutei building!
+YES!!
+hendrix of audio data
+brilliant
+ha!
+ARE YOU?
+threeeeee
+No, I know what the problem was - my mac mini restarted.
+YESSSS!
+eewwww
+3?
+patchwork: how was beethoven/bartok?
+they were so good
+Yeah their shostakovich was epic
+bummed I couldn’t go
+Definitely!  Can’t tomorrow - we’re moving into the Mirakutei building!
+but next week I’ll be just across the bridge frm you guys and we can easily go for Hawaiian or something
+Or Mirakutei, if you guys are into that...
+yeah it’s cool!  we don’t have any furniture really yet… waiting for all that but as of Monday we’ll be there fulltime
+1!?
+Looking for Numberwang
+11?
+9
+8 57 6 93 40 33
+patchwork: Next tuesday is kickstarter day?
+Lots of Chinese boardgamers?
+Hahaha
+Right
+Woah!
+radical
+I have seen the pics you guys have been posting to FB
+so awesome
+yeah i bet
+you don’t want to be like that other guy from Portland who launched his boardgame kickstarter… and then embezzled all the money
+I bet it is
+Yeah totally!  Well, I am ready to put the word out as soon as it’s up.
+ahhaha i bet
+A number of peeps in our SFO office are boardgame freaks
+so I might be able to drum up some interest down there.
+They have boardgame nights in the office
+Yes, I mentioned it to them when I was there a while back and said I’d let them know when it was up.
+it’s supposed to be every 6 weeks but seems more like every 2 months at the moment.
+I did get to play one game with them but I can’t remember wtf it was
+it was a more social card game… involved colours and rainbow and stuff
+yeah it was a card game where you tried to collect cards of a certain colour - vaguely reminded me of your tree game
+Can’t today or tomorrow but Wednesday might be good!
+You’ve been good at giving out Numberwang lately.  Can I try?
+11
+99
+45
+hahaha
+justin_smith: there’s something wrøng with your k•yb0ªrd
+still on for lunch today?
+Also, Hi, Dogdog
+Ack!
+illness?
+Postpone = no problem.  Ate-Oh-Ate always awaits.
+Oh shit, I ate spicy chicken for lunch yesterday too...
+or I am immune to the deletirious effects of spicy chicken
+deleterious
+Stockhausen?  Late Xenakis?
+Ok let’s forego lunch today given the spicy chicken sitch.  We can reschedule for later.  After all, I want to eat spicy chicken at Ate-Oh-Ate.
+Hey dudes - no can do today unfortunately
+:(
+11?
+meh
+Yo justin_smith is it your birthday today??
+WOAH
+Ha, I got it mixed up with John Williams, who is 84 today.
+hahaha
+justin_smith: that is fucking beautiful.
+I want one
+!
+also, happy birthday yesterday.  I prefer to parenthesize birthdays by wishing you a happy birthday on the day before and the day after.
+is Tabla on 28th?
+I don’t think I’ve ever been there
+oh rad
+yo patchwork
+hahaha
+jesus you guys are getting numberwang all over the place today
+Can’t until Friday… CTO is in town
+No!  what news?
+oh ha!  I just read that ^^
+“old job"
+OK, so what’s the NEW job
+haha
+heh
+YESSSSS!!!!!!!!!!!
+DUUUUDE
+That is a stunning move
+Of course
+But fuck, that is something worthy of a lunch
+Ha, no problem… did Spencer have anything to do with it, or just get you the tour way back when?
+RADICAL!
+I’m so excited for you - this is a brilliant move.
+But yeah, bummer about not working with justin_smith
+haven’t had a good three word poem for a while
+3?
+yessss
+ZALGO
+yeah i been travelling, sorry
+yo yo yo
+been travelling up a storm - SFO one week, NY then next.  I hate travel.
+@justin_smith glad you’re sticking with vim.  Has it been tricky to get it all configured with nrepl and stuff?
+so what do you use?
+I spent last weekend in NYC with the originators of the 3 word poem
+and the author of that paper on the microtonal renaissance composer
+My friends from gradschool in Montreal
+Wedding!
+First time I’d seen some of them in years
+One of the gang got married
+So it was cause to reunite
+hahaha\
+ack, when/where?
+THere’s a mongolian grill at 3rd and Yamhill?
+that’s not very funny.
+Or a “knock-knock” joke plugin.
+Interesting state-machine
+Actually that’s a really fun problem
+Might have to ask that as an interview question
+nice and open-ended.  see how creative they are.
+ha, nice
+That’s all new-fangled vim stuff… I’m totally old-skool.  I still call it vi.
+agreed - can’t stand chording
+Ahhh hahhahahaha
+He’s running on my machine at home right now - don’t think I can get to it
+yeah I just hardly ever need to
+but it’s a good idea; I should set it up
+I don’t think so - have a deadline at 4pm
+I’m trying to get out of it
+^ someone needs to write that

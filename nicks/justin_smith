@@ -6759,3 +6759,447 @@ D O G D O G D O G D O G D O G
 D O G D O G D O G D O G O P S
 cool
 it would be nice to make the official polaris a cljc file, after 1.7 is stable
+hah no, I wasn't highlighted in that one
+sentiment analysis is great
+never mind, it totally sucks
+haha, so we're back to neutral
+D O G D O G D O G D O G D O G D O G
+D O G D O G D O G
+"The mind is not a vessel that needs filling, but wood that needs igniting."—Plutarch
+D O G D O G D O G D O G
+TIL height cues for sound are spectral - which means you can create the impression of rising or falling objects via filtering of a mono signal
+sad D O G D O G D O G D O G
+I was wondering if I would get sentiment analysis on that vs. markov
+good boy
+pyro pizza is amazing (on the topic of wood fired)
+carts that is
+D O G D O G D O G D O G D O G D O G
+the more I listen to the Beethoven string quartets, the better they are at helping me focus and get work done.
+yes, that would be interesting
+D O G D O G D O G D O G
+oh yeah, super hard
+3rd
+also, panarchic
+D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+viseman: worker in a distillery whose job is to adjust the plug on a pressurized tank with a wrench
+quile: about that record player
+quile: any chance I can use it to rip a few records?
+D O G D O G D O G D O G D O G D O G D O G
+haha (a hattock is a small hat)
+oooh, a fairy's hat
+lol
+win 2
+D O G D O G D O G D O G D O G
+way
+D O G D O G D O G
+D O G D O G D O G D O G
+D O G D O G D O G D O G D O G
+quile: so today I learned that the racks used for servers are the same as the racks used for pro audio gear, which are also the same racks used for pro video equipment
+quile: which means I can mount my EQ, my mixer, and a dedicated audio processing server, all on one portable rack unit
+which, needless to say, is awesome
+completely eliminates the "laptop on stage" problem
+problem being that people see a computer, and decide in a knee-jerk manner that you suck
+haha
+so this means I could have a beast of a computer with 768 GB of ram, in my portable audio rack
+crazy
+with internal space for 48tb of storage...
+I've been looking at servers
+yeah, I started with system76 since they made my laptop and they treated me well
+for an extra 4.6k it can be upgraded to an 18 core CPU...
+haha
+this is the kind of thing that is probably meant to be 100 people's virtual servers
+haha, I decided to fuck with all the options, ended up with a $31k computer
+D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G
+patchwork: three improvised noise structures, supposedly applicable to the abstract concept of "freedom", all using a custom csound program running on an android tablet as digital processing https://soundcloud.com/information/sets/on-freedom
+four word chains are where things start to get uncanny, imho
+UNCANNY
+D O G D O G D O G D O G D O G D O G
+D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+the Minnesota State Fair just announced their newest list of culinary innovations
+it includes kimchi and curry poutine
+and italian desert nachos
+http://www.mnstatefair.org/fun/new_food/
+D O G D O G D O G D O G D O G D O G D O G
+33333333333333333333333333333
+D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G
+quile: you ever hang out on #clojure-beginners ? there's a guy there interested in running clojure as a server on node, I mentioned I kew a guy etc.
+oh, yeah. It's meant as a separate channel where beginners are less likely to be drowned out when there is a heated discussion of core.async internals or handling types in the compiler
+eg. #clojure is still for beginners, but #clojure-beginners is too
+D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G
+THREE
+dogdog: three?
+D O G D O G D O G D O G D O G D O G
+calvin and markov http://www.joshmillard.com/markov/calvin/
+D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+patchwork: quile: were lunch plans made? am I unknowably taking the next steps in making said plans?
+D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G K A F K A D O G
+quile: you see my fake-clojure-function-name generator?
+(defn get-name [] (->> 'clojure.core ns-publics keys (mapcat (fn [s] (clojure.string/split (name s) #"-"))) shuffle (take 3) (clojure.string/join \-) symbol))
+you try it?
+string->Vec-every? pop!-array-1 num-agent-quot butlast-into-array newline*-pcalls-unalias max-assoc-unchecked deliver-unchecked-cat proxy-bit-precision pvalues-clear-loop map-run!-*print unmap-mappings-short off-find-splicing print-error-nthrest assert-chunk-gensym find-literal?-re short-class?-init
+(example output)
+some of it really sounds like functions you would find in clojure
+eg. proxy-bit-precision
+D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G
+I just talked the guys into putting some flickery bullshit in the app, psyched
+quile: egyptian party music https://www.youtube.com/watch?v=rpGYjZB-gf0
+dude is amazing
+(just one keyboard and two drummers, awesome dance music)
+D O G D O G D O G D O G D O G D O G D O G D O G
+a classic of graph theory http://mathworld.wolfram.com/KoenigsbergBridgeProblem.html
+s/corpus/input
+D O G D O G D O G D O G D O G D OG
+D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+pigeonhole principle?
+yum!
+I just did a network search for "clown chorizo" people, seems to be an unfilled social niche
+D O G D O G D O G D O G D O G D O G
+I finally broke down and got a pour-over coffee maker for work
+the mr. coffee was not cutting it
+D O G D O G D O G D O G D O G D O G D O G D O G
+quile: did you see? self-hosting cljs just hit the street.
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G
+wow I am a dumbass I spent a week developing with a misconfigured kafka system :P
+haha
+D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G
+interesting
+that echochamber thing reminds me of how they ban people on reddit
+(the banned person can still post and comment, but only banned people can see their posts and comments)
+between the noise swash pedal I just got, and getting csound installed and working with my mixer via raspberry pi, I am going to be able to put together a fully "custom" audio setup now. Which is kind of cool.
+in less exciting news, it turns out there is a minimum amount of coffee needed in order to make pour-over, less coffee ground in the filter means the water runs through too fast and you don't get a proper coffee.
+it's amazing how many different things people mean by "wibble"
+there is a platfrom called Women In Business: Brilliant Local Enterprises
+add-noun NDXOXCHWDRGHDXORVI
+haha, we can't add words with capital D in them (all the better)
+D O G D O G D O G
+D O G D O G D O G D O G D O G D O G
+333 333 333    333 333 333    333 333 333
+quile: that sounds cool about livingsocial, I almost applied there
+ghadi is a cool guy from what I've seen
+yup
+quile: https://twitter.com/StasArtemkin/status/631380436216860672
+D O G D O G D O G D O G D O G D O G D O G D O G
+regarding misanthropic optional volcano, I saw a (fake?) movie blurb for a teen comedy about a dude who is trying to lose his virginity before the satanic cult that his parents lead makes him a virgin sacrifice
+OK, it's a real movie http://www.imdb.com/title/tt1718915/
+D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G
+that's a good one
+I think I have witnessed that
+D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G
+NUMBERWANG DOG
+today is national Dog day, btw
+this guy is too much
+quile: I found the apotheosis of bathos - mad world played on clown horns http://aberrantkenosis.tumblr.com/post/96508877215/here-is-the-gary-jules-rendition-of-mad-world-but
+also "apotheosis of bathos" is a delightfuly pretentious phrase
+probably not
+I just love how the horns deflate the mood - but something of the melencholy still carries through
+there is that
+err
+remove-noun festoon
+add-verb festoon
+oh wait there are not verbs of course :P
+anyway, FESTOON
+what would they be without RAWR after all
+D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G
+FESTOON
+D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G
+D O G D O G D O G D O G D O G
+4
+22
+873
+874
+number one wang
+D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+TRIGGER WARNING DOGDOG
+the config ate quile
+quile: any luck on the clojure employment?
+D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G
+D O G D O G D O G D O G
+how sophisticated
+D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G
+CRUSHING
+just the idea of that cheese scares me to the core
+the constipation that lasts until the end of time
+D O G D O G D O G D O G D O G D O G D O G D O G D O G
+quile: so speaking of the werkzeug tool, this is how patreon got hacked
+they were running werkzeug on production, and the attackers used it to exploit the site
+D O G D O G D O G D O G D O G D O G D O G D O G
+http://arstechnica.com/security/2015/10/patreon-was-warned-of-serious-website-flaw-5-days-before-it-was-hacked/
+so this usb key can run linux, and people have set it up with a web server to access your passwords, it's a cool idea
+https://inversepath.com/usbarmory
+it also emulates arbitrary usb devices
+so it can act as if it were a keyboard or hard drive... cool possibilities there
+yeah, and leaked a bunch of cc info
+D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G
+haha
+"the ideology of rainbows"
+another thing that goes well with weed, 10 hour long train videos on youtube, uploaded by the finish government
+e
+D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G
+yes, it does
+I spent some quality time last weekend sipping vodka and reading Little Women
+right
+they have different seasons, different lines
+no edits, just the full ride
+fun for all ages!
+the funny thing is it started because I had a bit much of the recreational weed (leftovers of the same joint I had a few weeks back), and I was like "OK, what's something that will keep me on an even keel - I know trains!" and then spent the rest of the weekend with those vids
+lol
+the funny thing was, when the video stopped to buffer, it felt like a fast stop - as if I could actually feel the jolt
+quile: where do you work now?
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G
+D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G
+quile: so today I learned that "who am i" can also be run as "who killed jfk" - the command doesn't care what the args are, it just counts the args
+D O G D O G D O G D O G D O G
+that's NUMBERWANG!
+haha
+D O G D O G D O G D O G D O G D O G
+I got high fidelity audio processing working on my raspberry pi today - a world of opportunities opens up
+it's more powerful than the laptop I used when I first did laptop based performances live...
+D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G
+D O G D O G
+D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G O S O F T
+D O G D O G D O G D O G D O G D O G D O G D O G
+quile: so I did some C programming over my 4 day christmas break
+made a gui to run in the raspi framebuffer (that is, a gui that doesn't use X11, instead the raw framebuffer)
+quile: yeah, I realized I had missed it
+the amazing thing, is that there is so little abstraction, that you rarely deal with leaky ones
+heh
+which means the debugger makes sense and actually shows you what broke
+very reliably so
+haha
+also, the difference in heap usage is kind of insane after using clojure for a while
+"so much room for activities!" as the meme goes
+quile: a few of my favorite twitter folks have been sharing this, it's pretty insightful about why companies can make bad tech decisions http://danluu.com/wat/
+D O G D O G D O G D O G D O G D O G D O G D O G
+TREK WARS: FURIOUS POTTER AND THE HUNGER BATMAN
+(joke stolen from patton oswalt)
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+quile: I'm going to try frege one of these days
+so, I tried frege!  I found out I was pronouncing it wrong (german is hard) and I found out that though it is awesome, it is lacking a crucial feature: you can't define a class via frege that inherits from a java class or extends a java protocol
+which pretty much means I can't use frege :( - except perhaps for writing pure stuff
+quile: oh, I thought you were here, I was just saying frege is cool but can't do inheritence / interfaces which means I can't use it
+the remarkable thing with frege is how compatible with haskell it is, and that's the downfall - it doesnt' do inheritence or protocols, since it can't express those cleanly in haskell
+s/protocols/interfaces
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G D O G D O G
+D O G D O G D O G D O G D O G D O G
+2
+oh, I must have been on my way to santaria for lunch
+ah
+quile: also, check this cool shape nesting tool https://github.com/Jack000/SVGnest
+seriously
+you guys want to go to noodle buffet today?
+it's the buffet stir-fry noodle kind of mongolian (maybe that's the only kind?)
+D O G D O G D O G D O G D O G
+patchwork: so you were going to bring that ticket for me today?
+quile: dogs are known to love femur bones
+http://i.imgur.com/VKgA893.gif
+D O G D O G D O G D O G D O G D O G D O G D O G D O G
+they are amazing (I went to the first night)
+guide to indian food, with recipes http://www.polkacafe.com/traditional-dishes-from-indian-states-1775.html
+We÷ne÷day is good
+in emacs alt-/ would do a fuzzy complete
+in this app, alt-/ does ÷, but I just rolled with it
+D O G D O G D O G
+patchwork: I assume your illness postpones lunch with quile today
+quile: well the rest of my dev team got sick after having the same lunch yesterday, so I suspect the spicy chicken is at fault, but regardless...
+maybe it wasn't that if you aren't sick too
+or maybe you got a different spicy chicken
+sure
+D O G D O G D O G D O G
+https://www.youtube.com/watch?v=rfIAKctk7xY&feature=youtu.be
+quile: tomorrow, yeah
+so close :)
+quile: https://twitter.com/JillTracymusic/status/697171197784535041
+inorite
+haha, thanks. I went to tabla, got the three course meal plus cheese plate to start and desert at the end making 5 courses pretty much
+$100 of pure heaven
+yeah, it's very good
+which is rare
+and also numberwang, apparently
+patchwork: tabla on 28th, where I went last night
+oh, patchwork you should also see this https://twitter.com/JillTracymusic/status/697171197784535041
+patchwork: thanks!
+patchwork: it was only me, intentionally
+patchwork: hey, is there a scary reason we should be aware of that condor wasn't using parallel queries to phoenix and instead making lots of individual ones?
+patchwork: just want to double check, sorry to bring up the old job
+I'm done
+*down
+lol
+patchwork: no I mean phoenix has a "parallel query" endpoint, and condor was sending individual queries instead of hitting the endpoint that takes bulk requests
+err, not endpoint but feature errr something
+patchwork: right, just checking if there was an important reason not to be using par, because it looks like phoenix will be much happier if we use it
+NUMBERS
+patchwork: the deal is it was looping in a pmap and making lots of calls
+where all the calls could have gone in one par
+and phoenix's load balancer was not handling this gracefully
+*is not
+OK
+aha that's what I was looking for
+thanks
+patchwork: awesome, exactly what we need to know
+patchwork: large dog is using your standing desk floor pad to rest on
+patchwork: that pool is shared with other functionality too right?
+actually I recently started a lib using manifold to adjust parallelization / backpressure / throughput limits independent of pooling of threads
+patchwork: oh, cool
+patchwork: manifold allows wrapping a channel to control throughput and backpressure using a higher level declarative style (rather than making it a side effect of some other mechanism), which is kind of cool
+so two things can use the same pool of threads, but have different limits on how much they try to use
+but that makes it simpler if there's a pool that is only used for that thing
+patchwork: oh, and also, I found the idiom for using threads inside core.async but only for things that will block / be long running. (>/go (loop [...] (<! (>/thread (f x)) ...)) - the idea here is that the go loop is only parked (so not consuming a thread pool thread) and the individual worker threads are each created as needed from the future pool
+of course you would bind the (>/<! ...) to some value in a let block if you needed the result of f
+but even if you don't consume the value, still call <! because that is what makes sure you park instead of blocking
+oh wait, that just ensures it parks and applies backpressure instead of aggressively creating threads, my bad
+https://www.clicktorelease.com/code/polygon-shredder/
+sure
+I wonder what it thinks of "dank" or "bad"
+hahahah
+patchwork: cool, see you then
+patchwor_: the animation I was talking about http://thesecretlivesofdata.com/raft/
+patchwork: should I resend that link or did you get it?
+dogdog: https://twitter.com/ProdigyNelson/status/678358555670507520
+cool
+D O G D O G D O G D O G D O G D O G
+patchwork: yo!
+patchwork: I'm still on that diet, lost 20 pounds in the first month, didn't expect the numbers to be that close to the prediction
+1,200 calories a day, no other rules
+which supposedly leads to losing 5 pounds a week, for me that is 100% accurate
+only for the first week
+actually I was only dizzy one morning
+no pain, just some discomfort that I quickly became less attuned to
+same as before but exactly half the amount, pretty much
+carrying tupperware so I can shovel half in before I even start eating if I go to a restaurant
+also it helps a lot to get frozen food that isn't complete crap because that makes keeping track of the calories and controlling the portions much easier
+it's basically a big exercise in willpower, but most of the time it is OK and if I just freak out and start shoving food in my face I can just account for that and have something smaller later
+it's a budget like any other
+(but one that is attached to intense animalistic states)
+heh
+pretty much what I was eating before - 2400 or so, maybe less because I'm carrying less by then
+and if I notice I'm gaining weight, I adjust
+there's numbers on the inputs, and numbers for the result, so the algorithm is simple :) it's just the willpower part that takes work
+and you need to stick to whatever experiment you try for a week to really know what it did (there's too much noise in the day to day numbers)
+I think what happens with many diets is people try to make rules to distract from the primary issue (dealing with feeling hungry), and some people find that helpful, but to me it just makes the whole thing more complicated without making the willpower part easier
+another trick is psyllium - tastes weird but makes one feel "full"
+that can help with the waking up with grumbling guts issue
+sometimes clickhole is kind of funny http://www.clickhole.com/clickventure/youre-computer-can-you-pass-turing-test-4009
+patchwork: so how's the new job coming along?
+D O G D O G D O G D O G D O G D O G D O G
+OK, about to deploy this huge auto-upgrade-with-stripe thing, which has been an adventure - first I tried to do it all (which was a lot of work) then backed up and tried to get the minimum to make it work, then found out I actually needed the whole deal, then finally as we were about to deploy found out they didn't want like half the features.
+typical stuff really
+I think I saw one of those in a webcomic recently
+yo
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+we should try to do that lunch thing again one of these days
+I could do either, sure
+sounds great, I hope you can come to this neighborhood?
+cool, awesome, see you then
+quile: can't seem to get you and patchwork in here at the same time. We're meeting for lunch on Thursday downtown.
+np, patchwork was mostly not around when he was unemployed too, so it's been pretty dead around here
+I'm still happily on the vim train
+haven't even bothered
+I never used nrepl with emacs either, cider is crap
+and vim uses cider (or big parts of it) too
+nothing!
+that is, I use clojure's built in facilities for reloading and evaluating code, without editor integration
+it's actually quite straightforward
+(require 'whatever.ns :reload), or for something outside the project (load-file "/path/to/file.clj")
+I tend to write code in the repl, then move it into the source when it works (except for trivial stuff where I don't need to try it first)
+haha https://twitter.com/TheLincoln/status/708714132002967552
+I've never had it behaving correctly
+every update to the latest code breaks things
+errors when trying to update, not handling cljc properly, not handling defrecords properly, not reloading correctly...
+I just did a hard-switch from merzbow to bach on my playlist
+my poor brain
+add-noun VODKA
+:P
+patchwork: still lunching tomorrow, yes?
+D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G D O G
+"before we decide whether to hire you, implement a feature for my IRC bot"
+I just tried to run "get checkout massage", I think my fingers are trying to send me a message
+noremap <leader>L :mksession! tmp.vim<CR>:bufdo e<CR>:source tmp.vim<CR>!rm tmp.vim<CR>:source ~/.vimrc<CR>
+quile: the above is my favorite vim alias right now
+saves state of all windows, reloads the files from disk, reloads state of all windows, then updates state of vimrc
+heh, there's always ex mode
+I like leader bindings because it allows me to eliminate the chord key combos
+which is my motivation for using vi anyway, never using chords if I can help it
+quile: my trick is to ssh to my vps and leave a reverse tunnel open, then I can ssh through the chain of tunnels to use work machine from home / home machine from work
+ssh -L 2223:127.0.0.1:2222 -R 2223:127.0.0.1:22 justin@noisesmith.org # two way tunnels!
+then you flip the 2223 / 2222 on the other end
+patchwork: definitely
+I also had open ended plans to lunch with kutruff this week, and mentioned that we were meeting today but I don't think she'll be joining us
+k
+she works right near the mongolian grill place too
+patchwork: cool, see you soon
