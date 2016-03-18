@@ -162,6 +162,51 @@
               :persist? persist?))
           response)))))
 
+(def knock-knock-jokes
+  {:noah
+   {:who "Noah"
+    :punchline "Noah good place to get something to eat around here??"}
+   :bob
+   {:who "Bob"
+    :punchline "Bob Dole."}
+   :bee
+   {:who "Honey bee!"
+    :punchline "Honey bee a dear and get me some vodka."}
+   :yacht
+   {:who "Yacht!"
+    :punchline "Yacht to know me by now!"}})
+
+(def knock-knock-responses
+  {:open
+   {:triggers [#"knock" #"joke"]
+    :response (fn [handler request state]
+                (swap! state assoc :level :knocking)
+                (assoc request :generated "Knock knock!" :persist? true))}
+   :knocking
+   {:triggers [#"who" #"there"]
+    :response (fn [handler request state]
+                (let [joke (first (shuffle (keys knock-knock-jokes)))
+                      who (get-in knock-knock-jokes [joke :who])]
+                  (swap! state merge {:level :who :joke joke})
+                  (assoc request :generated who)))}
+   :who
+   {:triggers [#"who"]
+    :response (fn [handler request state]
+                (let [punchline (get-in knock-knock-jokes [(:joke @state) :punchline])]
+                  (reset! state {:level :open})
+                  (assoc request :generated punchline)))}})
+
+(defn knock-knock-handler
+  [handler]
+  (let [state (atom {:level :open})]
+    (fn [{:keys [text] :as request}]
+      (let [level (:level @state)
+            triggers (get-in knock-knock-responses [level :triggers])]
+        (if (some #(re-find % (string/lower-case text)) triggers)
+          ((get-in knock-knock-responses [level :response])
+           handler request state)
+          (handler request))))))
+
 (defn numberwang-handler
   [handler]
   (let [triggers [#"\b[012456789]{1,9}\b" #"\b(one|two|four|five|six|seven|eight|nine|ten|twenty|thirty|forty|fifty|sixty|seventy|eighty|ninety|hundred|thousand|million|billion|trillion|zillion)\b"]]
@@ -193,11 +238,12 @@
 
 (def dogdog-handler
   (-> root-handler
+      sentiment-handler
       markov-handler
       numberwang-handler
       twp-handler
+      knock-knock-handler
       zalgo-handler
-      sentiment-handler
       persistence-handler
       nested-handler))
 
