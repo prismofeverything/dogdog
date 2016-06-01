@@ -174,7 +174,28 @@
     :punchline "Honey bee a dear and get me some vodka."}
    :yacht
    {:who "Yacht!"
-    :punchline "Yacht to know me by now!"}})
+    :punchline "Yacht to know me by now!"}
+   :orange
+   {:who "Orange"
+    :punchline "Orange you gonna let me in?"}
+   :canoe
+   {:who "Canoe"
+    :punchline "Canoe help me with my homework?"}
+   :boo
+   {:who "Boo"
+    :punchline "Don't cry!"}
+   :art
+   {:who "Art"
+    :punchline "D2!"}
+   :pooh
+   {:who "Thap"
+    :punchline "Winnie!"}
+   :sneeze
+   {:who "Atch"
+    :punchline "Gesundheit!"}
+   :harry
+   {:who "Harry"
+    :punchline "Harry up, it's cold out here."}})
 
 (def knock-knock-responses
   {:open
