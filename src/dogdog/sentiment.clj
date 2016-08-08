@@ -24,25 +24,25 @@
 (def canned {
              0 [
                 "Woahhhhh"
-                "Calm down, dude."
-                "Someone got up on the wrong side of the bed today."
-                nil nil
+                "Calm down, dude"
+                "High five!"
+                "You might want to reexamine your assumptions."
+                nil nil nil nil nil
                 ]
              1 [
-                "What's with the negativity?"
-                "Relax; assume a neutral position."
-                "Groucho here needs to take a chill pill."
-                nil nil nil nil
+                "*hug*"
+                "Let me offer my condolences"
+                "I believe you"
+                nil nil nil nil nil nil nil nil nil nil
                 ]
              3 [
-                "Yay!" nil nil nil nil nil nil nil nil
+                "Yay!" nil nil nil nil nil nil nil
                 ]
              4 [
-                "You're like Polyanna right now."
-                "You've got to... acc.ent.u.ate the positive."
+                "I love you"
                 "YOLO!"
                 "Ba da bing, ba da boom!"
-                "FUCKING BRILLIANT."
+                "FUCKING BRILLIANT"
                 nil nil nil nil nil nil
                 ]
 })
