@@ -301,7 +301,7 @@
       (dosync
        (alter irc assoc-in [:callbacks :privmsg] #'dogdog-handler)
        (alter irc assoc :chains history))
-      (irclj/identify irc "ord9949") ;;; TODO - config this
+      (irclj/identify irc (System/getenv "DOGDOG_PASSWORD"))
       (doseq [channel channels]
         (irclj/join irc channel))
       irc)))
